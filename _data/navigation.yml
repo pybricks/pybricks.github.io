@@ -1,0 +1,11 @@
+main:
+  - title: "Code"
+    url: http://code.pybricks.com/
+  - title: "Getting Started"
+    url: /getting-started/
+  - title: "Learn Python"
+    url: /learn/
+  - title: "Community"
+    url: https://github.com/pybricks/support/
+  - title: "About"
+    url: /about/
