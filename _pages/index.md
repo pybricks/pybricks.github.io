@@ -17,7 +17,7 @@ feature_row:
     excerpt: "Pybricks unlocks the full potential of your smart LEGO® hubs. Run
               your code directly on the hub, and get full control of
               your motors and sensors."
-    url: "/docs/configuration/"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/home-compatibility.jpg
@@ -26,7 +26,7 @@ feature_row:
     excerpt: "Pybricks runs on LEGO® BOOST,
     City, Technic, MINDSTORMS®, and SPIKE®. You can code using
     Windows, Mac, Linux, Chromebook, and Android."
-    url: "/docs/layouts/"
+    url: "/install/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/home-community.png
