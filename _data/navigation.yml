@@ -9,3 +9,33 @@ main:
     url: https://github.com/pybricks/support/
   - title: "About"
     url: /about/
+
+install:
+  - title: MINDSTORMS EV3
+    children:
+      - title: "Installation"
+        url: /install/mindstorms-ev3/installation
+      - title: "Using the EV3 Brick"
+        url: /install/mindstorms-ev3/using-the-ev3-brick
+
+learn-python:
+  - title: Preparation
+    children:
+      - title: "Building the Explorer Robot"
+        url: /learn-python/todo/
+      - title: "Your first script"
+        url: /learn-python/your-first-script/
+      - title: "Running programs"
+        url: /learn-python/todo/
+      - title: "Saving programs"
+        url: /learn-python/todo/
+      - title: "Copying examples"
+        url: /learn-python/todo/
+
+  - title: First steps with Python
+    children:
+      - title: "Changing parameters"
+        url: /learn-python/todo/
+      - title: "Program flow"
+        url: /learn-python/todo/
+
