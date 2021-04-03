@@ -1,5 +1,5 @@
 ---
-permalink: /getting-started/
+permalink: /install/
 title: "Getting started with Pybricks"
 ---
 

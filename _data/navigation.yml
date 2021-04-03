@@ -1,10 +1,10 @@
 main:
   - title: "Code"
     url: http://code.pybricks.com/
-  - title: "Getting Started"
-    url: /getting-started/
-  - title: "Learn Python"
-    url: /learn/
+  - title: "Install"
+    url: /install/
+  - title: "Learn"
+    url: /learn-python/
   - title: "Community"
     url: https://github.com/pybricks/support/
   - title: "About"
