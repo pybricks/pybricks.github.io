@@ -11,6 +11,11 @@ main:
     url: /about/
 
 install:
+  - title: Overview
+    children:
+      - title: "Supported platforms"
+        url: /install/
+
   - title: MINDSTORMS EV3
     children:
       - title: "Installation"
