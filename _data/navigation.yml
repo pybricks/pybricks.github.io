@@ -14,12 +14,32 @@ install:
       - title: "Supported platforms"
         url: /install/
 
+  - title: Technic / BOOST / City
+    children:
+      - title: "Installation"
+        url: /install/todo/
+      - title: "Running programs"
+        url: /install/todo/
+
+  - title: SPIKE / MINDSTORMS
+    children:
+      - title: "Installation"
+        url: /install/todo/
+      - title: "Running programs"
+        url: /install/todo/
+
   - title: MINDSTORMS EV3
     children:
       - title: "Installation"
         url: /install/mindstorms-ev3/installation
       - title: "Using the EV3 Brick"
         url: /install/mindstorms-ev3/using-the-ev3-brick
+      - title: "Running programs"
+        url: /install/mindstorms-ev3/running-programs
+      - title: "Beyond MicroPython"
+        url: /install/mindstorms-ev3/running-programs
+      - title: "Using older versions"
+        url: /install/mindstorms-ev3/running-programs
 
 learn-python:
   - title: Preparation
