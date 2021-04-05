@@ -1,6 +1,6 @@
 ---
 permalink: /install/
-title: "Installing Pybricks"
+title: "Installing Pybricks: Overview"
 sidebar:
   nav: "install"
 toc: true
