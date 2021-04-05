@@ -53,11 +53,15 @@ These steps are summarized in this video:
 
 <video controls src="/assets/videos/install.mp4" width="100%"></video><br />
 
-# Next steps
+# Start coding
 
-Now that you've learned how to install Pybricks and run programs, check out
-the steps below to make Pybricks coding even easier. We'll also show you how
-you can restore the original firmware.
+With the firmware in place, you're ready to start coding. Check out our guide
+on the [next page](/install/running-programs/).
+
+# Additional tips & tricks
+
+The sections below provide some additional tips to make using these hubs even
+easier. You'll also learn how to restore the original firmware.
 
 ## Saving a program on the hub
 
