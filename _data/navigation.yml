@@ -31,13 +31,13 @@ install:
       - title: "Installation"
         url: /install/mindstorms-ev3/installation
       - title: "Using the EV3 Brick"
-        url: /install/mindstorms-ev3/using-the-ev3-brick
+        url: /install/mindstorms-ev3/using-the-brick
       - title: "Running programs"
         url: /install/mindstorms-ev3/running-programs
       - title: "Beyond MicroPython"
-        url: /install/mindstorms-ev3/running-programs
+        url: /install/mindstorms-ev3/beyond-micropython
       - title: "Using older versions"
-        url: /install/mindstorms-ev3/running-programs
+        url: /install/mindstorms-ev3/versions
 
 learn-python:
   - title: Preparation
