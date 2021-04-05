@@ -1,5 +1,5 @@
 ---
-permalink: /install/mindstorms-ev3/installation/
+permalink: /install/mindstorms-ev3/installation
 title: "Installing Pybricks on LEGO MINDSTORMS EV3"
 sidebar:
   nav: "install"

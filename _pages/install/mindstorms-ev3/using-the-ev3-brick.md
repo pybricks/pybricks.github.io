@@ -1,5 +1,5 @@
 ---
-permalink: /install/mindstorms-ev3/using-the-ev3-brick/
+permalink: /install/mindstorms-ev3/using-the-ev3-brick
 title: "Using the EV3 Brick"
 sidebar:
   nav: "install"
