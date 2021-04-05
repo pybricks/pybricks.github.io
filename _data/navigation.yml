@@ -1,6 +1,8 @@
 main:
   - title: "Code"
     url: http://code.pybricks.com/
+  - title: "Install"
+    url: /install/
   - title: "Documentation"
     url: https://docs.pybricks.com/
   - title: "Community"
