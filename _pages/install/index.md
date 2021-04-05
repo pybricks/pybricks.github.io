@@ -20,10 +20,11 @@ the same way.
 
 ## Technic / BOOST / City
 
-![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/powereduphubs.png){:width="75%"}
+[![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
 
 These hubs come in some Technic, BOOST, Train, and City sets. They share the
-same installation method. Click to get started!
+same installation method.
+[Click to get started!](/install/technic-boost-city)
 
 You can save at most one program on these hubs, and there's no space to store
 extra libraries. There's still plenty you can do with them, though!
@@ -35,11 +36,11 @@ on a train track or follow lines without skipping a beat!
 
 ## SPIKE / MINDSTORMS
 
-![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/primeinventorhub1.png){:width="75%"}
+[![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/primeinventorhub1.png){:width="75%"}](/install/spike-mindstorms)
 
 These hubs come in the LEGO Education SPIKE Prime set and the LEGO MINDSTORMS
 Robot Inventor sets. They're the same except for the exterior color.
-Click to get started!
+[Click to get started!](/install/spike-mindstorms)
 
 These hubs are a bit more powerful than the other Powered Up hubs shown above.
 They have more
@@ -54,8 +55,19 @@ Pybricks, your code runs much faster, and you'll have about three times as much
 memory. All Powered Up motors and sensors have easy-to-use classes, and they're
 more accurate too. More exciting features are on the way as well!
 
-# Classic MINDSTORMS
+## Running programs
 
-## MINDSTORMS EV3
+[![Pybricks Code](/assets/images/home-code.png)](/install/running-programs)
 
-## MINDSTORMS NXT
+Once you've installed Pybricks firmware on any of the hubs above, you're ready
+to start coding. [Click to get started!](/install/running-programs)
+
+# MINDSTORMS EV3
+
+[![EV3 Brick](https://docs.pybricks.com/en/latest/_images/ev3brick1.png){:width="50%"}](/install/mindstorms-ev3/installation)
+
+Pybricks also continues to support LEGO MINDSTORMS EV3.
+
+Instead of the online editor used for the newer hubs, you'll use Visual Studio
+Code to write your programs.
+[Click to get started!](/install/mindstorms-ev3/installation)

@@ -11,22 +11,18 @@ main:
 install:
   - title: Overview
     children:
-      - title: "Supported platforms"
+      - title: "Overview"
         url: /install/
 
-  - title: Technic / BOOST / City
+  - title: Powered Up
     children:
-      - title: "Installation"
-        url: /install/todo/
+      - title: "Technic / BOOST / City"
+        url: /install/technic-boost-city/
+      - title: "SPIKE / MINDSTORMS"
+        url: /install/spike-mindstorms/
       - title: "Running programs"
-        url: /install/todo/
+        url: /install/running-programs/
 
-  - title: SPIKE / MINDSTORMS
-    children:
-      - title: "Installation"
-        url: /install/todo/
-      - title: "Running programs"
-        url: /install/todo/
 
   - title: MINDSTORMS EV3
     children:
