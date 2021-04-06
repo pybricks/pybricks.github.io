@@ -7,75 +7,48 @@ toc: true
 ---
 
 This page guides you through the steps to collect and install everything you
-need to start programming.
+need to start programming the EV3.
 
-What do you need?
------------------------------------------------------------
+If you're not sure which version of EV3 MicroPython to use, check
+the [version overview page](/install/mindstorms-ev3/versions) first.
+
+# What do you need?
 
 To get started, you'll need:
 
-- A Windows 10 or Mac OS computer
-- Internet access and administrator access
-
-    This is required during the installation only. You will not need special
-    access to write and run programs later on.
-
-- A microSD card
-
-    You'll need a card with a minimum capacity of 4GB and a maximum capacity
+- A Windows 10 or Mac OS computer.
+- During installation: Internet and administrator access.
+- A microSD card: You'll need a card with a minimum capacity of 4GB and a maximum capacity
     of 32GB. This type of microSD card is also known as microSDHC. We recommend
     cards with Application Performance Class A1.
+- A microSD card slot or microSD card reader.
+- A mini-USB cable, like the one included with your EV3 set.
 
-- A microSD card slot or card reader in your computer
+The typical configuration of this equipment is shown below:
 
-    If your computer does not have a (micro)SD card slot, you can use an
-    external USB (micro)SD card reader.
+![](https://docs.pybricks.com/en/latest/_images/overview_label.png)
 
-- A mini-USB cable, like the one included with your EV3 set
-
-The typical configuration of this equipment is summarized
-in :numref:`fig_overview`.
-
-.. _fig_overview:
-
-.. figure:: ../../api/images/overview_label.png
-   :width: 90 %
-   :alt: overview
-   :align: center
-
-   Setup overview
-
-Preparing your computer
------------------------------------------------------------
+# Preparing your computer
 
 You'll write your MicroPython programs using Visual Studio Code. Follow the
-steps below to download, install, and configure this application:
+steps below to download and install it:
 
-1. Download `Visual Studio Code <https://code.visualstudio.com/Download>`_.
-2. Follow the on-screen instructions to install the application.
+1. Download [Visual Studio Code](https://code.visualstudio.com/Download).
+2. Follow the on-screen instructions to install it.
 3. Launch Visual Studio Code.
 4. Open the extensions tab.
-5. Install the EV3 MicroPython extension as shown in :numref:`fig_store`.
+5. Install the EV3 MicroPython extension as shown below.
 
-.. _fig_store:
+![](https://docs.pybricks.com/en/latest/_images/store_label.png)
 
-.. figure:: ../../api/images/store_label.png
-    :alt: store
-    :align: center
+# Preparing the microSD card
 
-    Installing the extension from the Visual Studio Code marketplace
-
-.. _prepsdcard:
-
-Preparing the microSD card
------------------------------------------------------------
-
-To make it possible to run MicroPython programs on your EV3 Brick, you'll now
-learn how to install the required tools on your microSD card.
+Next, you'll install the required tools on your microSD card.
 
 If the microSD card contains files you want to keep, make sure to create a
 backup of its contents first.
-See :ref:`managing files on the EV3 <managefiles>` to learn how to backup your
+Click [here](/install/mindstorms-ev3/running-programs#managing-files-on-the-ev3-brick)
+to learn how to backup your
 previous MicroPython programs if necessary.
 
 *This process erases everything on your microSD card, including any previous
@@ -84,40 +57,31 @@ MicroPython programs on it.*
 
 To install the MicroPython tools on your microSD card:
 
-1. Download the `EV3 MicroPython microSD card image`_ and save it in a
-   convenient location. This file is approximately 360 MB. You do **not** need
-   to unzip the file.
+1. Download the [EV3 MicroPython microSD card image](https://education.lego.com/en-us/product-resources/mindstorms-ev3/teacher-resources/python-for-ev3)
+   and save it in a convenient location. This file is approximately 360 MB.
+   You do **not** need to unzip the file.
 2. Download and install a microSD card flashing tool
-   such as `Etcher <https://www.balena.io/etcher/>`_.
+   such as [Etcher](https://www.balena.io/etcher/).
 3. Insert the microSD card into your computer or card reader.
 4. Launch the flashing tool and follow the steps on your screen to install
    the file you have just downloaded. If you use Etcher, you can follow the
-   instructions below, as shown in :numref:`fig_etcher`.
+   instructions below, as shown below:
+   <ol type="a">
+      <li>Select the EV3 MicroPython microSD card image file you have just
+      downloaded.</li>
+      <li>Select your microSD card. Make sure that the device and size
+      correspond to your microSD card.</li>
+      <li>Start the flashing process. This may take several minutes. Do not
+      remove the card until the flashing process is complete.</li>
+   </ol>
 
-    a. Select the EV3 MicroPython microSD card image file you have just
-       downloaded.
-    b. Select your microSD card. Make sure that the device and size correspond
-       to your microSD card.
-    c. Start the flashing process. This may take several minutes. Do not remove
-       the card until the flashing process is complete.
+![](https://docs.pybricks.com/en/latest/_images/etcher_label.png)
 
-.. _fig_etcher:
-
-.. figure:: ../../api/images/etcher_label.png
-   :width: 85 %
-   :alt: etcher
-   :align: center
-
-   Using Etcher to flash the EV3 MicroPython microSD card image
-
-Updating the microSD card
------------------------------------------------------------
+# Updating the microSD card
 
 To update the microSD card, download a new image file using the link above and
 flash it to the microSD card as described above. Be sure
-to :ref:`back up any MicroPython programs you want to save <managefiles>`.
+to [back up any MicroPython programs you want to save](/install/mindstorms-ev3/running-programs#managing-files-on-the-ev3-brick).
 
 You do not need to erase the contents of the microSD card first. This is done
 automatically when you flash the new image file.
-
-.. _EV3 MicroPython microSD card image: https://education.lego.com/en-us/product-resources/mindstorms-ev3/teacher-resources/python-for-ev3
