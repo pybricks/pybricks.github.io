@@ -6,21 +6,16 @@ sidebar:
 toc: true
 ---
 
-Make sure the EV3 Brick is turned off. Insert the microSD card you prepared
-into the microSD card slot on the EV3 Brick, as shown in :numref:`fig_sd`.
+Now that you've prepared the microSD card, we'll show you how to use the EV3
+brick.
 
-.. _fig_sd:
+Make sure the EV3 Brick is turned off. Insert the microSD card
+into the microSD card slot on the EV3 Brick as shown below.
 
-.. figure:: ../../api/images/sd_label.png
-   :width: 75 %
-   :alt: sd
-   :align: center
-
-   Inserting the flashed microSD card into the EV3 Brick
+![](https://docs.pybricks.com/en/latest/_images/sd_label.png)
 
 
-Turning the EV3 Brick on and off
------------------------------------------------------------
+# Turning the EV3 Brick on and off
 
 Turn on the EV3 Brick by pressing the dark gray center button.
 
@@ -30,54 +25,29 @@ the EV3 screen. The EV3 Brick is ready for use when the status light turns
 green.
 
 To turn the EV3 Brick off, open the shutdown menu with the back button, and
-then select *Power Off* using the center button, as shown
-in :numref:`fig_onoff`.
+then select *Power Off* using the center button:
 
-.. _fig_onoff:
+![](https://docs.pybricks.com/en/latest/_images/onoff_label.png)
 
-.. figure:: ../../api/images/onoff_label.png
-   :width: 65 %
-   :alt: onoff
-   :align: center
-
-   Turning the EV3 Brick off
-
-Viewing motor and sensor values
------------------------------------------------------------
+# Viewing motor and sensor values
 
 When you're not running a program, you can view motor and sensor values using
-the device browser, as shown in :numref:`fig_devicebrowser`.
+the device browser:
 
-.. _fig_devicebrowser:
+![](https://docs.pybricks.com/en/latest/_images/devicebrowser_label.png)
 
-.. figure:: ../../api/images/devicebrowser_label.png
-   :width: 100 %
-   :alt: devicebrowser
-   :align: center
-
-   Viewing motor and sensor values
-
-Running a program without a computer
------------------------------------------------------------
+# Running a program without a computer
 
 You can run previously downloaded programs directly from the EV3 Brick.
 
 To do so, find the program using the *file browser* on the EV3 screen and press
-the center button key to start the program as shown in :numref:`fig_manualrun`.
+the center button key to start the program:
 
-.. _fig_manualrun:
+![](https://docs.pybricks.com/en/latest/_images/manualrun_label.png)
 
-.. figure:: ../../api/images/manualrun_label.png
-   :width: 100 %
-   :alt: manualrun
-   :align: center
+# Going back to the original firmware
 
-   Starting a program using the buttons on the EV3 Brick
-
-Going back to the original firmware
------------------------------------------------------------
-
-You can go back to the LEGO® firmware and your LEGO programs at any time. To
+You can go back to the LEGO firmware and your LEGO programs at any time. To
 do so:
 
 1. Turn the EV3 Brick off as shown above.

@@ -23,7 +23,7 @@ you can enter commands by typing them in and pressing enter.
 
 .. _fig_terminal:
 
-.. figure:: ../../api/images/terminal_label.png
+![](https://docs.pybricks.com/en/latest/_images/terminal_label.png)
    :width: 100 %
    :alt: files
    :align: center
