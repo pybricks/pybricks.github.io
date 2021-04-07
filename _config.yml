@@ -88,7 +88,7 @@ defaults:
       toc_sticky: true
   # projects
   - scope:
-      path: "_projects"
+      path: "_pages/projects"
       type: pages
     values:
       layout: project
