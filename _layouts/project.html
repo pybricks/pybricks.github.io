@@ -35,16 +35,31 @@ layout: default
           </aside>
         {% endif %}
 
-        {{ page.description }}
+        <p><i>
+          This project was submitted by
+          <a href="https://github.com/{{page.maintainer.user}}" target="_blank">
+          {% if page.maintainer.name %}{{page.maintainer.name}}{% else %}@{{page.maintainer.user}}{% endif %}</a>.
+        </i></p>
+
+        <p style="margin-top: 20px; margin-bottom: 20px;">
+        <a href="{{ page.building_instructions.external }}" target="_blank" class="btn btn--info"><i class="fas fa-download"></i> Building Instructions</a>
+
+        {% assign slug = page.permalink | split: '/projects/' %}
+        <a href="https://github.com/pybricks/pybricks-projects/tree/master/{{ slug[1] }}" target="_blank" class="btn btn--success"><i class="fas fa-download"></i> MicroPython Code</a>
+        </p>
 
         <figure style="max-width: 400px; margin-left: auto; margin-right: auto">
-            <img src="/_pages/{{ page.permalink }}{{ page.image }}" alt="{{page.title}}">
-            {% if page.imagecredit %}
-            <figcaption>Image credit: {{page.imagecredit}}</figcaption>
+            <img src="/_pages/{{ page.permalink }}{{ page.image.local }}" alt="{{page.title}}">
+            {% if page.image.credit %}
+            <figcaption>Image credit: {{page.image.credit}}</figcaption>
             {% endif %}
         </figure>
 
-        <iframe frameborder="0" src="{{page.video}}"> </iframe>
+        <p>{{ page.description }}</p>
+
+        <p>
+          <iframe frameborder="0" src="{{page.video.youtube}}"> </iframe>
+        </p>
 
         <hr>
 
