@@ -5,7 +5,7 @@ sidebar:
   nav: "install"
 ---
 
-![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/primeinventorhub1.png)
+![Powered Up hubs](/assets/images/primeinventorhub.png)
 
 Pybricks for *LEGO Education SPIKE Prime* and *LEGO MINDSTORMS Robot Inventor*
 is currently still in beta.

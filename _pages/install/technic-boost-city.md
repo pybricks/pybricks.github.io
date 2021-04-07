@@ -6,7 +6,7 @@ sidebar:
 toc: true
 ---
 
-![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/powereduphubs.png){:width="75%"}
+![Powered Up hubs](/assets/images/powereduphubs.png){:width="75%"}
 
 This page shows how you can install Pybricks on the BOOST *Move Hub*, the *City
 Hub*, and the *Technic Hub* using the [Pybricks Code][Pybricks Code] interface.

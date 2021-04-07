@@ -20,7 +20,7 @@ on it using the *command line*. It is also called the *terminal*.
 Follow the steps shown below to access the command line. Now
 you can enter commands by typing them in and pressing enter.
 
-![](https://docs.pybricks.com/en/latest/_images/terminal_label.png)
+![](/assets/images/terminal_label.png)
 
 ## Running basic commands
 

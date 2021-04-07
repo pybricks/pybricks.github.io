@@ -26,7 +26,7 @@ To get started, you'll need:
 
 The typical configuration of this equipment is shown below:
 
-![](https://docs.pybricks.com/en/latest/_images/overview_label.png)
+![](/assets/images/overview_label.png)
 
 # Preparing your computer
 
@@ -39,7 +39,7 @@ steps below to download and install it:
 4. Open the extensions tab.
 5. Install the EV3 MicroPython extension as shown below.
 
-![](https://docs.pybricks.com/en/latest/_images/store_label.png)
+![](/assets/images/store_label.png)
 
 # Preparing the microSD card
 
@@ -75,7 +75,7 @@ To install the MicroPython tools on your microSD card:
       remove the card until the flashing process is complete.</li>
    </ol>
 
-![](https://docs.pybricks.com/en/latest/_images/etcher_label.png)
+![](/assets/images/etcher_label.png)
 
 # Updating the microSD card
 

@@ -20,7 +20,7 @@ the same way.
 
 ## Technic / BOOST / City
 
-[![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
+[![Powered Up hubs](/assets/images/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
 
 These hubs come in some Technic, BOOST, Train, and City sets. They share the
 same installation method.
@@ -36,7 +36,7 @@ on a train track or follow lines without skipping a beat!
 
 ## SPIKE / MINDSTORMS
 
-[![Powered Up hubs](https://docs.pybricks.com/en/latest/_images/primeinventorhub1.png){:width="75%"}](/install/spike-mindstorms)
+[![Powered Up hubs](/assets/images/primeinventorhub.png){:width="75%"}](/install/spike-mindstorms)
 
 These hubs come in the LEGO Education SPIKE Prime set and the LEGO MINDSTORMS
 Robot Inventor sets. They're the same except for the exterior color.
@@ -64,7 +64,7 @@ to start coding. [Click to get started!](/install/running-programs)
 
 # MINDSTORMS EV3
 
-[![EV3 Brick](https://docs.pybricks.com/en/latest/_images/ev3brick1.png){:width="50%"}](/install/mindstorms-ev3/installation)
+[![EV3 Brick](/assets/images/ev3brick.png){:width="50%"}](/install/mindstorms-ev3/installation)
 
 Pybricks also continues to support LEGO MINDSTORMS EV3.
 
