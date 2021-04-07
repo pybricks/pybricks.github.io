@@ -5,6 +5,8 @@ main:
     url: /install/
   - title: "Documentation"
     url: https://docs.pybricks.com/
+  - title: "Projects"
+    url: /projects/
   - title: "Community"
     url: https://github.com/pybricks/support/
   - title: "About"
