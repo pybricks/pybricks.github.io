@@ -12,7 +12,7 @@ Once the firmware is installed, you can start coding.
 2. Use the *Bluetooth* button to connect to your *Pybricks Hub*.
 3. Press run to start your program. 
 
-![Pybricks Code](https://docs.pybricks.com/en/latest/_images/pybrickscode.png)
+![Pybricks Code](pybrickscode.png)
 
 # Running an example program
 
