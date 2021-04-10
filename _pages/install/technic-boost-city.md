@@ -95,6 +95,23 @@ This video shows the Powered Up app in *create* mode. It has firmware for all
 hubs. As usual, you may need to restart the app to detect the hub. If it fails,
 try again with fresh batteries.
 
+## Troubleshooting connectivity issues
+
+When connectivity issues arise, you'll usually see a notification popup that
+describes the problem. Be sure to follow the indicated instructions. If that
+does not help, follow the instructions below.
+
+- If the firmware is already installed but you are unable to run programs,
+please reinstall the firmware to ensure you have the latest version.
+
+- You should *not* attempt to connect to the hub via your computer's settings
+menu. If you already did, just remove the hub from there and try again.
+
+- You can refresh the app by pressing `CTRL` + `F5`.
+
+- If connection issues continue to persist, please describe the problem on
+our [support page](https://github.com/pybricks/support/issues).
+
 ## Installing the latest build
 
 *This section is only intended for developers who want to try the
