@@ -42,7 +42,7 @@ layout: default
           {% assign slug = tpage.permalink | split: '/' %}
           {% assign project_name = slug[5] %}
 
-          {% if tpage.url contains page.permalink and tpage.permalink != page.permalink and project_name == blank%}
+          {% if tpage.url contains page.permalink and tpage.permalink != page.permalink and project_name == blank and tpage.permalink != blank %}
               
               <a href="{{tpage.url}}">
               <h1>{{ tpage.title }}</h1>
