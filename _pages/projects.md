@@ -5,26 +5,6 @@ toc: false
 layout: single
 ---
 
-<p>
-{% for tpage in site.pages %}
-    {% if tpage.url contains "/_pages/" %}
-    {% else %}
-    {% if tpage.url contains "/projects/sets" %}
-        
-        <a href="{{ tpage.url}}">
-        
-        <h2>{{tpage.title}}</h2>
-        <img src="/_pages/{{ tpage.permalink }}{{ tpage.image.local }}" width="400">     
-        
-        
-        </a>
-        <br/>
-        
-        <br/>
-        {{ tpage.description }}
+<h1><a href="/projects/sets/">sets</a></h1>
 
-    {% endif %}
-    {% endif %}
-{% endfor %}
-</p>
-
+<h1>remix projects</h1>
