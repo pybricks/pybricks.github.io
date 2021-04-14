@@ -62,9 +62,11 @@ layout: default
 
         <p>{{ page.description }}</p>
 
+        {% if page.video.youtube %}
         <p>
           <iframe frameborder="0" src="{{page.video.youtube}}"> </iframe>
         </p>
+        {% endif %}
 
         <hr>
 
