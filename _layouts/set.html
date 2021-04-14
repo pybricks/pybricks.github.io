@@ -39,7 +39,7 @@ layout: default
 
         {% for tpage in site.pages %}
 
-            {% if tpage.url contains page.permalink and tpage.permalink != page.permalink%}
+            {% if tpage.url contains page.permalink and tpage.permalink != page.permalink and tpage.maintainer != blank %}
    
                 <a href="{{tpage.url}}">
                 <h1>{{ tpage.title }}</h1>
