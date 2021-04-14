@@ -42,7 +42,12 @@ layout: default
         </i></p>
 
         <p style="margin-top: 20px; margin-bottom: 20px;">
+        {% if page.building_instructions.external %}
         <a href="{{ page.building_instructions.external }}" target="_blank" class="btn btn--info"><i class="fas fa-download"></i> Building Instructions</a>
+        {% else %}
+        <a href="/_pages{{ page.permalink }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--info"><i class="fas fa-download"></i> Building Instructions</a>
+        {% endif %}
+        
 
         {% assign slug = page.permalink | split: '/projects/' %}
         <a href="https://github.com/pybricks/pybricks-projects/tree/master/{{ slug[1] }}" target="_blank" class="btn btn--success"><i class="fas fa-download"></i> MicroPython Code</a>
