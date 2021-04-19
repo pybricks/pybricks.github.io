@@ -11,6 +11,10 @@
     line-height: initial; // Resets spacing so multi-line H1 titles look better.
 }
 
+.page__content h2 {
+    border-bottom-color: lighten($text-color, 50%); // fix faint lines
+}
+
 // styling for nested lists
 
 ol ol li {
