@@ -15,6 +15,16 @@
     border-bottom-color: lighten($text-color, 50%); // fix faint lines
 }
 
+// external link icon in navbar
+
+.greedy-nav a[href^="https"]::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    font-size: small;
+    content: "\00a0\f35d";
+    vertical-align: super;
+}
+
 // styling for nested lists
 
 ol ol li {
