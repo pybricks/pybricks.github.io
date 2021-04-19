@@ -4,8 +4,11 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* Colors */
+$primary-color: #0088CE; // Pybricks blue
+$footer-background-color: $primary-color;
+
+@import "minimal-mistakes";
 
 .page__title {
     line-height: initial; // Resets spacing so multi-line H1 titles look better.
@@ -13,6 +16,14 @@
 
 .page__content h2 {
     border-bottom-color: lighten($text-color, 50%); // fix faint lines
+}
+
+.page__footer {
+    color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
 }
 
 // external link icon in navbar

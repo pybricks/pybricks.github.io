@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Pybricks is Python for LEGO robotics. Learn to code and make your creations
   come alive.
 github_username: pybricks
-minimal_mistakes_skin: default
 search: true
 logo: /assets/images/bio/pybricks-logo.png
 
