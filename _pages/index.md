@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/home-banner.png
   actions:
     - label: "<i class='fas fa-play-circle'></i> Start coding"
-      url: "http://code.pybricks.com/"
+      url: "https://code.pybricks.com"
 excerpt: >
   Robotics made easy
 feature_row:

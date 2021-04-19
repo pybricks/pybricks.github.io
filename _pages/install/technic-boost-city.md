@@ -129,7 +129,7 @@ usual.
 [restoring]: #restoring-the-original-firmware
 [latest builds]: https://github.com/pybricks/pybricks-micropython/actions?query=is%3Asuccess+branch%3Amaster+workflow%3ABuild
 [support page]: https://github.com/pybricks/support/issues/
-[Pybricks Code]: http://code.pybricks.com/
+[Pybricks Code]: https://code.pybricks.com
 [Google Chrome]: https://www.google.com/chrome/
 [Microsoft Edge]: https://www.microsoft.com/en-us/edge
 

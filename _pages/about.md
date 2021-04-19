@@ -38,7 +38,7 @@ control of your creation. Whether you want to build great *First LEGO League*
 robots, smart train layouts, or stable self-balancing robots, Pybricks can
 do it.
 
-Finally, there's a clean and fast [code editor](https://www.code.pybricks.com/)
+Finally, there's a clean and fast [code editor](https://code.pybricks.com)
 that lets you run and stop scripts in a fraction of a second. No large app
 downloads or complicated command line tools required. It works on just about
 any computer, so you're not stuck on a tiny screen.
