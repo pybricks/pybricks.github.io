@@ -10,3 +10,13 @@
 .page__title {
     line-height: initial; // Resets spacing so multi-line H1 titles look better.
 }
+
+// styling for nested lists
+
+ol ol li {
+    list-style: lower-alpha;
+}
+
+ol ol ol li {
+    list-style: lower-roman;
+}

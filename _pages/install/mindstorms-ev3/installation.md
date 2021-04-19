@@ -66,14 +66,13 @@ To install the MicroPython tools on your microSD card:
 4. Launch the flashing tool and follow the steps on your screen to install
    the file you have just downloaded. If you use Etcher, you can follow the
    instructions below, as shown below:
-   <ol type="a">
-      <li>Select the EV3 MicroPython microSD card image file you have just
-      downloaded.</li>
-      <li>Select your microSD card. Make sure that the device and size
-      correspond to your microSD card.</li>
-      <li>Start the flashing process. This may take several minutes. Do not
-      remove the card until the flashing process is complete.</li>
-   </ol>
+   
+   1. Select the EV3 MicroPython microSD card image file you have just
+      downloaded.
+   2. Select your microSD card. Make sure that the device and size
+      correspond to your microSD card.
+   3. Start the flashing process. This may take several minutes. Do not
+      remove the card until the flashing process is complete.
 
 ![](/assets/images/etcher_label.png)
 
