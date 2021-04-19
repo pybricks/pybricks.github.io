@@ -5,11 +5,11 @@ toc: false
 layout: single
 ---
 
-<h1><a href="/projects/sets/">One-set projects</a></h1>
+# [One-set projects](/projects/sets/)
 
 Coding projects you can do with one LEGO set.
 
-<h1>Remix projects</h1>
+# Remix projects
 
 Projects, hacks, and tutorials beyond the scope of one set.
 
