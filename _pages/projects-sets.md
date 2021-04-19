@@ -9,25 +9,17 @@ Select a theme below and pick your set on the next page.
 
 ## LEGO BOOST Projects
 
-<a href="/projects/sets/boost">
-<img src="https://docs.pybricks.com/en/latest/_images/movehub.png" width="40%">
-</a>
+{% include project-link.html set="boost" image="https://docs.pybricks.com/en/latest/_images/movehub.png" image_width="40%" %}
 
 ## LEGO City & Train Projects
 
-<a href="/projects/sets/city">
-<img src="https://docs.pybricks.com/en/latest/_images/cityhub.png" width="30%">
-</a>
+{% include project-link.html set="city" image="https://docs.pybricks.com/en/latest/_images/cityhub.png" image_width="30%" %}
 
 
 ## LEGO TECHNIC Projects
 
-<a href="/projects/sets/technic">
-<img src="https://docs.pybricks.com/en/latest/_images/technichub.png" width="40%">
-</a>
+{% include project-link.html set="technic" image="https://docs.pybricks.com/en/latest/_images/technichub.png" image_width="40%" %}
 
 ## LEGO MINDSTORMS Projects
 
-<a href="/projects/sets/mindstorms">
-<img src="https://docs.pybricks.com/en/latest/_images/inventorhub.png" width="40%">
-</a>
+{% include project-link.html set="mindstorms" image="https://docs.pybricks.com/en/latest/_images/inventorhub.png" image_width="40%" %}
