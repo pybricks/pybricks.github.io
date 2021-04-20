@@ -44,7 +44,7 @@ license.
 - [City hub](https://github.com/pybricks/pybricks-micropython/blob/master/bricks/cityhub/ReadMe_OSS.txt)
 - [Move hub](https://github.com/pybricks/pybricks-micropython/blob/master/bricks/movehub/ReadMe_OSS.txt)
 - [Prime/Inventor hub](https://github.com/pybricks/pybricks-micropython/blob/master/bricks/primehub/ReadMe_OSS.txt)
-- [Technic hub](https://github.com/pybricks/pybricks-micropython/blob/master/bricks/technic/ReadMe_OSS.txt)
+- [Technic hub](https://github.com/pybricks/pybricks-micropython/blob/master/bricks/technichub/ReadMe_OSS.txt)
 
 ### Pybricks MicroPython v2.x for LEGO® MINDSTORMS® EV3
 
