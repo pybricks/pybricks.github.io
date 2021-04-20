@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/home-banner.png
+  overlay_image: /assets/images/home-banner_label.png
   actions:
     - label: "<i class='fas fa-play-circle'></i> Start coding"
       url: "https://code.pybricks.com"
