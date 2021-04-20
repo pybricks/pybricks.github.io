@@ -14,7 +14,7 @@ Hub*, and the *Technic Hub* using the [Pybricks Code][Pybricks Code] interface.
 You can reinstall the [original firmware][restoring] at any time
 using the official Powered Up app.
 
-# Requirements
+## Requirements
 
 * A BOOST Move Hub, City Hub, or Technic Hub.
 * A Windows, Mac, Linux, or Android device.
@@ -24,7 +24,7 @@ If you don't have BLE, the coding interface will inform you during the
 installation step. In that case, you can try using a low-cost USB Bluetooth
 Dongle that supports Bluetooth Low Energy.
 
-# Installing a compatible browser
+## Installing a compatible browser
 
 Writing Pybricks programs requires a web browser with web Bluetooth
 functionality, such as:
@@ -36,7 +36,7 @@ functionality, such as:
 If you use Linux, enable *Experimental Web Platform features* on
 the ``chrome://flags/`` page. It's already enabled on Windows and Mac.
 
-# Installing the Pybricks firmware
+## Installing the Pybricks firmware
 
 Before you begin, turn the hub off. The update works best with fresh batteries.
 If you use the City Hub, you must unplug all motors and sensors. Follow these
@@ -53,17 +53,17 @@ These steps are summarized in this video:
 
 <video controls src="/assets/videos/install.mp4" width="100%"></video><br />
 
-# Start coding
+## Start coding
 
 With the firmware in place, you're ready to start coding. Check out our guide
 on the [next page](/install/running-programs/).
 
-# Additional tips & tricks
+## Additional tips & tricks
 
 The sections below provide some additional tips to make using these hubs even
 easier. You'll also learn how to restore the original firmware.
 
-## Saving a program on the hub
+### Saving a program on the hub
 
 The Move Hub, City Hub, and Technic Hub do not have separate storage space
 for user programs. This means your program is erased after it is done running.
@@ -82,7 +82,7 @@ This is a bit of a slow process to do each time. We recommend to
 use the run button to run your code most of the time. When you are
 happy with your final program, follow the steps above to save it on the hub.
 
-## Restoring the original firmware
+### Restoring the original firmware
 
 Pybricks uses the same update procedure as the LEGO apps. The only difference
 is which firmware file we upload. This means you can go back to the original
@@ -95,7 +95,7 @@ This video shows the Powered Up app in *create* mode. It has firmware for all
 hubs. As usual, you may need to restart the app to detect the hub. If it fails,
 try again with fresh batteries.
 
-## Troubleshooting connectivity issues
+### Troubleshooting connectivity issues
 
 When connectivity issues arise, you'll usually see a notification popup that
 describes the problem. Be sure to follow the indicated instructions. If that
@@ -112,7 +112,7 @@ menu. If you already did, just remove the hub from there and try again.
 - If connection issues continue to persist, please describe the problem on
 our [support page](https://github.com/pybricks/support/issues).
 
-## Installing the latest build
+### Installing the latest build
 
 *This section is only intended for developers who want to try the
 latest features. Some features may not work. To revert

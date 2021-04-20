@@ -21,7 +21,7 @@ LEGO City, and LEGO MINDSTORMS creations truly come alive.
 Whether you're a beginner or an experienced builder or programmer, you can
 start writing code with Pybricks in no time.
 
-# What makes Pybricks different?
+## What makes Pybricks different?
 
 ![](/assets/images/home-compatibility.jpg)
 
@@ -49,7 +49,7 @@ collection of [example projects](https://github.com/pybricks/pybricks-projects)
 and [additional tools](https://github.com/pybricks)
 shared by Pybricks users all around the world.
 
-# Pybricks is open source
+## Pybricks is open source
 
 Pybricks is free and open source. It's released under the MIT license.
 You can read, try, and even change our code via
@@ -65,7 +65,7 @@ student, teacher, or a seasoned programmer, we want to hear from you!
 Please join the discussion forums or chat via
 our [support page](https://github.com/pybricks/support).
 
-# The Pybricks team
+## The Pybricks team
 
 Pybricks has contributors all around the world. The core team consists of
 Laurens Valk and David Lechner, who combine years of teaching, coding, and LEGO

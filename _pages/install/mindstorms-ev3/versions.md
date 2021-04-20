@@ -11,14 +11,14 @@ to evolve over time. The latest version is **2.0**.
 
 This is *identical* to the version hosted by [LEGO Education][le-ev3].
 
-# Upgrading from v1.0 to v2.0
+## Upgrading from v1.0 to v2.0
 
 
 This section is for users who have previously used LEGO MINDSTORMS EV3
 MicroPython v1.0. We'll explain what's changed and how you can upgrade to
 benefit from the latest improvements.
 
-## Upgrading the microSD Card
+### Upgrading the microSD Card
 
 
 To upgrade, download the latest microSD card file and install it using the
@@ -34,7 +34,7 @@ if you developed your code using version v1.0 and you are halfway into your
 robotics competition season, you may want to stick with v1.0 for now.
 
 
-## Upgrading your existing programs
+### Upgrading your existing programs
 
 
 Most changes in v2.0 are *new* features, like support for additional sensors.
@@ -50,7 +50,7 @@ To try this, simply download and run your original code as you did before.
 However, it is recommended that you upgrade both the microSD card and your
 programs at the same time to ensure everything works as expected.
 
-## The new ``EV3Brick()`` class replaces the ``ev3brick`` module
+### The new `EV3Brick()` class replaces the `ev3brick` module
 
 
 Version 2.0 introduces the ``EV3Brick()`` class.
@@ -85,7 +85,7 @@ complete details of all methods and arguments.
 | Draw shapes on the screen           |                                                                                                  | ev3.screen.draw_line(30, 30, 30, 100)<br />ev3.screen.draw_box(50, 30, 90, 60)<br />ev3.screen.draw_circle(70, 90, 20, fill=True)|
 | Read battery voltage                | brick.battery.voltage()                                                                          | ev3.battery.voltage()                                                                                                            |
 
-## Other internal changes to existing features
+### Other internal changes to existing features
 
 
 - Most methods of the ``Motor`` class now
@@ -121,7 +121,7 @@ complete details of all methods and arguments.
   Importing them from the old location will continue to work in this release,
   to make sure existing scripts will still work.
 
-## Installing an older version of the Visual Studio Code extension
+### Installing an older version of the Visual Studio Code extension
 
 The Visual Studio Code extension and this documentation are updated
 automatically. You can still use your existing scripts with the updated
@@ -131,7 +131,7 @@ click *install another version*.
 
 [le-ev3]: https://education.lego.com/en-us/product-resources/mindstorms-ev3/teacher-resources/python-for-ev3
 
-# Other (Micro)Python tools for EV3
+## Other (Micro)Python tools for EV3
 
 Pybricks for EV3 runs on top of ev3dev. Check out the
 [ev3dev](http://ev3dev.org/) website for other ways to write programs.

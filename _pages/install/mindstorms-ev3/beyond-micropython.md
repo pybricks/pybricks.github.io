@@ -11,7 +11,7 @@ Linux. Linux is an *operating system*. (Other popular operating
 systems are Microsoft Windows and Apple macOS.) This means that your EV3 is
 almost like a real computer, just much smaller.
 
-# The Linux command line
+## The Linux command line
 
 Although your EV3 Brick is quite like a real computer, you do not interact with
 it using a big screen and a mouse. Instead, you can access files and programs
@@ -22,7 +22,7 @@ you can enter commands by typing them in and pressing enter.
 
 ![](/assets/images/terminal_label.png)
 
-## Running basic commands
+### Running basic commands
 
 For example, if you type the following command and press enter::
 
@@ -48,7 +48,7 @@ then pressing ``ctrl`` + ``shift`` + ``c``.
 You can paste text into the command line
 using ``ctrl`` + ``shift`` + ``v``.
 
-## Running commands as an administrator
+### Running commands as an administrator
 
 Some commands require a password to run. This is similar to administrative
 tasks on your computer or tablet, such as installing a new app. These commands
@@ -65,7 +65,7 @@ You will be prompted for a password. Type ``maker`` and then press ``Enter``.
 
 Only run commands with ``sudo`` if you know what you are doing!
 
-## Learning more about the command line
+### Learning more about the command line
 
 To learn more about the command line and many of the available commands, we
 recommend reading the beginner-friendly free ebook
@@ -74,7 +74,7 @@ called [The Linux Command Line][tlcl].
 To learn more about ev3dev-specific tips and tricks, visit the [ev3dev][ev3dev]
 website.
 
-# Changing the EV3 Brick name
+## Changing the EV3 Brick name
 
 When you search for your EV3 using Visual Studio Code, you see all EV3 Bricks
 listed by their name. By default, all EV3 Bricks are named *ev3dev*. Follow

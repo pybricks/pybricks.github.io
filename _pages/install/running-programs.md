@@ -14,7 +14,7 @@ Once the firmware is installed, you can start coding.
 
 ![Pybricks Code](/assets/images/pybrickscode.png)
 
-# Running an example program
+## Running an example program
 
 To get started, just copy and paste this snippet:
 
@@ -48,7 +48,7 @@ while True:
 ```
 
 
-# Using Pybricks offline
+## Using Pybricks offline
 
 Instead of working in your browser, you can install Pybricks locally:
 

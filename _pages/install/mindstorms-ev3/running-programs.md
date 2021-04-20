@@ -26,7 +26,7 @@ to the EV3 Brick, where the main program will be run.
 This page shows you how to create such a project and how to transfer it to the
 EV3 Brick.
 
-# Creating a new project
+## Creating a new project
 
 To create a new project, open the EV3 MicroPython tab and
 click *create a new project*, as shown below. Enter a
@@ -44,7 +44,7 @@ existing code in place and add your code to it.
 
 ![](/assets/images/projectoverview_label.png)
 
-# Opening an existing project
+## Opening an existing project
 
 To open a project you created previously, click *File* and click
 *Open Folder*, as shown below. Next, navigate to
@@ -54,7 +54,7 @@ recently used projects using the *Open Recent* menu option.
 ![](/assets/images/existingproject_label.png)
 
 
-# Connecting to the EV3 Brick with Visual Studio Code
+## Connecting to the EV3 Brick with Visual Studio Code
 
 To be able to transfer your code to the EV3 Brick, you'll first need to
 connect the EV3 Brick to your computer with the mini-USB cable and configure
@@ -66,7 +66,7 @@ the connection with Visual Studio Code. To do so:
 
 ![](/assets/images/connecting_label.png)
 
-# Downloading and running a program
+## Downloading and running a program
 
 You can press the F5 key to run the program. Alternatively, you can start it
 manually by going to the *debug* tab and clicking the green start arrow, as
@@ -82,7 +82,7 @@ If your program produces any output with the ``print`` command, this is shown
 in the output window.
 
 
-# Expanding the example program
+## Expanding the example program
 
 Now that you've run the basic code template, you can expand the program to
 make a motor move. First, attach a Large Motor to Port B on the EV3 Brick,
@@ -123,7 +123,7 @@ ev3.speaker.beep(frequency=1000, duration=500)
 This program makes your robot beep, rotate the motor, and beep again with a
 higher pitched tone. Run the program to make sure that it works as expected.
 
-# Managing files on the EV3 Brick
+## Managing files on the EV3 Brick
 
 After you've downloaded a project to the EV3 Brick, you can run, delete, or
 back up programs stored on it using the device browser as shown below.

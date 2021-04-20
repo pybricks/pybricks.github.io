@@ -12,7 +12,7 @@ need to start programming the EV3.
 If you're not sure which version of EV3 MicroPython to use, check
 the [version overview page](/install/mindstorms-ev3/versions) first.
 
-# What do you need?
+## What do you need?
 
 To get started, you'll need:
 
@@ -28,7 +28,7 @@ The typical configuration of this equipment is shown below:
 
 ![](/assets/images/overview_label.png)
 
-# Preparing your computer
+## Preparing your computer
 
 You'll write your MicroPython programs using Visual Studio Code. Follow the
 steps below to download and install it:
@@ -41,7 +41,7 @@ steps below to download and install it:
 
 ![](/assets/images/store_label.png)
 
-# Preparing the microSD card
+## Preparing the microSD card
 
 Next, you'll install the required tools on your microSD card.
 
@@ -76,7 +76,7 @@ To install the MicroPython tools on your microSD card:
 
 ![](/assets/images/etcher_label.png)
 
-# Updating the microSD card
+## Updating the microSD card
 
 To update the microSD card, download a new image file using the link above and
 flash it to the microSD card as described above. Be sure

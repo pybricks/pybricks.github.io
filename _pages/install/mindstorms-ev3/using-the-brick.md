@@ -15,7 +15,7 @@ into the microSD card slot on the EV3 Brick as shown below.
 ![](/assets/images/sd_label.png)
 
 
-# Turning the EV3 Brick on and off
+## Turning the EV3 Brick on and off
 
 Turn on the EV3 Brick by pressing the dark gray center button.
 
@@ -29,14 +29,14 @@ then select *Power Off* using the center button:
 
 ![](/assets/images/onoff_label.png)
 
-# Viewing motor and sensor values
+## Viewing motor and sensor values
 
 When you're not running a program, you can view motor and sensor values using
 the device browser:
 
 ![](/assets/images/devicebrowser_label.png)
 
-# Running a program without a computer
+## Running a program without a computer
 
 You can run previously downloaded programs directly from the EV3 Brick.
 
@@ -45,7 +45,7 @@ the center button key to start the program:
 
 ![](/assets/images/manualrun_label.png)
 
-# Going back to the original firmware
+## Going back to the original firmware
 
 You can go back to the LEGO firmware and your LEGO programs at any time. To
 do so:
