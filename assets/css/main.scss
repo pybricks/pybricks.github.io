@@ -10,6 +10,10 @@ $footer-background-color: $primary-color;
 
 @import "minimal-mistakes";
 
+.nav__list .nav__items .active {
+    color: $primary-color; // highlight current page
+}
+
 .page__title {
     line-height: initial; // Resets spacing so multi-line H1 titles look better.
 }
