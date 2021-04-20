@@ -43,16 +43,16 @@ layout: default
 
         <p style="margin-top: 20px; margin-bottom: 20px;">
         {% if page.building_instructions.external %}
-        <a href="{{ page.building_instructions.external }}" target="_blank" class="btn btn--info"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
+        <a href="{{ page.building_instructions.external }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
         {% else %}
-        <a href="/_pages{{ page.permalink }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--info"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
+        <a href="/_pages{{ page.permalink }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
         {% endif %}
         
 
         {% assign slug = page.permalink | split: '/projects/' %}
         {% assign size = slug[1] | size | minus: 1 %}
         {% assign project = slug[1] | slice: 0 , size %}
-        <a href="https://download-directory.github.io/?url=https://github.com/pybricks/pybricks-projects/tree/master/{{ project }}" target="_blank" class="btn btn--success"><i class="fas fa-download"></i>&nbsp;MicroPython code</a>
+        <a href="https://download-directory.github.io/?url=https://github.com/pybricks/pybricks-projects/tree/master/{{ project }}" target="_blank" class="btn btn--primary"><i class="fas fa-download"></i>&nbsp;MicroPython code</a>
         <a href="https://github.com/pybricks/pybricks-projects/tree/master/{{ project }}" target="_blank" class="btn btn--primary"><i class="fas fa-edit"></i>&nbsp;Improve project</a>
         </p>
 
