@@ -13,7 +13,7 @@ main:
     url: /about/
 
 install:
-  - title: Overview
+  - title: Installing Pybricks
     children:
       - title: "Overview"
         url: /install/
