@@ -15,9 +15,7 @@ Content may not be copied or reproduced without prior written consent from the a
 Pybricks.com is built using [GitHub Pages](https://pages.github.com/),
 [Jekyll](https://jekyllrb.com/), and the [Minimal Mistakes](
     https://mmistakes.github.io/minimal-mistakes/docs/license/
-) template.
-
-Pages with YouTube videos load faster thanks to [Lite YouTube Embed](
+) theme. Pages with YouTube videos load faster thanks to [Lite YouTube Embed](
     https://github.com/paulirish/lite-youtube-embed
 ).
 
