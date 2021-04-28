@@ -67,7 +67,8 @@ layout: default
 
         {% if page.video.youtube %}
         <p>
-          <iframe frameborder="0" src="https://www.youtube-nocookie.com/embed/{{ page.video.youtube }}" allow="encrypted-media" allowfullscreen></iframe>
+          <lite-youtube videoid="{{ page.video.youtube }}"></lite-youtube>
+          <script src="/assets/js/lite-yt-embed.js"></script>
         </p>
         {% endif %}
 

@@ -17,6 +17,10 @@ Pybricks.com is built using [GitHub Pages](https://pages.github.com/),
     https://mmistakes.github.io/minimal-mistakes/docs/license/
 ) template.
 
+Pages with YouTube videos load faster thanks to [Lite YouTube Embed](
+    https://github.com/paulirish/lite-youtube-embed
+).
+
 LEGO® product photos are used in accordance with the LEGO® [Fair Play](
     https://www.lego.com/en-us/legal/notices-and-policies/fair-play/
 ) policy.
