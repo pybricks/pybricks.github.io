@@ -8,6 +8,21 @@
 $primary-color: #0088CE; // Pybricks blue
 $footer-background-color: $primary-color;
 
+// syntax highlighting to match Pybricks Code
+// source: https://github.com/ajaxorg/ace/blob/master/lib/ace/theme/xcode.css
+// destination: https://github.com/mmistakes/minimal-mistakes/blob/master/_sass/minimal-mistakes/_syntax.scss
+$base00: #fff; // background
+$base04: #008E00; // comment
+$base05: #000; // default
+$base06: $base00; // background?
+$base08: $base05; // name
+$base09: #3A00DC; // literal
+$base0a: #790EAD; // class/type
+$base0b: #DF0002; // string
+$base0c: #C800A4; // operator
+$base0d: #450084; // function
+$base0e: $base0c; // keyword
+
 @import "minimal-mistakes";
 
 .nav__list .nav__items .active {
@@ -48,4 +63,9 @@ ol ol li {
 
 ol ol ol li {
     list-style: lower-roman;
+}
+
+div.highlighter-rouge,
+figure.highlight {
+    border-style: solid;
 }
