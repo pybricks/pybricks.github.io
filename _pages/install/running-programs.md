@@ -18,6 +18,7 @@ Once the firmware is installed, you can start coding.
 
 To get started, just copy and paste this snippet:
 
+{% include copy-code.html %}
 ```python
 from pybricks.pupdevices import Motor
 from pybricks.parameters import Port, Stop

@@ -24,6 +24,7 @@ $base0d: #450084; // function
 $base0e: $base0c; // keyword
 
 @import "minimal-mistakes";
+@import "copy-button";
 
 .nav__list .nav__items .active {
     color: $primary-color; // highlight current page

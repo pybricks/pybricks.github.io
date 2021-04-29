@@ -92,6 +92,7 @@ as shown below.
 
 Next, edit *main.py* to make it look like this:
 
+{% include copy-code.html %}
 ```python
 #!/usr/bin/env pybricks-micropython
 from pybricks.hubs import EV3Brick

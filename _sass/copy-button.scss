@@ -1,0 +1,24 @@
+.code-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copy-code-button {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-column-gap: 4px;
+
+  &::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: "\00a0\f0c5"; // copy
+    display: block;
+  }
+
+  &.copied {
+    &::after {
+      content: "\00a0\f00c"; // check
+    }
+  }
+}
