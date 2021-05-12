@@ -58,4 +58,3 @@ Instead of working in your browser, you can install Pybricks locally:
 
 To uninstall, click the ⋮ menu in the top and
 click *Uninstall*. Note that this only removes the app from your computer.
-To restore the original firmware on the hub, see the next section.
