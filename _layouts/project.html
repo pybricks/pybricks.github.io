@@ -45,18 +45,18 @@ layout: default
         {% if page.building_instructions.external %}
         <a href="{{ page.building_instructions.external }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
         {% else %}
-        <a href="/_pages{{ page.permalink }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
+        <a href="{{ page.url }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
         {% endif %}
         
 
-        {% assign slug = page.permalink | split: '/projects/' %}
+        {% assign slug = page.url | split: '/projects/' %}
         {% assign size = slug[1] | size | minus: 1 %}
         {% assign project = slug[1] | slice: 0 , size %}
         <a href="https://github.com/pybricks/pybricks-projects/tree/master/{{ project }}" target="_blank" class="btn btn--primary"><i class="fas fa-edit"></i>&nbsp;Improve project</a>
         </p>
 
         <figure style="max-width: 400px; margin-left: auto; margin-right: auto">
-            <img src="/_pages/{{ page.permalink }}{{ page.image.local }}" alt="{{page.title}}">
+            <img src="{{ page.url }}{{ page.image.local }}" alt="{{page.title}}">
             {% if page.image.credit %}
             <figcaption>Image credit: {{page.image.credit}}</figcaption>
             {% endif %}

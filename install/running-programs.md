@@ -1,5 +1,4 @@
 ---
-permalink: /install/running-programs/
 title: "Running Pybricks programs"
 sidebar:
   nav: "install"

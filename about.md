@@ -1,5 +1,4 @@
 ---
-permalink: /about/
 title: "About Pybricks"
 toc: true
 gallery:

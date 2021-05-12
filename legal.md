@@ -1,5 +1,4 @@
 ---
-permalink: /legal/
 title: "Legal"
 ---
 

@@ -1,5 +1,4 @@
 ---
-permalink: /projects/
 # title: "Pybricks Projects"
 toc: false
 layout: single

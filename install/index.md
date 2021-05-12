@@ -1,5 +1,4 @@
 ---
-permalink: /install/
 title: "Installing Pybricks: Overview"
 sidebar:
   nav: "install"

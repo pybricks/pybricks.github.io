@@ -1,5 +1,4 @@
 ---
-permalink: /learn-python/todo/
 title: "Work in progress!"
 sidebar:
   nav: "learn-python"

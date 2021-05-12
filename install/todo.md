@@ -1,5 +1,4 @@
 ---
-permalink: /install/todo/
 title: "Work in progress!"
 sidebar:
   nav: "install"

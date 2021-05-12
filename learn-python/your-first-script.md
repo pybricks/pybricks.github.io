@@ -1,5 +1,4 @@
 ---
-permalink: /learn-python/your-first-script/
 title: "Your first script"
 sidebar:
   nav: "learn-python"

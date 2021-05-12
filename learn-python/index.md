@@ -1,5 +1,4 @@
 ---
-permalink: /learn-python/
 title: "Learn Python"
 sidebar:
   nav: "learn-python"

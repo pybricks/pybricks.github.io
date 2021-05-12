@@ -1,5 +1,4 @@
 ---
-permalink: /install/technic-boost-city/
 title: "Installing Pybricks on the Technic Hub, BOOST Move Hub, and City Hub"
 sidebar:
   nav: "install"

@@ -39,12 +39,12 @@ layout: default
 
         {% for tpage in site.pages %}
 
-            {% if tpage.url contains page.permalink and tpage.permalink != page.permalink and tpage.maintainer != blank %}
+            {% if tpage.url contains page.url and tpage.url != page.url and tpage.maintainer != blank %}
    
                 <a href="{{tpage.url}}">
                 <h1>{{ tpage.title }}</h1>
                 <figure style="max-width: 400px;">
-                    <img src="/_pages/{{ tpage.permalink }}{{ tpage.image.local }}" alt="{{tpage.title}}">
+                    <img src="{{ tpage.url }}{{ tpage.image.local }}" alt="{{tpage.title}}">
                     {% if tpage.image.credit %}
                     <figcaption>Image credit: {{tpage.image.credit}}</figcaption>
                     {% endif %}

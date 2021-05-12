@@ -26,26 +26,22 @@ logo: /assets/images/bio/pybricks-logo.png
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
+permalink: pretty
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-include:
-  - _pages
-  - _projects
+timezone: Etc/UTC
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - "*README*"
+  - "*.py"
+  - "*.code-workspace"
+  - Gemfile
+  - Gemfile.lock
+  - projects/AUTHORS.md
+  - projects/CONTRIBUTING.md
+  - projects/LICENSE
+  - projects/setup.cfg
 
 # Plugins (previously gems:)
 plugins:
@@ -69,7 +65,6 @@ after_footer_scripts:
   - assets/js/copy-code.js
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -80,17 +75,15 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: false
       toc_sticky: true
-  # projects
   - scope:
-      path: "_pages/projects"
+      path: "projects"
       type: pages
     values:
       layout: project

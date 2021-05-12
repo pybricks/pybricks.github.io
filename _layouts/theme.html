@@ -39,21 +39,21 @@ layout: default
 
         {% for tpage in site.pages %}
 
-          {% assign slug = tpage.permalink | split: '/' %}
+          {% assign slug = tpage.url | split: '/' %}
           {% assign project_name = slug[5] %}
 
-          {% if tpage.url contains page.permalink and tpage.permalink != page.permalink and project_name == blank and tpage.permalink != blank %}
-              
+          {% if tpage.url contains page.url and tpage.url != page.url and project_name == blank and tpage.url != blank %}
+
               <a href="{{tpage.url}}">
               <h1>{{ tpage.title }}</h1>
               <figure style="max-width: 400px;">
-                  <img src="/_pages/{{ tpage.permalink }}{{ tpage.image.local }}" alt="{{tpage.title}}">
+                  <img src="{{ tpage.url }}{{ tpage.image.local }}" alt="{{tpage.title}}">
                   {% if tpage.image.credit %}
                   <figcaption>Image credit: {{tpage.image.credit}}</figcaption>
                   {% endif %}
-              </figure>         
+              </figure>
               </a>
-              
+
           {% endif %}
 
         {% endfor %}

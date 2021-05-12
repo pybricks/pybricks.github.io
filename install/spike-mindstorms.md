@@ -1,5 +1,4 @@
 ---
-permalink: /install/spike-mindstorms/
 title: "Installing Pybricks on the SPIKE Prime Hub and the MINDSTORMS Inventor Hub"
 sidebar:
   nav: "install"
