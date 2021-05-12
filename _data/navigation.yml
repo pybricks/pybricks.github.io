@@ -20,19 +20,21 @@ install:
 
   - title: Powered Up
     children:
-      - title: "Technic / BOOST / City"
+      - title: "Installing on Technic / BOOST / City hubs"
         url: /install/technic-boost-city/
-      - title: "SPIKE / MINDSTORMS"
+      - title: "Installing on SPIKE / MINDSTORMS hubs"
         url: /install/spike-mindstorms/
+      - title: "Using Powered Up hubs"
+        url: /install/using-powered-up-hubs/
       - title: "Running programs"
         url: /install/running-programs/
 
 
   - title: MINDSTORMS EV3
     children:
-      - title: "Installation"
+      - title: "Installing on the EV3 brick"
         url: /install/mindstorms-ev3/installation
-      - title: "Using the EV3 Brick"
+      - title: "Using the EV3 brick"
         url: /install/mindstorms-ev3/using-the-brick
       - title: "Running programs"
         url: /install/mindstorms-ev3/running-programs
