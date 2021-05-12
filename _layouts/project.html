@@ -41,19 +41,20 @@ layout: default
           {% if page.maintainer.name %}{{page.maintainer.name}}{% else %}@{{page.maintainer.user}}{% endif %}</a>.
         </i></p>
 
-        <p style="margin-top: 20px; margin-bottom: 20px;">
-        {% if page.building_instructions.external %}
-        <a href="{{ page.building_instructions.external }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
-        {% else %}
-        <a href="{{ page.url }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
-        {% endif %}
-        
+        <div class="project-buttons">
+          {%- assign button_index = 0 -%}
+          {%- for url in page.building_instructions.external -%}
+          {%- assign button_index =  button_index | plus: 1 -%}
+          <a href="{{ url }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions{%if page.building_instructions.external.first %} {{ button_index }}{% endif %}</a>
+          {%- else -%}
+          <a href="{{ page.url }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
+          {%- endfor -%}
 
-        {% assign slug = page.url | split: '/projects/' %}
-        {% assign size = slug[1] | size | minus: 1 %}
-        {% assign project = slug[1] | slice: 0 , size %}
-        <a href="https://github.com/pybricks/pybricks-projects/tree/master/{{ project }}" target="_blank" class="btn btn--primary"><i class="fas fa-edit"></i>&nbsp;Improve project</a>
-        </p>
+          {%- assign slug = page.url | split: '/projects/' -%}
+          {%- assign size = slug[1] | size | minus: 1 -%}
+          {%- assign project = slug[1] | slice: 0 , size -%}
+          <a href="https://github.com/pybricks/pybricks-projects/tree/master/{{ project }}" target="_blank" class="btn btn--primary"><i class="fas fa-edit"></i>&nbsp;Improve project</a>
+        </div>
 
         <figure style="max-width: 400px; margin-left: auto; margin-right: auto">
             <img src="{{ page.url }}{{ page.image.local }}" alt="{{page.title}}">
