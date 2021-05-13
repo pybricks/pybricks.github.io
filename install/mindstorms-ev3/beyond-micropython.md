@@ -17,13 +17,13 @@ it using a big screen and a mouse. Instead, you can access files and programs
 on it using the *command line*. It is also called the *terminal*.
 
 Follow the steps shown below to access the command line. Now
-you can enter commands by typing them in and pressing enter.
+you can enter commands by typing them in and pressing <kbd>Enter</kbd>.
 
 ![screenshot of terminal label](/assets/images/terminal_label.png)
 
 ### Running basic commands
 
-For example, if you type the following command and press enter:
+For example, if you type the following command and press <kbd>Enter</kbd>:
 
 ```sh
 ls
@@ -33,7 +33,7 @@ then you will see the contents of the current folder. The figure above
 shows the result: it listed the project folder of the `getting_started`
 project that we just ran.
 
-If you type the following command and press enter:
+If you type the following command and press <kbd>Enter</kbd>:
 
 ```sh
 exit
@@ -43,9 +43,9 @@ then the command line will be closed. Alternatively, click the garbage icon
 in the terminal menu.
 
 You can copy text from the command line by selecting it and
-then pressing `ctrl` + `shift` + `c`.
+then pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>.
 You can paste text into the command line
-using `ctrl` + `shift` + `v`.
+using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.
 
 ### Running commands as an administrator
 
@@ -60,7 +60,7 @@ As an exercise, you can run the following command to turn the EV3 Brick off:
 sudo poweroff
 ```
 
-You will be prompted for a password. Type `maker` and then press `Enter`.
+You will be prompted for a password. Type `maker` and then press <kbd>Enter</kbd>.
 
 Only run commands with `sudo` if you know what you are doing!
 
@@ -82,7 +82,7 @@ these steps to change that name:
    2. Read the steps above about running commands as an administrator.
    3. Think of a good name. In this example, we'll
       call it `autonomous-vehicle2`
-   4. Enter the following command and press enter:
+   4. Enter the following command and press <kbd>Enter</kbd>:
 
       ```sh
       sudo hostnamectl set-hostname autonomous-vehicle2

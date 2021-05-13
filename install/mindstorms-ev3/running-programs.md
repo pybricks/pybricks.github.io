@@ -29,7 +29,7 @@ EV3 Brick.
 
 To create a new project, open the EV3 MicroPython tab and
 click *create a new project*, as shown below. Enter a
-project name in the text field that appears and press *Enter*. When prompted,
+project name in the text field that appears and press <kbd>Enter</kbd>. When prompted,
 choose a location for this program and confirm by clicking *choose folder*.
 
 ![](/assets/images/newproject_label.png)
@@ -67,7 +67,7 @@ the connection with Visual Studio Code. To do so:
 
 ## Downloading and running a program
 
-You can press the F5 key to run the program. Alternatively, you can start it
+You can press the <kbd>F5</kbd> key to run the program. Alternatively, you can start it
 manually by going to the *debug* tab and clicking the green start arrow, as
 shown below.
 
@@ -77,7 +77,7 @@ When the program starts, a pop-up toolbar allows you to stop the program if
 necessary. You can also stop the program at any time using the back button on
 the EV3 Brick.
 
-If your program produces any output with the ``print`` command, this is shown
+If your program produces any output with the `print` command, this is shown
 in the output window.
 
 

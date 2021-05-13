@@ -106,7 +106,7 @@ please reinstall the firmware to ensure you have the latest version.
 - You should *not* attempt to connect to the hub via your computer's settings
 menu. If you already did, just remove the hub from there and try again.
 
-- You can refresh the app by pressing `CTRL` + `F5`.
+- You can refresh the app by pressing <kbd>Ctrl</kbd> + <kbd>F5</kbd>.
 
 - If connection issues continue to persist, please describe the problem on
 our [support page](https://github.com/pybricks/support/issues).

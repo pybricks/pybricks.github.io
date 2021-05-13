@@ -71,3 +71,10 @@ div.highlighter-rouge,
 figure.highlight {
     border-style: solid;
 }
+
+kbd {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: smaller;
+    padding-inline: 3px;
+}

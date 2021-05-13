@@ -40,7 +40,7 @@ the device browser:
 You can run previously downloaded programs directly from the EV3 Brick.
 
 To do so, find the program using the *file browser* on the EV3 screen and press
-the center button key to start the program:
+the center button to start the program:
 
 ![](/assets/images/manualrun_label.png)
 
