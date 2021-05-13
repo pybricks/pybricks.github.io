@@ -69,7 +69,8 @@ ol ol ol li {
 
 div.highlighter-rouge,
 figure.highlight {
-    border-style: solid;
+    border: 1px solid black;
+    font-size: 0.65em; // allows 70 columns without horizontal scrolling
 }
 
 kbd {
