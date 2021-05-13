@@ -52,7 +52,7 @@ while True:
 
 Instead of working in your browser, you can install Pybricks locally:
 
-1. Open the settings tab with the ⚙ icon.
+1. Open the settings tab with the <i class="fas fa-cog"></i> icon.
 2. Click on *Install as App* and follow the on-screen instructions.
 
 To uninstall, click the ⋮ menu in the top and

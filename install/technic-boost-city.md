@@ -69,7 +69,7 @@ for user programs. This means your program is erased after it is done running.
 Fortunately, you can still save one program on the hub, by including it in the
 firmware. To do so:
 
-1. Open the settings tab with the ⚙ icon.
+1. Open the settings tab with the <i class="fas fa-cog"></i> icon.
 2. Activate the *Include current program* switch.
 3. Update the firmware as you did before. Now, your current program will be
    included.
