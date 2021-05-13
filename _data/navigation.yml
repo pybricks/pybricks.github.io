@@ -20,9 +20,9 @@ install:
 
   - title: Powered Up
     children:
-      - title: "Installing on Technic / BOOST / City hubs"
+      - title: "Installing Pybricks on the Technic Hub, BOOST Move Hub, and City Hub"
         url: /install/technic-boost-city/
-      - title: "Installing on SPIKE / MINDSTORMS hubs"
+      - title: "Installing Pybricks on the SPIKE Prime Hub and MINDSTORMS Inventor Hub"
         url: /install/spike-mindstorms/
       - title: "Using Powered Up hubs"
         url: /install/using-powered-up-hubs/
