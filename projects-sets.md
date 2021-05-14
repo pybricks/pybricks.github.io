@@ -23,3 +23,7 @@ Select a theme below and pick your set on the next page.
 ## LEGO MINDSTORMS Projects
 
 {% include project-link.html theme="mindstorms" image="https://docs.pybricks.com/en/latest/_images/inventorhub.png" image_width="40%" %}
+
+## LEGO SPIKE Projects
+
+{% include project-link.html theme="spike" image="https://docs.pybricks.com/en/latest/_images/primehub.png" image_width="40%" %}
