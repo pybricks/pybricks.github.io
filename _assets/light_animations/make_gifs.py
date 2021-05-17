@@ -16,9 +16,12 @@ base_svg_blob = open("light_technichub_base.svg").read()
 # Color tags used in the bootloader and Pybricks firmware. Colors may
 # adjusted for better visual appearence.
 COLORS = {
-    "red": "#ff0000",
-    "green": "#09cf00",
-    "blue": "#0084ff",
+    "bootloader_red": "#ff0000",
+    "bootloader_green": "#09cf00",
+    "bootloader_blue": "#0084ff",
+    "bootloader_purple": "#ff00ea",
+    "pybricks_ui_blue": "#0084ff",
+    "pybricks_ui_orange": "#ff6100",
     "off": "#c5c5c5"
 }
 

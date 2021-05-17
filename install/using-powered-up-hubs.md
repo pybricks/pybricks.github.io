@@ -36,7 +36,7 @@ These warning lights take priority over the normal light behavior.
 
 | | Pattern | Description |
 |-|---------|-------------|
-| ![orange 300ms, off 400ms, orange 300ms, off 200ms, system 800ms, off 200ms](/assets/images/powered-up/status-light/low-battery.gif) | Two long, orange blinks | Low battery |
+| ![low-battery](/assets/images/powered-up/status-light/low-battery.gif) | Two long, orange blinks | Low battery |
 
 ### During installation
 

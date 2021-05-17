@@ -1,4 +1,4 @@
-blue 500
-green 500
-red 500
+bootloader_blue 500
+bootloader_green 500
+bootloader_red 500
 off 20
