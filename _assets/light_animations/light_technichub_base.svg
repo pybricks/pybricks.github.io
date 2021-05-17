@@ -9,28 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="100"
-   height="50"
-   viewBox="0 0 26.458332 13.229167"
+   width="150"
+   height="75"
+   viewBox="0 0 39.687499 19.84375"
    version="1.1"
    id="svg4319"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="light_technichub_base.svg">
   <defs
      id="defs4313">
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4268"
-       x="-0.34720001"
-       width="1.6944"
-       y="-1.0415999"
-       height="3.0832">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.99757836"
-         id="feGaussianBlur4270" />
-    </filter>
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Feather"
@@ -56,6 +43,31 @@
          result="composite3"
          id="feComposite1107" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Feather"
+       id="filter1103">
+      <feGaussianBlur
+         stdDeviation="2.61"
+         result="blur"
+         id="feGaussianBlur1095" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="atop"
+         result="composite1"
+         id="feComposite1097" />
+      <feComposite
+         in2="composite1"
+         operator="in"
+         result="composite2"
+         id="feComposite1099" />
+      <feComposite
+         in2="composite2"
+         operator="in"
+         result="composite3"
+         id="feComposite1101" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -65,8 +77,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.9999998"
-     inkscape:cx="61.691641"
-     inkscape:cy="18.916825"
+     inkscape:cx="23.311071"
+     inkscape:cy="67.033572"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -92,14 +104,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-283.77081)">
+     transform="translate(0,-277.15622)">
     <rect
-       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.34211352;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.51317024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1904"
-       width="26.458334"
-       height="13.229167"
-       x="-26.458334"
-       y="283.77081"
+       width="39.6875"
+       height="19.84375"
+       x="-39.6875"
+       y="277.15625"
        transform="scale(-1,1)" />
     <rect
        style="fill:#123456;fill-opacity:1;stroke:none;stroke-width:2.78863215;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1109)"
@@ -108,23 +120,15 @@
        height="6.7485552"
        x="28.263754"
        y="23.666794"
-       transform="matrix(1.1622411,0,0,1.2529522,-28.143085,256.50422)"
+       transform="matrix(1.7433615,0,0,1.8794282,-42.214624,236.25637)"
        ry="0.60566902"
        rx="0.5850482" />
     <rect
-       style="fill:#123456;fill-opacity:1;stroke:#000000;stroke-width:0.01682585;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#123456;fill-opacity:1;stroke:#000000;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1910"
-       width="14.293729"
-       height="5.6463461"
-       x="6.0823026"
-       y="287.56223" />
-    <ellipse
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4268)"
-       id="path4014"
-       cx="20.48835"
-       cy="289.45081"
-       rx="3.4478514"
-       ry="1.1492839"
-       transform="matrix(1.6825835,0,0,1.6825834,-21.244192,-196.63973)" />
+       width="21.440592"
+       height="8.4695187"
+       x="9.1234541"
+       y="282.84335" />
   </g>
 </svg>

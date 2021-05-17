@@ -67,5 +67,5 @@ for file_name in os.listdir("."):
 
     # Build the gif.
     first, *rest = images
-    gif_path = os.path.join(OUTPUT_PATH, base_name + ".gif")
-    first.save(fp=gif_path, format="gif", append_images=rest, save_all=True, duration=durations, loop=0)
+    gif_path = os.path.join(OUTPUT_PATH, base_name + ".png")
+    first.save(fp=gif_path, format="png", append_images=rest, save_all=True, duration=durations, loop=0)
