@@ -29,10 +29,16 @@ COLORS = {
 def render_light_frame(color_name):
     """# Build an svg and render a png for the requested color."""
 
+    try:
+        hex_color = COLORS[color_name]
+    except KeyError:
+        hex_color = color_name
+        color_name = color_name[1:]
+
     # Write the svg file by replacing the base color.
     base_name = os.path.join(BUILD_PATH, "light_technichub_" + color_name)
     with open(base_name + '.svg', "w") as svg_file:
-        svg_file.write(base_svg_blob.replace(BASE_COLOR, COLORS[color_name]))
+        svg_file.write(base_svg_blob.replace(BASE_COLOR, hex_color))
 
     # Render the png.
     command = "inkscape --file={0}.svg --export-png={0}.png".format(base_name)
