@@ -1,4 +1,4 @@
-light_technichub_blue 500
-light_technichub_green 500
-light_technichub_red 500
-light_technichub_off 10
+blue 500
+green 500
+red 500
+off 20
