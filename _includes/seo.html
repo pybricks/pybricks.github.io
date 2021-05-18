@@ -10,6 +10,12 @@
   {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
 {%- endif -%}
 
+{%- if page.layout == "project" -%}
+  {% include get-set-name.html%}
+  {%- assign project_title = page.title | append: " " | append: title_separator | append: " Python project for LEGO " | append: theme.title | append: " " | append: set.title | append: " (" |  | append: set.number | append: ")" -%}
+  {%- assign seo_title = project_title | append: " " | append: title_separator | append: " " | append: site.title -%}
+{%- endif -%}
+
 {%- if seo_title -%}
   {%- assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- endif -%}
