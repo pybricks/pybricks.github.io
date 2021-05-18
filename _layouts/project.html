@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include get-set-name.html%}
+
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
@@ -21,7 +23,7 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}</h1>
-          <p><i>{% include project-subtitle.html%}</i></p>
+          <p><i>Python code and building instructions for the LEGO {{theme.title}} {{set.title}} ({{set.number}}).</i></p>
           {% include page__meta.html %}
         </header>
       {% endunless %}

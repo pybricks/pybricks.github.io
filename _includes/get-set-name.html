@@ -1,0 +1,24 @@
+{% assign url_split = page.url | split: '/' %}
+
+<!-- get set URL -->
+{% assign strip_set_len = url_split[5] | size%}
+{% if page.layout == "project" %}
+    {% assign strip_set_len = strip_set_len | plus: 1 %}
+{% endif %}
+{% assign set_url_len = page.url | size | minus: strip_set_len %}
+{% assign set_url = page.url | slice: 0 , set_url_len %}
+
+<!-- Get theme URL -->
+{% assign strip_theme_len = url_split[4] | size | plus: 1 | plus: strip_set_len%}
+{% assign theme_url_len = page.url | size | minus: strip_theme_len %}
+{% assign theme_url = page.url | slice: 0 , theme_url_len %}
+
+<!-- Assign theme and set variables for various use cases -->
+{% for tpage in site.pages %}
+    {% if tpage.url == theme_url %}
+        {% assign theme = tpage %}
+    {% endif %}
+    {% if tpage.url == set_url %}
+        {% assign set = tpage %}
+    {% endif %}
+{% endfor %}
