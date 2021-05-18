@@ -1,4 +1,4 @@
-pybricks_ui_blue 50
+pybricks_ui_blue 100
 off 100
-pybricks_ui_blue 50
-off 1100
+pybricks_ui_blue 100
+off 1000
