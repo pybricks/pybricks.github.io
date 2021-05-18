@@ -19,19 +19,26 @@ layout: default
 
     <!-- Get set name from parent page title -->
     {%- assign url_split = page.url | split: '/' -%}
-    {%- assign strip_len = url_split[5] | size | plus: 1 -%}
-    {%- assign url_len = page.url | size | minus: strip_len -%}
-    {%- assign set_url = page.url | slice: 0 , url_len -%}    
+    {%- assign strip_set_len = url_split[5] | size | plus: 1 -%}
+    {%- assign strip_theme_len = url_split[4] | size | plus: 1 | plus: strip_set_len-%}
+    {%- assign set_url_len = page.url | size | minus: strip_set_len -%}
+    {%- assign theme_url_len = page.url | size | minus: strip_theme_len -%}
+    {%- assign set_url = page.url | slice: 0 , set_url_len -%}
+    {%- assign theme_url = page.url | slice: 0 , theme_url_len -%}
     {% for tpage in site.pages %}
+      {% if tpage.url == theme_url %}
+          {% assign theme = tpage %}
+      {% endif %}
       {% if tpage.url == set_url %}
-          {% assign set_name = tpage.title %}
+          {% assign set = tpage %}
       {% endif %}
     {% endfor %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}</h1>
+          <p><i>Python code and building instructions for the LEGO {{theme.title}} {{set.title}} ({{set.number}}).</i></p>
           {% include page__meta.html %}
         </header>
       {% endunless %}
@@ -45,12 +52,6 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-
-        <p><i>
-          This project was submitted by
-          <a href="https://github.com/{{page.maintainer.user}}" target="_blank">
-          {% if page.maintainer.name %}{{page.maintainer.name}}{% else %}@{{page.maintainer.user}}{% endif %}</a>.
-        </i></p>
 
         <div class="project-buttons">
           {%- assign button_index = 0 -%}
@@ -86,6 +87,15 @@ layout: default
         <hr>
 
         {{ content }}
+
+        <hr class="solid">
+        <p><i>
+          This project was submitted by
+          <a href="https://github.com/{{page.maintainer.user}}" target="_blank">
+          {% if page.maintainer.name %}{{page.maintainer.name}}{% else %}@{{page.maintainer.user}}{% endif %}</a>.
+        </i></p>
+
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
