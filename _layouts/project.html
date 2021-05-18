@@ -17,6 +17,17 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
+    <!-- Get set name from parent page title -->
+    {%- assign url_split = page.url | split: '/' -%}
+    {%- assign strip_len = url_split[5] | size | plus: 1 -%}
+    {%- assign url_len = page.url | size | minus: strip_len -%}
+    {%- assign set_url = page.url | slice: 0 , url_len -%}    
+    {% for tpage in site.pages %}
+      {% if tpage.url == set_url %}
+          {% assign set_name = tpage.title %}
+      {% endif %}
+    {% endfor %}
+
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
