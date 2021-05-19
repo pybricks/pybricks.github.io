@@ -12,9 +12,9 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/home-code.png
     alt: "Powerful"
-    title: "Powerful and fast"
-    excerpt: "Pybricks unlocks the full potential of your smart LEGO® hubs. Run
-              your code directly on the hub, and get full control of
+    title: "Python for LEGO hubs"
+    excerpt: "Pybricks is Python coding for smart LEGO hubs. Run
+              MicroPython scripts directly on the hub, and get full control of
               your motors and sensors."
     url: "/about/"
     btn_class: "btn--primary"
@@ -31,9 +31,9 @@ feature_row:
   - image_path: /assets/images/home-community.png
     alt: "community"
     title: "Community supported"
-    excerpt: "Pybricks is free and open source. It's used by over
-              50,000 students, teachers, and supported by robotics enthusiasts
-              and contributors worldwide."
+    excerpt: "Pybricks is used by students, teachers, and hobbyists
+              all around the world. It's free, open source, and 
+              supported by a community of robotics experts."
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
