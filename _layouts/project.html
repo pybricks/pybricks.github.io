@@ -57,6 +57,11 @@ layout: default
           <!-- Button with BI link -->
           <a href="{{bi_link}}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
 
+          <!-- Button with code link -->
+          {% if page.code %}
+          <a href="{{page.code}}" target="_blank" class="btn btn--primary"><i class="fas fa-laptop"></i>&nbsp;Python code</a>
+          {% endif %}
+
           <!-- Button with project link -->
           {%- assign slug = page.url | split: '/projects/' -%}
           {%- assign size = slug[1] | size | minus: 1 -%}
