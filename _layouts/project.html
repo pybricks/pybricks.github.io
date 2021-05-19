@@ -39,14 +39,25 @@ layout: default
         {% endif %}
 
         <div class="project-buttons">
-          {%- assign button_index = 0 -%}
-          {%- for url in page.building_instructions.external -%}
-          {%- assign button_index =  button_index | plus: 1 -%}
-          <a href="{{ url }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions{%if page.building_instructions.external.first %} {{ button_index }}{% endif %}</a>
-          {%- else -%}
-          <a href="{{ page.url }}{{ page.building_instructions.local }}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
-          {%- endfor -%}
 
+          <!-- Link to instructions hosted locally -->
+          {% if page.building_instructions.local %}
+          {% assign bi_link = page.url | append: page.building_instructions.local %}
+          {% else %}
+          <!-- Otherwise, check for links to instructions hosted externally -->
+            {% if page.building_instructions.external.first %}
+            <!-- Multiple booklets, so make list at bottom of page -->
+            {% assign bi_link = "#building-instructions" %}
+            {% else %}
+            <!-- Single external link -->
+            {% assign bi_link = page.building_instructions.external %}
+            {% endif %}
+          {% endif %}
+
+          <!-- Button with BI link -->
+          <a href="{{bi_link}}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
+
+          <!-- Button with project link -->
           {%- assign slug = page.url | split: '/projects/' -%}
           {%- assign size = slug[1] | size | minus: 1 -%}
           {%- assign project = slug[1] | slice: 0 , size -%}
@@ -73,6 +84,21 @@ layout: default
 
         {{ content }}
 
+        <!-- Building instructions for multiple booklets -->
+        {% if page.building_instructions.external.first %}
+          <h2 id="building-instructions">Building instructions</h2>
+          <ul>
+          {% assign button_index = 0 %}
+          {% for url in page.building_instructions.external %}
+          {% assign button_index =  button_index | plus: 1 %}
+          <li>
+          <a href="{{ url }}" target="_blank"> Building instructions part {{ button_index }}</a>
+          </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+        <!-- Submitter section -->
         <hr class="solid">
         <p><i>
           This project was submitted by

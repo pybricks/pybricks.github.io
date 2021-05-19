@@ -19,13 +19,13 @@ Select a theme below and pick your set on the next page.
 
 {% include project-link.html theme="technic" image="https://docs.pybricks.com/en/latest/_images/technichub.png" image_width="40%" %}
 
-## LEGO SPIKE Projects
+## LEGO SPIKE Prime Projects
 
-{% include project-link.html theme="spike" image="https://docs.pybricks.com/en/latest/_images/primehub.png" image_width="40%" %}
+{% include project-link.html theme="spike-prime" image="https://docs.pybricks.com/en/latest/_images/primehub.png" image_width="40%" %}
 
-## LEGO MINDSTORMS Projects
+## LEGO MINDSTORMS Robot Inventor Projects
 
-{% include project-link.html theme="mindstorms" image="https://docs.pybricks.com/en/latest/_images/inventorhub.png" image_width="40%" %}
+{% include project-link.html theme="mindstorms-robot-inventor" image="https://docs.pybricks.com/en/latest/_images/inventorhub.png" image_width="40%" %}
 
 ## LEGO MINDSTORMS EV3 Projects
 
