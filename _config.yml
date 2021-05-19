@@ -15,9 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Pybricks
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Pybricks is Python for LEGO robotics. Learn to code and make your creations
-  come alive.
+description: "Pybricks is Python for LEGO robotics. Learn to code and make your creations come alive."
 github_username: pybricks
 search: true
 logo: /assets/images/bio/pybricks-logo.png

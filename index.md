@@ -13,7 +13,7 @@ feature_row:
   - image_path: /assets/images/home-code.png
     alt: "Powerful"
     title: "Python for LEGO hubs"
-    excerpt: "Pybricks is Python coding for smart LEGO hubs. Run
+    excerpt: "Pybricks is Python coding for smart LEGO® hubs. Run
               MicroPython scripts directly on the hub, and get full control of
               your motors and sensors."
     url: "/about/"
