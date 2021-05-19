@@ -1,9 +1,9 @@
 main:
   - title: "Code"
     url: https://code.pybricks.com
-  - title: "Install"
+  - title: "Getting Started"
     url: /install/
-  - title: "Documentation"
+  - title: "API Documentation"
     url: https://docs.pybricks.com/
   - title: "Projects"
     url: /projects/sets/
