@@ -20,6 +20,10 @@ LEGO City, and LEGO MINDSTORMS creations truly come alive.
 Whether you're a beginner or an experienced builder or programmer, you can
 start writing code with Pybricks in no time.
 
+## Press releases
+
+- June 23<sup>rd</sup>, 2021: [Make your LEGO System & LEGO Technic creations come alive with Python coding using Pybricks](2021-06-23-lego-system-technic-python)
+
 ## What makes Pybricks different?
 
 ![](/assets/images/home-compatibility.jpg)
