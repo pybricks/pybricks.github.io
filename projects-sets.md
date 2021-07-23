@@ -9,24 +9,24 @@ Select a theme below and pick your set on the next page.
 
 ## LEGO BOOST Projects
 
-{% include project-link.html theme="boost" image="https://docs.pybricks.com/en/latest/_images/movehub.png" image_width="40%" %}
+{% include project-link.html theme="boost" image="/assets/images/powered-up/hubs/movehub.png" image_width="40%" %}
 
 ## LEGO City & Train Projects
 
-{% include project-link.html theme="city" image="https://docs.pybricks.com/en/latest/_images/cityhub.png" image_width="30%" %}
+{% include project-link.html theme="city" image="/assets/images/powered-up/hubs/cityhub.png" image_width="30%" %}
 
 ## LEGO TECHNIC Projects
 
-{% include project-link.html theme="technic" image="https://docs.pybricks.com/en/latest/_images/technichub.png" image_width="40%" %}
+{% include project-link.html theme="technic" image="/assets/images/powered-up/hubs/technichub.png" image_width="40%" %}
 
 ## LEGO SPIKE Prime Projects
 
-{% include project-link.html theme="spike-prime" image="https://docs.pybricks.com/en/latest/_images/primehub.png" image_width="40%" %}
+{% include project-link.html theme="spike-prime" image="/assets/images/powered-up/hubs/primehub.png" image_width="40%" %}
 
 ## LEGO MINDSTORMS Robot Inventor Projects
 
-{% include project-link.html theme="mindstorms-robot-inventor" image="https://docs.pybricks.com/en/latest/_images/inventorhub.png" image_width="40%" %}
+{% include project-link.html theme="mindstorms-robot-inventor" image="/assets/images/powered-up/hubs/inventorhub.png" image_width="40%" %}
 
 ## LEGO MINDSTORMS EV3 Projects
 
-{% include project-link.html theme="mindstorms-ev3" image="https://docs.pybricks.com/en/latest/_images/ev3brick.png" image_width="40%" %}
+{% include project-link.html theme="mindstorms-ev3" image="/assets/images/powered-up/hubs/ev3brick.png" image_width="40%" %}
