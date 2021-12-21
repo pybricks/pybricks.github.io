@@ -100,35 +100,59 @@ When connectivity issues arise, you'll usually see a notification popup that
 describes the problem. Be sure to follow the indicated instructions. If that
 does not help, follow the instructions below.
 
-- If the firmware is already installed but you are unable to run programs,
-please reinstall the firmware to ensure you have the latest version.
-
 - You should *not* attempt to connect to the hub via your computer's settings
 menu. If you already did, just remove the hub from there and try again.
+
+- You can try the latest [beta version][Pybricks Beta] of our app.
+  This version gets more frequent updates. It's possible we've fixed your
+  issue already.
 
 - You can refresh the app by pressing <kbd>Ctrl</kbd> + <kbd>F5</kbd>.
 
 - If connection issues continue to persist, please describe the problem on
-our [support page](https://github.com/pybricks/support/issues).
+  our [support page][support page].
 
-### Installing the latest build
+### Trying out new features with Pybricks Beta (easy)
 
-*This section is only intended for developers who want to try the
-latest features. Some features may not work. To revert
-to a stable version, just install the firmware as you normally would.*
+Major and minor updates to [Pybricks][Pybricks Code] are released several times
+a year. But we work on new features all the time. To try new features sooner,
+use [the latest beta version][Pybricks Beta].
 
-Pybricks Code automatically provides the latest stable and tested firmware.
-To get a more recent version, log in to GitHub and go to
+Some features may not work yet, and they may still change before the final
+release.
+
+If you try the beta version, please [give us feedback][support page]!
+
+### Installing the latest build (advanced)
+
+*This section is only intended for advanced users who want to try the **very
+latest** features or fixes. Many features may not work. To revert
+to a stable or beta version, just re-install the firmware as you normally
+would.*
+
+Pybricks automatically provides the latest stable and tested firmware.
+To get the most recent firmware build, log in to GitHub and go to
 our [latest builds][latest builds].
-Click on the desired build and go to `Artifacts`.
-Download the firmware ZIP archive for your hub. To install it, drag this file
-*onto* the firmware update button in Pybricks Code. The update now proceeds as
-usual.
+Click on the desired build and scroll down to `Artifacts`.
+Download the firmware ZIP archive for your hub. To install it, drag the ZIP
+file **onto** the firmware button in Pybricks Code (instead of just
+clicking the button). The update now
+proceeds as usual.
+
+To confirm that you've installed the version you wanted, run the following
+script on your hub:
+
+```python
+from pybricks import version
+
+print(version)
+```
 
 [restoring]: #restoring-the-original-firmware
 [latest builds]: https://github.com/pybricks/pybricks-micropython/actions?query=is%3Asuccess+branch%3Amaster+workflow%3ABuild
 [support page]: https://github.com/pybricks/support/issues/
 [Pybricks Code]: https://code.pybricks.com
+[Pybricks Beta]: https://beta.pybricks.com
 [Google Chrome]: https://www.google.com/chrome/
 [Microsoft Edge]: https://www.microsoft.com/en-us/edge
 
