@@ -9,4 +9,10 @@ sidebar:
 Pybricks for *LEGO Education SPIKE Prime* and *LEGO MINDSTORMS Robot Inventor*
 is currently still in beta.
 
-Please check back later, or follow our [work in progress](https://github.com/pybricks/support).
+To try the beta version, you can
+[follow these instructions](https://github.com/pybricks/support/issues/591).
+
+Not everything works yet, so please use this version with caution.
+
+If you're a beginner, it's better to
+start with [one of the other hubs](../technic-boost-city).
