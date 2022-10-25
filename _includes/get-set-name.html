@@ -13,8 +13,17 @@
 {% assign theme_url_len = page.url | size | minus: strip_theme_len %}
 {% assign theme_url = page.url | slice: 0 , theme_url_len %}
 
-<!-- Assign theme and set variables for various use cases -->
+<!-- Get project type URL -->
+{% assign page_type = url_split[2] %}
+{% assign strip_type_len = url_split[3] | size | plus: 1 | plus: strip_theme_len%}
+{% assign type_url_len = page.url | size | minus: strip_type_len %}
+{% assign type_url = page.url | slice: 0 , type_url_len %}
+
+<!-- Assign type, theme and set variables for various use cases -->
 {% for tpage in site.pages %}
+    {% if tpage.url == type_url %}
+        {% assign type = tpage %}
+    {% endif %}
     {% if tpage.url == theme_url %}
         {% assign theme = tpage %}
     {% endif %}

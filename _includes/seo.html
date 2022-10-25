@@ -12,7 +12,10 @@
 
 {%- if page.layout == "project" -%}
   {% include get-set-name.html%}
-  {%- assign project_title = page.title | append: " " | append: title_separator | append: " Python project for LEGO " | append: theme.title | append: " " | append: set.title | append: " (" |  | append: set.number | append: ")" -%}
+  {%- assign project_title = page.title | append: " " | append: title_separator | append: " Python project for LEGO"-%}
+  {%- if page_type == "sets" -%}
+    {%- assign project_title = project_title | append: " " |  append: theme.title | append: " " | append: set.title | append: " (" |  | append: set.number | append: ")" -%}
+  {%- endif -%}
   {%- assign seo_title = project_title | append: " " | append: title_separator | append: " " | append: site.title -%}
 {%- endif -%}
 

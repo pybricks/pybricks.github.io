@@ -1,5 +1,5 @@
 ---
-# title: "Pybricks Projects"
+title: "Pybricks Projects"
 toc: false
 layout: single
 ---
@@ -8,8 +8,11 @@ layout: single
 
 Coding projects you can do with one LEGO set.
 
-## Remix projects
+## [Tutorials](/projects/tutorials/)
 
-Projects, hacks, and tutorials beyond the scope of one set.
+Tutorials, tips & coding tricks for any hub.
 
-There aren't any projects yet, but you can submit one!
+## [Remix projects](/projects/remix/)
+
+Creative build beyond the scope of one set. No step-by-step instructions, but
+full of inspiration for your projects.

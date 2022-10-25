@@ -23,7 +23,9 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}</h1>
+          {% if page_type == "sets" %}
           <p><i>Python code and building instructions for the LEGO {{theme.title}} {{set.title}} ({{set.number}}).</i></p>
+          {% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}
@@ -39,7 +41,7 @@ layout: default
         {% endif %}
 
         <div class="project-buttons">
-
+          {% if page.building_instructions %}
           <!-- Link to instructions hosted locally -->
           {% if page.building_instructions.local %}
           {% assign bi_link = page.url | append: page.building_instructions.local %}
@@ -56,6 +58,7 @@ layout: default
 
           <!-- Button with BI link -->
           <a href="{{bi_link}}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
+          {% endif %}
 
           <!-- Button with code link -->
           {% if page.code %}
