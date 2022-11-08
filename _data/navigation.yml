@@ -4,7 +4,7 @@ main:
   - title: "Getting Started"
     url: /install/
   - title: "API Documentation"
-    url: https://docs.pybricks.com/
+    url: https://docs.pybricks.com/en/latest/
   - title: "Projects"
     url: /projects/
   - title: "Community"
