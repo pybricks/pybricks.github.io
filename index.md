@@ -7,6 +7,8 @@ header:
   actions:
     - label: "<i class='fas fa-play-circle'></i> Start coding"
       url: "https://code.pybricks.com"
+    - label: "<i class='fas fa-play-circle'></i> Try the upcoming release!"
+      url: "https://beta.pybricks.com"
 excerpt: >
   Robotics made easy
 feature_row:
