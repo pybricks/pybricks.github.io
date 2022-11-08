@@ -35,10 +35,10 @@ on a train track or follow lines without skipping a beat!
 
 ### SPIKE / MINDSTORMS
 
-[![Powered Up hubs](/assets/images/primeinventorhub.png){:width="75%"}](/install/spike-mindstorms)
+[![Powered Up hubs](/assets/images/primeinventorhub.png)](/install/spike-mindstorms)
 
 These hubs come in the LEGO Education SPIKE Prime set and the LEGO MINDSTORMS
-Robot Inventor sets. They're the same except for the exterior color.
+Robot Inventor sets.
 [Click to get started!](/install/spike-mindstorms)
 
 These hubs are a bit more powerful than the other Powered Up hubs shown above.
