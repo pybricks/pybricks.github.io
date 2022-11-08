@@ -48,7 +48,7 @@ any computer, so you're not stuck on a tiny screen.
 
 Best of all, Pybricks is fully powered by the community. It's fully
 [documented](https://docs.pybricks.com/en/latest/) and there's an ever-growing
-collection of [example projects](https://github.com/pybricks/pybricks-projects)
+collection of [example projects](https://pybricks.com/projects/)
 and [additional tools](https://github.com/pybricks)
 shared by Pybricks users all around the world.
 
