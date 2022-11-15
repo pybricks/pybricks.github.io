@@ -8,11 +8,14 @@ layout: single
 
 Coding projects you can do with one LEGO set.
 
+<a href="/projects/sets">
+<img src="/assets/images/home-community.png" width="50%" />
+</a>
+
 ## [Tutorials](/projects/tutorials/)
 
-Tutorials, tips & coding tricks for any hub.
+Tips and tricks for for any hub, and other useful resources.
 
-## [Remix projects](/projects/remix/)
-
-Creative build beyond the scope of one set. No step-by-step instructions, but
-full of inspiration for your projects.
+<a href="/projects/tutorials">
+<img src="/assets/images/home-code.png" width="50%" />
+</a>
