@@ -14,6 +14,13 @@ devices.
 
 {% include project-link.html type="tutorials" theme="wireless" image="/assets/images/wireless.png" image_width="40%" %}
 
+## Development tools
+
+Learn to install development tools and contribute code to Pybricks.
+
+{% include project-link.html type="tutorials" theme="dev" image="/projects/tutorials/dev/dev.png" image_width="40%" %}
+
+
 ## Remix
 
 This category includes bigger projects with any number of hubs, elements, or
