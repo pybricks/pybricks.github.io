@@ -1,33 +1,51 @@
-{% assign url_split = page.url | split: '/' %}
+{%- comment -%}
 
-<!-- get set URL -->
-{% assign strip_set_len = url_split[5] | size%}
-{% if page.layout == "project" %}
-    {% assign strip_set_len = strip_set_len | plus: 1 %}
-{% endif %}
-{% assign set_url_len = page.url | size | minus: strip_set_len %}
-{% assign set_url = page.url | slice: 0 , set_url_len %}
+This file assumes a page URL has the following format:
 
-<!-- Get theme URL -->
-{% assign strip_theme_len = url_split[4] | size | plus: 1 | plus: strip_set_len%}
-{% assign theme_url_len = page.url | size | minus: strip_theme_len %}
-{% assign theme_url = page.url | slice: 0 , theme_url_len %}
+/projects/{sets,tutorials}/THEME/SET/ACTIVITY[/SUBACTIVITY]
 
-<!-- Get project type URL -->
-{% assign page_type = url_split[2] %}
-{% assign strip_type_len = url_split[3] | size | plus: 1 | plus: strip_theme_len%}
-{% assign type_url_len = page.url | size | minus: strip_type_len %}
-{% assign type_url = page.url | slice: 0 , type_url_len %}
+THEME is one of "boost", "city", "technic", "spike-prime",
+"mindstorms-robot-inventor", "mindstorms-ev3"
 
-<!-- Assign type, theme and set variables for various use cases -->
-{% for tpage in site.pages %}
-    {% if tpage.url == type_url %}
-        {% assign type = tpage %}
-    {% endif %}
-    {% if tpage.url == theme_url %}
-        {% assign theme = tpage %}
-    {% endif %}
-    {% if tpage.url == set_url %}
-        {% assign set = tpage %}
-    {% endif %}
-{% endfor %}
+SET is the name of a LEGO set in that theme
+
+ACTIVITY is the name of an activity you can do with the set
+
+SUBACTIVITY is an optional subactivity that can be done with ACTIVITY
+
+The following variables are provided by this include:
+
+* page_type: The {sets,tutorials} portion of the URL
+* type: The jekyll page variable for the page at type_url
+* theme: The jekyll page variable for the page at theme_url
+* set: The jekyll page variable for the page at set_url
+
+{%- endcomment -%}
+
+{%- assign url_split = page.url | split: '/' -%}
+
+{%- assign type_url = '/' -%}
+{%- for item in url_split offset: 1 limit: 2 -%}
+{%- assign type_url = type_url | append: item -%}
+{%- assign type_url = type_url | append: '/' -%}
+{%- endfor -%}
+
+{%- assign theme_url = type_url | append: url_split[3] -%}
+{%- assign theme_url = theme_url | append: '/' -%}
+
+{%- assign set_url = theme_url | append: url_split[4] -%}
+{%- assign set_url = set_url | append: '/' -%}
+
+{%- assign page_type = url_split[2] -%}
+
+{%- for tpage in site.pages -%}
+    {%- if tpage.url == type_url -%}
+        {%- assign type = tpage -%}
+    {%- endif -%}
+    {%- if tpage.url == theme_url -%}
+        {%- assign theme = tpage -%}
+    {%- endif -%}
+    {%- if tpage.url == set_url -%}
+        {%- assign set = tpage -%}
+    {%- endif -%}
+{%- endfor -%}
