@@ -37,20 +37,15 @@ the ``chrome://flags/`` page. It's already enabled on Windows and Mac.
 
 ## Installing the Pybricks firmware
 
-Before you begin, turn the hub off. The update works best with fresh batteries.
-If you use the City Hub, you must unplug all motors and sensors. Follow these
-steps:
+Before you begin, turn the hub off. The update works best with new (fully
+charged) batteries. If you use the City Hub, you must unplug all motors and 
+sensors. Follow these steps:
 
-1. Go to [Pybricks Code][Pybricks Code].
-2. Press and hold the hub button. Wait for a blinking pink light.
-3. While you hold it, click the *firmware update* button.
-4. Select the *LEGO Bootloader* and click *Pair*.
-5. Wait until the light turns off, and then blinks red/green/blue.
-6. Release the button and wait for the installation to finish.
-
-These steps are summarized in this video:
-
-<video controls src="/assets/videos/install.mp4" width="100%"></video><br />
+1. Go to [Pybricks Code].
+2. Click the <i class="fas fa-cog"></i> icon on the left to open the *Settings
+   & Help* pane if it is not already open.
+3. Click the **Install Pybricks Firmware** button.
+4. Follow the instructions on the screen.
 
 ## Start coding
 
