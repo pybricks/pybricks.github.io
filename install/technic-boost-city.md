@@ -64,22 +64,19 @@ easier. You'll also learn how to restore the original firmware.
 
 ### Saving a program on the hub
 
-The Move Hub, City Hub, and Technic Hub do not have separate storage space
-for user programs. This means your program is erased after it is done running.
-Fortunately, you can still save one program on the hub, by including it in the
-firmware. To do so:
+Since firmware v3.2 (released at the end of 2022), no special action is needed
+to save the program on the hub. The current program stays on the hub until you
+download and run a different program.
 
-1. Open the settings tab with the <i class="fas fa-cog"></i> icon.
-2. Activate the *Include current program* switch.
-3. Update the firmware as you did before. Now, your current program will be
-   included.
-4. Now can start and stop your program with the green button.
-   No connection required!
-5. You can still download and run new programs with the run button as usual.
+Once you download and run a program from Pybricks Code, you can use the button
+on the hub to start the program again. (Pressing the button will stop a program
+if it is already running and start the program if no program is currently
+running.)
 
-This is a bit of a slow process to do each time. We recommend to
-use the run button to run your code most of the time. When you are
-happy with your final program, follow the steps above to save it on the hub.
+When you turn off the hub, the program will be saved to flash memory and can
+be started again using the button the next time the hub is turned on. (If you
+remove the battery instead of using the button to power off, the program will
+be lost.)
 
 ### Restoring the original firmware
 
