@@ -131,10 +131,11 @@ Pybricks automatically provides the latest stable and tested firmware.
 To get the most recent firmware build, log in to GitHub and go to
 our [latest builds][latest builds].
 Click on the desired build and scroll down to `Artifacts`.
-Download the firmware ZIP archive for your hub. To install it, drag the ZIP
-file **onto** the firmware button in Pybricks Code (instead of just
-clicking the button). The update now
-proceeds as usual.
+Download the firmware ZIP archive for your hub. In the firmware install dialog
+in *Pybricks Code*, expand the *advanced* arrow. You can either click the box
+to get a file open dialog or just click and drag the ZIP file into the box.
+Then you can proceed as usual and the custom firmware file will be installed on
+the hub.
 
 To confirm that you've installed the version you wanted, run the following
 script on your hub:
