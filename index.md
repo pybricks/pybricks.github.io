@@ -12,7 +12,7 @@ header:
 excerpt: >
   Robotics made easy
 feature_row:
-  - image_path: /assets/images/home-code.png
+  - image_path: /assets/images/home-code-2.png
     alt: "Powerful"
     title: "Python for LEGO hubs"
     excerpt: "Pybricks is Python coding for smart LEGO® hubs. Run

@@ -17,5 +17,5 @@ Coding projects you can do with one LEGO set.
 Tips and tricks for for any hub, and other useful resources.
 
 <a href="/projects/tutorials">
-<img src="/assets/images/home-code.png" width="50%" />
+<img src="/assets/images/home-code-2.png" width="50%" />
 </a>

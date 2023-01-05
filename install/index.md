@@ -53,7 +53,7 @@ more accurate too. More exciting features are on the way as well!
 
 ### Running programs
 
-[![Pybricks Code](/assets/images/home-code.png)](/install/running-programs)
+[![Pybricks Code](/assets/images/home-code-2.png)](/install/running-programs)
 
 Once you've installed Pybricks firmware on any of the hubs above, you're ready
 to start coding. [Click to get started!](/install/running-programs)
