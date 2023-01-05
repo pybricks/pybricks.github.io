@@ -143,9 +143,9 @@ print(version)
 
 [restoring]: #restoring-the-original-firmware
 [latest builds]: https://github.com/pybricks/pybricks-micropython/actions?query=is%3Asuccess+branch%3Amaster+workflow%3ABuild
-[support page]: https://github.com/pybricks/support/issues/
+[support page]: https://github.com/orgs/pybricks/discussions
 [Pybricks Code]: https://code.pybricks.com
 [Pybricks Beta]: https://beta.pybricks.com
 [Google Chrome]: https://www.google.com/chrome/
-[Microsoft Edge]: https://www.microsoft.com/en-us/edge
+[Microsoft Edge]: https://www.microsoft.com/edge
 
