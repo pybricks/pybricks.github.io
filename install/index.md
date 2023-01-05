@@ -25,8 +25,8 @@ These hubs come in some Technic, BOOST, Train, and City sets. They share the
 same installation method.
 [Click to get started!](/install/technic-boost-city)
 
-You can save at most one program on these hubs, and there's no space to store
-extra libraries. There's still plenty you can do with them, though!
+You can save at most one program on these hubs. There's still plenty you can do
+with them, though!
 
 Out of the box, these hubs can be controlled using mobile phone apps. With
 Pybricks, the script runs on the hub itself, which is about 100x faster. This
@@ -45,9 +45,6 @@ These hubs are a bit more powerful than the other Powered Up hubs shown above.
 They have more
 ports, lights, and buttons. They also have a rechargeable battery and a
 built-in speaker.
-
-These hubs have dedicated space for storing user programs. This means you can
-store multiple scripts and include your own MicroPython libraries.
 
 Out of the box, these hubs can already be programmed with MicroPython. But with
 Pybricks, your code runs much faster, and you'll have about three times as much
