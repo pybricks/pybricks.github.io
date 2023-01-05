@@ -5,3 +5,9 @@
         margin-inline: 3px;
     }
 }
+
+// make sure code takes up less than window height
+.language-python {
+    max-height: 80vh;
+    overflow: auto;
+}
