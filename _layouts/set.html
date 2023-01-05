@@ -39,26 +39,21 @@ layout: default
 
         {% comment %} <p>Insert set image and description: {{ page.description }}</p> {% endcomment %}
 
-        {% for tpage in site.pages %}
-
-            {% if tpage.url contains page.url and tpage.url != page.url and tpage.maintainer != blank %}
-   
-                <a href="{{tpage.url}}">
-                <h1>{{ tpage.title }}</h1>
-                <figure style="max-width: 400px;">
-                    <img src="{{ tpage.url }}{{ tpage.image.local }}" alt="{{tpage.title}}">
-                    {% if tpage.image.credit %}
-                    <figcaption>Image credit: {{tpage.image.credit}}</figcaption>
-                    {% endif %}
-                </figure>         
-                </a>
-
-
-            {% endif %}
-
-        {% endfor %}
-
-
+        {%- for tpage in site.pages -%}
+          {%- assign url_split = tpage.url | split: '/' -%}
+          {%- assign url_split_size = url_split | size -%}
+          {%- if tpage.url contains page.url and url_split_size == 6 %}
+            <a href="{{tpage.url}}">
+              <h1>{{ tpage.title }}</h1>
+              <figure style="max-width: 400px;">
+                <img src="{{ tpage.url }}{{ tpage.image.local }}" alt="{{tpage.title}}">
+                {%- if tpage.image.credit %}
+                <figcaption>Image credit: {{tpage.image.credit}}</figcaption>
+                {%- endif %}
+              </figure>
+            </a>
+          {%- endif -%}
+        {%- endfor -%}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
