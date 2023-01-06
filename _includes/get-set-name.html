@@ -37,15 +37,6 @@ The following variables are provided by this include:
 {%- assign set_url = set_url | append: '/' -%}
 
 {%- assign page_type = url_split[2] -%}
-
-{%- for tpage in site.pages -%}
-    {%- if tpage.url == type_url -%}
-        {%- assign type = tpage -%}
-    {%- endif -%}
-    {%- if tpage.url == theme_url -%}
-        {%- assign theme = tpage -%}
-    {%- endif -%}
-    {%- if tpage.url == set_url -%}
-        {%- assign set = tpage -%}
-    {%- endif -%}
-{%- endfor -%}
+{%- assign type = site.pages | where: "url", type_url | first -%}
+{%- assign theme = site.pages | where: "url", theme_url | first -%}
+{%- assign set = site.pages | where: "url", set_url | first -%}
