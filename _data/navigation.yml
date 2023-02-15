@@ -20,6 +20,8 @@ install:
 
   - title: Powered Up
     children:
+      - title: "Installing Pybricks Code"
+        url: /install/pybricks-code/
       - title: "Installing Pybricks on the Technic Hub, BOOST Move Hub, and City Hub"
         url: /install/technic-boost-city/
       - title: "Installing Pybricks on the SPIKE Prime Hub and MINDSTORMS Inventor Hub"

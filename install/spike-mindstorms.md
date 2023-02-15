@@ -13,28 +13,6 @@ interface.
 You can reinstall the [original firmware][restoring] at any time
 using [Pybricks Code].
 
-## Requirements
-
-* LEGO Education SPIKE Prime/Essential Hub or LEGO MINDSTORMS Robot Inventor Hub.
-* A Windows, Mac, Linux, or Android device.
-* Bluetooth Low Energy (BLE). Make sure that Bluetooth is on.
-
-If you don't have BLE, the coding interface will inform you during the
-installation step. In that case, you can try using a low-cost USB Bluetooth
-Dongle that supports Bluetooth Low Energy.
-
-## Installing a compatible browser
-
-Writing Pybricks programs requires a web browser with web Bluetooth
-functionality, such as:
-
-* [Google Chrome]
-* [Microsoft Edge]
-* Chromium
-
-If you use Linux, enable *Experimental Web Platform features* on
-the ``chrome://flags/`` page. It's already enabled on Windows and Mac.
-
 ## Installing the Pybricks firmware
 
 Before you begin, turn the hub off and disconnect the USB cable. Follow these steps:

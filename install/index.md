@@ -17,6 +17,15 @@ Pybricks can be installed by upgrading the firmware on the hub. The
 instructions differ per hub, as shown below. Once installed, they all work
 the same way.
 
+### Pybricks Code
+
+[![Pybricks Code](/assets/images/home-code-2.png){:width="75%"}](/install/pybricks-code)
+
+[Pybricks Code] is the app used for programming Powered Up hubs using Pybricks.
+[Click to learn more!](/install/pybricks-code).
+
+[Pybricks Code]: https://code.pybricks.com
+
 ### Technic / BOOST / City
 
 [![Powered Up hubs](/assets/images/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
