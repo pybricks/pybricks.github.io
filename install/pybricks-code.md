@@ -14,6 +14,10 @@ toc: true
 - Bluetooth adapter with Bluetooth Low Energy support.
 - USB Type-A port (only required for flashing firmware on hubs with USB).
 
+Recommendations:
+- Screen size of at least 10".
+- Physical keyboard.
+
 
 ### Browser compatibility notes
 
@@ -45,11 +49,19 @@ toc: true
 - Additional Bluetooth troubleshooting advice is available [here][ble trouble].
 
 
+### Android compatibility notes
+
+- The default GBoard keyboard on Android does not work well with the code editor.
+  We recommend the [CodeBoard Keyboard for Coding] (free and [open source][codeboard])
+  to work around this issue.
+
 [Pybricks Code]: https://code.pybricks.com
 [Google Chrome]: https://google.com/chrome
 [Microsoft Edge]: https://microsoft.com/edge
 [win ble issue]: https://github.com/pybricks/support/issues/921
 [ble trouble]: https://github.com/pybricks/support/discussions/270
+[CodeBoard Keyboard for Coding]: https://play.google.com/store/apps/details?id=com.gazlaws.codeboard
+[codeboard]: https://github.com/gazlaws-dev/codeboard
 
 
 ## Installation
