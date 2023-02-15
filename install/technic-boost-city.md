@@ -102,8 +102,7 @@ would.*
 
 Pybricks automatically provides the latest stable and tested firmware.
 To get the most recent firmware build, log in to GitHub and go to
-our [latest builds][latest builds].
-Click on the desired build and scroll down to `Artifacts`.
+our [latest builds].
 Download the firmware ZIP archive for your hub. In the firmware install dialog
 in *Pybricks Code*, expand the *advanced* arrow. You can either click the box
 to get a file open dialog or just click and drag the ZIP file into the box.
@@ -120,7 +119,7 @@ print(version)
 ```
 
 [restoring]: #restoring-the-original-firmware
-[latest builds]: https://github.com/pybricks/pybricks-micropython/actions?query=is%3Asuccess+branch%3Amaster+workflow%3ABuild
+[latest builds]: https://nightly.link/pybricks/pybricks-micropython/workflows/build/master
 [support page]: https://github.com/orgs/pybricks/discussions
 [Pybricks Code]: https://code.pybricks.com
 [Pybricks Beta]: https://beta.pybricks.com
