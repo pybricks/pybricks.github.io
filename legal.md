@@ -4,7 +4,7 @@ title: "Legal"
 
 ## Pybricks Website Site Content
 
-The `pybricks.com` website and its content are © 2018--2021 Laurens Valk and
+The `pybricks.com` website and its content are © 2018--2023 Laurens Valk and
 David Lechner --- All rights reserved.
 
 Content may not be copied or reproduced without prior written consent from the authors.
