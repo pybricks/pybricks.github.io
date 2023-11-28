@@ -31,6 +31,10 @@ install:
       - title: "Running programs"
         url: /install/running-programs/
 
+  - title: Code with Blocks
+    children:
+      - title: "Unlock blocks"
+        url: /install/block-access/
 
   - title: MINDSTORMS EV3
     children:
