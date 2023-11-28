@@ -4,7 +4,7 @@ sidebar:
   nav: "install"
 ---
 
-![Powered Up hubs](/assets/images/pybricks-blocks-1.png)
+![block coding](/assets/images/blocks/pybricks-blocks-1.png)
 
 Block coding is available exclusively to our supporters on Patreon. You can
 sign up for a monthly subscription or make a one-time pledge in our shop for

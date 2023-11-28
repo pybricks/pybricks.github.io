@@ -24,6 +24,8 @@ start writing code with Pybricks in no time.
 
 - June 23<sup>rd</sup>, 2021: [Make your LEGO System & LEGO Technic creations come alive with Python coding using Pybricks](2021-06-23-lego-system-technic-python)
 
+- November 28<sup>th</sup>, 2023: [Make all your smart LEGO bricks come alive with Pybricks](new-pybricks-blocks)
+
 ## What makes Pybricks different?
 
 ![](/assets/images/home-compatibility.jpg)
