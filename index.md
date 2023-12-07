@@ -5,9 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/home-banner_label.png
   actions:
-    - label: "<i class='fas fa-play-circle'></i> Start coding"
-      url: "https://code.pybricks.com"
-    - label: "<i class='fas fa-play-circle'></i> Try the upcoming release!"
+    - label: "<i class='fas fa-play-circle'></i> Start coding with Blocks & Python!"
       url: "https://beta.pybricks.com"
 excerpt: >
   Robotics made easy
