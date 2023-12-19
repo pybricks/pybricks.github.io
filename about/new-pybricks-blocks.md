@@ -1,5 +1,5 @@
 ---
-title: "Endless creativity and fun with smart LEGO® bricks using Pybricks"
+title: "Get creative with your smart LEGO® bricks using Pybricks"
 ---
 
 ![](/assets/images/blocks/pybricks-blocks-2.png)

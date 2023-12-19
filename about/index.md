@@ -54,11 +54,11 @@ collection of [example projects](https://pybricks.com/projects/)
 and [additional tools](https://github.com/pybricks)
 shared by Pybricks users all around the world.
 
-## Pybricks is open source
+## Pybricks Python coding is open source
 
-Pybricks is free and open source. It's released under the MIT license.
-You can read, try, and even change our code via
-our [GitHub page](https://github.com/pybricks/).
+Pybricks Python coding is free and open source. It's released under the MIT
+license. You can read, try, and even change our code via our [GitHub
+page](https://github.com/pybricks/).
 
 Pybricks builds on [MicroPython](http://micropython.org/), which is a
 super-efficient version of Python that can run on the microcontrollers

@@ -1,16 +1,16 @@
 main:
   - title: "Code"
-    url: https://code.pybricks.com
-  - title: "Getting Started"
+    url: https://beta.pybricks.com
+  - title: "Get Started"
     url: /install/
-  - title: "API Documentation"
+  - title: "Documentation"
     url: https://docs.pybricks.com/en/latest/
   - title: "Projects"
     url: /projects/
   - title: "Community"
     url: https://github.com/pybricks/support/
-  - title: "About"
-    url: /about/
+  - title: "Pricing"
+    url: /premium/
 
 install:
   - title: Installing Pybricks
@@ -30,11 +30,6 @@ install:
         url: /install/using-powered-up-hubs/
       - title: "Running programs"
         url: /install/running-programs/
-
-  - title: Code with Blocks
-    children:
-      - title: "Unlock blocks"
-        url: /install/block-access/
 
   - title: MINDSTORMS EV3
     children:

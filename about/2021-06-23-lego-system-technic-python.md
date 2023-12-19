@@ -45,10 +45,10 @@ This includes
 installation tutorials and coding projects shared by the Pybricks community,
 ultimately aiming for examples for all Powered Up sets ever released.
 
-Pybricks is entirely free and open source, supported by a community of
-developers and LEGO enthusiasts around the world. Improvements are made almost
-every day, with the lead developers actively engaging with the community for
-ideas, bug fixes, and brand new features. 
+Pybricks Python coding is entirely free and open source, supported by a
+community of developers and LEGO enthusiasts around the world. Improvements are
+made almost every day, with the lead developers actively engaging with the
+community for ideas, bug fixes, and brand new features. 
 
 So grab your LEGO sets and [start coding](https://code.pybricks.com)!
 

@@ -12,9 +12,9 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/home-code-2.png
     alt: "Powerful"
-    title: "Python for LEGO hubs"
-    excerpt: "Pybricks is Python coding for smart LEGO® hubs. Run
-              MicroPython scripts directly on the hub, and get full control of
+    title: "Coding for LEGO® hubs"
+    excerpt: "Pybricks is Python and Block coding for smart LEGO® hubs. Run
+              programs directly on the hub, and get full control of
               your motors and sensors."
     url: "/about/"
     btn_class: "btn--primary"
@@ -28,15 +28,15 @@ feature_row:
     url: "/install/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home-community.png
+  - image_path: /assets/images/home-blocks.svg
     alt: "community"
-    title: "Community supported"
-    excerpt: "Pybricks is used by students, teachers, and hobbyists
-              all around the world. It's free, open source, and 
-              supported by a community of robotics experts."
-    url: "/about/"
+    title: "Now with block coding!"
+    excerpt: "Pybricks is now more accessible than ever. Python coding is
+              free and open source, while supporters of the project get
+              exclusive access to additional features like block coding."
+    url: "/premium/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Pricing & features"      
 ---
 
 {% include feature_row %}
