@@ -56,7 +56,7 @@ options, volume discounts, or participation in our affiliate program.
 ## How to unlock the app with a license
 
 You'll be prompted to sign in automatically when you open a block project in
-the <a href="https://beta.pybricks.com/" target="_blank">Pybricks app</a>. Or
+the <a href="https://code.pybricks.com/" target="_blank">Pybricks app</a>. Or
 just click the user icon in the top right corner.
 
 Enter your licence code and click _Activate_, as shown below.
@@ -112,8 +112,24 @@ devices, operating systems, and browsers may become impractical or untenable.
 
 Please see the [terms and conditions](../legal) for more details.
 
+## Stable and beta version
+
+There are two versions of the Pybricks app:
+
+- [Pybricks Code](https://code.pybricks.com/) is the version that most users
+  should use. It is well tested and stable. It is updated several times a year.
+
+- [Pybricks Beta](https://beta.pybricks.com/) is frequently updated with new
+  features and bug fixes. It is recommended for experienced users who want to
+  try out new features and provide feedback.
+
+Each version has its own set of user programs. You can always download your
+files in one version and upload them in the other.
+
+If you code with blocks, you can login to both versions at the same time.
+
 [using-license]: #how-to-unlock-the-app-with-a-license
-[app]: https://beta.pybricks.com
+[app]: https://code.pybricks.com
 [support]: https://github.com/pybricks/support/
 [test]: #running-a-free-test-program
 [perpetual]: #what-does-lifetime-or-perpetual-mean

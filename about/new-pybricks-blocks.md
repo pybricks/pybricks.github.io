@@ -29,7 +29,7 @@ can do it with Pybricks.
 
 Pybricks is beginner-friendly and easy to use. There’s no need to install
 complicated apps or libraries either. Just go to
-[https://beta.pybricks.com](https://beta.pybricks.com), update the firmware,
+[https://code.pybricks.com](https://code.pybricks.com), update the firmware,
 and start coding.
 
 And now for the first time, no prior Python coding experience is required. You
@@ -51,7 +51,7 @@ supported by a community of developers and LEGO enthusiasts around the world.
 Improvements are made almost every day, with the lead developers actively
 engaging with the community for ideas, bug fixes, and brand new features. 
 
-So grab your LEGO sets and [start coding](https://beta.pybricks.com)!
+So grab your LEGO sets and [start coding](https://code.pybricks.com)!
 
 ## Features and insights
 
