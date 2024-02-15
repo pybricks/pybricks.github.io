@@ -33,7 +33,6 @@ breadcrumbs: true
 # Exclude from processing.
 exclude:
   - "*README*"
-  - "*.py"
   - "*.code-workspace"
   - Gemfile
   - Gemfile.lock
