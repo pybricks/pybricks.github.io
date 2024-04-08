@@ -1,9 +1,45 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Code"
+    url: https://code.pybricks.com
+  - title: "Get Started"
+    url: /install/
+  - title: "Documentation"
+    url: https://docs.pybricks.com/en/latest/
+  - title: "Projects"
+    url: /projects/
+  - title: "Community"
+    url: https://github.com/pybricks/support/
+  - title: "Pricing"
+    url: /premium/
+
+install:
+  - title: Installing Pybricks
+    children:
+      - title: "Overview"
+        url: /install/
+
+  - title: Powered Up
+    children:
+      - title: "Installing Pybricks Code"
+        url: /install/pybricks-code/
+      - title: "Installing Pybricks on the Technic Hub, BOOST Move Hub, and City Hub"
+        url: /install/technic-boost-city/
+      - title: "Installing Pybricks on the SPIKE Prime Hub and MINDSTORMS Inventor Hub"
+        url: /install/spike-mindstorms/
+      - title: "Using Powered Up hubs"
+        url: /install/using-powered-up-hubs/
+      - title: "Running programs"
+        url: /install/running-programs/
+
+  - title: MINDSTORMS EV3
+    children:
+      - title: "Installing on the EV3 brick"
+        url: /install/mindstorms-ev3/installation/
+      - title: "Using the EV3 brick"
+        url: /install/mindstorms-ev3/using-the-brick/
+      - title: "Running programs"
+        url: /install/mindstorms-ev3/running-programs/
+      - title: "Beyond MicroPython"
+        url: /install/mindstorms-ev3/beyond-micropython/
+      - title: "Using older versions"
+        url: /install/mindstorms-ev3/versions/
