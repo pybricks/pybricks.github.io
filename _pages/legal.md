@@ -2,6 +2,9 @@
 title: "Legal"
 toc: true
 permalink: /legal/
+author_profile: false
+toc_sticky: false
+share: false
 ---
 
 Please see the table of contents on the right for the privacy policy, terms and

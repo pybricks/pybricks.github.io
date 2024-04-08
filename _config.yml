@@ -95,8 +95,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
       related: true
   # _pages
@@ -106,6 +106,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: true
+      toc: true
+      toc_sticky: true
 
 category_archive:
   type: liquid
