@@ -1,0 +1,87 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Colors */
+$primary-color: #0088CE; // Pybricks blue
+$footer-background-color: $primary-color;
+
+// syntax highlighting to match Pybricks Code
+// source: https://github.com/ajaxorg/ace/blob/master/lib/ace/theme/xcode.css
+// destination: https://github.com/mmistakes/minimal-mistakes/blob/master/_sass/minimal-mistakes/_syntax.scss
+$base00: #fff; // background
+$base04: #008E00; // comment
+$base05: #000; // default
+$base06: $base00; // background?
+$base08: $base05; // name
+$base09: #3A00DC; // literal
+$base0a: #790EAD; // class/type
+$base0b: #DF0002; // string
+$base0c: #C800A4; // operator
+$base0d: #450084; // function
+$base0e: $base0c; // keyword
+
+@import "minimal-mistakes";
+@import "copy-button";
+@import "projects";
+
+.nav__list .nav__items .active {
+    color: $primary-color; // highlight current page
+}
+
+.page__title {
+    line-height: initial; // Resets spacing so multi-line H1 titles look better.
+}
+
+.page__content h2 {
+    border-bottom-color: lighten($text-color, 50%); // fix faint lines
+}
+
+.page__footer {
+    color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
+}
+
+// external link icon in navbar
+
+.greedy-nav a[href^="https"] {
+    position: relative;
+}
+
+.greedy-nav a[href^="https"]::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    font-size: x-small;
+    content: "\00a0\f35d";
+    position: absolute;
+    top: 0;
+    right: -13px; // Adjust this value as needed
+}
+
+// styling for nested lists
+
+ol ol li {
+    list-style: lower-alpha;
+}
+
+ol ol ol li {
+    list-style: lower-roman;
+}
+
+div.highlighter-rouge,
+figure.highlight {
+    border: 1px solid black;
+    font-size: 0.65em; // allows 70 columns without horizontal scrolling
+}
+
+kbd {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: smaller;
+    padding-inline: 3px;
+}

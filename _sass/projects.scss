@@ -1,0 +1,17 @@
+.project-buttons {
+    margin-block: 20px;
+
+    .btn {
+        margin-inline: 3px;
+    }
+}
+
+// make sure code takes up less than window height
+.highlighter-rouge {
+    max-height: 80vh;
+    overflow: auto;
+}
+
+pre.highlight {
+    overflow: unset;
+}
