@@ -23,6 +23,7 @@ description: >- # Ignore new lines
 github_username: pybricks
 minimal_mistakes_skin: default
 search: true
+logo: /assets/images/bio/pybricks-logo.png
 
 # Build settings
 markdown: kramdown
