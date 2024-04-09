@@ -1,0 +1,136 @@
+---
+layout: default
+---
+
+{% include get-set-name.html%}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}</h1>
+          {% if page_type == "sets" %}
+          <p><i>Python code and building instructions for the LEGO {{theme.title}} {{set.title}} ({{set.number}}).</i></p>
+          {% endif %}
+          {% include page__meta.html %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {% if page.toc %}
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+            </nav>
+          </aside>
+        {% endif %}
+
+        <div class="project-buttons">
+          {% if page.building_instructions %}
+          <!-- Link to instructions hosted locally -->
+          {% if page.building_instructions.local %}
+          {% assign bi_link = page.url | append: page.building_instructions.local %}
+          {% else %}
+          <!-- Otherwise, check for links to instructions hosted externally -->
+            {% if page.building_instructions.external.first %}
+            <!-- Multiple booklets, so make list at bottom of page -->
+            {% assign bi_link = "#building-instructions" %}
+            {% else %}
+            <!-- Single external link -->
+            {% assign bi_link = page.building_instructions.external %}
+            {% endif %}
+          {% endif %}
+
+          <!-- Button with BI link -->
+          <a href="{{bi_link}}" target="_blank" class="btn btn--primary"><i class="fas fa-puzzle-piece"></i>&nbsp;Building instructions</a>
+          {% endif %}
+
+          <!-- Button with code link -->
+          {% if page.code %}
+          <a href="{{page.code}}" target="_blank" class="btn btn--primary"><i class="fas fa-laptop"></i>&nbsp;Python code</a>
+          {% endif %}
+
+          <!-- Button with project link -->
+          {%- assign slug = page.url | split: '/projects/' -%}
+          {%- assign size = slug[1] | size | minus: 1 -%}
+          {%- assign project = slug[1] | slice: 0 , size -%}
+          <a href="https://github.com/pybricks/pybricks-projects/tree/master/{{ project }}" target="_blank" class="btn btn--primary"><i class="fas fa-edit"></i>&nbsp;Improve project</a>
+        </div>
+
+        <figure style="max-width: 400px; margin-left: auto; margin-right: auto">
+            <img src="{{ page.url }}{{ page.image.local }}" alt="{{page.title}}">
+            {% if page.image.credit %}
+            <figcaption>Image credit: {{page.image.credit}}</figcaption>
+            {% endif %}
+        </figure>
+
+        <p>{{ page.description }}</p>
+
+        {% if page.video.youtube %}
+        <p>
+          <lite-youtube videoid="{{ page.video.youtube }}"></lite-youtube>
+          <script src="/assets/js/lite-yt-embed.js"></script>
+        </p>
+        {% endif %}
+
+        <hr>
+
+        {{ content }}
+
+        <!-- Building instructions for multiple booklets -->
+        {% if page.building_instructions.external.first %}
+          <h2 id="building-instructions">Building instructions</h2>
+          <ul>
+          {% assign button_index = 0 %}
+          {% for url in page.building_instructions.external %}
+          {% assign button_index =  button_index | plus: 1 %}
+          <li>
+          <a href="{{ url }}" target="_blank"> Building instructions part {{ button_index }}</a>
+          </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+        <!-- Submitter section -->
+        <hr class="solid">
+        <p><i>
+          This project was submitted by
+          <a href="https://github.com/{{page.maintainer.user}}" target="_blank">
+          {% if page.maintainer.name %}{{page.maintainer.name}}{% else %}@{{page.maintainer.user}}{% endif %}</a>.
+        </i></p>
+
+
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+        {% include page__date.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
+    </div>
+
+  </article>
+
+</div>

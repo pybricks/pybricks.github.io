@@ -34,17 +34,20 @@ paginate: 5 # amount of posts to show
 paginate_path: "blog/page:num"
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*README*"
+  - "*.code-workspace"
+  - projects/AUTHORS.md
+  - projects/CONTRIBUTING.md
+  - projects/LICENSE
+  - projects/setup.cfg
 
 # Plugins (previously gems:)
 plugins:
@@ -136,6 +139,15 @@ defaults:
       share: false
       toc: false
       toc_sticky: true
+  - scope: # Revisit: drop legacy projects
+      path: "projects"
+      type: pages
+    values:
+      layout: project
+      author_profile: false
+      toc: false
+
+
 
 category_archive:
   type: liquid

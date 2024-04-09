@@ -1,0 +1,44 @@
+{%- comment -%}
+
+!This file will be deprecated in the future!
+
+This file assumes a page URL has the following format:
+
+/projects/{sets,tutorials}/THEME/SET/ACTIVITY[/SUBACTIVITY]
+
+THEME is one of "boost", "city", "technic", "spike-prime",
+"mindstorms-robot-inventor", "mindstorms-ev3"
+
+SET is the name of a LEGO set in that theme
+
+ACTIVITY is the name of an activity you can do with the set
+
+SUBACTIVITY is an optional subactivity that can be done with ACTIVITY
+
+The following variables are provided by this include:
+
+* page_type: The {sets,tutorials} portion of the URL
+* type: The jekyll page variable for the page at type_url
+* theme: The jekyll page variable for the page at theme_url
+* set: The jekyll page variable for the page at set_url
+
+{%- endcomment -%}
+
+{%- assign url_split = page.url | split: '/' -%}
+
+{%- assign type_url = '/' -%}
+{%- for item in url_split offset: 1 limit: 2 -%}
+{%- assign type_url = type_url | append: item -%}
+{%- assign type_url = type_url | append: '/' -%}
+{%- endfor -%}
+
+{%- assign theme_url = type_url | append: url_split[3] -%}
+{%- assign theme_url = theme_url | append: '/' -%}
+
+{%- assign set_url = theme_url | append: url_split[4] -%}
+{%- assign set_url = set_url | append: '/' -%}
+
+{%- assign page_type = url_split[2] -%}
+{%- assign type = site.pages | where: "url", type_url | first -%}
+{%- assign theme = site.pages | where: "url", theme_url | first -%}
+{%- assign set = site.pages | where: "url", set_url | first -%}
