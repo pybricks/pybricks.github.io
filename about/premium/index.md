@@ -5,7 +5,7 @@ redirect_from:
   - "/install/block-access/"
 ---
 
-![pybricks options](/assets/images/premium/pybricks-lifetime.jpg)
+![pybricks options](pybricks-lifetime.jpg)
 
 - *Bring all your smart LEGO® bricks together in a single app for endless
   possibilities and creativity.*
@@ -94,7 +94,7 @@ Now you can start coding!
 
 Once you're signed up, you can see the full toolbox and start building programs.
 
-![hello world demo](/assets/images/premium/hello_world_demo.png)
+![hello world demo](hello_world_demo.png)
 
 ## What does "perpetual" mean?
 
