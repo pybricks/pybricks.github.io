@@ -1,5 +1,8 @@
 ---
 title: "Installing Pybricks: Overview"
+redirect_from:
+  - /learn-python
+  - /install/todo
 ---
 
 If your LEGO set works with a Bluetooth app, chances are it works
