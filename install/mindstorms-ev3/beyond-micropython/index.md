@@ -16,7 +16,7 @@ on it using the *command line*. It is also called the *terminal*.
 Follow the steps shown below to access the command line. Now
 you can enter commands by typing them in and pressing <kbd>Enter</kbd>.
 
-![screenshot of terminal label](/assets/images/terminal_label.png)
+![screenshot of terminal label](terminal_label.png)
 
 ### Running basic commands
 

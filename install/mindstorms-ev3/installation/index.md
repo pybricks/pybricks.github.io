@@ -1,5 +1,7 @@
 ---
 title: "Installing Pybricks on LEGO MINDSTORMS EV3"
+redirect_from: # there is no base ev3 page, so redirect it to this first install page
+  - /install/mindstorms-ev3
 ---
 
 This page guides you through the steps to collect and install everything you
@@ -22,7 +24,7 @@ To get started, you'll need:
 
 The typical configuration of this equipment is shown below:
 
-![](/assets/images/overview_label.png)
+![](overview_label.png)
 
 ## Preparing your computer
 
@@ -35,7 +37,7 @@ steps below to download and install it:
 4. Open the extensions tab.
 5. Install the EV3 MicroPython extension as shown below.
 
-![](/assets/images/store_label.png)
+![](store_label.png)
 
 ## Preparing the microSD card
 
@@ -70,7 +72,7 @@ To install the MicroPython tools on your microSD card:
    3. Start the flashing process. This may take several minutes. Do not
       remove the card until the flashing process is complete.
 
-![](/assets/images/etcher_label.png)
+![](etcher_label.png)
 
 ## Updating the microSD card
 

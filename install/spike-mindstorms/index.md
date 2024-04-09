@@ -2,7 +2,7 @@
 title: "Installing Pybricks on the SPIKE Prime Hub and the MINDSTORMS Inventor Hub"
 ---
 
-![Powered Up hubs](/assets/images/primeinventorhub.png)
+![Powered Up hubs](primeinventorhub.png)
 
 This page shows how you can install Pybricks on the *LEGO Education SPIKE
 Prime/Essential*, and *LEGO MINDSTORMS Robot Inventor* using the [Pybricks Code]

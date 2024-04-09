@@ -2,7 +2,7 @@
 title: "Installing Pybricks on the Technic Hub, BOOST Move Hub, and City Hub"
 ---
 
-![Powered Up hubs](/assets/images/powereduphubs.png){:width="75%"}
+![Powered Up hubs](powereduphubs.png){:width="75%"}
 
 This page shows how you can install Pybricks on the BOOST *Move Hub*, the *City
 Hub*, and the *Technic Hub* using the [Pybricks Code][Pybricks Code] interface.
@@ -55,7 +55,7 @@ is which firmware file we upload. This means you can go back to the original
 firmware any time. As shown in the video below, just put the hub in update mode
 and connect using a LEGO app.
 
-<video controls src="/assets/videos/restore.mp4" width="100%"></video><br />
+<video controls src="restore.mp4" width="100%"></video><br />
 
 This video shows the Powered Up app in *create* mode. It has firmware for all
 hubs. As usual, you may need to restart the app to detect the hub. If it fails,

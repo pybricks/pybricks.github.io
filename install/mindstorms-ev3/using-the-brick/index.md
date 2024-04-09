@@ -8,7 +8,7 @@ brick.
 Make sure the EV3 Brick is turned off. Insert the microSD card
 into the microSD card slot on the EV3 Brick as shown below.
 
-![](/assets/images/sd_label.png)
+![](sd_label.png)
 
 
 ## Turning the EV3 Brick on and off
@@ -23,14 +23,14 @@ green.
 To turn the EV3 Brick off, open the shutdown menu with the back button, and
 then select *Power Off* using the center button:
 
-![](/assets/images/onoff_label.png)
+![](onoff_label.png)
 
 ## Viewing motor and sensor values
 
 When you're not running a program, you can view motor and sensor values using
 the device browser:
 
-![](/assets/images/devicebrowser_label.png)
+![](devicebrowser_label.png)
 
 ## Running a program without a computer
 
@@ -39,7 +39,7 @@ You can run previously downloaded programs directly from the EV3 Brick.
 To do so, find the program using the *file browser* on the EV3 screen and press
 the center button to start the program:
 
-![](/assets/images/manualrun_label.png)
+![](manualrun_label.png)
 
 ## Going back to the original firmware
 
