@@ -2,7 +2,7 @@
 title: "Make your LEGO® System & LEGO® Technic creations come alive with Python coding using Pybricks"
 ---
 
-[![](/assets/images/press/pybricks1.png)](/assets/images/press/pybricks1.png)
+[![](pybricks1.png)](pybricks1.png)
 
 - *Fans of all LEGO themes can now code with Python to make their creations
   move and respond to their surroundings.*
@@ -32,7 +32,7 @@ Just go to
 and start coding. Numerous real-world examples will get you started in no time.
 
 
-[![](/assets/images/press/pybricks2.png)](/assets/images/press/pybricks2.png)
+[![](pybricks2.png)](pybricks2.png)
 
 
 Meanwhile, more seasoned builders and coders will enjoy advanced features such

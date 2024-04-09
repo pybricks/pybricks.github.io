@@ -2,7 +2,7 @@
 title: "Get creative with your smart LEGO® bricks using Pybricks"
 ---
 
-![](/assets/images/blocks/pybricks-blocks-2.png)
+[![](pybricks-blocks-2.png)](pybricks-blocks-2.png)
 
 - *For the first time ever, fans of all LEGO themes can bring their smart bricks
   together in a single app for endless possibilities and creativity.*
@@ -55,24 +55,24 @@ So grab your LEGO sets and [start coding](https://code.pybricks.com)!
 
 ## Features and insights
 
-![codepreview](/assets/images/blocks/codepreview.png)
+[![codepreview](codepreview.png)](codepreview.png)
 *Get live Python code preview.*
 
-![setup](/assets/images/blocks/pybricks-blocks-2.png)
+[![setup](pybricks-blocks-2.png)](pybricks-blocks-2.png)
 *A dedicated setup
 section helps you keep big projects organized. Enter robot dimensions for
  accurate navigation using the gyro.*
 
-![multitask](/assets/images/blocks/multitask.png)
+[![multitask](multitask.png)](multitask.png)
 *Multitasking is easy with dedicated blocks.*
 
-![devices](/assets/images/blocks/devices.png)
+[![devices](devices.png)](devices.png)
 *Use all motors, and sensors. If the cable fits, it just works.*
 
-![documentation](/assets/images/blocks/pybricks-blocks-docs.png)
+[![documentation](pybricks-blocks-docs.png)](pybricks-blocks-docs.png)
 *Easily access documentation for all blocks.*
 
-![openproject](/assets/images/blocks/openproject.png)
+[![openproject](openproject.png)](openproject.png)
 *Choose between blocks and Python, or even use them together!*
 
 ## Example projects
@@ -86,7 +86,7 @@ you gradually explore common coding patterns before jumping into Python.
 
 And it's saved directly on the hub, so you can take it anywhere!
 
-![builder](/assets/images/blocks/builder.png)
+[![builder](builder.png)](builder.png)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TXvCEK1MNGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
