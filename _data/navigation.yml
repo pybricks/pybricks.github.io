@@ -45,7 +45,7 @@ install:
         url: /install/mindstorms-ev3/versions/
 
 about:
-  - title: Overview?
+  - title: Overview
     children:
       - title: "What is Pybricks?"
         url: /about/

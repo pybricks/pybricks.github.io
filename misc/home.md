@@ -4,14 +4,14 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/home-banner_label.png
+  overlay_image: /misc/images/home-banner_label.png
   actions:
     - label: "<i class='fas fa-play-circle'></i> Start coding with Blocks & Python!"
       url: "https://code.pybricks.com"
 excerpt: >
   Robotics made easy
 feature_row:
-  - image_path: /assets/images/home-code-2.png
+  - image_path: /misc/images/home-code-2.png
     alt: "Powerful"
     title: "Coding for LEGO® hubs"
     excerpt: "Pybricks is Python and Block coding for smart LEGO® hubs. Run
@@ -20,7 +20,7 @@ feature_row:
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home-compatibility.jpg
+  - image_path: /misc/images/home-compatibility.jpg
     alt: "Compatible"
     title: "Complete compatibility"
     excerpt: "Pybricks runs on LEGO® BOOST,
@@ -29,7 +29,7 @@ feature_row:
     url: "/install/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home-blocks.svg
+  - image_path: /misc/images/home-blocks.svg
     alt: "community"
     title: "Now with block coding!"
     excerpt: "Pybricks is now more accessible than ever. Python coding is

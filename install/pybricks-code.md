@@ -2,7 +2,7 @@
 title: "Installing Pybricks Code"
 ---
 
-<img src="/assets/images/home-code-2.png" />
+![Pybricks Code](/misc/images/home-code-2.png)
 
 ## System requirements
 
