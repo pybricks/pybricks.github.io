@@ -1,8 +1,6 @@
 ---
 title: "Endless creativity and fun with smart LEGO® bricks for Pybricks Supporters"
-permalink: /premium
-toc: true
-toc_sticky: true
+redirect_from: "/premium/"
 ---
 
 ![pybricks options](/assets/images/premium/pybricks-lifetime.jpg)

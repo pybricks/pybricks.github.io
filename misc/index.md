@@ -35,7 +35,7 @@ feature_row:
     excerpt: "Pybricks is now more accessible than ever. Python coding is
               free and open source, while supporters of the project get
               exclusive access to additional features like block coding."
-    url: "/premium/"
+    url: "/about/premium/"
     btn_class: "btn--primary"
     btn_label: "Pricing & features"      
 ---

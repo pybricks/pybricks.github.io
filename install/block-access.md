@@ -5,7 +5,7 @@ title: "How to unlock Pybricks Block Coding"
 ![block coding](/assets/images/blocks/pybricks-blocks-1.png)
 
 **Updated 21 December 2023:** New purchases are now processed
-automatically by [our new store](../../premium/).
+automatically by [our new store](../../about/premium/).
 
 Previous purchases via Patreon will continue to work as before.
 

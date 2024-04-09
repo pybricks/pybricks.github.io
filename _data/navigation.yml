@@ -10,7 +10,7 @@ main:
   - title: "Community"
     url: https://github.com/pybricks/support/
   - title: "Pricing"
-    url: /premium/
+    url: /about/premium/
 
 install:
   - title: Installing Pybricks
@@ -49,6 +49,8 @@ about:
     children:
       - title: "What is Pybricks?"
         url: /about/
+      - title: "Block-based coding"
+        url: /about/premium/
 
   - title: Press releases
     children:

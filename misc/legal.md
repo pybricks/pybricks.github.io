@@ -210,7 +210,7 @@ made via our Partners Fastspring and Patreon.
 We cannot provide refunds for purchases made due to USB or Bluetooth
 connectivity issues, or other technical issues. Users are encouraged to
 thoroughly [test these functionalities for
-free](https://pybricks.com/premium/#running-a-free-test-program) before
+free](https://pybricks.com/about/premium/#running-a-free-test-program) before
 purchasing a license to ensure compatibility with their devices.
 
 ### 1.2. Price Changes
