@@ -69,7 +69,7 @@ also lets you deactivate your license so you can use it on another device.
 If you experience any issues signing in, please [email us](mailto:sales@pybricks.com).
 For technical support and questions, please use the [support page][support].
 
-![signin instructions](/assets/images/premium/signin_label.png)
+{% include diagram.html data="image-signin" %}
 
 ## Running a free test program
 
@@ -134,4 +134,4 @@ If you code with blocks, you can login to both versions at the same time.
 [app]: https://code.pybricks.com
 [support]: https://github.com/pybricks/support/
 [test]: #running-a-free-test-program
-[perpetual]: #what-does-lifetime-or-perpetual-mean
+[perpetual]: #what-does-perpetual-mean
