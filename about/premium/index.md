@@ -3,6 +3,24 @@ title: "Endless creativity and fun with smart LEGO® bricks for Pybricks Support
 redirect_from:
   - "/premium/"
   - "/install/block-access/"
+signin_image:
+  image: /about/premium/signin.png
+  alt: Signin instructions.
+  width: 100%
+  labels:
+    - text: 1. Open login dialog.
+      x: 90%
+      y: 4%
+      location: left
+    - text: 2. Enter your key.
+      x: 50%
+      y: 77%
+      location: right
+    - text: 3. Activate.
+      x: 35%
+      y: 84%
+      location: below
+
 ---
 
 ![pybricks options](pybricks-lifetime.jpg)
@@ -69,7 +87,7 @@ also lets you deactivate your license so you can use it on another device.
 If you experience any issues signing in, please [email us](mailto:sales@pybricks.com).
 For technical support and questions, please use the [support page][support].
 
-{% include diagram.html data="image-signin" %}
+{% include diagram.html data=page.signin_image %}
 
 ## Running a free test program
 

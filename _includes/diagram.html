@@ -1,4 +1,12 @@
-{% assign data = site.data[include.data] %}
+{% comment %}
+Pass in an object defined in page front matter, or as a .yml file in the _data directory.
+{% endcomment %}
+
+{% if site.data[include.data] %}    
+    {% assign data = site.data[include.data] %}
+{% else %}
+    {% assign data = include.data %}
+{% endif %}
 
 {% assign length = 30 %}
 {% assign thickness = 3 %}
