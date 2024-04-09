@@ -97,33 +97,32 @@ All of the following projects can now be made with block coding!
 -----
 *Smart autonomous trains*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UpA2erJfGQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="UpA2erJfGQY" %}
 
 -----
 *Technic hub with train remote*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/N7OmW-7u8fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="N7OmW-7u8fA" %}
 
 -----
 *Hub to hub communication*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i--8nBvNn_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="i--8nBvNn_4" %}
 
 -----
 *Use all moden LEGO hubs together, just like bricks of all ages!*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4pbSTq4WUvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="4pbSTq4WUvg" %}
 
 -----
 *Automatic Roller Coaster*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XyT5AaslSaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="XyT5AaslSaY" %}
 
 -----
 *Programs are saved on the hub, and you can use the buttons*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lTucJIUhj3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+{% include youtube.html videoid="lTucJIUhj3k" %}
 
 ## Contact
 

@@ -86,6 +86,10 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/pybricks"
 
+after_footer_scripts:
+  - assets/js/copy-code.js
+  - assets/js/lite-yt-embed.js
+
 defaults:
   # _posts, indexed automatically based on filename, linked via tags, categories.
   - scope:
