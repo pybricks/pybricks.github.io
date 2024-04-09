@@ -1,7 +1,6 @@
 ---
 title: "About Pybricks"
 toc: true
-permalink: /about
 gallery:
   - url: /assets/images/bio/laurens.jpg
     image_path: /assets/images/bio/laurens.jpg

@@ -43,3 +43,18 @@ install:
         url: /install/mindstorms-ev3/beyond-micropython/
       - title: "Using older versions"
         url: /install/mindstorms-ev3/versions/
+
+about:
+  - title: Overview?
+    children:
+      - title: "What is Pybricks?"
+        url: /about/
+
+  - title: Press releases
+    children:
+      - title: "2021: Release for Powered Up"
+        url: /about/2021-06-23-lego-system-technic-python/
+      - title: "2023: Block based coding"
+        url: /about/new-pybricks-blocks/
+      - title: "Latest news"
+        url: /blog/

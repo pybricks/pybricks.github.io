@@ -34,9 +34,6 @@ paginate: 5 # amount of posts to show
 paginate_path: "blog/page:num"
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-include:
-  - _pages
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -89,7 +86,7 @@ footer:
       url: "https://www.instagram.com/pybricks"
 
 defaults:
-  # _posts
+  # _posts, indexed automatically based on filename, linked via tags, categories.
   - scope:
       path: ""
       type: posts
@@ -100,7 +97,7 @@ defaults:
       comments: false
       share: true
       related: true
-  # install pages
+  # Install pages, indexing based on directory structure
   - scope:
       path: "install"
       type: pages
@@ -112,9 +109,21 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "install"
-  # Other, in _pages
+  # About pages, indexing based on directory structure
   - scope:
-      path: "_pages"
+      path: "about"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "about"
+  # Other pages, indexing based on unique permalink for each page.
+  - scope:
+      path: "misc"
       type: pages
     values:
       layout: single

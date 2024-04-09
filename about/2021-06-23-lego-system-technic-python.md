@@ -1,6 +1,5 @@
 ---
 title: "Make your LEGO® System & LEGO® Technic creations come alive with Python coding using Pybricks"
-permalink: /about/2021-06-23-lego-system-technic-python
 ---
 
 [![](/assets/images/press/pybricks1.png)](/assets/images/press/pybricks1.png)

@@ -1,6 +1,5 @@
 ---
 title: "Get creative with your smart LEGO® bricks using Pybricks"
-permalink: /about/new-pybricks-blocks
 ---
 
 ![](/assets/images/blocks/pybricks-blocks-2.png)
