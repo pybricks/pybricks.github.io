@@ -31,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /project/:title/
 paginate: 5 # amount of posts to show
-paginate_path: "blog/page:num"
+paginate_path: "latest/page:num"
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 exclude:
@@ -48,7 +48,7 @@ exclude:
   - projects/CONTRIBUTING.md
   - projects/LICENSE
   - projects/setup.cfg
-  # - projects # Legacy projects. Should be enabled until all projects converted
+  - projects # Legacy projects. Should be enabled until all projects converted
 
 # Plugins (previously gems:)
 plugins:
@@ -59,7 +59,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-redirect-from
-  - jekyll-archives
 
 author:
   name   : "Laurens Valk"
@@ -119,6 +118,15 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "install"
+  # Tag index / archive pages
+  - scope:
+      path: "project"
+      type: pages
+    values:
+      layout: project-tag
+      author_profile: false
+      share: true
+      toc: false
   # About pages, indexing based on directory structure
   - scope:
       path: "about"
