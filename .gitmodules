@@ -1,3 +1,4 @@
 [submodule "projects"]
 	path = projects
 	url = https://github.com/pybricks/pybricks-projects.git
+	branch = master

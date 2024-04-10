@@ -1,4 +1,6 @@
-# Running
+# Pybricks.com website
+
+## Building
 
 ```
 bundle
