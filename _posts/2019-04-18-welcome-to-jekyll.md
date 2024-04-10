@@ -1,10 +1,8 @@
 ---
 title: "Driving the LEGO® Technic 4X4 X-treme Off-Roader (42099) with the Powered Up Train Remote"
-categories:
-  - Project
 tags:
   - Technic
-  - "42099"
+  - "LEGO 42099"
 
 ---
 

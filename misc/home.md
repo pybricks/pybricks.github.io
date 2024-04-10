@@ -1,6 +1,8 @@
 ---
 layout: splash
 permalink: /
+redirect_from:
+  - /categories/
 hidden: true
 header:
   overlay_color: "#5e616c"
