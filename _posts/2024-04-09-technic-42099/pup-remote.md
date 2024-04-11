@@ -11,6 +11,8 @@ tags:
   - Python
 redirect_from:
   - /projects/sets/technic/42099-off-roader/powered-up-remote/
+header:
+  teaser: /assets/images/project/42099/powered-up-remote-truck.jpg
 ---
 
 This post has been updated and should show a modified date if used in a layout.

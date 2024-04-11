@@ -25,6 +25,10 @@ minimal_mistakes_skin: default
 search: true
 logo: /misc/images/pybricks-logo.png
 
+# Defaults, can be overridden in each post/page
+teaser: /pybricks-og.png
+og_image: /pybricks-og.png
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
