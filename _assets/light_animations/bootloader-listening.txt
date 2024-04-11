@@ -1,2 +1,0 @@
-bootloader_purple 400
-off 200

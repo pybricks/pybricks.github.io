@@ -10,7 +10,7 @@ main:
   - title: "Community"
     url: https://github.com/pybricks/support/
   - title: "Pricing"
-    url: /premium/
+    url: /about/premium/
 
 install:
   - title: Installing Pybricks
@@ -44,24 +44,19 @@ install:
       - title: "Using older versions"
         url: /install/mindstorms-ev3/versions/
 
-learn-python:
-  - title: Preparation
+about:
+  - title: Overview
     children:
-      - title: "Building the Explorer Robot"
-        url: /learn-python/todo/
-      - title: "Your first script"
-        url: /learn-python/your-first-script/
-      - title: "Running programs"
-        url: /learn-python/todo/
-      - title: "Saving programs"
-        url: /learn-python/todo/
-      - title: "Copying examples"
-        url: /learn-python/todo/
+      - title: "What is Pybricks?"
+        url: /about/
+      - title: "Block-based coding"
+        url: /about/premium/
 
-  - title: First steps with Python
+  - title: Press releases
     children:
-      - title: "Changing parameters"
-        url: /learn-python/todo/
-      - title: "Program flow"
-        url: /learn-python/todo/
-
+      - title: "2021: Release for Powered Up"
+        url: /about/2021-06-23-lego-system-technic-python/
+      - title: "2023: Block based coding"
+        url: /about/new-pybricks-blocks/
+      - title: "Latest news"
+        url: /latest/

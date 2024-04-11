@@ -1,0 +1,14 @@
+
+<figure class="">
+    <a href="{{ site.baseurl }}{{ include.path }}">
+        <img src="{{ site.baseurl }}{{ include.path }}" 
+        {% if include.width %} style="width: {{ include.width }};" {% endif %}
+        {% if include.caption %} alt="{{ include.caption }}" {% endif %}
+        />
+    </a>
+    {% unless include.caption == nil %}
+    <figcaption>
+    {{ include.caption }}
+    </figcaption>
+    {% endunless %}
+</figure>

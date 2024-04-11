@@ -1,4 +1,0 @@
-off 1200
-pybricks_ui_orange 300
-off 400
-pybricks_ui_orange 300

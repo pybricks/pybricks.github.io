@@ -1,0 +1,56 @@
+{% comment %}
+Pass in an object defined in page front matter, or as a .yml file in the _data directory.
+{% endcomment %}
+
+{% if site.data[include.data] %}    
+    {% assign data = site.data[include.data] %}
+{% else %}
+    {% assign data = include.data %}
+{% endif %}
+
+{% assign length = 30 %}
+{% assign thickness = 3 %}
+
+<div style="position: relative; display: block; width: {{ data.width }}; margin-left: auto; margin-right: auto;">
+    <img src="{{ data.image }}" alt="{{ data.alt }}">
+    {% for label in data.labels %}
+    {% if label.location == 'below' %}
+    <div class="label-line" style="top: {{ label.y }}; left: calc({{ label.x }}); transform: translateX(-50%); width: {{ thickness }}px; height: {{ length }}px;"></div>
+    <div class="label-text" style="top: calc({{ label.y }} + {{ length }}px); left: {{ label.x }}; transform: translateX(-50%);">
+        {{ label.text }}
+    </div>
+    {% endif %}
+    {% if label.location == 'above' %}
+    <div class="label-line" style="bottom: calc(100% - {{ label.y }}); left: calc({{ label.x }}); transform: translateX(-50%); width: {{ thickness }}px; height: {{ length }}px;"></div>
+    <div class="label-text" style="bottom: calc(100% - {{ label.y }} + {{ length }}px); left: {{ label.x }}; transform: translateX(-50%);">
+        {{ label.text }}
+    </div>
+    {% endif %}
+    {% if label.location == 'right' %}
+    <div class="label-line" style="top: calc({{ label.y }}); left: {{ label.x }}; transform: translateY(-50%); width: {{ length }}px; height: {{ thickness }}px;"></div>
+    <div class="label-text" style="top: {{ label.y }}; left: calc({{ label.x }} + {{ length }}px); transform: translateY(-50%);">
+        {{ label.text }}
+    </div>
+    {% endif %}
+    {% if label.location == 'left' %}
+    <div class="label-line" style="top: calc({{ label.y }}); right: calc(100% - {{ label.x }}); transform: translateY(-50%); width: {{ length }}px; height: {{ thickness }}px;"></div>
+    <div class="label-text" style="top: {{ label.y }}; right: calc(100% - {{ label.x }} + {{ length }}px); transform: translateY(-50%);">
+        {{ label.text }}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<style>
+    .label-line {
+        position: absolute;
+        background-color: black;
+    }
+    .label-text {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 10px;
+        border: {{ thickness }}px solid black;
+        border-radius: 20px;
+    }
+</style>

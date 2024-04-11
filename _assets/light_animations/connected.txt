@@ -1,1 +1,0 @@
-pybricks_ui_blue 1000

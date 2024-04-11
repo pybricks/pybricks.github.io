@@ -1,4 +1,6 @@
 /**
+ * css/js vendored from https://github.com/paulirish/lite-youtube-embed
+ * 
  * A lightweight youtube embed. Still should feel the same to the user, just MUCH faster to initialize and paint.
  *
  * Thx to these as the inspiration

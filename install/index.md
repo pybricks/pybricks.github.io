@@ -1,8 +1,8 @@
 ---
 title: "Installing Pybricks: Overview"
-sidebar:
-  nav: "install"
-toc: true
+redirect_from:
+  - /learn-python
+  - /install/todo
 ---
 
 If your LEGO set works with a Bluetooth app, chances are it works
@@ -19,7 +19,7 @@ the same way.
 
 ### Pybricks Code
 
-[![Pybricks Code](/assets/images/home-code-2.png){:width="75%"}](/install/pybricks-code)
+[![Pybricks Code](pybricks-code/pybricks-code.png){:width="75%"}](/install/pybricks-code)
 
 [Pybricks Code] is the app used for programming Powered Up hubs using Pybricks.
 [Click to learn more!](/install/pybricks-code).
@@ -28,7 +28,7 @@ the same way.
 
 ### Technic / BOOST / City
 
-[![Powered Up hubs](/assets/images/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
+[![Powered Up hubs](technic-boost-city/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
 
 These hubs come in some Technic, BOOST, Train, and City sets. They share the
 same installation method.
@@ -44,7 +44,7 @@ on a train track or follow lines without skipping a beat!
 
 ### SPIKE / MINDSTORMS
 
-[![Powered Up hubs](/assets/images/primeinventorhub.png)](/install/spike-mindstorms)
+[![Powered Up hubs](spike-mindstorms/primeinventorhub.png)](/install/spike-mindstorms)
 
 These hubs come in the LEGO Education SPIKE Prime set and the LEGO MINDSTORMS
 Robot Inventor sets.
@@ -62,14 +62,14 @@ more accurate too. More exciting features are on the way as well!
 
 ### Running programs
 
-[![Pybricks Code](/assets/images/home-code-2.png)](/install/running-programs)
+[![Pybricks Code](pybricks-code/pybricks-code.png)](/install/running-programs)
 
 Once you've installed Pybricks firmware on any of the hubs above, you're ready
 to start coding. [Click to get started!](/install/running-programs)
 
 ## MINDSTORMS EV3
 
-[![EV3 Brick](/assets/images/ev3brick.png){:width="50%"}](/install/mindstorms-ev3/installation)
+[![EV3 Brick](mindstorms-ev3/ev3brick.png){:width="50%"}](/install/mindstorms-ev3/installation)
 
 Pybricks also continues to support LEGO MINDSTORMS EV3.
 

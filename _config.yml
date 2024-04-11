@@ -14,32 +14,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Pybricks
-email:
-description: "Pybricks is Python for LEGO robotics. Learn to code and make your creations come alive."
+email: team@pybricks.com
+description: >- # Ignore new lines
+  Pybricks lets you code your LEGO® creations to make them come alive. Learn to
+  build and code your own creations, or follow along with our tutorials.
+  Pybricks works with LEGO MINDSTORMS, SPIKE Prime, LEGO Technic, LEGO City
+  Trains, LEGO Boost, and more.
 github_username: pybricks
+minimal_mistakes_skin: default
 search: true
-logo: /assets/images/bio/pybricks-logo.png
+logo: /misc/images/pybricks-logo.png
+
+# Defaults, can be overridden in each post/page
+teaser: /pybricks-og.png
+og_image: /pybricks-og.png
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: pretty
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: Etc/UTC
-breadcrumbs: true
+permalink: /project/:title/
+paginate: 6 # amount of posts to show
+paginate_path: "project/page:num"
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Exclude from processing.
 exclude:
-  - "*README*"
-  - "*.code-workspace"
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*README*"
+  - "*.code-workspace"
   - projects/AUTHORS.md
   - projects/CONTRIBUTING.md
   - projects/LICENSE
   - projects/setup.cfg
+  # - projects # Legacy projects. Should be enabled until all projects converted
 
 # Plugins (previously gems:)
 plugins:
@@ -49,38 +62,102 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
+
+author:
+  name   : "Laurens Valk"
+  avatar : "/about/laurens.jpg"
+  bio    : >
+    Let's build, code, and learn!
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://pybricks.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pybricks"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/pybricks"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@pybricks"
 
 footer:
   links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/Pybricks/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pybricks/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/Pybricks/"
+      url: "https://github.com/pybricks"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/pybricks"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@pybricks"
 
 after_footer_scripts:
   - assets/js/copy-code.js
+  - assets/js/lite-yt-embed.js
 
 defaults:
+  # _posts, indexed automatically based on filename, linked via tags, categories.
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
       related: true
+  # Install pages, indexing based on directory structure
   - scope:
-      path: ""
+      path: "install"
       type: pages
     values:
       layout: single
       author_profile: false
+      share: true
+      toc: true
       toc_sticky: true
+      sidebar:
+        nav: "install"
+  # Tag index / archive pages
   - scope:
+      path: "project"
+      type: pages
+    values:
+      layout: project-tag
+      author_profile: false
+      share: true
+      toc: false
+  # About pages, indexing based on directory structure
+  - scope:
+      path: "about"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "about"
+  # Other pages, indexing based on unique permalink for each page.
+  - scope:
+      path: "misc"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      toc: false
+      toc_sticky: true
+  - scope: # Revisit: drop legacy projects
       path: "projects"
       type: pages
     values:
@@ -88,9 +165,23 @@ defaults:
       author_profile: false
       toc: false
 
-category_archive:
-  type: liquid
-  path: /categories/
+
+# This controls how the tags/categories are *displayed* below the posts.
+# category_archive:
+#   type: jekyll-archives
+#   path: /
 tag_archive:
-  type: liquid
-  path: /tags/
+  type: jekyll-archives
+  path: /project/
+
+# This controls how the tags/categories are *generated*, so must match the above.
+jekyll-archives:
+  enabled:
+    # - categories
+    - tags
+  layouts:
+    # category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    # category: /categories/:name/
+    tag: /project/:name/

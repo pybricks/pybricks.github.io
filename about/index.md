@@ -2,13 +2,13 @@
 title: "About Pybricks"
 toc: true
 gallery:
-  - url: /assets/images/bio/laurens.jpg
-    image_path: /assets/images/bio/laurens.jpg
+  - url: /about/laurens.jpg
+    image_path: /about/laurens.jpg
     alt: "Laurens"
     title: "Laurens is a robotics engineer who enjoys building, coding, and
             explaining how stuff works."
-  - url: /assets/images/bio/david.jpg
-    image_path: /assets/images/bio/david.jpg
+  - url: /about/david.jpg
+    image_path: /about/david.jpg
     alt: "David"
     title: "David is a Linux maintainer and Powered Up expert who will make
             things work in absolutely no time."
@@ -28,7 +28,7 @@ start writing code with Pybricks in no time.
 
 ## What makes Pybricks different?
 
-![](/assets/images/home-compatibility.jpg)
+![](/misc/images/home-compatibility.jpg)
 
 Pybricks provides a super easy and powerful robotics coding experience across
 the full spectrum of modern LEGO sets. Sensors, motors, and programmable hubs

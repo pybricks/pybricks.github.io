@@ -1,4 +1,0 @@
-bootloader_blue 500
-bootloader_green 500
-bootloader_red 500
-off 20
