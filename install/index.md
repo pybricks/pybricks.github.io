@@ -28,7 +28,7 @@ the same way.
 
 ### Technic / BOOST / City
 
-[![Powered Up hubs](using-powered-up-hubs/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
+[![Powered Up hubs](technic-boost-city/powereduphubs.png){:width="75%"}](/install/technic-boost-city)
 
 These hubs come in some Technic, BOOST, Train, and City sets. They share the
 same installation method.
