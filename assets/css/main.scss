@@ -151,3 +151,10 @@ kbd {
 .grid__wrapper .grid__item:nth-child(4) {
     display: none;
 }
+
+.archive__item-teaser {
+
+  @include breakpoint($medium) {
+    max-height: 108px !important;
+  }
+}

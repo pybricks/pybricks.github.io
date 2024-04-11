@@ -66,21 +66,22 @@ plugins:
 
 author:
   name   : "Laurens Valk"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I make things."
+  avatar : "/about/laurens.jpg"
+  bio    : >
+    Let's build, code, and learn!
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Mastodon"
-      icon: "fas fa-fw fa-rss-square"
-      url: "https://fosstodon.org/@laurensvalk"
+      url: "https://pybricks.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pybricks"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/pybricks"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@pybricks"
 
 footer:
   links:
@@ -93,6 +94,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/pybricks"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@pybricks"
 
 after_footer_scripts:
   - assets/js/copy-code.js
