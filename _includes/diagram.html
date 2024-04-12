@@ -11,6 +11,7 @@ Pass in an object defined in page front matter, or as a .yml file in the _data d
 {% assign length = 30 %}
 {% assign thickness = 3 %}
 
+<div style="margin-bottom: 10px;">
 <div style="position: relative; display: block; width: {{ data.width }}; margin-left: auto; margin-right: auto;">
     <img src="{{ data.image }}" alt="{{ data.alt }}">
     {% for label in data.labels %}
@@ -40,17 +41,24 @@ Pass in an object defined in page front matter, or as a .yml file in the _data d
     {% endif %}
     {% endfor %}
 </div>
+{% unless include.caption == nil %}
+<figcaption>
+{{ include.caption }}
+</figcaption>
+{% endunless %}
+</div>
 
 <style>
     .label-line {
         position: absolute;
-        background-color: black;
+        background-color: #3d4144;
     }
     .label-text {
         position: absolute;
+        color: #3d4144;
         background-color: rgba(255, 255, 255, 1);
-        padding: 10px;
-        border: {{ thickness }}px solid black;
-        border-radius: 20px;
+        padding: 5px;
+        border: {{ thickness }}px solid #3d4144;
+        border-radius: 10px;
     }
 </style>

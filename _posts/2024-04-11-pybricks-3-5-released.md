@@ -5,7 +5,6 @@ tags:
   - Block Coding
   - Xbox Controller
 toc: true
-toc_sticky: true
 excerpt: >
   What's new in in Pybricks 3.5? Comment block, Xbox Controller rumble,
   keyboard input, and more!
@@ -71,7 +70,7 @@ caption="Now you can disable the stop button and use it for something else."
 
 We've added support for reading the buttons and joysticks of the Xbox
 Controller in the previous release. But now you can also make the controller
-rumble in order to create haptic feedback. This can be great for immersive
+rumble in order to creatoince haptic feedback. This can be great for immersive
 remote control driving!
 
 {% include scaled.html

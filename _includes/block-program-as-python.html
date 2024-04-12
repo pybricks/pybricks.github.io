@@ -1,0 +1,22 @@
+{% if include.show_intro == true %}
+# Running it as a Python program
+
+You can also run this project as a Python (MicroPython) program. The following
+code was generated from the <a href="#block-program">block program</a> above.
+To run it, create a new empty Python program in Pybricks and copy the code into
+it.
+{% endif %}
+
+{% include copy-code.html %}
+```python
+{% include programs/{{ include.path }}.py %}
+```
+<figcaption>
+{% if include.caption == nil %}
+Python representation of the block program.
+{% else %}
+{{ include.caption }}
+{% endif %}
+</figcaption>
+
+

@@ -1,0 +1,24 @@
+image: /assets/images/project/import.png
+alt: Import a Pybricks Code project.
+width: 100%
+labels:
+  - text: files
+    x: 5.5%
+    y: 26%
+    location: below
+  - text: import
+    x: 34.5%
+    y: 30%
+    location: below
+  - text: open
+    x: 20%
+    y: 40%
+    location: below
+  - text: connect
+    x: 50%
+    y: 28%
+    location: above
+  - text: run
+    x: 59%
+    y: 32%
+    location: right

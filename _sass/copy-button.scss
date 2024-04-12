@@ -1,6 +1,13 @@
 .code-header {
   display: flex;
   justify-content: flex-end;
+  a {
+    text-decoration: none !important;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
 }
 
 .copy-code-button {
@@ -20,5 +27,13 @@
     &::after {
       content: "\00a0\f00c"; // check
     }
+  }
+}
+
+.download-code-button {
+  @extend .copy-code-button;
+
+  &::after {
+    content: "\00a0\f019"; // download
   }
 }

@@ -52,7 +52,6 @@ exclude:
   - projects/CONTRIBUTING.md
   - projects/LICENSE
   - projects/setup.cfg
-  # - projects # Legacy projects. Should be enabled until all projects converted
 
 # Plugins (previously gems:)
 plugins:
@@ -114,6 +113,8 @@ defaults:
       comments: false
       share: true
       related: true
+      toc: true
+      toc_sticky: true
   # Install pages, indexing based on directory structure
   - scope:
       path: "install"

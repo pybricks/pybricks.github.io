@@ -152,3 +152,9 @@ kbd {
     display: none;
 }
 
+// Hide the first line of code in a python program is if it is a comment.
+// This hides the long json blob that represents the block. It can be
+// downloaded instead.
+.highlight span.c1:first-child {
+  display: none;
+}

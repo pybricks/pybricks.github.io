@@ -4,5 +4,3 @@ project_tag: Remote Control
 ---
 
 
-technic!!!
-
