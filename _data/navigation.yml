@@ -6,7 +6,7 @@ main:
   - title: "Documentation"
     url: https://docs.pybricks.com/en/latest/
   - title: "Projects"
-    url: /projects/
+    url: /project/
   - title: "Community"
     url: https://github.com/pybricks/support/
   - title: "Pricing"
