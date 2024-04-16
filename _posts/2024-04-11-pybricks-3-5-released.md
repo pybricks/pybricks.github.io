@@ -30,8 +30,8 @@ This has been a [much requested feature][request-comment-block], and it's
 finally here! You can now add comments to your code to clarify what it does.
 This helps you and others understand your code better.
 
-{% include scaled.html
-path="/assets/images/news/new-comment-block.png"
+{% include block-program.html
+path="block_comment"
 caption="The new comment block in Pybricks."
 width="75%"
 %}
@@ -46,8 +46,8 @@ Until now, the drive base reset option was only available in Python. By popular
 request, we've now made a block available as well. This can be really useful
 when re-aligning your robot between runs if you don't want to stop your program.
 
-{% include scaled.html
-path="/assets/images/news/new-drivebase-reset-block.png"
+{% include block-program.html
+path="block_drivebase_reset"
 caption="The new drive base reset block in Pybricks."
 %}
 
@@ -61,20 +61,21 @@ button, so you can still have some user interaction.
 For example, the following program disables the stop button on the Essential
 Hub. The button is instead used to change the color of the light.
 
-{% include scaled.html
-path="/assets/images/news/new-program-stop-block.png"
+{% include block-program.html
+path="block_stop_button"
 caption="Now you can disable the stop button and use it for something else."
+width="80%"
 %}
 
 # Xbox Controller rumble support
 
 We've added support for reading the buttons and joysticks of the Xbox
 Controller in the previous release. But now you can also make the controller
-rumble in order to creatoince haptic feedback. This can be great for immersive
+rumble in order to create haptic feedback. This can be great for immersive
 remote control driving!
 
-{% include scaled.html
-path="/assets/images/news/new-xbox-rumble-block.png"
+{% include block-program.html
+path="block_rumble"
 caption="You can make the Xbox Controller rumble to create force feedback."
 width="80%"
 %}
@@ -84,9 +85,14 @@ To complement the print block, you can now also get input from the keyboard
 by typing in the input/output pane. This can be useful to test your creations
 by activating different movements depending on which key you press.
 
+{% include block-program.html
+path="block_keyboard"
+width="80%"
+caption="You can now read keyboard input from the input/output pane."
+%}
+
 {% include scaled.html
 path="/assets/images/news/new-input-block.png"
-caption="You can now read keyboard input from the input/output pane."
 %}
 
 
