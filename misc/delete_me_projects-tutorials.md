@@ -26,4 +26,4 @@ Learn to install development tools and contribute code to Pybricks.
 This category includes bigger projects with any number of hubs, elements, or
 coding tools. No instructions, but lots of inspiration.
 
-{% include project-link.html type="tutorials" theme="remix" image="/assets/images/home-compatibility.jpg" image_width="40%" %}
+{% include project-link.html type="tutorials" theme="remix" image="/misc/images/home-compatibility.jpg" image_width="40%" %}
