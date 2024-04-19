@@ -15,6 +15,5 @@ Similarly, it sets the drive power to:
 - otherwise to -100% when you press the right **-** button,
 - otherwise to 0%
 
-You could achieve the same effect using conventional if-else blocks. You can
-see this in the video below. The ternary block makes the code more compact and
-easier to read.
+You could achieve the same effect using conventional if-else blocks. The
+ternary block makes the code more compact and easier to read.
