@@ -12,7 +12,8 @@ tags:
 redirect_from:
   - /projects/sets/technic/42099-off-roader/powered-up-remote/
 header:
-  teaser: /assets/images/project/42099/powered-up-remote-truck.jpg
+  teaser: /assets/images/project/42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up.jpg
+  og_image: /assets/images/project/42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up-og.jpg
 excerpt: >
   Control the LEGO® Technic 4X4 X-treme Off-Roader (42099) with the Powered Up
   Remote. No phone needed!
@@ -26,7 +27,7 @@ phone screen all time time. You can also use this setup to create your own
 remote-controlled cars with Pybricks.
 
 {% include scaled.html
-  path="/assets/images/project/42099/powered-up-remote-truck.jpg"
+  path="/assets/images/project/42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up.jpg"
   caption="Driving the LEGO® Technic 4X4 X-treme Off-Roader (42099) with the Powered Up Train Remote."
 %}
 
@@ -71,13 +72,12 @@ easier to read.
 
 {% include pybricks-intro.md %}
 
-
 # The truck in action
 
 When you're ready, you can drive the truck as shown below. Make sure to turn
 on the remote when you start the truck program, so that the hub can find it.
 
-{% include youtube.html videoid="msru8kz5tR4" %}
+{% include youtube.html videoid="eUNr36tyokc" %}
 
 {%
   include block-program-as-python.html
