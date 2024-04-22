@@ -8,8 +8,6 @@ tags:
   - Xbox Controller
   - Block Coding
   - Python
-redirect_from:
-  - /projects/sets/technic/42109-top-gear-rally-car/xbox/
 header:
   teaser: /assets/images/project/42109/lego-technic-top-gear-rally-car-42109-xbox.jpg
   og_image: /assets/images/project/42109/lego-technic-top-gear-rally-car-42109-xbox-og.jpg

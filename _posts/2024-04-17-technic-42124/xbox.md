@@ -8,8 +8,6 @@ tags:
   - Xbox Controller
   - Block Coding
   - Python
-redirect_from:
-  - /projects/sets/technic/42124-off-road-buggy/xbox/
 header:
   teaser: /assets/images/project/42124/lego-technic-off-road-buggy-42124-xbox.jpg
   og_image: /assets/images/project/42124/lego-technic-off-road-buggy-42124-xbox-og.jpg
