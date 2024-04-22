@@ -20,6 +20,8 @@ controller when the program starts. When the connection is successful, the
 controller light will stop flashing and stay on for as long as the program is
 running.
 
+You can see this in the video below.
+
 ## Connecting without pairing
 
 The next time you use it, pairing is not required. Just turn the controller on.
