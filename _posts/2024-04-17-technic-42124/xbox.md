@@ -9,8 +9,8 @@ tags:
   - Block Coding
   - Python
 header:
-  teaser: /assets/images/project/42124/lego-technic-off-road-buggy-42124-xbox.jpg
-  og_image: /assets/images/project/42124/lego-technic-off-road-buggy-42124-xbox-og.jpg
+  teaser: /project/lego-42124/lego-technic-off-road-buggy-42124-xbox.jpg
+  og_image: /project/lego-42124/lego-technic-off-road-buggy-42124-xbox-og.jpg
 excerpt: >
   Control the LEGO® Technic Off-Road Buggy (42124) with the Xbox
   Controller. Drive smoothly and precisely with the analog inputs.
@@ -26,7 +26,7 @@ You can also use this setup to
 create your own remote-controlled cars with Pybricks.
 
 {% include scaled.html
-  path="/assets/images/project/42124/lego-technic-off-road-buggy-42124-xbox.jpg"
+  path="/project/lego-42124/lego-technic-off-road-buggy-42124-xbox.jpg"
   caption="Driving the LEGO® Technic Off-Road Buggy (42124) with the Xbox Controller."
 %}
 

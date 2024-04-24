@@ -9,8 +9,8 @@ tags:
   - Block Coding
   - Python
 header:
-  teaser: /assets/images/project/42109/lego-technic-top-gear-rally-car-42109-powered-up.jpg
-  og_image: /assets/images/project/42109/lego-technic-top-gear-rally-car-42109-powered-up-og.jpg
+  teaser: /project/lego-42109/lego-technic-top-gear-rally-car-42109-powered-up.jpg
+  og_image: /project/lego-42109/lego-technic-top-gear-rally-car-42109-powered-up-og.jpg
 excerpt: >
   Control the LEGO® Technic Top Gear Rally Car (42109) with the Powered Up
   Remote. No phone needed!
@@ -24,7 +24,7 @@ phone screen all time time. You can also use this setup to create your own
 remote-controlled cars with Pybricks.
 
 {% include scaled.html
-  path="/assets/images/project/42109/lego-technic-top-gear-rally-car-42109-powered-up.jpg"
+  path="/project/lego-42109/lego-technic-top-gear-rally-car-42109-powered-up.jpg"
   caption="Driving the LEGO® Technic Top Gear Rally Car (42109) with the Powered Up Train Remote."
 %}
 

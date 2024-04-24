@@ -11,8 +11,8 @@ tags:
 redirect_from:
   - /projects/sets/technic/42099-off-roader/powered-up-remote/
 header:
-  teaser: /assets/images/project/42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up.jpg
-  og_image: /assets/images/project/42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up-og.jpg
+  teaser: /project/lego-42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up.jpg
+  og_image: /project/lego-42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up-og.jpg
 excerpt: >
   Control the LEGO® Technic 4X4 X-treme Off-Roader (42099) with the Powered Up
   Remote. No phone needed!
@@ -26,7 +26,7 @@ phone screen all time time. You can also use this setup to create your own
 remote-controlled cars with Pybricks.
 
 {% include scaled.html
-  path="/assets/images/project/42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up.jpg"
+  path="/project/lego-42099/lego-technic-4x4-xtreme-off-roader-42099-powered-up.jpg"
   caption="Driving the LEGO® Technic 4X4 X-treme Off-Roader (42099) with the Powered Up Train Remote."
 %}
 

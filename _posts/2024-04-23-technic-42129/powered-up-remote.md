@@ -11,8 +11,8 @@ tags:
 redirect_from:
   - /projects/sets/technic/42129-mercedes-benz-zetros/powered-up-remote/
 header:
-  teaser: /assets/images/project/42129/lego-technic-4x4-mercedes-benz-42129-powered-up.jpg
-  og_image: /assets/images/project/42129/lego-technic-4x4-mercedes-benz-42129-powered-up-og.jpg
+  teaser: /project/lego-42129/lego-technic-4x4-mercedes-benz-42129-powered-up.jpg
+  og_image: /project/lego-42129/lego-technic-4x4-mercedes-benz-42129-powered-up-og.jpg
 excerpt: >
   Control the LEGO® Technic 4x4 Mercedes-Benz Zetros Trial Truck (42129) with
   the Powered Up Remote. No phone needed!
@@ -28,7 +28,7 @@ remote-controlled cars with Pybricks.
 You'll also use the remote to lock and unlock the differentials.
 
 {% include scaled.html
-  path="/assets/images/project/42129/lego-technic-4x4-mercedes-benz-42129-powered-up.jpg"
+  path="/project/lego-42129/lego-technic-4x4-mercedes-benz-42129-powered-up.jpg"
   caption="Driving the LEGO® Technic 4x4 Mercedes-Benz Zetros Trial Truck (42129) with the Powered Up Train Remote."
 %}
 
@@ -56,7 +56,7 @@ for the differentials. The program starts by setting up these motors accordingly
 {% include snippets/pup-remote-car.md %}
 
 {% include scaled.html
-  path="/assets/images/project/42129/ex_steering.jpg"
+  path="/project/lego-42129/ex_steering.jpg"
   caption="Close up of the steering mechanism."
 %}
 
@@ -75,12 +75,12 @@ current state of the differentials. The comments throughout the program explain
 how this works.
 
 {% include scaled.html
-  path="/assets/images/project/42129/ex_main_lock.jpg"
+  path="/project/lego-42129/ex_main_lock.jpg"
   caption="Central differential lock mechanism."
 %}
 
 {% include scaled.html
-  path="/assets/images/project/42129/ex_rear_lock.jpg"
+  path="/project/lego-42129/ex_rear_lock.jpg"
   caption="Rear differential lock mechanism."
 %}
 

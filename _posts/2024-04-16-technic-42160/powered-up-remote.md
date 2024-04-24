@@ -11,8 +11,8 @@ tags:
 redirect_from:
   - /projects/sets/technic/42160-audi-rs-q-e-tron/powered-up-remote/
 header:
-  teaser: /assets/images/project/42160/lego-technic-audi-rs-q-e-tron-42160-powered-up.jpg
-  og_image: /assets/images/project/42160/lego-technic-audi-rs-q-e-tron-42160-powered-up-og.jpg
+  teaser: /project/lego-42160/lego-technic-audi-rs-q-e-tron-42160-powered-up.jpg
+  og_image: /project/lego-42160/lego-technic-audi-rs-q-e-tron-42160-powered-up-og.jpg
 excerpt: >
   Control the LEGO® Technic Audi RS Q e-tron (42160) with the Powered Up
   Remote. No phone needed!
@@ -26,7 +26,7 @@ phone screen all time time. You can also use this setup to create your own
 remote-controlled cars with Pybricks.
 
 {% include scaled.html
-  path="/assets/images/project/42160/lego-technic-audi-rs-q-e-tron-42160-powered-up.jpg"
+  path="/project/lego-42160/lego-technic-audi-rs-q-e-tron-42160-powered-up.jpg"
   caption="Driving the LEGO® Technic Audi RS Q e-tron (42160) with the Powered Up Train Remote."
 %}
 
