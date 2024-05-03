@@ -3,7 +3,6 @@ title: "Driving the LEGO® Technic Cat D11 Bulldozer (42131) with the Powered Up
 tags:
   - Technic
   - LEGO 42131
-  - Steering Car
   - Remote Control
   - Powered Up Remote
   - Block Coding
