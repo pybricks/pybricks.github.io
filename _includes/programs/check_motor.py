@@ -1,0 +1,12 @@
+# pybricks blocks file:{"blocks":{"languageVersion":0,"blocks":[{"type":"blockGlobalSetup","id":"bjK,wS1MYO7aiYkFSwd{","x":0,"y":0,"deletable":false,"next":{"block":{"type":"variables_set_motor","id":"laWHZlfe,@z$;@r8Rdna","fields":{"VAR":{"id":"_0Ks0Qx;zI;$MT2x+4;W"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"zzO|#^Z5E?Zjs{j_=eos","fields":{"NAME":"B"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"?K;:kUJ84{~4JX7?q16b","fields":{"SELECTION":"Direction.CLOCKWISE"}}}}}}},{"type":"blockGlobalStart","id":"3tJe|AWl0baN(wH9a$@.","x":0,"y":148,"deletable":false,"next":{"block":{"type":"blockComment","id":"Qzk]zE{78!;IQNvx_=@e","fields":{"FIELDNAME":"This will  move the gripper motor by 90 degrees.\nIf it's not plugged into port B, we'll remind you."},"next":{"block":{"type":"blockMotorRun","id":"..:XLJF)meC6h?Ka(xYm","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":":4IB;K,Zfy7u]YRh6OoC","fields":{"VAR":{"id":"_0Ks0Qx;zI;$MT2x+4;W","name":"gripper","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"HuE#C`Zn^l6)gUK-qjXh","fields":{"VALUE0":500}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"gM~WUm:)e%Y`V4TRYC0S","fields":{"VALUE0":90}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"wGFVeny6WU06QKp%Jl/c","fields":{"VALUE":"Stop.HOLD"}}}}}}}}}]},"variables":[{"name":"red","id":"Xr]|?ON^d,NGBe2ODAiW","type":"ColorDef"},{"name":"orange","id":"WQ9rv=Qm6[se+ZNTl8f^","type":"ColorDef"},{"name":"yellow","id":"xo,Ullo;.F*6I^]Y8zz+","type":"ColorDef"},{"name":"green","id":"i{I%r]-h6uQ5%[FNB.1b","type":"ColorDef"},{"name":"cyan","id":"#IzqJrW7:=?kQ@nVSL.b","type":"ColorDef"},{"name":"blue","id":"1{*F.;Ao{Cv2eK0Lov5d","type":"ColorDef"},{"name":"violet","id":"p,bO,|r^H:?WXaAKZbvc","type":"ColorDef"},{"name":"magenta","id":"KwUo8[Ay;9=QvQpvwz@A","type":"ColorDef"},{"name":"white","id":"4aZzG789H1~+Ur|@.h$|","type":"ColorDef"},{"name":"none","id":"6^+ZsNhPo_xEEMZw%d(2","type":"ColorDef"},{"name":"gripper","id":"_0Ks0Qx;zI;$MT2x+4;W","type":"Motor"}],"info":{"type":"pybricks","version":"1.2.3"}}
+from pybricks.parameters import Direction, Port, Stop
+from pybricks.pupdevices import Motor
+
+# Set up all devices.
+gripper = Motor(Port.B, Direction.CLOCKWISE)
+
+
+# The main program starts here.
+# This will  move the gripper motor by 90 degrees.
+# If it's not plugged into port B, we'll remind you.
+gripper.run_angle(500, 90)
