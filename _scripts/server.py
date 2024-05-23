@@ -20,12 +20,17 @@ programs = {}
 script_dir = Path(__file__).parent.resolve()
 programs_dir = (script_dir / '../_includes/programs').resolve()
 
+START_LITERAL = '# pybricks blocks file:'
+
 # Iterate over all .py files in the directory
 for file_path in programs_dir.glob('*.py'):
     if redo_all or not file_path.with_suffix('.png').exists():
-        print(f'Including: {file_path}')
         with open(file_path, 'r') as f:
-            json_blob = f.read().splitlines()[0][len('# pybricks blocks file:'):]
+            data = f.read()
+            if START_LITERAL not in data:
+                continue
+            print(f'Including: {file_path}')
+            json_blob = data.splitlines()[0][len(START_LITERAL):]
             programs[file_path.stem] = json.loads(json_blob)
 
 class CORSHTTPRequestHandler(BaseHTTPRequestHandler):
