@@ -3,6 +3,11 @@ title: How to disable motor checks in multipurpose Pybricks programs
 tags:
   - Block Coding
   - Python
+  - Technic
+  - City
+  - Boost
+  - SPIKE Prime
+  - SPIKE Essential
 toc: true
 excerpt: >
   This article explains how to disable motor checks in multipurpose programs

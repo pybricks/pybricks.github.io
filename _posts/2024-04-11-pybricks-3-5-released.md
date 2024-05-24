@@ -4,6 +4,11 @@ tags:
   - News
   - Block Coding
   - Xbox Controller
+  - Technic
+  - City
+  - Boost
+  - SPIKE Prime
+  - SPIKE Essential
 toc: true
 excerpt: >
   What's new in in Pybricks 3.5? Comment block, Xbox Controller rumble,
@@ -73,6 +78,8 @@ We've added support for reading the buttons and joysticks of the Xbox
 Controller in the previous release. But now you can also make the controller
 rumble in order to create haptic feedback. This can be great for immersive
 remote control driving!
+
+Read more about it [here](../xbox-rumble).
 
 {% include block-program.html
 path="block_rumble"
