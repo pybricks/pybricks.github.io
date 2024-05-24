@@ -158,3 +158,13 @@ kbd {
 .highlight span.c1:first-child {
   display: none;
 }
+
+.responsive-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .responsive-image {
+    width: var(--img-width, 100%);
+  }
+}
