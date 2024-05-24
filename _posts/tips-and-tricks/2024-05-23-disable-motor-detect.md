@@ -82,6 +82,23 @@ The main things to remember are:
 - If a block you use is not supported by your motor, or nothing is plugged in,
   your program will just ignore that block instead of raising an error.
 
+# Making a simple battery box
+
+Perhaps the simplest but useful example is to turn your hub into a simple
+battery box, as shown below.
+
+{% include block-program.html
+path="check_battery_box"
+caption="A simple 'battery box' program."
+width="70%"
+%}
+
+This just turns the motors on if they are connected. They keep running until
+you stop the program using the button on the hub.
+
+As a result, you can start the motors by clicking the button, and click it
+again to turn them off. Just like a good old battery box!
+
 # Further exploration
 
 With that extra module in place, you can easily get creative with your
