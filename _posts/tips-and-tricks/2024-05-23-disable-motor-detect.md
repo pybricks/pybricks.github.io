@@ -7,6 +7,7 @@ tags:
   - City
   - Boost
   - SPIKE Prime
+  - MINDSTORMS Robot Inventor
   - SPIKE Essential
 toc: true
 excerpt: >

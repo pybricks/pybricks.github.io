@@ -5,6 +5,7 @@ tags:
   - Python
   - Technic
   - SPIKE Prime
+  - MINDSTORMS Robot Inventor
   - SPIKE Essential
   - Xbox Controller
   - Remote Control
