@@ -3,7 +3,6 @@ title: Building a LEGO MINDSTORMS Robot that balances on a ball
 tags:
   - Block Coding
   - Python
-  - SPIKE Prime
   - MINDSTORMS Robot Inventor
 toc: true
 excerpt: >
@@ -44,6 +43,10 @@ building a balancing robot with it. After many iterations, it worked!
 You can build this robot with the elements of the LEGO MINDSTORMS Robot
 Inventor set (51515). Click the image below to download the instructions. Just
 follow the steps and you'll have your robot ready in no time.
+
+You can also build this robot with the SPIKE Prime set. While the hub works
+the same, it comes with different building elements so you might want to check
+out [these instructions instead](../lego-spike-ball-balancer/).
 
 <a href="/project/mindstorms-robot-inventor/balancer/ball-balancer-mindstorms-robot-inventor.pdf" download>
 ![Building Instructions](/project/mindstorms-robot-inventor/balancer/ball-balancer-preview.png)
