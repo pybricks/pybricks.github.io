@@ -74,12 +74,10 @@ In this example, we'll make a menu with the letters:
 To run it, create a new _Python_ program. You can pick any name, such as `menu`
 and paste the following code into it.
 
-{%
-  include block-program-as-python.html
-  show_intro=false
-  path="menu"
-  caption=""
-%}
+{% include copy-code.html %}
+```python
+{% include programs/menu.py %}
+```
 
 When you run it, you'll see the letter ``H`` on the hub. You can toggle through
 the other letters with the left and right buttons. Press the center button to
@@ -165,12 +163,10 @@ in, and otherwise run the `hello_world` program from before.
 To do that, create a new _Python_ program. You can pick any name, such as
 `choose_program` and paste the following code into it.
 
-{%
-  include block-program-as-python.html
-  show_intro=false
-  path="choose_program"
-  caption=""
-%}
+{% include copy-code.html %}
+```python
+{% include programs/choose_program.py %}
+```
 
 This will try to run the `sensor_start` program. When the devices are not
 plugged in, this raises `OSError` so it will run the `hello_world` program

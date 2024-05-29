@@ -7,10 +7,19 @@ To run it, create a new empty Python program in Pybricks and copy the code into
 it.
 {% endif %}
 
+{% capture program_content %}{% include programs/{{ include.path }}.py %}{% endcapture %}
+
+{% assign program_split_on_new_line = program_content | split: "
+" %}
+
+{% assign program_lines_except_first = program_split_on_new_line | shift %}
+
 {% include copy-code.html %}
 ```python
-{% include programs/{{ include.path }}.py %}
+{{ program_lines_except_first | join: "
+" }}
 ```
+
 <figcaption>
 {% if include.caption == nil %}
 Python representation of the block program.
