@@ -5,6 +5,9 @@ tags:
   - Python
   - SPIKE Prime
   - MINDSTORMS Robot Inventor
+  - City
+  - Boost
+  - Technic
 toc: true
 excerpt: >
   This is how you can install multiple Pybricks programs on the hub, and add
@@ -75,6 +78,7 @@ and paste the following code into it.
   include block-program-as-python.html
   show_intro=false
   path="menu"
+  caption=""
 %}
 
 When you run it, you'll see the letter ``H`` on the hub. You can toggle through
@@ -135,4 +139,42 @@ program.
 
 For example, you could make the hub cycle through a set of colors with the hub
 button, and then choose a particular program by pressing the button a bit
-longer.
+longer. You can also select the import dynamically based on what's plugged in,
+as shown below.
+
+# Choose which program to run based on what is plugged in
+
+As an alternative to selecting a program using a menu, you can use a similar
+technique to automatically choose which program to run based on what is plugged
+in. This is useful if you have a robot that can do different things based on
+what sensors or motors are connected.
+
+To illustrate this, let's add another example program. This simple program
+start a DC Motor if the Boost Color and Distance sensor sees green, and stops
+it if it sees red.
+
+{% include block-program.html
+path="sensor_start"
+caption="The 'sensor_start' program"
+width="60%"
+%}
+
+Now suppose we want to run that program _if_ those devices are actually plugged
+in, and otherwise run the `hello_world` program from before.
+
+To do that, create a new _Python_ program. You can pick any name, such as
+`choose_program` and paste the following code into it.
+
+{%
+  include block-program-as-python.html
+  show_intro=false
+  path="choose_program"
+  caption=""
+%}
+
+This will try to run the `sensor_start` program. When the devices are not
+plugged in, this raises `OSError` so it will run the `hello_world` program
+instead.
+
+You can adapt this to your own project, and even nest these checks to choose
+between more than two programs.
