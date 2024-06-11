@@ -147,9 +147,9 @@ dashboard!
 
 ## Building instructions
 
-This example uses the SPIKE Essential set (45345) for inspiration, but you
-should be able to do this project with any LEGO set with similar motors and
-sensors.
+This example uses the {% include setlink.html id=45345 %} set for inspiration,
+but you should be able to do this project with any LEGO set with similar motors
+and sensors.
 
 Click the image below to download the instructions.
 

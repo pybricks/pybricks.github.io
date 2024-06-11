@@ -1,1 +1,8 @@
-{% assign data = site.data.links[include.id] %}{% assign id_as_number = include.id | plus: 0 %}<a href="https://www.amazon.com/dp/{{ data.asin }}/ref=nosim?tag=pybricks-20" target="_blank">{{ data.name }}{% if include.id == id_as_number %} ({{ include.id }}){% endif %}</a>
+{%- assign data = site.data.links[include.id] -%}
+{%- assign id_as_number = include.id | plus: 0 -%}
+{%- if include.id == id_as_number -%}
+    {%- assign link = "https://brickset.com/sets/" | append: id_as_number -%}
+{%- else -%}
+    {%- assign link = "https://www.amazon.com/dp/" | append: data.asin | append: "/ref=nosim?tag=pybricks-20" -%}
+{%- endif -%}
+<a href="{{ link }}" target="_blank">{{ data.name }}{% if include.id == id_as_number %} ({{ include.id }}){% endif %}</a>
