@@ -6,7 +6,7 @@
 
 <figure class="" style="margin-top: 0;">
     <a href="{{ site.baseurl }}/assets/programs/{{ include.path }}.png">
-        <img class="responsive-image" src="{{ site.baseurl }}/assets/programs/{{ include.path }}.png" 
+        <img class="responsive-image" src="{% if include.path_small %}{{ include.path_small }}{% else %}{{ site.baseurl }}/assets/programs/{{ include.path }}.png{% endif %}"
         {% if include.width %} style="--img-width: {{ include.width }};"  {% endif %}
         {% if include.caption %} alt="{{ include.caption }}" {% endif %}
         />

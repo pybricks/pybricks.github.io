@@ -1,7 +1,7 @@
 
 <figure class="" style="margin: 0 0;">
     <a href="{{ site.baseurl }}{{ include.path }}">
-        <img src="{{ site.baseurl }}{{ include.path }}" 
+        <img src="{{ site.baseurl }}{{ include.path_small | default: include.path }}" 
         {% if include.width %} style="width: {{ include.width }};" {% endif %}
         {% if include.caption %} alt="{{ include.caption }}" {% endif %}
         />
