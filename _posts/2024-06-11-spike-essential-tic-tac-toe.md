@@ -11,8 +11,6 @@ excerpt: >
 header:
   teaser: /project/spike-essential/spike-tic-tac-toe_small.jpg
   og_image: /project/spike-essential/spike-tic-tac-toe-og.jpg
-redirect_from:
-  - /projects/tutorials/wireless/hub-to-hub/pybricks-to-official-fw/
 ---
 
 A good way to practice more interesting coding concepts is to mimic a well
