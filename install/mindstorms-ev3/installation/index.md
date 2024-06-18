@@ -2,6 +2,7 @@
 title: "Installing Pybricks on LEGO MINDSTORMS EV3"
 redirect_from: # there is no base ev3 page, so redirect it to this first install page
   - /install/mindstorms-ev3
+  - /downloads
 ---
 
 This page guides you through the steps to collect and install everything you

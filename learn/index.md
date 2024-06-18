@@ -1,5 +1,5 @@
 ---
-title: "Learn Robotics and Coding with Pybricks"
+title: "Learn robotics and coding with Pybricks"
 excerpt: >
   Where do you begin if you're new to LEGO robotics and coding, you asked?
   This Pybricks guide is for you.
@@ -9,7 +9,10 @@ Pybricks is the all-in-one app for coding smart LEGO devices.
 But where do you begin if you're new to LEGO robotics and coding?
 If that's what you've been wondering, then this guide is for you.
 
-Been here before? Jump back in using the menu on the left.
+- Been here before? Jump back in using the left hand menu.
+- In a hurry? Go directly to the [installation instructions](/learn/getting-started/install-pybricks/).
+
+![Pybricks](/about/new-pybricks-blocks/pybricks-blocks-2.png)
 
 # Why Pybricks?
 
@@ -41,7 +44,7 @@ You'll need fewer blocks to do the same thing. When you do need a lot
 of blocks, you can break it down into separate functions or files so your team
 members can work and learn together.
 
-Or, as one team coach put it:
+Or, as one team coach puts it:
 
 > “The kids were able to code a mission in 20 minutes with Pybricks that had
 > taken at least an hour to code previously.”
@@ -92,9 +95,10 @@ you can apply it to any other design too!
 
 # How to follow this guide
 
-The Pybricks _learn_ pages are organized just like a book. Beginners can read
-it from start to finish. More seasoned builders can browse to their favorite
-topics right away. Just go back if you feel you're missing some background.
+The Pybricks _learn_ pages you're reading now are organized just like a book.
+Beginners can read them from start to finish. More seasoned builders can browse
+to their favorite topics right away. Just go back if you feel you're missing
+some background.
 
 Use the table of contents on the left to navigate to each chapter. The menu on
 the right helps you track your progress through the current chapter.
