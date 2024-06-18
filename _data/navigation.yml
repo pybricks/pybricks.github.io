@@ -44,6 +44,20 @@ install:
       - title: "Using older versions"
         url: /install/mindstorms-ev3/versions/
 
+learn:
+
+  - title: Introduction
+    children:
+      - title: "About this guide"
+        url: /learn/
+
+  - title: "1: Getting started"
+    children:
+      - title: "1.1: What do you need?"
+        url: /learn/getting-started/what-do-you-need/
+      - title: "1.2: Installing Pybricks"
+        url: /learn/getting-started/install-pybricks/
+
 about:
   - title: Overview
     children:
