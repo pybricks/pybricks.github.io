@@ -4,48 +4,163 @@ excerpt: >
   How to install Pybricks on LEGO SPIKE Prime, SPIKE Essential, Technic, City,
   and BOOST. On Windows, Mac, Linux and Chromebook.
 redirect_from:
-  - /install/pybricks-code
   - /install/technic-boost-city
   - /install/spike-mindstorms
-  - /install/using-powered-up-hubs
-  - /install/running-programs
-lego_hub_image:
-  image: /learn/getting-started/pybricks-powered-up-hubs.webp
-  alt: LEGO Powered Up Hubs.
+offline_use:
+  image: /learn/getting-started/offline.png
+  alt: Install the Pybricks firmware.
   width: 100%
   labels:
-    - text: City Hub
-      x: 7%
-      y: 8%
+    - text: Settings
+      x: 6%
+      y: 42%
       location: above
-    - text: Technic Hub
-      x: 35%
-      y: 8%
+    - text: Create app shortcut
+      x: 29%
+      y: 42%
+      location: right
+    - text: Ready for offline use
+      x: 29%
+      y: 75.5%
+      location: right
+beta_version:
+  image: /learn/getting-started/offline.png
+  alt: Install the Pybricks firmware.
+  width: 100%
+  labels:
+    - text: Settings
+      x: 6%
+      y: 42%
       location: above
-    - text: Move Hub
-      x: 75%
-      y: 8%
-      location: above
-    - text: Inventor Hub
-      x: 11%
-      y: 93%
+    - text: Check version
+      x: 19%
+      y: 70%
       location: below
-    - text: Prime Hub
-      x: 46%
-      y: 93%
-      location: below
-    - text: Essential Hub
-      x: 90%
-      y: 93%
-      location: below
-  margin_top: 75px
-  margin_bottom: 100px
+    - text: Try new beta features
+      x: 37%
+      y: 58%
+      location: right
+
+firmware_restore:
+  image: /learn/getting-started/install.png
+  alt: Install the Pybricks firmware.
+  width: 100%
+  labels:
+    - text: Settings
+      x: 8%
+      y: 40%
+      location: right
+    - text: Restore official LEGO firmware
+      x: 36%
+      y: 73%
+      location: right
 ---
 
-On this page, we'll show you how to install Pybricks on the LEGO _City Hub_,
-_Technic Hub_, BOOST _Move Hub_, MINDSTORMS Robot _Inventor Hub_, SPIKE _Prime
-Hub_, and the SPIKE _Essential Hub_, as shown below.
+Now that you've decided to use Pybricks, it's time to open the Pybricks app
+and install the Pybricks firmware on your hub.
 
-{% include diagram.html data=page.lego_hub_image %}
+If you prefer to get going right away, go
+to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>.
+Just follow the _Welcome Tour_ under _Help_ via the
+menu (⚙). Otherwise, stick around and we'll take you through the steps.
 
-TODO
+
+# The Pybricks "App"
+
+The Pybricks Code editor
+at <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>
+is a web page that looks and feels like an app. It includes everything you need
+to create and run and programs, and manage your LEGO hub.
+
+Once the page is fully loaded, you can use Pybricks offline.
+For more convenience, you can click to _install as app_. This creates an app
+shortcut for easy access to Pybricks.
+
+Pybricks is saved offline in your browser. If you delete your
+browser data, you need internet access again to load Pybricks.
+
+{% include diagram.html data=page.offline_use %}
+
+
+
+# Why update the firmware?
+
+You can think of your LEGO hub as a small computer. Just like your computer
+has an _operating system_ (like Windows or MacOS) to run _programs_ (like apps),
+the hub has _firmware_ to run the programs that you make.
+
+Out of the box, all LEGO hubs work in a different way. Pybricks makes them work
+the same using the Pybricks firmware.
+
+This enables all the unique features that Pybricks is known for, such as
+compatibility with all motors and sensors, improved robot navigation, saving
+your program on the hub, and so on.
+
+{% include diagram.html data="diagram-hubs" %}
+
+Fortunately, installing the Pybricks firmware is easy. You can recover to the
+original firmware at any time. If you have any doubts about the installation process,
+you can always try the [recovery process](#restoring-the-original-firmware)
+first, just to be sure.
+
+# Installing Pybricks on the hub
+
+You can install Pybricks on any of the hubs shown above. To get started,
+go to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>,
+open the settings menu (⚙), and click _install Pybricks firmware_:
+
+{% include diagram.html data="diagram-install" %}
+
+Then follow the on-screen instructions in five steps:
+
+1. Select your hub type and click _next_.
+2. Here you'll see the various software licenses used in the firmware. Once
+   you've read and accepted them, click _next_.
+3. If you have more than one hub, choose a unique name to tell them apart
+   later. Click _next_. (Classroom tip: Use easy to remember names such as
+   animals or city names. Add matching stickers or labels to each hub.)
+4. Here you'll see the instructions to put your hub in update mode. You can
+   watch the video to see what each step looks like. On some computers, you'll
+   see additional instructions to install an extra driver. Click _install_.
+5. You'll get a popup window to connect to your device. Once you do, the update
+   begins and you'll see an installation progress bar.
+
+# Restoring the original firmware
+
+The Pybricks installation process works just like a normal LEGO firmware
+update. This is why restoring the original is so easy.
+
+To recover the LEGO firmware, go to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>,
+open the settings menu (⚙), and click _Restore official LEGO firmware_. Choose
+your hub and follow the on-screen instructions.
+
+{% include diagram.html data=page.firmware_restore %}
+
+# Trying out new beta features
+
+Most users should use <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>, which is the stable version.
+If you are connected to the internet, app updates will automatically
+load when they becomes available.
+
+If you are curious about trying the latest fixes or features before they are
+finished, you can do so by clicking on _try new beta features_. This opens
+a separate window, with separate projects.
+
+{% include diagram.html data=page.beta_version %}
+
+If you use block coding with a license code, you can sign in to both versions
+at the same time.
+
+You may be prompted to install a new beta firmware version as well. The
+installation procedure works the same. When you go back to the stable version,
+you can install its corresponding firmware again.
+
+# Installing the nightly version
+
+Advanced users and contributors who want to help test the latest features can
+install a custom firmware. To do so, first start the firmware installation as
+[usual](#installing-pybricks-on-the-hub).
+
+Instead of selecting a hub on the
+first dialog, choose _Advanced_ and select your _zip_ file with
+the firmware. You can use the latest [_experimental_ firmware](https://nightly.link/pybricks/pybricks-micropython/workflows/build/master) files or the [source code](https://github.com/pybricks/pybricks-micropython) to build your own.

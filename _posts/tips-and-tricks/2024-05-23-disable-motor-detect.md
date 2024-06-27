@@ -58,7 +58,7 @@ and import it into the Pybricks editor so it
 shows up under your files:
 
 {% include scaled.html
-  path="/assets/images/project/import_module.png"
+  path="/learn/getting-started/import_module.png"
   caption="Add the 'allow_missing_motors' module to your Pybricks files."
   width="90%"
 %}

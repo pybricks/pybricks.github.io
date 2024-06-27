@@ -1,0 +1,31 @@
+image: /learn/getting-started/pybricks-powered-up-hubs.webp
+alt: LEGO Powered Up Hubs.
+caption: These LEGO hubs can be used with Pybricks.
+width: 100%
+labels:
+  - text: City Hub
+    x: 7%
+    y: 8%
+    location: above
+  - text: Technic Hub
+    x: 35%
+    y: 8%
+    location: above
+  - text: Move Hub
+    x: 75%
+    y: 8%
+    location: above
+  - text: Inventor Hub
+    x: 11%
+    y: 93%
+    location: below
+  - text: Prime Hub
+    x: 46%
+    y: 93%
+    location: below
+  - text: Essential Hub
+    x: 90%
+    y: 93%
+    location: below
+margin_top: 75px
+margin_bottom: 70px

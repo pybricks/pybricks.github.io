@@ -49,6 +49,8 @@ learn:
         url: /learn/getting-started/what-do-you-need/
       - title: "1.2: Installing Pybricks"
         url: /learn/getting-started/install-pybricks/
+      - title: "1.3: Running Pybricks programs"
+        url: /learn/getting-started/pybricks-environment/
 
 about:
   - title: Overview
