@@ -40,7 +40,6 @@ beta_version:
       x: 37%
       y: 58%
       location: right
-
 firmware_restore:
   image: /learn/getting-started/install.png
   alt: Install the Pybricks firmware.

@@ -130,9 +130,14 @@ and gradually build on the skills you learn throughout.
 
 **1. Getting started**
 
-This chapter is all about discovering what's in your LEGO robotics kit. What is
-a hub, motor, or sensor? You'll also prepare your computer or tablet and 
+This chapter is all about preparing the tools you need to get started. What is
+a hub, motor, or sensor? You'll also prepare your computer or tablet and
 install Pybricks on your LEGO hub.
+
+You'll learn how you create, save, and run programs. Without diving into
+the details of each block just yet, you'll learn how to use the coding
+interface effectively, which is a big help once you create bigger programs
+later on.
 
 **2. Building a robot**
 
@@ -149,34 +154,27 @@ You can also use your own robot if you prefer, by adapting the provided coding
 examples to your own design. For example, you might have to adjust the wheel
 diameter parameter if you use differently sized wheels.
 
-**3. Creating and managing programs**
-
-This chapter shows how you create, save, and run programs. Without diving into
-the details of each block just yet, you'll learn how to use the coding
-interface effectively, which is a big help once you create bigger programs
-later on.
-
-**4. Basic robot navigation and output blocks**
+**3. Basic robot navigation and output blocks**
 
 Now it's time to make the robot come alive! You'll learn to use the output
 blocks to make your robot move, play sounds, and blink lights. Naturally,
 you'll make a "Hello, World!" program too!
 
-**5. Waiting, repeating, and tasks**
+**4. Waiting, repeating, and tasks**
 
 Robots rarely execute a long, fixed list of actions from start to finish. This
 chapter shows you how to wait between actions, or repeat several actions
 multiple times. You'll also see how you can run multiple actions in parallel,
 or how to group frequently used actions together in a dedicated _task_.
 
-**6. Making decisions with sensors**
+**5. Making decisions with sensors**
 
 Robots don't operate in the world all by themselves, so they need to observe
 their surroundings to decide what to do. This chapter shows you how to use
 sensors to make decisions. You'll use the distance sensor to get started, and
 make your robot drive around while avoiding obstacles.
 
-**7. Using logic to make combined decisions**
+**6. Using logic to make combined decisions**
 
 A single sensor is quite easy to use, but most robots use several sensors at the
 same time. How do you combine all the sensor information to do something useful?
@@ -184,7 +182,7 @@ And how do you avoid missing important information? You'll find out in this
 chapter. You'll use the buttons on the hub as additional sensors, so that it
 can not only detect objects, but also _where_ they are encountered.
 
-**8. The color sensor**
+**7. The color sensor**
 
 This chapter shows you how to measure light intensity and color. Your robot can
 use these measurements in many ways. For example, you'll learn how to make your
@@ -192,7 +190,7 @@ robot find the brightest spot in a room, and how to make it follow a line on
 the floor. You'll also learn to calibrate the color sensor to make it work
 reliably by adapting to your environment.
 
-**9. Using motors effectively**
+**8. Using motors effectively**
 
 Rotating a motor might seem like a trivial task, but there are many factors
 that influence how it moves. This chapter dives deeper into the motor blocks
@@ -200,7 +198,7 @@ and its various configurable settings. You'll learn how to adjust motor speed,
 acceleration and control how the motor stops. You'll also learn _why_ some of
 these techniques are useful in different scenarios.
 
-**10. Navigation with the gyro sensor**
+**9. Navigation with the gyro sensor**
 
 In addition to using the position sensors in the motors, you can use the
 gyroscopic sensor in the hub to navigate more effectively. This chapter shows
@@ -209,14 +207,14 @@ sensor, such as calibration or combining it with other navigation tasks. We'll
 also discuss the pitfalls to watch out for when using the gyro in a robot
 competition.
 
-**11. Creating and using variables**
+**10. Creating and using variables**
 
 So far, you've made your robot respond to its environment right away by
 adjusting what it does based on the sensor values at that moment. In some
 applications, you'll want to _remember_ certain values so you can use them
 later on in your program. You'll learn to do that using so called variables.
 
-**12. Creating and using tasks and functions**
+**11. Creating and using tasks and functions**
 
 In earlier chapters, you've briefly explored the use of _tasks_ to group
 portions of code that could be reused repeatedly. This chapter dives deeper
@@ -224,7 +222,7 @@ into the use of such tasks, also known as functions. Not only will they execute
 things for you, but functions can also _calculate_ things for you and give you
 the result to use as an input for another block.
 
-**13. Using lists and iterations**
+**12. Using lists and iterations**
 
 A variable can store a single value, but it can also store a list of multiple
 values. For example, you might have a list of target angles that the motor
@@ -232,7 +230,7 @@ should go to, one by one. This chapter shows you how to create, and modify such
 lists. You'll also learn how to _iterate_ through the list. This lets you
 execute some actions for each value in the list.
 
-**14. Wireless communication**
+**13. Wireless communication**
 
 At this point, you've mastered nearly all of the blocks on the block palette,
 but the fun doesn't end there. In this chapter we'll show you how you can send
