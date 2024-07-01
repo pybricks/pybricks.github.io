@@ -335,14 +335,15 @@ Congratulations, you've just created your first program! It should:
 
 # Connecting to the hub
 
-**Note** ⸺ If you haven't already done so, install the Pybricks firmware
-first, as discussed in the [previous section](./install-pybricks.md).
-{: .notice--warning}
 
 You'll now learn to connect to the hub so you can verify that your program
 works. Turn on the hub. It should blink a blue light, which means
 it is ready to connect. Click the _Bluetooth_ button as shown below, choose
 your hub and click _Pair_.
+
+If you haven't already done so, install the Pybricks firmware
+first, as discussed in the [previous section](./install-pybricks.md).
+{: .notice--warning}
 
 {% include diagram.html data=page.code_connect %}
 

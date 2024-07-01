@@ -48,9 +48,9 @@ below too.
 
 # Choosing a device for programming
 
-You can create programs on Windows 10 or 11, macOS, Linux, Android, or
-ChromeOS. You can use a PC, laptop or tablet.
-Phones work too, but they are often too small to be useful.
+You can create programs on Windows 10 or 11, macOS,
+[Linux](/project/pybricks-on-linux/), Android, or ChromeOS. You can use a PC,
+laptop or tablet. Phones work too, but they are often too small to be useful.
 
 Almost all modern laptops and tablets have builtin Bluetooth support. If your
 device does not support Bluetooth or if it does not work well, you can buy a
@@ -61,8 +61,8 @@ the Pybricks firmware.
 You'll also need a browser with Bluetooth support. We recommend using 
 <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a> or
 <a href="https://www.microsoft.com/en-us/edge" target="_blank">Microsoft Edge</a>.
-If you prefer open source tools, you can use
-<a href="https://www.chromium.org/Home/" target="_blank">Chromium</a>.
+If you prefer open source tools, you can
+use [Chromium](/project/pybricks-on-linux/).
 
 Note that the Apple iPad and iPhone are **_not_** supported, because the iOS
 Safari browser and Chrome for iOS do not support Bluetooth connectivity.

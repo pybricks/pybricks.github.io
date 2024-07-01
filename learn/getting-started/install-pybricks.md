@@ -147,16 +147,23 @@ does not help, follow the instructions below.
 menu. If you already did, just remove the hub from there and try again via the
 app instead.
 
-- You can try the latest [beta version](#trying-new-beta-features-optional) of our app.
-  This version gets more frequent updates. It's possible we've fixed your
-  issue already.
-
 - You can refresh the app by pressing <kbd>Ctrl</kbd> + <kbd>F5</kbd>.
 
-- If connection issues continue to persist, please describe the problem on
-  our [forum](https://github.com/orgs/pybricks/discussions). This really helps
-  us identify and fix issues that we could not observe on our own computers,
-  since each device is a bit different.
+- If connection issues continue to persist, please describe the problem on our
+  [forum](https://github.com/orgs/pybricks/discussions). Additional Bluetooth
+  troubleshooting advice is available [here][ble trouble].
+
+- Using other Bluetooth devices at the same time can cause interference
+  resulting in errors in Pybricks Code, particularly Bluetooth keyboards/mice.
+  Be sure to turn off any unused devices for the best experience.
+
+- Many Bluetooth adapters on Windows have compatibility issues. We have had the
+  best results with adapters that used the generic Microsoft Bluetooth drivers
+  such as adapters that use Cambridge Silicon Radio (CSR 4.0) chips. You can
+  help by reporting known working (and not working) adapters [here][win ble issue].
+
+[win ble issue]: https://github.com/pybricks/support/issues/921
+[ble trouble]: https://github.com/pybricks/support/discussions/270
 
 # Trying new beta features (optional)
 
