@@ -9,7 +9,7 @@ Pass in an object defined in page front matter, or as a .yml file in the _data d
 {% endif %}
 
 {% assign length = 30 %}
-{% assign thickness = 3 %}
+{% assign thickness = 2 %}
 
 <div style="margin-bottom: {{ data.margin_bottom | default: '20px' }}; margin-top: {{ data.margin_top | default: '10px' }};">
 <div style="position: relative; display: block; width: {{ data.width }}; margin-left: auto; margin-right: auto;">
@@ -49,6 +49,13 @@ Pass in an object defined in page front matter, or as a .yml file in the _data d
 {% endunless %}
 
 <style>
+    @media print {
+        .label-line {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            background-color: #3d4144 !important; /* Ensures the background color is applied in print */
+        }
+    }
     .label-line {
         position: absolute;
         background-color: #3d4144;
@@ -57,9 +64,10 @@ Pass in an object defined in page front matter, or as a .yml file in the _data d
         position: absolute;
         color: #3d4144;
         background-color: rgba(255, 255, 255, 1);
-        padding: 5px;
+        padding: 2px 5px 2px 5px;
         border: {{ thickness }}px solid #3d4144;
         border-radius: 10px;
         white-space: nowrap;
+        font-size: 0.8em;
     }
 </style>

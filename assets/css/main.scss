@@ -161,3 +161,16 @@ kbd {
     width: var(--img-width, 100%);
   }
 }
+
+// Remove border from h2
+h2 {
+  padding-bottom: 0.0em;
+  border-bottom: none !important;
+  border-bottom-color: none !important;
+}
+
+// Applies border to h1 instead
+.page__content h1 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #bdc0c3;
+}

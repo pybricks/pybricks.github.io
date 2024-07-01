@@ -6,12 +6,14 @@ excerpt: >
 redirect_from:
   - /install/technic-boost-city
   - /install/spike-mindstorms
+  - /learn-python
+  - /install/todo
 offline_use:
   image: /learn/getting-started/offline.png
   alt: Install the Pybricks firmware.
   width: 100%
   labels:
-    - text: Settings
+    - text: Tools
       x: 6%
       y: 42%
       location: above
@@ -28,7 +30,7 @@ beta_version:
   alt: Install the Pybricks firmware.
   width: 100%
   labels:
-    - text: Settings
+    - text: Tools
       x: 6%
       y: 42%
       location: above
@@ -45,7 +47,7 @@ firmware_restore:
   alt: Install the Pybricks firmware.
   width: 100%
   labels:
-    - text: Settings
+    - text: Tools
       x: 8%
       y: 40%
       location: right
@@ -106,7 +108,7 @@ first, just to be sure.
 
 You can install Pybricks on any of the hubs shown above. To get started,
 go to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>,
-open the settings menu (⚙), and click _install Pybricks firmware_:
+open the tools menu (⚙), and click _install Pybricks firmware_:
 
 {% include diagram.html data="diagram-install" %}
 
@@ -130,12 +132,33 @@ The Pybricks installation process works just like a normal LEGO firmware
 update. This is why restoring the original is so easy.
 
 To recover the LEGO firmware, go to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>,
-open the settings menu (⚙), and click _Restore official LEGO firmware_. Choose
+open the tools menu (⚙), and click _Restore official LEGO firmware_. Choose
 your hub and follow the on-screen instructions.
 
 {% include diagram.html data=page.firmware_restore %}
 
-# Trying out new beta features
+# Troubleshooting connectivity
+
+If connectivity issues arise, you'll usually see a notification popup that
+describes the problem. Be sure to follow the indicated instructions. If that
+does not help, follow the instructions below.
+
+- You should *not* attempt to connect to the hub via your computer's settings
+menu. If you already did, just remove the hub from there and try again via the
+app instead.
+
+- You can try the latest [beta version](#trying-new-beta-features-optional) of our app.
+  This version gets more frequent updates. It's possible we've fixed your
+  issue already.
+
+- You can refresh the app by pressing <kbd>Ctrl</kbd> + <kbd>F5</kbd>.
+
+- If connection issues continue to persist, please describe the problem on
+  our [forum](https://github.com/orgs/pybricks/discussions). This really helps
+  us identify and fix issues that we could not observe on our own computers,
+  since each device is a bit different.
+
+# Trying new beta features (optional)
 
 Most users should use <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>, which is the stable version.
 If you are connected to the internet, app updates will automatically
@@ -154,7 +177,7 @@ You may be prompted to install a new beta firmware version as well. The
 installation procedure works the same. When you go back to the stable version,
 you can install its corresponding firmware again.
 
-# Installing the nightly version
+# Trying the nightly version (optional)
 
 Advanced users and contributors who want to help test the latest features can
 install a custom firmware. To do so, first start the firmware installation as

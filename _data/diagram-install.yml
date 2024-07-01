@@ -2,7 +2,7 @@ image: /learn/getting-started/install.png
 alt: Install the Pybricks firmware.
 width: 100%
 labels:
-  - text: Settings
+  - text: Tools
     x: 8%
     y: 40%
     location: right
