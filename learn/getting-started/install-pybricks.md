@@ -8,6 +8,7 @@ redirect_from:
   - /install/spike-mindstorms
   - /learn-python
   - /install/todo
+  - /install/
 offline_use:
   image: /learn/getting-started/offline.png
   alt: Install the Pybricks firmware.
@@ -63,8 +64,11 @@ and install the Pybricks firmware on your hub.
 If you prefer to get going right away, go
 to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>.
 Just follow the _Welcome Tour_ under _Help_ via the
-menu (⚙). Otherwise, stick around and we'll take you through the steps.
+menu (<i class="fas fa-cog"></i>). Otherwise, stick around and we'll take you through the steps.
 
+If you are using EV3, please visit
+the [legacy instructions](/install/mindstorms-ev3/installation/) instead.
+{: .notice}
 
 # The Pybricks "App"
 
@@ -108,7 +112,7 @@ first, just to be sure.
 
 You can install Pybricks on any of the hubs shown above. To get started,
 go to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>,
-open the tools menu (⚙), and click _install Pybricks firmware_:
+open the tools menu (<i class="fas fa-cog"></i>), and click _install Pybricks firmware_:
 
 {% include diagram.html data="diagram-install" %}
 
@@ -132,7 +136,7 @@ The Pybricks installation process works just like a normal LEGO firmware
 update. This is why restoring the original is so easy.
 
 To recover the LEGO firmware, go to <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>,
-open the tools menu (⚙), and click _Restore official LEGO firmware_. Choose
+open the tools menu (<i class="fas fa-cog"></i>), and click _Restore official LEGO firmware_. Choose
 your hub and follow the on-screen instructions.
 
 {% include diagram.html data=page.firmware_restore %}

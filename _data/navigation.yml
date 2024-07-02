@@ -14,14 +14,6 @@ main:
 
 # Legacy install pages, keep around to allow EV3 users to find them.
 install:
-  - title: Installing Pybricks
-    children:
-      - title: "Overview"
-        url: /install/
-      - title: "BOOST, City and Technic"
-        url: /learn/getting-started/install-pybricks/
-      - title: "SPIKE and MINDSTORMS"
-        url: /learn/getting-started/install-pybricks/
 
   - title: MINDSTORMS EV3
     children:

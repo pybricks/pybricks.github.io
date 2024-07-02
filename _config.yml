@@ -52,7 +52,6 @@ exclude:
   - projects/CONTRIBUTING.md
   - projects/LICENSE
   - projects/setup.cfg
-  - projects/
 
 # Plugins (previously gems:)
 plugins:

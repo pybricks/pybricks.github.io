@@ -6,10 +6,20 @@ redirect_from: # there is no base ev3 page, so redirect it to this first install
 ---
 
 This page guides you through the steps to collect and install everything you
-need to start programming the EV3.
+need to start programming the EV3. Use the menu on the left to navigate the
+instructions for [using the EV3 brick](/install/mindstorms-ev3/using-the-brick/)
+and to [run programs](/install/mindstorms-ev3/running-programs/).
 
-If you're not sure which version of EV3 MicroPython to use, check
-the [version overview page](/install/mindstorms-ev3/versions) first.
+**Note** ⸺ Pybricks for MINDSTORMS EV3 uses Pybricks version 2.0, while newer
+hubs like SPIKE, Technic, and MINDSTORMS Inventor use Pybricks 3.0 or higher.
+This means you can only code your EV3 with MicroPython in Visual Studio Code.
+The simpler [online interface](https://code.pybricks.com/) with block-based
+coding is not available for EV3. If you would like to see continued EV3
+support, including block-based coding in our web app, please let us know on
+[our forum](https://github.com/orgs/pybricks/discussions). If we can find
+enough teachers and developers who want to get involved, perhaps we can make
+this happen.
+{: .notice--warning}
 
 ## What do you need?
 

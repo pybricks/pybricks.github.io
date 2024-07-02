@@ -96,7 +96,7 @@ a simple test program to make sure your system is compatible.
 
 To try it, follow these steps:
 
-- Open the [app][app], click the gear (⚙) icon, and
+- Open the [app][app], click the gear (<i class="fas fa-cog"></i>) icon, and
   click _Install Pybricks Firmware_. Follow the steps for your hub.
 - Then click the file icon (🗎) and the (+) symbol to create a new block project.
   Just close the login prompt that appears. You'll see a program like the one
