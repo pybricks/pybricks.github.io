@@ -139,6 +139,14 @@ the details of each block just yet, you'll learn how to use the coding
 interface effectively, which is a big help once you create bigger programs
 later on.
 
+- 1.1: [What do you need?](/learn/getting-started/what-do-you-need/)
+- 1.2: [Installing Pybricks](/learn/getting-started/install-pybricks/)
+- 1.3: [Running Pybricks programs](/learn/getting-started/pybricks-environment/)
+
+
+The remaining chapters are a work in progress. Please check back in a few weeks. Thank you!
+{: .notice--primary}
+
 **2. Building a robot**
 
 A great way to learn robotics and coding principles is to build a basic vehicle
