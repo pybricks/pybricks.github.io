@@ -294,11 +294,7 @@ the relevant page.
 Click the user icon to check your account status, as shown above. Here you can
 sign in to access block coding. You can access block coding by becoming a
 Patreon supporter or purchasing a license code. You can find the details
-[here](/about/premium/).
-
-Thank you! Your support makes the whole Pybricks project
-possible, including all of its free and open source components.
-{: .notice}
+[here](/learn/intro/access/).
 
 # Creating your first program
 
@@ -316,6 +312,13 @@ Your new program contains a few blocks already. There's a yellow _setup_ and
 _start_ block, as well as a blue print block. We'll get to the details of these
 in the next chapters. For now, just move some of the blocks around to
 get a feel for how this works.
+
+If you're here to test your system prior to getting access to Pybricks block
+coding, you can run the default program without adding any
+blocks. Skip to the next 
+[section](/learn/getting-started/pybricks-environment/#connecting-to-the-hub) to
+learn how to run it. You'll see `Hello, Pybricks!` in the output pane.
+{: .notice}
 
 Next, open the _Flow_ blocks tab and select the _Wait_ block. Place it on the
 canvas and adjust the wait time as shown below. Also be sure to close the
@@ -399,6 +402,10 @@ running from the slowly fading blue status light, as shown in the table below.
 
 Press the (center) button again to stop a program if it is running. This works
 no matter how you started it.
+
+To turn the hub off, hold the (center) button for three seconds. If the hub is
+not connected and no program is running, it will shut down after a few minutes
+of inactivity.
 
 **Note** ⸺ Programs are saved persistently during shutdown. If you pull the
 hub batteries _before shutting down normally_, your program won't be saved.

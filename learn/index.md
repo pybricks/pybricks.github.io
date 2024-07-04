@@ -3,6 +3,8 @@ title: "Learn robotics and coding with Pybricks"
 excerpt: >
   Where do you begin if you're new to LEGO robotics and coding, you asked?
   This Pybricks guide is for you.
+redirect_from:
+- "/learn/intro/"
 ---
 
 Pybricks is the all-in-one app for coding smart LEGO devices.
@@ -12,7 +14,13 @@ If that's what you've been wondering, then this guide is for you.
 - Been here before? Jump back in using the left hand menu.
 - In a hurry? Go directly to the [installation instructions](/learn/getting-started/install-pybricks/).
 
-![Pybricks](/about/new-pybricks-blocks/pybricks-blocks-2.png)
+# What is Pybricks?
+
+Pybricks makes your smart LEGO bricks come alive. Get creative and gradually
+learn to build and code sophisticated and fun machines. Check
+out [our videos](/learn/intro/what-can-you-make/) to see what you can make!
+
+![Pybricks](/learn/intro/pybricks-blocks-2.png)
 
 # Why Pybricks?
 
@@ -25,10 +33,10 @@ It helps robotics teams get better results, while allowing enthusiasts to
 combine and mix all their battery-powered LEGO bricks creatively for endless
 possibilities.
 
-Made by long-term LEGO enthusiasts, Pybricks not only unifies all the different
-LEGO themes, but also unlocks the full possibilities of each set and allows you
-to use it far beyond its original lifespan, even as the original apps get
-discontinued.
+Made by [long-term LEGO enthusiasts](/learn/intro/story-mission), Pybricks not
+only unifies all the different LEGO themes, but also unlocks the full
+possibilities of each set and allows you to use it far beyond its original
+lifespan, even as the original apps get discontinued.
 
 ## Pybricks for robotics teams
 

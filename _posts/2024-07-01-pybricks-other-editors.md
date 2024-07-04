@@ -1,7 +1,6 @@
 ---
 title: Using Pybricks with Visual Studio Code and other editors
 tags:
-  - News
   - Python
   - Technic
   - City

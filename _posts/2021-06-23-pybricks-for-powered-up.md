@@ -1,8 +1,22 @@
 ---
-title: "Make your LEGO® System & LEGO® Technic creations come alive with Python coding using Pybricks"
+title: Make your LEGO® System & LEGO® Technic creations come alive with Python coding using Pybricks
+tags:
+  - News
+  - Technic
+  - City
+  - Boost
+toc: true
+excerpt: >
+  Pybricks releases Python coding for LEGO® Powered Up. LEGO fans
+  of all ages can learn to code and make their LEGO
+  creations come alive.
+header:
+  teaser: /learn/intro/pybricks1.png
+redirect_from:
+  - /about/2021-06-23-lego-system-technic-python/
 ---
 
-[![](pybricks1.png)](pybricks1.png)
+{% include scaled.html path="/learn/intro/pybricks1.png" %}
 
 - *Fans of all LEGO themes can now code with Python to make their creations
   move and respond to their surroundings.*
@@ -31,9 +45,7 @@ Just go to
 [https://code.pybricks.com](https://code.pybricks.com), update the firmware,
 and start coding. Numerous real-world examples will get you started in no time.
 
-
-[![](pybricks2.png)](pybricks2.png)
-
+{% include scaled.html path="/learn/intro/pybricks2.png" %}
 
 Meanwhile, more seasoned builders and coders will enjoy advanced features such
 as color sensor calibration and accurate motor position and speed control.
@@ -57,22 +69,22 @@ So grab your LEGO sets and [start coding](https://code.pybricks.com)!
 -----
 *Smart autonomous trains*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UpA2erJfGQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="UpA2erJfGQY" %}
 
 -----
 *Installation tutorial*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QLL7EegBGr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="QLL7EegBGr0" %}
 
 -----
 *High-precision motor control*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TXvCEK1MNGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="TXvCEK1MNGQ" %}
 
 -----
 *Automatic Roller Coaster*
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XyT5AaslSaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html videoid="XyT5AaslSaY" %}
 
 ## Contact
 

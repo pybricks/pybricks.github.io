@@ -1,8 +1,25 @@
 ---
-title: "Get creative with your smart LEGO® bricks using Pybricks"
+title: Get creative with your smart LEGO® bricks using Pybricks
+tags:
+  - News
+  - Block Coding
+  - Technic
+  - City
+  - Boost
+  - SPIKE Prime
+  - MINDSTORMS Robot Inventor
+  - SPIKE Essential
+toc: true
+excerpt: >
+  Pybricks releases block-based coding! Now fans of all LEGO themes can bring
+  their smart bricks together in a  single app for endless possibilities.
+header:
+  teaser: /learn/intro/pybricks-blocks-2.png
+redirect_from:
+  - /about/new-pybricks-blocks/
 ---
 
-[![](pybricks-blocks-2.png)](pybricks-blocks-2.png)
+{% include scaled.html path="/learn/intro/pybricks-blocks-2.png" %}
 
 - *For the first time ever, fans of all LEGO themes can bring their smart bricks
   together in a single app for endless possibilities and creativity.*
@@ -55,30 +72,33 @@ So grab your LEGO sets and [start coding](https://code.pybricks.com)!
 
 ## Features and insights
 
-[![codepreview](codepreview.png)](codepreview.png)
-*Get live Python code preview.*
+{% include scaled.html path="/learn/intro/codepreview.png" caption="Get live Python code preview" %}
 
-[![setup](pybricks-blocks-2.png)](pybricks-blocks-2.png)
-*A dedicated setup
-section helps you keep big projects organized. Enter robot dimensions for
- accurate navigation using the gyro.*
+{% include scaled.html path="/learn/intro/pybricks-blocks-2.png"
+  caption="A dedicated setup section helps you keep big projects organized.
+           Enter robot dimensions for accurate navigation using the gyro" 
+%}
 
-[![multitask](multitask.png)](multitask.png)
-*Multitasking is easy with dedicated blocks.*
+{% include scaled.html path="/learn/intro/multitask.png"
+  caption="Multitasking is easy with dedicated blocks" 
+%}
 
-[![devices](devices.png)](devices.png)
-*Use all motors, and sensors. If the cable fits, it just works.*
+{% include scaled.html path="/learn/intro/devices.png"
+  caption="Use all motors, and sensors. If the cable fits, it just works." 
+%}
 
-[![documentation](pybricks-blocks-docs.png)](pybricks-blocks-docs.png)
-*Easily access documentation for all blocks.*
+{% include scaled.html path="/learn/intro/pybricks-blocks-docs.png"
+  caption="Easily access documentation for all blocks." 
+%}
 
-[![openproject](openproject.png)](openproject.png)
-*Choose between blocks and Python, or even use them together!*
+{% include scaled.html path="/learn/intro/openproject.png"
+  caption="Choose between blocks and Python, or even use them together!" 
+%}
 
 ## Example projects
 
 Block projects run on any hub, including the LEGO BOOST Move Hub. This project
-showcases the Boost Autobuilder project.
+showcases the Boost Auto Builder project.
 
 This project also shows how brand new features, like
 looping over a list, can make big programs much easier to follow. It also helps
@@ -86,9 +106,10 @@ you gradually explore common coding patterns before jumping into Python.
 
 And it's saved directly on the hub, so you can take it anywhere!
 
-[![builder](builder.png)](builder.png)
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TXvCEK1MNGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include scaled.html path="/learn/intro/builder.png"
+  caption="Pybricks program for the BOOST Auto Builder." 
+%}
+{% include youtube.html videoid="TXvCEK1MNGQ" %}
 
 -----
 

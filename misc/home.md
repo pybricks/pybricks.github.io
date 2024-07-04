@@ -19,7 +19,7 @@ feature_row:
     excerpt: "Pybricks is Python and Block coding for smart LEGO® hubs. Run
               programs directly on the hub, and get full control of
               your motors and sensors."
-    url: "/about/"
+    url: "/learn/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /misc/images/home-compatibility.jpg
@@ -28,7 +28,7 @@ feature_row:
     excerpt: "Pybricks runs on LEGO® BOOST,
     City, Technic, MINDSTORMS®, and SPIKE®. You can code using
     Windows, Mac, Linux, Chromebook, and Android."
-    url: "/install/"
+    url: "/learn/getting-started/what-do-you-need/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /misc/images/home-blocks.svg
@@ -37,7 +37,7 @@ feature_row:
     excerpt: "Pybricks is now more accessible than ever. Python coding is
               free and open source, while supporters of the project get
               exclusive access to additional features like block coding."
-    url: "/about/premium/"
+    url: "/learn/intro/access/"
     btn_class: "btn--primary"
     btn_label: "Pricing & features"      
 ---

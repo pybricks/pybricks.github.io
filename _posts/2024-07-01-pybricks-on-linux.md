@@ -1,7 +1,6 @@
 ---
 title: Using Pybricks on Linux
 tags:
-  - News
   - Python
   - Block Coding
   - Technic
