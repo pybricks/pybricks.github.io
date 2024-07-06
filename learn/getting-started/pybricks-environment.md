@@ -3,6 +3,8 @@ title: "Creating and running Pybricks programs"
 excerpt: >
   How to use the Pybricks coding environment effectively. Learn to create,
   run, organize, and back up your work and explore the documentation.
+header:
+  teaser: /learn/getting-started/code-add-print.png
 redirect_from:
   - /install/pybricks-code
   - /install/using-powered-up-hubs
@@ -387,8 +389,8 @@ This is because it printed the first message right away, but you stopped it
 before the second message would print after 5 seconds.
 
 
-**Note** ⸺ A Pybricks program ends when the last block completes. In Scratch,
-it keeps running even after all blocks complete. 
+**Note** ⸺ A Pybricks program ends when the last block completes. Movement
+and sound stops. In Scratch, it keeps running even after all blocks complete. 
 {: .notice}
 
 # Start programs with the hub button

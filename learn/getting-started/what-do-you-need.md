@@ -1,7 +1,12 @@
 ---
 title: "What do you need?"
+excerpt: >
+  What do you need to build and program a robot? Learn about hubs, motors,
+  sensors, and the device you need for coding.
 redirect_from:
   - /learn/getting-started/
+header:
+  teaser: /learn/getting-started/tablet.jpg
 requirements:
   image: /learn/getting-started/tablet.jpg
   alt: Install the Pybricks firmware.

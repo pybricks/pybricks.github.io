@@ -173,7 +173,7 @@ app instead.
 
 Most users should use <a href="https://code.pybricks.com/" target="_blank">code.pybricks.com</a>, which is the stable version.
 If you are connected to the internet, app updates will automatically
-load when they becomes available.
+load when they become available.
 
 If you are curious about trying the latest fixes or features before they are
 finished, you can do so by clicking on _try new beta features_. This opens

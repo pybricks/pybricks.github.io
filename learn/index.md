@@ -4,7 +4,9 @@ excerpt: >
   Where do you begin if you're new to LEGO robotics and coding, you asked?
   This Pybricks guide is for you.
 redirect_from:
-- "/learn/intro/"
+  - /learn/intro/
+header:
+  teaser: /learn/intro/pybricks-blocks-2.png
 ---
 
 Pybricks is the all-in-one app for coding smart LEGO devices.

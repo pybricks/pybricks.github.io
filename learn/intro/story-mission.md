@@ -116,7 +116,7 @@ measurements and learn how each configuration parameter affects performance.
 
 For example, you can tell it to drive `250 mm` but you might measure it to be
 `243 mm` in your design in practice. This let students investigate _why_ this
-happens instead of fiddling with arbitrary degree value until it works for a
+happens instead of fiddling with an arbitrary degree value until it works for a
 particular robot. Did a wheel slip? Did the tyre compress under weight,
 effectively making the diameter smaller?
 

@@ -142,6 +142,8 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "learn"
+      header:
+        teaser: /learn/getting-started/tablet.jpg
   # Tag index / archive pages
   - scope:
       path: "project"

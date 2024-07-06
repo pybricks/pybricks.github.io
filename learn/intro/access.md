@@ -24,7 +24,8 @@ signin_image:
       x: 35%
       y: 84%
       location: below
-
+header:
+  teaser: /pybricks-og.png
 ---
 
 ![pybricks options](/learn/intro/pybricks-lifetime.jpg)
