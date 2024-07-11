@@ -177,7 +177,7 @@ img_setup_select:
       location: below
 ---
 
-In this chapter, you'll learn how to set up your programs for the Starter Bot
+In this chapter, you'll learn how to set up your programs for the StarterBot
 you've just built. You'll also experiment with basic movements and learn
 to verify the results.
 
@@ -256,7 +256,7 @@ a few weeks later.
 Some comments can be descriptive. They might summarize what a sequence of blocks
 do. Other comments can describe _why_ you've done it in a particular way. You
 can also describe the required conditions that are needed to run your program.
-Comments are automatically removed before your code is sent to the robot, so
+Comments are filtered out before your code is sent to the robot, so
 comments have no impact on performance or robot code size.
 
 It is possible to leave a comment block floating on the canvas if you need to,

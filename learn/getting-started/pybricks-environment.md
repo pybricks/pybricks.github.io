@@ -328,7 +328,7 @@ file menu to free up space on the screen.
 
 {% include diagram.html data=page.code_add_wait %}
 
-Next, print the _Print_ block on the _Output_ tab and attach it to the stack
+Next, pick the _Print_ block from the _Output_ tab and attach it to the stack
 of blocks you've built already, as shown below.
 
 {% include diagram.html data=page.code_add_print %}
