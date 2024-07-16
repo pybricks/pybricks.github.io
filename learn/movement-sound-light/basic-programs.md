@@ -150,31 +150,6 @@ img_setup_comments:
       x: 50%
       y: 65%
       location: left
-
-img_setup_select:
-  image: /learn/movement-sound-light/basics-select.png
-  alt: Selecting multiple blocks
-  width: 100%
-  caption: >
-    Comments help you document your work. When you review your code later,
-    you'll be able to see how it works and why you made it that way.
-  labels:
-    - text: |
-        Hold shift, then drag
-        to create a selection.
-      x: 75%
-      y: 70%
-      location: above
-    - text: |
-       Right-click or
-       tap and hold
-      x: 25%
-      y: 72%
-      location: left
-    - text: Copy or delete
-      x: 40%
-      y: 84%
-      location: below
 ---
 
 In this chapter, you'll learn how to set up your programs for the StarterBot
@@ -264,33 +239,11 @@ but it is best practice to attach it like a normal block. This way, it moves
 along with your code automatically when you add other blocks above or below
 it.
 
-# Working with the code canvas
-
-You can select a block by clicking or tapping on it. Hold shift and click
-additional blocks to select more. You can also hold shift to encircle a larger
-group of blocks, as shown below.
-
-{% include diagram.html data=page.img_setup_select %}
-
-You can copy a selection via the right-click context menu, or use familiar
-keyboard shortcuts such as <kbd>ctrl</kbd>+<kbd>c</kbd>
-and <kbd>ctrl</kbd>+<kbd>v</kbd>.
-
-Use <kbd>Delete</kbd> to delete selected of blocks. Alternatively, drag them
-back onto the block palette or into the trash can. If you change your mind,
-click on the trashcan to see deleted blocks.
-Note that the trash will be emptied when you close your program or switch to
-a different program.
-
-Use the familiar shortcuts <kbd>ctrl</kbd>+<kbd>z</kbd> (or similar) to undo
-changes you've made.
-
 # Further exploration
 
 In this chapter, you've learned to build a program to make your robot move.
 You've learned how to change settings and to document your work with comments.
-You've also explored how to select and modify blocks on the canvas. The
-following challenge will help you practice your skills.
+The following challenge will help you practice your skills.
 
 **Challenge #3A: Living on the edge** ⸺ Pick a fixed starting point on your
 desk and measure the distance to the edge of your desk. Tell the robot to drive
