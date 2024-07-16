@@ -257,7 +257,30 @@ code_rename:
       x: 54%
       y: 14%
       location: below
-
+img_setup_select:
+  image: /learn/getting-started/code-select.png
+  alt: Selecting multiple blocks
+  width: 100%
+  caption: >
+    Comments help you document your work. When you review your code later,
+    you'll be able to see how it works and why you made it that way.
+  labels:
+    - text: |
+        Hold shift, then drag
+        to create a selection.
+      x: 80%
+      y: 60%
+      location: above
+    - text: |
+       Right-click or
+       tap and hold
+      x: 30%
+      y: 65%
+      location: left
+    - text: Copy or delete
+      x: 35%
+      y: 78%
+      location: below
 ---
 
 Now that your hub is up and running with Pybricks, let's have a look around the
@@ -462,6 +485,27 @@ You can close the Python code if you don't need it. Note that you can't edit
 the generated code yourself, since you would lose your changes every time you
 moved a block. Instead you can _copy_ the code to a new Python program and
 adjust it there as you like.
+
+# Copying and deleting blocks
+
+You can select a block by clicking or tapping on it. Hold shift and click
+additional blocks to select more. You can also hold shift to encircle a larger
+group of blocks, as shown below.
+
+{% include diagram.html data=page.img_setup_select %}
+
+You can copy a selection via the right-click context menu, or use familiar
+keyboard shortcuts such as <kbd>ctrl</kbd>+<kbd>c</kbd>
+and <kbd>ctrl</kbd>+<kbd>v</kbd>.
+
+Use <kbd>Delete</kbd> to delete selected of blocks. Alternatively, drag them
+back onto the block palette or into the trash can. If you change your mind,
+click on the trashcan to see deleted blocks.
+Note that the trash will be emptied when you close your program or switch to
+a different program.
+
+Use the familiar shortcuts <kbd>ctrl</kbd>+<kbd>z</kbd> (or similar) to undo
+changes you've made.
 
 # Managing program files
 
