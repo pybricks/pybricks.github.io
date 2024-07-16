@@ -1,39 +1,45 @@
 ---
-title: "Building StarterBot"
+title: "Building the Pybricks StarterBot"
 excerpt: >
   A vehicle robot helps you get familiar with robotics and coding. We'll show
   you how to build one using SPIKE, MINDSTORMS, Technic, City, or BOOST.
+header:
+  teaser: /learn/building-a-robot/overview-og.jpg
 ---
 
 Building a vehicle robot is a great way to get familiar with robotics and
 coding. We'll show you how to build one using SPIKE, MINDSTORMS, Technic, City,
-or BOOST. You can also use your own design or competition robot. 
+or BOOST. 
 
-The StarterBot for SPIKE Prime and MINDSTORMS Robot Inventor is the most
-complete. Use one of these if you want to recreate all programming examples
-without any changes.
-
-If you use Technic, City, BOOST, or SPIKE Essential, we'll show you how to
-adjust the lessons and examples as you go.
+**Tip** ⸺ You can also use your own design or competition robot. You'll learn
+to adapt the code to your design along the way. However, it can be
+refreshing to take a break from the competition and learn new skills using
+a different robot.
+{: .notice--primary}
 
 # SPIKE Prime
 
 You can build this version of StarterBot with just the elements in the {%
 include setlink.html id=45678 %} base set.
 
+It can run all example projects in this guide without changes.
+
 {% include scaled.html
   path="/learn/building-a-robot/spike-prime/"
-  path_small="/learn/building-a-robot/spike-prime/starterbot-prime.png"
+  path_small="/learn/building-a-robot/spike-prime/starterbot-spike-prime.jpg"
 %}
 
 # MINDSTORMS Robot Inventor
 
 You can build this version of StarterBot with just the elements in the {%
-include setlink.html id=51515 %} base set. It is almost entirely the same as
-the SPIKE Prime version, but it uses a swivel wheel instead of a ball caster.
+include setlink.html id=51515 %} base set.
 
-Instructions coming soon!
-{: .notice--primary}
+It can run all example projects in this guide without changes.
+
+{% include scaled.html
+  path="/learn/building-a-robot/mindstorms-inventor/"
+  path_small="/learn/building-a-robot/mindstorms-inventor/starterbot-mindstorms-inventor.jpg"
+%}
 
 # SPIKE Essential
 
@@ -41,13 +47,15 @@ You can build this version of StarterBot with the {% include setlink.html
 id=45345 %} set. You can start off following the first chapters in this guide
 without any sensors.
 
-Since this hub has only two ports, you cannot combine driving with sensors, but
-we'll show you how to adapt the lessons to learn about sensors while using just
-one motor.
+Since this hub has only two ports, you cannot combine driving with external
+sensors, but we'll show you how to adapt the lessons to learn about sensors
+while using just one motor.
 
-Instructions coming later this year. In the meantime, you can use any of the
-standard designs that drive with two wheels.
-{: .notice--primary}
+{% include scaled.html
+  path="/learn/building-a-robot/spike-essential/"
+  path_small="/learn/building-a-robot/spike-essential/starterbot-essential.jpg"
+%}
+
 
 # Technic
 
@@ -58,8 +66,12 @@ You can start following this guide without any sensors. To follow along with the
 chapters about sensors, the {% include setlink.html id=88007 %} is the most
 affordable and versatile option.
 
-Instructions coming later this year. Build your own two-wheeled robot for now!
-{: .notice--primary}
+
+{% include scaled.html
+  path="/learn/building-a-robot/technic/"
+  path_small="/learn/building-a-robot/technic/starterbot-technic-line.jpg"
+%}
+
 
 # BOOST
 
@@ -69,8 +81,11 @@ You can use the {% include setlink.html id=17101 %} set or the
 You'll use the hub's builtin motor to drive. The color and distance sensor that
 comes in the box lets you follow along with most lessons.
 
-Instructions coming later this year. Build your own two-wheeled robot for now!
-{: .notice--primary}
+{% include scaled.html
+  path="/learn/building-a-robot/boost/"
+  path_small="/learn/building-a-robot/boost/starterbot-boost.jpg"
+%}
+
 
 # City
 
@@ -81,5 +96,7 @@ Since this hub has only two ports, you cannot combine driving with sensors, but
 we'll show you how to adapt the lessons to learn about sensors while using just
 one motor.
 
-Instructions coming later this year. Build your own two-wheeled robot for now!
-{: .notice--primary}
+{% include scaled.html
+  path="/learn/building-a-robot/city/"
+  path_small="/learn/building-a-robot/city/starterbot-city.jpg"
+%}

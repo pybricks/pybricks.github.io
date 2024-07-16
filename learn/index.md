@@ -140,6 +140,10 @@ and gradually build on the skills you learn throughout.
 
 **1. Getting started**
 
+- 1.1: [What do you need?](/learn/getting-started/what-do-you-need/)
+- 1.2: [Installing Pybricks](/learn/getting-started/install-pybricks/)
+- 1.3: [Running Pybricks programs](/learn/getting-started/pybricks-environment/)
+
 This chapter is all about preparing the tools you need to get started. What is
 a hub, motor, or sensor? You'll also prepare your computer or tablet and
 install Pybricks on your LEGO hub.
@@ -149,19 +153,15 @@ the details of each block just yet, you'll learn how to use the coding
 interface effectively, which is a big help once you create bigger programs
 later on.
 
-- 1.1: [What do you need?](/learn/getting-started/what-do-you-need/)
-- 1.2: [Installing Pybricks](/learn/getting-started/install-pybricks/)
-- 1.3: [Running Pybricks programs](/learn/getting-started/pybricks-environment/)
-
-
-The remaining chapters are a work in progress. Please check back in a few weeks. Thank you!
-{: .notice--primary}
-
 **2. Building a robot**
+
+- 2.1: [Building StarterBot](/learn/getting-started/what-do-you-need/)
 
 A great way to learn robotics and coding principles is to build a basic vehicle
 robot. It's a fun way to dive into the action right away, while getting to know
 all the elements and coding techniques one by one.
+
+[![](/learn/building-a-robot/overview-og.jpg)](/learn/building-a-robot/)
 
 We'll show you how to build such a vehicle. You can use either SPIKE Prime,
 SPIKE Essential, Mindstorms Robot Inventor, Technic, City, or BOOST. Once
@@ -173,6 +173,9 @@ examples to your own design. For example, you might have to adjust the wheel
 diameter parameter if you use differently sized wheels.
 
 **3. Basic robot navigation and output blocks**
+
+The remaining chapters are a work in progress. Please check back in a few weeks. Thank you!
+{: .notice--primary}
 
 Now it's time to make the robot come alive! You'll learn to use the output
 blocks to make your robot move, play sounds, and blink lights. Naturally,

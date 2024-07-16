@@ -1,13 +1,13 @@
 ---
-title: "SPIKE Prime StarterBot"
+title: "MINDSTORMS StarterBot"
 excerpt: >
-  Learn to build a vehicle robot with SPIKE Prime. Use the hub buttons as extra
+  Learn to build a vehicle robot with MINDSTORMS Robot Inventor. Use the hub buttons as extra
   sensors and combine them with the color sensor and ultrasonic sensor.
 header:
-  teaser: /learn/building-a-robot/spike-prime/starterbot-spike-prime.jpg
-starter_bot_prime:
-  image: /learn/building-a-robot/spike-prime/starterbot-spike-prime.jpg
-  alt: The StarterBot with SPIKE Prime.
+  teaser: /learn/building-a-robot/mindstorms-inventor/starterbot-mindstorms-inventor.jpg
+starter_bot_inventor:
+  image: /learn/building-a-robot/mindstorms-inventor/starterbot-mindstorms-inventor.jpg
+  alt: The StarterBot with MINDSTORMS Robot Inventor.
   caption: >
     The StarterBot is very effective at avoiding obstacles. The left and
     right bumpers press the buttons on the hub when running into an obstacle
@@ -16,25 +16,23 @@ starter_bot_prime:
   width: 100%
   labels:
     - text: Color Sensor
-      x: 32%
-      y: 82%
+      x: 30%
+      y: 80%
       location: left
     - text: Ultrasonic Sensor
       x: 65%
       y: 15%
       location: right
-    - text: SPIKE Prime Hub
+    - text: Inventor Hub
       x: 62%
       y: 35%
       location: right
     - text: Left bumper
       x: 50%
       y: 80%
-      location: below
-    - text: |
-        Right
-        bumper
-      x: 20%
+      location: right
+    - text: Right bumper
+      x: 30%
       y: 65%
       location: left
     - text: Right motor
@@ -47,29 +45,27 @@ starter_bot_prime:
       location: right
 ---
 
-The SPIKE Prime version of the StarterBot has everything you need to
+The MINDSTORMS Robot Inventor version of the StarterBot has everything you need to
 follow along with the lessons and activities in this guide.
 
 You'll start by building a drive base and you'll add various sensor attachments
-along the way. This robot makes creative use of the SPIKE Prime left and right
+along the way. This robot makes creative use of the left and right hub
 buttons to create working bumpers that can independently detect obstacles in
 its path.
 
 This provides lots of interesting learning opportunities, such as monitoring
 multiple sensors at the same time.
 
-{% include diagram.html data=page.starter_bot_prime %}
+{% include diagram.html data=page.starter_bot_inventor %}
 
 You can build this version of StarterBot with just the elements in the {%
-include setlink.html id=45678 %} base set.
+include setlink.html id=51515 %} set.
 
 This design is almost entirely the same as
-the [MINDSTORMS Inventor](/learn/building-a-robot/mindstorms-inventor/) variant,
-but it uses a ball caster instead of a swivel wheel.
+the [SPIKE Prime](/learn/building-a-robot/spike-prime/) version,
+but it uses a swivel wheel instead of a ball caster.
 
 # Building the base
-
-{% include scaled.html path="/learn/building-a-robot/spike-prime/starterbot-spike-prime-base.jpg" %}
 
 This sturdy base consists of just the hub and two motors. Each motor drives a
 wheel and a ball caster in the back is used for support. You can use this drive
@@ -77,9 +73,9 @@ base throughout chapters 3 and 4 to learn the basics of programming and robot
 navigation.
 
 <figure class="half">
-{% for i in (1..13) %}
-      <a href="/learn/building-a-robot/spike-prime/starterbot-prime-{{ i | prepend: '0' | slice: -2, 2 }}.png">
-          <img src="/learn/building-a-robot/spike-prime/starterbot-prime-thumb-{{ i | prepend: '0' | slice: -2, 2 }}.png">
+{% for i in (1..14) %}
+      <a href="/learn/building-a-robot/mindstorms-inventor/starterbot-inventor-{{ i | prepend: '0' | slice: -2, 2 }}.png">
+          <img src="/learn/building-a-robot/mindstorms-inventor/starterbot-inventor-thumb-{{ i | prepend: '0' | slice: -2, 2 }}.png">
       </a>
   {% endfor %}
 </figure>
@@ -91,9 +87,9 @@ of working with sensors. You can build it now, or return here when you get to
 chapter 5 and onwards.
 
 <figure class="half">
-{% for i in (14..17) %}
-      <a href="/learn/building-a-robot/spike-prime/starterbot-prime-{{ i | prepend: '0' | slice: -2, 2 }}.png">
-          <img src="/learn/building-a-robot/spike-prime/starterbot-prime-thumb-{{ i | prepend: '0' | slice: -2, 2 }}.png">
+{% for i in (15..18) %}
+      <a href="/learn/building-a-robot/mindstorms-inventor/starterbot-inventor-{{ i | prepend: '0' | slice: -2, 2 }}.png">
+          <img src="/learn/building-a-robot/mindstorms-inventor/starterbot-inventor-thumb-{{ i | prepend: '0' | slice: -2, 2 }}.png">
       </a>
   {% endfor %}
 </figure>
@@ -108,9 +104,9 @@ You can build it now, but it's better to leave it unattached
 until you get to chapter 6 and onwards.
 
 <figure class="half">
-{% for i in (18..26) %}
-      <a href="/learn/building-a-robot/spike-prime/starterbot-prime-{{ i | prepend: '0' | slice: -2, 2 }}.png">
-          <img src="/learn/building-a-robot/spike-prime/starterbot-prime-thumb-{{ i | prepend: '0' | slice: -2, 2 }}.png">
+{% for i in (19..27) %}
+      <a href="/learn/building-a-robot/mindstorms-inventor/starterbot-inventor-{{ i | prepend: '0' | slice: -2, 2 }}.png">
+          <img src="/learn/building-a-robot/mindstorms-inventor/starterbot-inventor-thumb-{{ i | prepend: '0' | slice: -2, 2 }}.png">
       </a>
   {% endfor %}
 </figure>

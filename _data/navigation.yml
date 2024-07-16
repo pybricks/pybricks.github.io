@@ -52,10 +52,21 @@ learn:
 
   - title: "2: Building a robot"
     children:
-      - title: "2.1: Building StarterBot"
+      - title: "2.1: StarterBot overview"
         url: /learn/building-a-robot/
-      - title: "2.2: Build it with SPIKE Prime"
+      - title: "2.2: SPIKE Prime"
         url: /learn/building-a-robot/spike-prime/
+      - title: "2.3: SPIKE Essential"
+        url: /learn/building-a-robot/spike-essential/
+      - title: "2.4: MINDSTORMS"
+        url: /learn/building-a-robot/mindstorms-inventor/
+      - title: "2.5: Technic"
+        url: /learn/building-a-robot/technic/
+      - title: "2.6: BOOST"
+        url: /learn/building-a-robot/boost/
+      - title: "2.7: City"
+        url: /learn/building-a-robot/city/
+
 
   - title: "3: Movement, sound, light"
     children:
