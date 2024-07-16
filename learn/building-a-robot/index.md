@@ -8,8 +8,9 @@ header:
 ---
 
 Building a vehicle robot is a great way to get familiar with robotics and
-coding. We'll show you how to build one using SPIKE, MINDSTORMS, Technic, City,
-or BOOST. 
+coding. A basic robot consists of two wheels, each powered by a motor, and a
+support in the back. We'll show you how to build such a robot using SPIKE,
+MINDSTORMS, Technic, City, or BOOST.
 
 **Tip** ⸺ You can also use your own design or competition robot. You'll learn
 to adapt the code to your design along the way. However, it can be
