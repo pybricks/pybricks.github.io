@@ -72,9 +72,3 @@ learn:
     children:
       - title: "3.1: Making basic programs"
         url: /learn/movement-sound-light/basic-programs/
-      - title: "3.2: Adding sound and light"
-        url: /learn/movement-sound-light/sound-light/
-      - title: "3.3: Using a motor"
-        url: /learn/movement-sound-light/single-motor/
-      - title: "3.4: Basic robot navigation"
-        url: /learn/movement-sound-light/navigation/
