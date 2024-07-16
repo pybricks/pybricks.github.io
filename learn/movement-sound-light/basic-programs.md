@@ -243,7 +243,7 @@ it.
 
 In this chapter, you've learned to build a program to make your robot move.
 You've learned how to change settings and to document your work with comments.
-The following challenge will help you practice your skills.
+The following challenges will help you practice your skills.
 
 **Challenge #3A: Living on the edge** ⸺ Pick a fixed starting point on your
 desk and measure the distance to the edge of your desk. Tell the robot to drive
