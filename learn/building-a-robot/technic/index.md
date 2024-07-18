@@ -55,3 +55,16 @@ the {% include setlink.html id=88007 %} is generally the more affordable option.
 It can measure color as well as rough distance, which makes it
 quite versatile. You can mount it facing downward or forward, depending on the
 application. You could also use two of these sensors at the same time.
+
+# Setup blocks
+
+If you use the design shown above, you can use the following setup blocks in
+your program. This can be a useful starting point for many of your programs.
+
+Whenever you see code for driving throughout this guide, just use the following
+parameters instead of the setup blocks used for the default SPIKE robot.
+
+{% include block-program.html
+path="setup_technic"
+caption="Setup blocks for the Technic StarterBot. This makes it drive in a square."
+%}

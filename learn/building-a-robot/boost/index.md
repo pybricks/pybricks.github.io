@@ -39,3 +39,16 @@ The BOOST set comes with
 the {% include setlink.html id=88007 %} which works well for most of the
 lessons. By mounting it on the robot as shown above, you can easily tilt it to
 face either downward or forward, depending on the application at hand.
+
+# Setup blocks
+
+If you use the design shown above, you can use the following setup blocks in
+your program. This can be a useful starting point for many of your programs.
+
+Whenever you see code for driving throughout this guide, just use the following
+parameters instead of the setup blocks used for the default SPIKE robot.
+
+{% include block-program.html
+path="setup_boost"
+caption="Setup blocks for the BOOST StarterBot. This example makes it drive in a square."
+%}

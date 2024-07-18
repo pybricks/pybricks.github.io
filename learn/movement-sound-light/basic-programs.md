@@ -164,7 +164,7 @@ Each Pybricks programs consists two two parts:
 - **Program**: Here you describe what the robot _should do_.
 
 To better understand how this works, let's build an example program using the
-steps below. Connect to your robot, and run the finished program. 
+steps below.
 
 {% include diagram.html data=page.img_setup_1 %}
 
@@ -174,17 +174,20 @@ steps below. Connect to your robot, and run the finished program.
 
 {% include diagram.html data=page.img_setup_4 %}
 
-
 # Verifying and troubleshooting
-Connect to the robot and run your program. Your robot should drive forward by
+Connect to the robot using the Bluetooth button and run your program. Your
+robot should drive forward by
 250 mm (about 10") and then reverse, ending up where it started. Otherwise:
 
 - If it didn't move at all, be sure to check the cables and the ports you selected, as
 shown below.
 - If it started by turning or reversing instead of moving straight
 forward and back, check the directions in step 2 above.
-- Place a ruler next to the robot. If it drove too far or not far enough,
+- Place a ruler next to the robot. If it drove much too far or not far enough,
   measure the wheel diameter again.
+  
+Don't worry if it's only slightly off for now. You'll learn to improve accuracy
+in the next chapters.
 
 {% include diagram.html data=page.img_setup_5 %}
 

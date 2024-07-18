@@ -38,3 +38,16 @@ can still learn about most sensor techniques.
       </a>
   {% endfor %}
 </figure>
+
+# Setup blocks
+
+If you use the design shown above, you can use the following setup blocks in
+your program. This can be a useful starting point for many of your programs.
+
+Whenever you see code for driving throughout this guide, just use the following
+parameters instead of the setup blocks used for the default SPIKE Prime robot.
+
+{% include block-program.html
+path="setup_essential"
+caption="Setup blocks for the SPIKE Essential StarterBot. This it drive in a square."
+%}

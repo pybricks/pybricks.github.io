@@ -114,3 +114,16 @@ until you get to chapter 6 and onwards.
       </a>
   {% endfor %}
 </figure>
+
+# Setup blocks
+
+If you use the design shown above, you can use the following setup blocks in
+your program. This can be a useful starting point for many of your programs.
+
+Don't worry if you're not sure what each of these blocks do. We'll introduce
+them one by one in the next chapters.
+
+{% include block-program.html
+path="setup_prime"
+caption="Setup blocks for the SPIKE Prime StarterBot. This it drive in a square."
+%}

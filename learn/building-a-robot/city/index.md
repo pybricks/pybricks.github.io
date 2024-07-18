@@ -36,3 +36,16 @@ to connect the two motors to your hub, and add two wheels. You can build a
 swivel wheel for support or simply use a rounded element as shown here.
 
 {% include scaled.html path=" /learn/building-a-robot/city/starterbot-city-bottom.jpg" %}
+
+# Setup blocks
+
+If you use the design shown above, you can use the following setup blocks in
+your program. This can be a useful starting point for many of your programs.
+
+Whenever you see code for driving throughout this guide, just use the following
+parameters instead of the setup blocks used for the default SPIKE robot.
+
+{% include block-program.html
+path="setup_city"
+caption="Setup blocks for this example robot. This example makes it drive in a square."
+%}
