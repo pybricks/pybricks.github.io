@@ -38,9 +38,6 @@ To follow this project, you will need the following:
 - {% include setlink.html id=42146 %}
 - {% include setlink.html id=88010 %}
 
-See <a href="https://docs.pybricks.com/en/latest/pupdevices/remote.html#compatible-controllers" target="_blank">
-this overview</a> for all compatible models.
-
 # Understanding the code
 
 This project has two programs, one for each hub. The hub in the base connects
