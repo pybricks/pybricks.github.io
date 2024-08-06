@@ -38,7 +38,7 @@ To follow this project, you will need the following:
 - {% include setlink.html id=42146 %}
 - {% include setlink.html id=88010 %}
 
-See <a href="https://docs.pybricks.com/en/latest/iodevices/xboxcontroller.html#compatible-controllers" target="_blank">
+See <a href="https://docs.pybricks.com/en/latest/pupdevices/remote.html#compatible-controllers" target="_blank">
 this overview</a> for all compatible models.
 
 # Understanding the code
@@ -63,7 +63,7 @@ a factor in the crane program to get the desired speed.
   width="75%"
   caption="The program for the hub in the crane receives three values and sets the crane motor speed functions accordingly." %}
 
-{% include block-program.html path="set_42146_base_xbox"
+{% include block-program.html path="set_42146_base_pup_remote"
   caption="The program for the hub in the base receives the Powered Up remote input, drives and turns the base, and broadcasts the required speeds for the crane functions to the other hub. Switch to crane mode with the green button." %}
 
 {% include snippets/pybricks-intro.md %}
