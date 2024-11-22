@@ -1,12 +1,14 @@
 ---
-title: "Making basic programs"
+title: "Your first program"
 excerpt: >
   What does it take to build a program? Learn to set up your hub, motors and
   sensors and make your robot move with precision.
+header:
+  teaser: /learn/making-programs/basics-motor-setup-3.png
 redirect_from:
-  - /learn/movement-sound-light/
+  - /learn/making-programs/
 img_setup_1:
-  image: /learn/movement-sound-light/basics-motor-setup-1.png
+  image: /learn/making-programs/basics-motor-setup-1.png
   alt: Setup step 1
   width: 100%
   caption: >
@@ -26,7 +28,7 @@ img_setup_1:
       y: 30%
       location: above
 img_setup_2:
-  image: /learn/movement-sound-light/basics-motor-setup-2.png
+  image: /learn/making-programs/basics-motor-setup-2.png
   alt: Setup step 2
   width: 100%
   caption: >
@@ -57,7 +59,7 @@ img_setup_2:
       y: 70%
       location: right
 img_setup_3:
-  image: /learn/movement-sound-light/basics-motor-setup-3.png
+  image: /learn/making-programs/basics-motor-setup-3.png
   alt: Setup step 3
   width: 100%
   caption: >
@@ -80,7 +82,7 @@ img_setup_3:
       y: 72%
       location: below
 img_setup_4:
-  image: /learn/movement-sound-light/basics-motor-setup-4.png
+  image: /learn/making-programs/basics-motor-setup-4.png
   alt: Setup step 4
   width: 100%
   caption: >
@@ -102,7 +104,7 @@ img_setup_4:
       location: below
 
 img_setup_5:
-  image: /learn/movement-sound-light/basics-motor-setup-5.png
+  image: /learn/making-programs/basics-motor-setup-5.png
   alt: Setup step 5
   width: 100%
   caption: >
@@ -117,7 +119,7 @@ img_setup_5:
       location: right
 
 img_setup_6:
-  image: /learn/movement-sound-light/basics-motor-setup-6.png
+  image: /learn/making-programs/basics-motor-setup-6.png
   alt: Setup step 6
   width: 100%
   caption: >
@@ -130,26 +132,7 @@ img_setup_6:
       y: 75%
       location: right
 
-img_setup_comments:
-  image: /learn/movement-sound-light/basics-comment-block.png
-  alt: Comment block
-  width: 100%
-  caption: >
-    Comments help you document your work. When you review your code later,
-    you'll be able to see how it works and why you made it that way.
-  labels:
-    - text: Other blocks
-      x: 12%
-      y: 82%
-      location: right
-    - text: Comment block
-      x: 34%
-      y: 28%
-      location: right
-    - text: Document your work
-      x: 50%
-      y: 65%
-      location: left
+
 ---
 
 In this chapter, you'll learn how to set up your programs for the StarterBot
@@ -221,26 +204,6 @@ When changing the settings, it's best to do so from left to right as well, becau
 other settings may change when you do. For example, if you select _straight_,
 an option appears to choose how many millimeters. But if you select _turn_, an
 option appears to choose how many degrees.
-
-# The comment block
-
-No matter how simple your program is, it is _always_ a good idea to document
-your work. Code comments help you document your work for yourself and others.
-Even if a design choice appears obvious today, a comment will help you remember
-a few weeks later.
-
-{% include diagram.html data=page.img_setup_comments %}
-
-Some comments can be descriptive. They might summarize what a sequence of blocks
-do. Other comments can describe _why_ you've done it in a particular way. You
-can also describe the required conditions that are needed to run your program.
-Comments are filtered out before your code is sent to the robot, so
-comments have no impact on performance or robot code size.
-
-It is possible to leave a comment block floating on the canvas if you need to,
-but it is best practice to attach it like a normal block. This way, it moves
-along with your code automatically when you add other blocks above or below
-it.
 
 # Further exploration
 

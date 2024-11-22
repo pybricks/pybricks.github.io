@@ -68,13 +68,18 @@ learn:
         url: /learn/building-a-robot/city/
 
 
-  - title: "3: Movement, sound, light"
+  - title: "3: Making basic programs"
     children:
-      - title: "3.1: Making basic programs"
-        url: /learn/movement-sound-light/basic-programs/
-      - title: "3.2: Adding sound and light"
-        url: /learn/movement-sound-light/sound-light/
-      - title: "3.3: Using a motor"
-        url: /learn/movement-sound-light/single-motor/
-      - title: "3.4: Basic robot navigation"
-        url: /learn/movement-sound-light/navigation/
+      - title: "3.1: Your first program"
+        url: /learn/making-programs/your-first-program/
+      - title: "3.2: Essential coding tools"
+        url: /learn/making-programs/basic-blocks/
+      - title: "3.3: Basic robot navigation"
+        url: /learn/making-programs/basic-robot-navigation/
+      - title: "3.4: Adding sound and light"
+        url: /learn/making-programs/sound-light/
+
+  - title: "8: Using motors effectively"
+    children:
+      - title: "8.1: Using individual motors"
+        url: /learn/motors/single-motor/

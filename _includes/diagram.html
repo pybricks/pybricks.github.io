@@ -13,28 +13,36 @@ Pass in an object defined in page front matter, or as a .yml file in the _data d
 
 <div style="margin-bottom: {{ data.margin_bottom | default: '20px' }}; margin-top: {{ data.margin_top | default: '10px' }};">
 <div style="position: relative; display: block; width: {{ data.width }}; margin-left: auto; margin-right: auto;">
-    <img src="{{ data.image }}" alt="{{ data.alt }}">
+    <img class="responsive-image" src="{{ data.image }}" alt="{{ data.alt }}">
     {% for label in data.labels %}
     {% if label.location == 'below' %}
+    {% unless label.hideline %}
     <div class="label-line" style="top: {{ label.y }}; left: calc({{ label.x }}); transform: translateX(-50%); width: {{ thickness }}px; height: {{ length }}px;"></div>
+    {% endunless %}
     <div class="label-text" style="top: calc({{ label.y }} + {{ length }}px); left: {{ label.x }}; transform: translateX(-50%);">
         {{ label.text | newline_to_br }}
     </div>
     {% endif %}
     {% if label.location == 'above' %}
+    {% unless label.hideline %}
     <div class="label-line" style="bottom: calc(100% - {{ label.y }}); left: calc({{ label.x }}); transform: translateX(-50%); width: {{ thickness }}px; height: {{ length }}px;"></div>
+    {% endunless %}
     <div class="label-text" style="bottom: calc(100% - {{ label.y }} + {{ length }}px); left: {{ label.x }}; transform: translateX(-50%);">
         {{ label.text | newline_to_br  }}
     </div>
     {% endif %}
     {% if label.location == 'right' %}
+    {% unless label.hideline %}
     <div class="label-line" style="top: calc({{ label.y }}); left: {{ label.x }}; transform: translateY(-50%); width: {{ length }}px; height: {{ thickness }}px;"></div>
+    {% endunless %}
     <div class="label-text" style="top: {{ label.y }}; left: calc({{ label.x }} + {{ length }}px); transform: translateY(-50%);">
         {{ label.text | newline_to_br }}
     </div>
     {% endif %}
     {% if label.location == 'left' %}
+    {% unless label.hideline %}
     <div class="label-line" style="top: calc({{ label.y }}); right: calc(100% - {{ label.x }}); transform: translateY(-50%); width: {{ length }}px; height: {{ thickness }}px;"></div>
+    {% endunless %}
     <div class="label-text" style="top: {{ label.y }}; right: calc(100% - {{ label.x }} + {{ length }}px); transform: translateY(-50%);">
         {{ label.text | newline_to_br }}
     </div>
