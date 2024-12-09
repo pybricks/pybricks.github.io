@@ -1,0 +1,41 @@
+0 FILE Untitled.ldr
+0 Untitled
+0 Name: Untitled.ldr
+0 Author: Pybricks
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -950 0 0 1 0 0 0 1 0 0 0 1 bricks.ldr
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 bricks.ldr
+1 0 -950 1120 0 1 0 0 0 1 0 0 0 1 bricks.ldr
+1 0 0 1120 0 1 0 0 0 1 0 0 0 1 bricks.ldr
+0
+0 FILE bricks.ldr
+0 New Model
+0 Name: bricks.ldr
+0 Author: Pybricks
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 0 -280 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 0 -560 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 0 -840 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 -190 0 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 -190 -280 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 -190 -560 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 -190 -840 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 190 0 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 190 -280 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 190 -560 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 190 -840 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 380 0 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 380 -280 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 380 -560 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 380 -840 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 570 0 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 570 -280 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 570 -560 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+1 15 570 -840 0 1 0 0 0 0 -1 0 1 0 95646c01.dat
+0
+0

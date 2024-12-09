@@ -11,5 +11,12 @@
     "python.linting.pycodestyleEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
-    "python.linting.flake8Args": ["--max-line-length=70", "--ignore=F401"]
+    "python.linting.flake8Args": [
+        "--max-line-length=70",
+        "--ignore=F401"
+    ],
+    "cSpell.words": [
+        "MINDSTORMS",
+        "Pybricks"
+    ]
 }
