@@ -171,7 +171,7 @@ drive blocks to make it move. Create the program as shown below. Run the
 program when you're ready.
 
 {% include block-program.html
-path="L03_3_1_basics"
+path="L03_3_basics"
 caption="Driving straight and making turns."
 width="100%"
 %}
@@ -277,7 +277,7 @@ To practice with making curves, create the following program that makes your
 robot drive in an oval and stop where it started.
 
 {% include block-program.html
-path="L03_3_2_curve"
+path="L03_3_curve"
 caption="Drive in an oval shape with two straights and two half-circles."
 width="100%"
 %}
@@ -309,7 +309,7 @@ should complete the oval much more quickly since it does not have to stop and
 accelerate four times.
 
 {% include block-program.html
-path="L03_3_5_continue"
+path="L03_3_continue"
 caption="Drive in an oval shape with two straights and two half-circles as before, but don't stop after each movement."
 width="100%"
 %}
