@@ -1,5 +1,5 @@
 ---
-title: "Your first program"
+title: "Your first robot program"
 excerpt: >
   What does it take to build a program? Learn to set up your hub, motors and
   sensors and make your robot move with precision.
@@ -32,9 +32,9 @@ img_setup_2:
   alt: Setup step 2
   width: 100%
   caption: >
-    2. Give each motor a name. Since they'll be driving the wheels on the Starter
-    Bot, let's call the one on port A <i>left wheel</i> and the one on port B
-    B <i>right wheel</i>. If you look at the left wheel, you'll notice that it
+    2. Give each motor a name. Since they'll be driving the wheels on the
+    StarterBot, let's call the one on port A <i>left wheel</i> and the one on
+    port B <i>right wheel</i>. If you look at the left wheel, you'll notice that it
     must turn <i>counterclockwise</i> to make the robot drive forward. Change
     the setting as shown above.
   labels:
@@ -71,12 +71,14 @@ img_setup_3:
       x: 68%
       y: 35%
       location: above
-    - text: Select both motors
-      x: 31%
+    - text: |
+        Select left and
+        right motor
+      x: 35%
       y: 72%
       location: below
     - text: |
-        Choose wheel diameter and distance
+        Set wheel diameter and distance
         between wheel ground contacts.
       x: 70%
       y: 72%
@@ -88,7 +90,7 @@ img_setup_4:
   caption: >
     4. From the output tab, pick two <i>Drive blocks</i> and attach them to the main 
     program block. Leave the first one unchanged. In the second block, change
-    the distance to <i>-250</i> millimeters. 
+    the distance to <i>-250</i> millimeters.
   labels:
     - text: Drive block
       x: 62%
@@ -108,8 +110,9 @@ img_setup_5:
   alt: Setup step 5
   width: 100%
   caption: >
-    5. Error messages can help you find some mistakes early. To try it,
-    run the program again with one of the cables in the wrong port.
+    5. Error messages can help you find some mistakes early. Even if it worked
+    right away, try doing it wrong on purpose to familiarize yourself with
+    reading error messages.
   labels:
     - text: |
         A motor is not
@@ -139,12 +142,15 @@ In this chapter, you'll learn how to set up your programs for the StarterBot
 you've just built. You'll also experiment with basic movements and learn
 to verify the results.
 
+Remember that you can also use your own design or competition robot. You'll
+learn to adapt the code to your design along the way.
+
 # Setup and the main program
 
-Each Pybricks programs consists two two parts:
-- **Device setup**: Here you describe how your robot _is built_ and how the
+Each Pybricks programs consists of two parts:
+- **Device setup**: This part describes how your robot _is built_ and how the
   devices are connected to the hub.
-- **Program**: Here you describe what the robot _should do_.
+- **Program**: This part describes what the robot _should do_.
 
 To better understand how this works, let's build an example program using the
 steps below.
@@ -179,7 +185,7 @@ that your setup is configured properly.
 
 This setup will be a big time saver when you create larger programs later on.
 If you change your design including the cables, all you have to do is change
-one port in the setup, rather than changing it throughout your entire program.
+one setup block, rather than changing it throughout your entire program.
 
 # Changing parameters
 
@@ -200,15 +206,16 @@ from _left to right_: The _robot_ (that you've set up) drives _straight_ (your
 choice) for `250 mm` (your distance value) and then actively _holds_ the
 motors in place (your choice).
 
-When changing the settings, it's best to do so from left to right as well, because
-other settings may change when you do. For example, if you select _straight_,
-an option appears to choose how many millimeters. But if you select _turn_, an
-option appears to choose how many degrees.
+When changing the settings, it's best to do so from left to right as well,
+because other settings may be added or removed as you go. For example, if you
+select _straight_, an option appears to choose how many millimeters. But if you
+select _turn_, an option appears to choose how many degrees to turn.
 
 # Further exploration
 
 In this chapter, you've learned to build a program to make your robot move.
-You've learned how to change settings and to document your work with comments.
+You used setup blocks to describe your robot. Then you added program blocks to
+make make your robot move, and changed settings to change what each block did.
 The following challenges will help you practice your skills.
 
 **Challenge #3A: Living on the edge** ⸺ Pick a fixed starting point on your

@@ -13,7 +13,13 @@ Pass in an object defined in page front matter, or as a .yml file in the _data d
 
 <div style="margin-bottom: {{ data.margin_bottom | default: '20px' }}; margin-top: {{ data.margin_top | default: '10px' }};">
 <div style="position: relative; display: block; width: {{ data.width }}; margin-left: auto; margin-right: auto;">
+    {% if data.image contains '.svg' %}
+    <div class="svg-container">
+        {% include_relative {{ data.image }} %}
+      </div>
+    {% else %}
     <img class="responsive-image" src="{{ data.image }}" alt="{{ data.alt }}">
+    {% endif %}
     {% for label in data.labels %}
     {% if label.location == 'below' %}
     {% unless label.hideline %}

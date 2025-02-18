@@ -70,7 +70,7 @@ learn:
 
   - title: "3: Making basic programs"
     children:
-      - title: "3.1: Your first program"
+      - title: "3.1: Your first robot program"
         url: /learn/making-programs/your-first-program/
       - title: "3.2: Essential coding tools"
         url: /learn/making-programs/basic-blocks/

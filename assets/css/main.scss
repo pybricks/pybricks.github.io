@@ -174,3 +174,14 @@ h2 {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #bdc0c3;
 }
+
+.svg-container {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.svg-container svg {
+  width: 100%;
+  height: auto;
+}

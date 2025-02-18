@@ -36,7 +36,7 @@ single-motor-palette:
       y: 80%
       location: below
 angle-line-overview:
-  image: /learn/motors/angle-line-overview.svg
+  image: angle-line-overview.svg
   alt: Angle line overview
   width: 100%
   caption: >
@@ -54,7 +54,7 @@ angle-line-overview:
       location: left
       hideline: true
 angle-line-zoom:
-  image: /learn/motors/angle-line-zoom.svg
+  image: angle-line-zoom.svg
   alt: Angle line zoom
   width: 100%
   caption: >
@@ -62,11 +62,11 @@ angle-line-zoom:
     a ○ marker to indicate 0°, 360°, and so on.
   labels:
     - text: When the program starts, the angle is between -180° and 180°
-      x: 50%
-      y: 61%
+      x: 54%
+      y: 58%
       location: below
 angle-line-run-by-angle:
-  image: /learn/motors/angle-line-run-by-angle.svg
+  image: angle-line-run-by-angle.svg
   alt: Visualization of running by a given angle.
   width: 100%
   caption: >
@@ -90,7 +90,7 @@ angle-line-run-by-angle:
       location: right
       hideline: true
 angle-line-run-towards-angle:
-  image: /learn/motors/angle-line-run-towards-angle.svg
+  image: angle-line-run-towards-angle.svg
   alt: Visualization of running towards a given angle.
   width: 100%
   caption: >
@@ -168,7 +168,7 @@ angle to any other initial value as discussed here.
 values on a circle, but this is _incorrect_. This analogy breaks down after one
 whole rotation, which can be more confusing than helpful in the long run.
 Similarly, the terms "shortest path", "relative position" and "absolute
-position" used in other coding apps are misnomers in all but the simplest
+position" used in other coding apps are _misnomers_ in all but the simplest
 applications. You can read more [here](/learn/motors/single-motor-extra/).
 {: .notice}
 

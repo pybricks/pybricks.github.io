@@ -240,7 +240,7 @@ You'll find the wait block on the tab with the (orange) Flow blocks, which you'v
 [very first program](/learn/getting-started/pybricks-environment/#creating-your-first-program).
 
 {% include block-program.html
-path="L031_wait"
+path="L03_2_1_wait"
 caption="This basic program shows how to control the train motor, sound, and light."
 width="80%"
 %}
