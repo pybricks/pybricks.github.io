@@ -282,7 +282,6 @@ caption="Drive in an oval shape with two straights and two half-circles."
 width="100%"
 %}
 
-
 **Challenge #3.3.D: Squaring the circle** ⸺ In Challenge #3.3.G, you made program to
 drive in a square with four straights and four turns. Can you adapt it to
 replace two straights and a turn with a single curve? The resulting shape should
@@ -291,7 +290,127 @@ Draw it on paper first and mark the straights, turns, and the curve with the
 right parameters.
 {: .notice--primary}
 
+**Challenge #3.3.E: Spiralling** ⸺ Can you combine multiple curves to drive in
+a pattern that spirals outward? Start by driving in half circles, each with a
+bigger radius than the last. **Discuss** ⸺ Is this a real spiral shape? If not,
+what could you change to make it slightly more like a real spiral?
+{: .notice--primary}
+
 # Adjusting speed and acceleration
+
+In your previous programs, the robot was driving at the default speed, which is
+relatively slow. You can change how fast the robot drives and turns with the
+drive base configuration block.
+
+Throughout these examples, the configuration
+block is used several times with different values. For most robots, a single
+set of values is sufficient. You could put them all at the start of your
+program for clarity.
+
+For very short moves, the robot may not always the configured speed since it
+has to slow down in time to stop precisely on target. So the drive and turn
+speed settings are more like speed limits that it will reach when possible.
+
+## Drive speed and acceleration
+
+The drive speed is measured in millimeters-per-second, or mm/s. It is the
+distance that the robot travels (in mm) in one second. For example, if the
+robot drives 500 mm in 2 seconds, its speed is 500 / 2 = 250 mm/s. The robot
+determines how fast to rotate the wheels based on wheel diameter setting.
+
+Drive acceleration is the change of the speed value, every second. So it is the
+change of the millimeter-per-second speed, per-second. This is often written as
+mm/s/s or mm/s². To reach a top speed of 250 mm/s in half a second, the
+acceleration should be 250 / 0.5 = 500 mm/s².
+
+The following example shows how you can change speed and acceleration. It drives
+the robot back and forth with different speed and acceleration values.
+
+{% include block-program.html
+path="L03_3_drive_settings"
+caption="Adjusting drive speed and acceleration."
+width="100%"
+%}
+
+**Challenge #3.3.F: Speed ticket** ⸺ Can you verify the speed value with an
+experiment? Make a program with one speed configuration block and one block to
+drive straight for 10 meters (10 000 mm). Verify that it drives the required
+distance, and measure the duration with the stopwatch on your phone. Calculate
+the speed as 10 000 / ``T``, where ``T`` is the measured time in seconds. Does
+your result match the speed setting? **In class** ⸺ You set the speed but don't
+tell your friend what you choose. How close can your friend get by measuring it
+experimentally? **Discuss** ⸺ Do you get similar values every time? How can you
+make the test more accurate? Why is it helpful to drive such a long distance?
+Does acceleration play a role?
+{: .notice--primary}
+
+## Turn speed and acceleration
+
+The turn speed (or turn rate) in degrees per second, or deg/s. It is the angle
+that the robot makes when viewed from the top, in one second. For example, if
+the robot turns 180 degrees in 2 seconds, its speed is 180 / 2 = 90 deg/s. The
+robot determines how fast to rotate the wheels based on wheel diameter and
+wheel base settings.
+
+Turn acceleration is the change of the turn rate value, every second. So it is the
+change of the degrees-per-second rate, per-second. This is often written as
+deg/s/s or deg/s². To reach a top turn rate of 90 deg/s in half a second, the
+acceleration should be 90 / 0.5 = 180 mm/s².
+
+The following example shows how you can change the turn rate and acceleration.
+If all works well, it should make three perfect rotations. In practice, you
+might find that the wheels slip a bit more in the final fast turn, especially
+if the wheels are a bit dusty.
+
+{% include block-program.html
+path="L03_3_turn_settings"
+caption="Adjusting turn speed and acceleration."
+width="100%"
+%}
+
+## Maximum speed and acceleration
+
+The maximum drive and turn speed of your robot depend on your design. You can
+drive faster with big wheels than with small wheels. After all, you can turn
+faster with a smaller wheel base than with a wide wheel base.
+
+SPIKE motors can turn up to about 1000 degrees per second when there isn't much
+load. With 56 mm wheels, the maximum speed is therefore about 1000 / 360 × 2 ×
+π ≈ 488 mm/s.
+
+If you try to set a much higher value, you'll see an error that you've provided
+an invalid argument. This helps prevent you from trying arbitrarily large values
+that don't actually do anything.
+
+This may seem a bit complicated at first. However, specifying a value that you
+can measure and verify is much more reliable compared to choosing an arbitrary
+percentage (0--100%).
+
+We recommend to stay away from the absolute limit. Near the limit there is
+less room for the robot to self-correct if it slides or encounters obstacles.
+
+**Challenge #3.3.G: On the limit** ⸺ Create a program that has the robot
+drive back and forth at high speed. Determine which acceleration values your
+robot can still handle without slipping. What happens if you put a bit of dust
+on your wheels?
+{: .notice--primary}
+
+**Challenge #3.3.H: Snail's pace** ⸺ Experiment with low speed values and low
+accelerations. **Discuss** ⸺ Is going slower always better? Is there also a
+lower speed limit where accuracy becomes an issue? What is the role of friction
+at low speeds? Search online for stick–slip motion.
+{: .notice--primary}
+
+## Speed and acceleration in curves
+
+Curves combine driving and turning. You can adjust the settings in the same way
+as above. The robot will automatically select the setting that best applies to
+your move.
+
+What does this mean? A tight curve is quite similar to a plain turn, so the robot
+mostly uses your chosen turn speed and acceleration, ignoring the drive speed
+limits. For a wide curve with a long distance, the robot will use your drive
+speed and acceleration settings and ignore your turn settings.
 
 # Understanding stop modes
 
