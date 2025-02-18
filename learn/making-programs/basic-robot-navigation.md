@@ -179,14 +179,14 @@ width="100%"
 Your robot should now drive forward for 250 mm (25 cm, or about 10"), turn
 around, and drive back to where it started.
 
-**Challenge #3G: Square it** ⸺ Can you make your robot drive in a square?
+**Challenge #3.3.A: Square it** ⸺ Can you make your robot drive in a square?
 How many drive blocks do you need to do it? When you're ready, change the
 program to a rectangle that is 250 mm by 1000 mm. When it drives, place an
 object at each of the corners as it passes by. Verify your results with a
 measuring tape.
 {: .notice--primary}
 
-**Challenge #3H: Hexagons are the Bestagons** ⸺ Modify your solution from
+**Challenge #3.3.B: Hexagons are the Bestagons** ⸺ Modify your solution from
 challenge 3G to drive in a hexagonal shape instead. How many degrees should
 each turn be? How many blocks do you need this time? **Discuss** ⸺ Draw the
 shape that the robot drives on paper and mark the angles that the robot makes.
@@ -195,7 +195,7 @@ square from challenge 3G too. Do you notice anything? Is this also true for
 triangles and pentagons? Are there shapes where this does not apply?
 {: .notice--primary}
 
-**Challenge #3I: Robomenu** ⸺ Have the robot drive around in the shape of
+**Challenge #3.3.C: Robomenu** ⸺ Have the robot drive around in the shape of
 letters to spell out your favorite food. Can your classmate guess what you
 wrote?
 {: .notice--primary}
@@ -283,7 +283,7 @@ width="100%"
 %}
 
 
-**Challenge #3J: Squaring the circle** ⸺ In challenge #3G, you made program to
+**Challenge #3.3.D: Squaring the circle** ⸺ In Challenge #3.3.G, you made program to
 drive in a square with four straights and four turns. Can you adapt it to
 replace two straights and a turn with a single curve? The resulting shape should
 be a quarter of a pizza. What do the radius and angle need to be for the curve?
@@ -335,7 +335,7 @@ scared to take things apart! Take pictures as you disassemble it. You can
 always view them in reverse if you want to rebuild your previous design.
 
 
-**Challenge #3G: What's in a diameter?** ⸺ Given a target distance of 1000 mm,
+**Challenge #3.3.E: What's in a diameter?** ⸺ Given a target distance of 1000 mm,
 can you work out how far both wheels need to turn how to get there? Write down
 your estimate. Try it out with a small program, and count the number of
 revolutions of the white marker on the wheel. Did you get it right? **Discuss**
@@ -345,7 +345,7 @@ use bigger wheels?
 {: .notice--primary}
 
 
-**Challenge #3F: Turning point** ⸺ A conventional car is quite different from
+**Challenge #3.3.F: Turning point** ⸺ A conventional car is quite different from
 your LEGO robot. It drives using an engine or motors and it steers by turning
 the front wheels. Can you draw a top-view diagram like the one above, but for a
 car? Be sure to draw exactly how the front wheels are positioned and add arrows

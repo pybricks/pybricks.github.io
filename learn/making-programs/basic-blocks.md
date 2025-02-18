@@ -162,7 +162,7 @@ block that uses the device.
 
 {% include diagram.html data=page.single-motor-setup-forget %}
 
-**Challenge #3D: Robot pit stop** ⸺ To get some practice with setup blocks,
+**Challenge #3.2.A: Robot pit stop** ⸺ To get some practice with setup blocks,
 attach all your remaining motors to the hub. Set up the motors and add some
 blocks to make each motor move. Now unplug the drive motors and plug them into
 ports B and C instead of A and B. What do you have to change in your code to
@@ -197,7 +197,7 @@ and angle. If your mechanism moves in the "wrong" direction (e.g. the lift
 mechanism is going _down_), just flip the forward direction
 in the setup block.
 
-**Challenge #3E: A change of heart** ⸺ For this challenge, let's suppose that
+**Challenge #3.2.B: A change of heart** ⸺ For this challenge, let's suppose that
 you've changed your mind about your StarterBot design. Don't change your build,
 but just pretend that the support caster is now the _front_ of your robot. How
 do you configure the positive directions for the left and right motors? Verify
@@ -277,13 +277,13 @@ robot is not connected to your computer, this block will do nothing. Then your
 program just continues with the block immediately after it.
 
 Click the `>` icon on the block to reveal more text fields and an optional
-sepator between each field. When used like this, you can copy the text from
+separator between each field. When used like this, you can copy the text from
 the output pane to apps like Excel, Calc, or Numbers to produce graphs.
 
 Right click on the output pane to see additional options for copying or erasing
 the output.
 
-**Challenge #3F: Countdown clock** ⸺ Can you combine Wait blocks,
+**Challenge #3.2.C: Countdown clock** ⸺ Can you combine Wait blocks,
 Print blocks, and Comment blocks to create a countdown clock? First, display
 a message to say `"Time remaining..."`, and then display `10`, `9`, `8` and so
 on until time is up. How do you ensure that each new message is exactly one

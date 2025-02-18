@@ -218,7 +218,7 @@ You used setup blocks to describe your robot. Then you added program blocks to
 make make your robot move, and changed settings to change what each block did.
 The following challenges will help you practice your skills.
 
-**Challenge #3A: Living on the edge** ⸺ Pick a fixed starting point on your
+**Challenge #3.1.A: Living on the edge** ⸺ Pick a fixed starting point on your
 desk and measure the distance to the edge of your desk. Tell the robot to drive
 exactly that distance and back again. _Tip:_  On your first try, to reduce
 the value slightly. Be prepared to catch you robot if it falls. Safety first!
@@ -226,14 +226,14 @@ When you're away from the computer, you can stop the program using the hub
 button.
 {: .notice--primary}
 
-**Challenge #3B: Spell your name** ⸺ Can you put together a sequence of Drive
+**Challenge #3.1.B: Spell your name** ⸺ Can you put together a sequence of Drive
 blocks so that it drives along the first letter of your name? What about your
 whole name? _Hint:_ Besides in-place turns, you can also choose a curve with
 a given angle and radius. When you're satisfied with the result, try attaching
 a pen to the robot so it draws your name as it moves.
 {: .notice--primary}
 
-**Challenge #3C: Satnav subtitles** ⸺ Previously, you've experimented with
+**Challenge #3.1.C: Satnav subtitles** ⸺ Previously, you've experimented with
 the Print block. Add print blocks to your program to make the robot indicate
 exactly what it will do. For example, make it say "Turning 90 degrees!" Where
 do you put these Print blocks? Should they go before or after each Drive block?

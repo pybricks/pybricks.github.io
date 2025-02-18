@@ -530,30 +530,30 @@ robot. It's a good idea to play around with the code editor some more before
 diving into the details of all the blocks you can use. These challenges will
 help you get started.
 
-**Challenge #1A: Countdown clock** ⸺ Can you modify the example program to count
+**Challenge #1.3.A: Countdown clock** ⸺ Can you modify the example program to count
 down from 10 to 0? _Hint:_ You'll need 11 wait blocks and 11 print blocks.
 You could type the numbers directly, or write your own notes such as "Time is up!"
 {: .notice--primary}
 
-**Challenge #1B: Twinkle Twinkle Star** ⸺ Can you expand the program you've just
+**Challenge #1.3.B: Twinkle Twinkle Star** ⸺ Can you expand the program you've just
 created to display the lyrics of _Twinkle Twinkle Star_? Look up the lyrics and
 use a Print block for each line. Ensure the timing between each line is just
 right by setting the time in the Wait blocks as required.
 {: .notice--primary}
 
-**Challenge #1C: Timing the Wait block** ⸺ The Wait block lets you specify
+**Challenge #1.3.C: Timing the Wait block** ⸺ The Wait block lets you specify
 a time to wait in milliseconds. But is it accurate? It never hurts to verify
 if a robot is really doing what you tell it to. Use print statements and a
 stopwatch on your phone to determine how well it works.
 {: .notice--primary}
 
-**Challenge #1D: File management** ⸺ You can back up one program, or all
+**Challenge #1.3.D: File management** ⸺ You can back up one program, or all
 programs at once as a ZIP archive. Can you download this ZIP archive, and open
 it with Pybricks on another computer? You could send it by email or save it
 to a service like Dropbox.
 {: .notice--primary}
 
-**Challenge #1E: Python calculator** ⸺ Even though we won't be working with
+**Challenge #1.3.E: Python calculator** ⸺ Even though we won't be working with
 Python for a while, there's a few things you can explore already. Click the
 `>>>` key at the top to start the interactive prompt. In the output window
 at the bottom, try typing `5+5` and press _enter_. Do you get the expected
