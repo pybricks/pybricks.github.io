@@ -68,33 +68,30 @@ img_inventor_curve:
   width: 100%
   caption: >
     Making curves. The orange arrows indicate the circle radius. The
-    green arrows indicate the path of the robot. If you choose a distance
-    duration, then you are effectively setting the length of the green arrow.
-    If you choose an angle duration, you are setting the angle that the green
-    arrow makes between the orange line and the black dashed line. Choosing 360
-    degrees would make it go round the whole circle.
+    green arrows indicate the path of the robot for your specified angle.
+    Choosing 360 degrees would make it go round the whole dotted circle.
   labels:
     - text: |
-        negative radius
-        positive distance/angle
+        positive radius
+        negative angle
       x: 24%
       y: 40%
       location: below
     - text: |
         positive radius
-        positive distance/angle
+        positive angle
       x: 71%
       y: 40%
       location: below
     - text: |
         negative radius
-        negative distance/angle
+        negative angle
       x: 24%
       y: 88%
       location: below
     - text: |
-        positive radius
-        negative distance/angle
+        negative radius
+        positive angle
       x: 71%
       y: 88%
       location: below
@@ -249,9 +246,10 @@ the wheels turn, not how far it really drives.
 
 # Making curves
 
-This feature is still under development and will be coming soon. An older
-function for making curves is already available. It doesn't exactly match
-the diagram below, but you can still use it to make smooth curves. Stay tuned!
+This feature is still under development and may be subject to change.
+Feel free to join the discussion with other teachers
+[here](https://github.com/pybricks/support/issues/1157), or open your own
+discussion topic.
 {: .notice--warning}
 
 Instead of combining straights and turns to get to your destination, your robot
@@ -261,16 +259,9 @@ curve is sometimes faster than a combination of straights and turns.
 {% include diagram.html data=page.img_inventor_curve %}
 
 You choose the _size of the circle_ by setting the radius. A big value means a
-big circle with a wide turn. A small value is a tight turn. The value cannot be
-zero. To turn in place, just use the simpler _turn_ method we used earlier.
-Choose
-a positive radius value to drive along a circle on the robot's right. Choose a
-negative radius for a circle on the left, as shown below.
-
-Next, choose how far you want to drive along the circle. Choose a positive
-value for forwards along your chosen circle. Choose negative for reverse. You
-can specify how far to drive using either an angle or distance, whichever is
-more convenient for your program.
+big circle with a wide turn. A small value is a tight turn. Next, choose how
+far you want to drive along the circle, specified as an angle. The diagram
+shows which values should be positive or negative to make the intended curve.
 
 To practice making curves, create the following program that makes your
 robot drive in an oval and stop where it started.
