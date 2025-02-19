@@ -13,7 +13,7 @@ img_setup_1:
   width: 100%
   caption: >
     1. Create a new program called 'setup_demo'. From the setup tab, pick two motor
-    setup blocks on and place them on the canvas.
+    setup blocks and place them on the canvas.
   labels:
     - text: Setup blocks
       x: 10%
@@ -64,7 +64,7 @@ img_setup_3:
   width: 100%
   caption: >
     3. Place the drive base setup on the canvas. Configure it to use the left and
-    right wheels. Measure the diameter of your wheels and and the distance between
+    right wheels. Measure the diameter of your wheels and the distance between
     the wheels and enter them as shown. Delete the existing <i>Print block</i>.
   labels:
     - text: Drive base setup block
@@ -147,7 +147,7 @@ learn to adapt the code to your design along the way.
 
 # Setup and the main program
 
-Each Pybricks programs consists of two parts:
+Each Pybricks program consists of two parts:
 - **Device setup**: This part describes how your robot _is built_ and how the
   devices are connected to the hub.
 - **Program**: This part describes what the robot _should do_.
@@ -215,13 +215,13 @@ select _turn_, an option appears to choose how many degrees to turn.
 
 In this chapter, you've learned to build a program to make your robot move.
 You used setup blocks to describe your robot. Then you added program blocks to
-make make your robot move, and changed settings to change what each block did.
+make your robot move, and changed settings to change what each block did.
 The following challenges will help you practice your skills.
 
 **Challenge #3.1.A: Living on the edge** ⸺ Pick a fixed starting point on your
 desk and measure the distance to the edge of your desk. Tell the robot to drive
-exactly that distance and back again. _Tip:_  On your first try, to reduce
-the value slightly. Be prepared to catch you robot if it falls. Safety first!
+exactly that distance and back again. _Tip:_ On your first try, reduce
+the value slightly. Be prepared to catch your robot if it falls. Safety first!
 When you're away from the computer, you can stop the program using the hub
 button.
 {: .notice--primary}

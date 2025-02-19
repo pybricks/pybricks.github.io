@@ -8,7 +8,7 @@ single-motor-setup:
   alt: Motor setup
   width: 100%
   caption: >
-    Setup blocks help your organize your code. This example also shows how you
+    Setup blocks help you organize your code. This example also shows how you
     can rotate a single motor. You'll learn more about this block in later
     chapters.
   labels:
@@ -47,7 +47,7 @@ single-motor-direction:
   alt: Motor setup
   width: 100%
   caption: >
-    Setup blocks help your organize your code.
+    Configuring the positive direction.
   labels:
     - text: |
         This motor turns counterclockwise when
@@ -121,7 +121,7 @@ Much of your code is ultimately intended to make your robot _move_ and perform
 its tasks accurately. But your programs usually contain much more than just
 movement blocks.
 
-This section covers several essential techniques blocks to help you better
+This section covers several essential techniques to help you better
 understand what your program is doing. This also helps you identify and solve
 issues as you build bigger programs.
 
@@ -187,7 +187,7 @@ This makes the rest of your code easier to follow, because now you can just
 give both motors a positive speed to _drive forwards_, and a negative speed to
 _reverse_. Without this setup, you'd have to
 remember to negate the speed of the left motor in each motor block. That would
-be error prone and easy to forget.
+be error-prone and easy to forget.
 
 Setting the positive direction is also useful for mechanisms such as lifts,
 grippers, and so on. You can make positive correspond to "up" and negative to
