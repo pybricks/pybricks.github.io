@@ -102,7 +102,7 @@ img_inventor_wheel:
   image: basic-robot-navigation/inventor-wheel.svg
   width: 100%
   caption: >
-      Wheel diameter and wheel base (axle track). You can measure both values
+      Wheel diameter and wheelbase (axle track). You can measure both values
       with a ruler that measures millimeters. If your rules uses inches, take
       the measured value and multiply it by 25.4 to get the millimeter value.
   labels:
@@ -112,7 +112,7 @@ img_inventor_wheel:
       x: 42%
       y: 38%
       location: left
-    - text: wheel base (axle track)
+    - text: wheelbase (axle track)
       x: 73%
       y: 20%
       location: above
@@ -141,20 +141,20 @@ pictured below.
 
 ## Wheel diameter and base width
 
-You can tell your robot to drive by a given distance or turn by a given angle.
+You can tell your robot to drive a given distance or turn by a given angle.
 The robot works out how much it needs to move each wheel to get there.
 To calculate this, it needs to know the
-_wheel diameter_ and the _wheel base_ or track, as shown below.
+_wheel diameter_ and the _wheelbase_ or track, as shown below.
 
 {% include diagram.html data=page.img_inventor_wheel %}
 
 To measure the wheel diameter, place your ruler on the wheel. It is the
 distance from one end of the rim all the way to the other end. To measure the
-wheel base, place your robot on top of the ruler and note the distance
+wheelbase, place your robot on top of the ruler and note the distance
 between the points where the wheels touch the ruler.
 
 On my robot, I measured 56 millimeters for the wheel diameter and 128 for the
-wheel base. What did you measure?
+wheelbase. What did you measure?
 
 **Tip** --- One _LEGO unit_ is exactly 8 millimeters. A LEGO unit is the
 distance between two holes or studs. In this example, the wheel diameter is the
@@ -205,7 +205,7 @@ are used to thinking in centimeters (cm) or inches ("). Instead of converting
 every number in your head or using a calculator, we recommend playing with
 millimeter values to become familiar with them. Try things out, get it wrong,
 and then fix it. It's a useful skill to have. The following table helps place
-common numbers in the context of every day objects and values. The rightmost
+common numbers in the context of everyday objects and values. The rightmost
 columns are only there to help you the first time. Try to think in millimeters
 directly: Go from _drive along my desk_ to _drive about 600mm_ without
 converting. Then try it!
@@ -224,8 +224,8 @@ converting. Then try it!
 
 ## Verifying and adjusting the dimensions
 
-In practice, wheels compress slightly under the weight of your robot.
-Especially with soft rubber tyres. To verify, program a single movement to
+In practice, wheels compress slightly under the weight of your robot,
+especially with soft rubber tires. To verify, program a single movement to
 drive 1000 mm. Measure how far it really traveled with a measuring tape.
 Compensate as follows:
 
@@ -239,8 +239,8 @@ Motor shafts and axles can bend slightly under the load of the robot, causing
 the ground contact points to shift slightly. To verify, make your robot turn
 360 degrees and check that it is back in the same place.
 
-- If your robot does not turn enough, increase the wheel base value slightly.
-- If your robot turns too far, decrease the wheel base value slightly.
+- If your robot does not turn enough, increase the wheelbase value slightly.
+- If your robot turns too far, decrease the wheelbase value slightly.
 
 If your results are inconsistent, avoid tweaking these numbers endlessly. The
 cause might be elsewhere, such as in grip or the robot design. For example,
@@ -258,13 +258,12 @@ Instead of combining straights and turns to get to your destination, your robot
 can drive along an arc. An arc is a curve, a portion of a circle. A single
 curve is sometimes faster than a combination of straights and turns. 
 
-
 {% include diagram.html data=page.img_inventor_curve %}
-
 
 You choose the _size of the circle_ by setting the radius. A big value means a
 big circle with a wide turn. A small value is a tight turn. The value cannot be
-zero. To turn in place, just use simpler _turn_ method we used earlier. Choose
+zero. To turn in place, just use the simpler _turn_ method we used earlier.
+Choose
 a positive radius value to drive along a circle on the robot's right. Choose a
 negative radius for a circle on the left, as shown below.
 
@@ -273,7 +272,7 @@ value for forwards along your chosen circle. Choose negative for reverse. You
 can specify how far to drive using either an angle or distance, whichever is
 more convenient for your program.
 
-To practice with making curves, create the following program that makes your
+To practice making curves, create the following program that makes your
 robot drive in an oval and stop where it started.
 
 {% include block-program.html
@@ -282,7 +281,8 @@ caption="Drive in an oval shape with two straights and two half-circles."
 width="100%"
 %}
 
-**Challenge #3.3.D: Squaring the circle** ⸺ In Challenge #3.3.G, you made program to
+**Challenge #3.3.D: Squaring the circle** ⸺ In Challenge #3.3.A, you made a
+program to
 drive in a square with four straights and four turns. Can you adapt it to
 replace two straights and a turn with a single curve? The resulting shape should
 be a quarter of a pizza. What do the radius and angle need to be for the curve?
@@ -293,7 +293,7 @@ right parameters.
 **Challenge #3.3.E: Spiralling** ⸺ Can you combine multiple curves to drive in
 a pattern that spirals outward? Start by driving in half circles, each with a
 bigger radius than the last. **Discuss** ⸺ Is this a real spiral shape? If not,
-what could you change to make it slightly more like a real spiral?
+what could you change to make it more like a real spiral?
 {: .notice--primary}
 
 # Adjusting speed and acceleration
@@ -312,10 +312,10 @@ program for clarity.
 The drive speed is measured in millimeters-per-second, or mm/s. It is the
 distance that the robot travels (in mm) in one second. For example, if the
 robot drives 500 mm in 2 seconds, its speed is 500 / 2 = 250 mm/s. The robot
-determines how fast to rotate the wheels based on wheel diameter setting.
+determines how fast to rotate the wheels based on the wheel diameter setting.
 
 Drive acceleration is the change of the speed value, every second. So it is the
-change of the millimeter-per-second speed, per-second. This is often written as
+change of the millimeter-per-second speed, per second. This is often written as
 mm/s/s or mm/s². To reach a top speed of 250 mm/s in half a second, the
 acceleration should be 250 / 0.5 = 500 mm/s².
 
@@ -328,14 +328,13 @@ caption="Adjusting drive speed and acceleration."
 width="100%"
 %}
 
-
 **Challenge #3.3.F: Speed ticket** ⸺ Can you verify the speed value with an
 experiment? Make a program with one speed configuration block and one block to
-drive straight for 10 meters (10 000 mm). Verify that it drives the required
+drive straight for 10 meters (10000 mm). Verify that it drives the required
 distance, and measure the duration with the stopwatch on your phone. Calculate
-the speed as 10 000 / ``T``, where ``T`` is the measured time in seconds. Does
+the speed as 10000 / ``T``, where ``T`` is the measured time in seconds. Does
 your result match the speed setting? **In class** ⸺ You set the speed but don't
-tell your friend what you choose. How close can your friend get by measuring it
+tell your friend what you chose. How close can your friend get by measuring it
 experimentally? **Discuss** ⸺ Do you get similar values every time? How can you
 make the test more accurate? Why is it helpful to drive such a long distance?
 Does acceleration play a role?
@@ -343,16 +342,17 @@ Does acceleration play a role?
 
 ## Turn speed and acceleration
 
-The turn speed (or turn rate) in degrees per second, or deg/s. It is the angle
+The turn speed (or turn rate) is measured in degrees per second, or deg/s.
+It is the angle
 that the robot makes when viewed from the top, in one second. For example, if
 the robot turns 180 degrees in 2 seconds, its speed is 180 / 2 = 90 deg/s. The
 robot determines how fast to rotate the wheels based on wheel diameter and
-wheel base settings.
+wheelbase settings.
 
 Turn acceleration is the change of the turn rate value, every second. So it is the
-change of the degrees-per-second rate, per-second. This is often written as
+change of the degrees-per-second rate, per second. This is often written as
 deg/s/s or deg/s². To reach a top turn rate of 90 deg/s in half a second, the
-acceleration should be 90 / 0.5 = 180 mm/s².
+acceleration should be 90 / 0.5 = 180 deg/s².
 
 The following example shows how you can change the turn rate and acceleration.
 If all works well, it should make three perfect rotations. In practice, you
@@ -369,7 +369,7 @@ width="100%"
 
 The maximum drive and turn speed of your robot depend on your design. You can
 drive faster with big wheels than with small wheels. After all, you can turn
-faster with a smaller wheel base than with a wide wheel base.
+faster with a smaller wheelbase than with a wide wheelbase.
 
 SPIKE motors can turn up to about 1000 degrees per second when there isn't much
 load. With 56 mm wheels, the maximum speed is therefore about 1000 / 360 × 2 ×
@@ -383,7 +383,7 @@ This may seem a bit complicated at first. However, specifying a value that you
 can measure and verify is much more reliable compared to choosing an arbitrary
 percentage (0--100%).
 
-We recommend to stay away from the absolute limit. Near the limit there is
+We recommend staying away from the absolute limit. Near the limit there is
 less room for the robot to self-correct if it slides or encounters obstacles.
 
 **Challenge #3.3.G: On the limit** ⸺ Create a program that has the robot
@@ -398,7 +398,8 @@ lower speed limit where accuracy becomes an issue? What is the role of friction
 at low speeds? Search online for stick–slip motion.
 {: .notice--primary}
 
-For very short moves, the robot may not always the configured speed since it
+For very short moves, the robot may not always reach the configured speed since
+it
 has to slow down in time to stop precisely on target. So the drive and turn
 speed settings are more like speed limits that it will reach when possible.
 
@@ -421,11 +422,11 @@ speed and acceleration settings and ignore your turn settings.
 
 For each _straight_, _turn_, or _curve_, the robot comes to a controlled stop
 when it reaches its target. Then your program proceeds with the next block. If
-that block does nothing with motors, what should the motors do in the mean time?
+that block does nothing with motors, what should the motors do in the meantime?
 That's what the final setting on the drive block is for.
 
 The robot drives by a given amount and _then_
-coasts, brakes, or holds the motors. We'll tell what that means, but it is
+coasts, brakes, or holds the motors. We'll tell you what that means, but it is
 better to experience it yourself using the following program. After each move,
 try twisting the wheels manually and see what happens. Repeat the program if
 you need to.
@@ -448,7 +449,7 @@ turn 90 degrees but it ended up doing 91, the next time you tell it to turn
 
 With _hold_, the wheels are held in place between moves. Even if it didn't
 perfectly reach 90 degrees the first time, it will still aim for 180 the next
-time that, since it can assume that you didn't _intend_ to move the wheels.
+time, since it can assume that you didn't _intend_ to move the wheels.
 
 # Combine movements without stopping
 
@@ -497,9 +498,9 @@ width="100%"
 
 In this example, the robot keeps driving as it continues with the next
 blocks in your program. In this case, those include a wait block to pause the
-program for some a second and then a stop block to stop driving. Then it starts
+program for a second and then a stop block to stop driving. Then it starts
 another move. In the stop block, you can choose one of the three stop modes,
-which work the same as discuss for other movements earlier.
+which work the same as discussed for other movements earlier.
 
 In the next chapters, you'll use this technique to wait for a certain sensor
 value to be reached, instead of waiting a fixed number of seconds.
@@ -514,18 +515,16 @@ document it with pictures, videos, and notes about why it didn't work. Don't be
 scared to take things apart! Take pictures as you disassemble it. You can
 always view them in reverse if you want to rebuild your previous design.
 
-
-**Challenge #3.3.E: What's in a diameter?** ⸺ Given a target distance of 1000 mm,
-can you work out how far both wheels need to turn how to get there? Write down
+**Challenge #3.3.I: What's in a diameter?** ⸺ Given a target distance of 1000 mm,
+can you work out how far both wheels need to turn to get there? Write down
 your estimate. Try it out with a small program, and count the number of
 revolutions of the white marker on the wheel. Did you get it right? **Discuss**
-⸺ Why does the robot need to know what the wheel diameter and wheel base is?
+⸺ Why does the robot need to know what the wheel diameter and wheelbase are?
 What happens if you make one value way too small or way too big? What if you
 use bigger wheels?
 {: .notice--primary}
 
-
-**Challenge #3.3.F: Turning point** ⸺ A conventional car is quite different from
+**Challenge #3.3.J: Turning point** ⸺ A conventional car is quite different from
 your LEGO robot. It drives using an engine or motors and it steers by turning
 the front wheels. Can you draw a top-view diagram like the one above, but for a
 car? Be sure to draw exactly how the front wheels are positioned and add arrows
