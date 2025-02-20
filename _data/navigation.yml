@@ -76,3 +76,5 @@ learn:
         url: /learn/making-programs/basic-blocks/
       - title: "3.3: Basic robot navigation"
         url: /learn/making-programs/basic-robot-navigation/
+      - title: "3.4: Adding sound and light"
+        url: /learn/making-programs/sound-light/

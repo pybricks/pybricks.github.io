@@ -324,9 +324,9 @@ experiment? Make a program with one speed configuration block and one block to
 drive straight for 10 meters (10000 mm). Verify that it drives the required
 distance, and measure the duration with the stopwatch on your phone. Calculate
 the speed as 10000 / ``T``, where ``T`` is the measured time in seconds. Does
-your result match the speed setting? **In class** ⸺ You set the speed but don't
+your result match the speed setting? **Discuss** ⸺ You set the speed but don't
 tell your friend what you chose. How close can your friend get by measuring it
-experimentally? **Discuss** ⸺ Do you get similar values every time? How can you
+experimentally? Do you get similar values every time? How can you
 make the test more accurate? Why is it helpful to drive such a long distance?
 Does acceleration play a role?
 {: .notice--primary}
@@ -386,7 +386,8 @@ on your wheels?
 **Challenge #3.3.H: Snail's pace** ⸺ Experiment with low speed values and low
 accelerations. **Discuss** ⸺ Is going slower always better? Is there also a
 lower speed limit where accuracy becomes an issue? What is the role of friction
-at low speeds? Search online for stick–slip motion.
+at low speeds? **Research** ⸺ Look up stick–slip motion. How does it apply
+here?
 {: .notice--primary}
 
 For very short moves, the robot may not always reach the configured speed since
@@ -523,7 +524,7 @@ to indicate the direction of travel. How is it different from your LEGO robot?
 Why can a car not turn in place? Is this also true for a 4x4 vehicle? How could
 you modify a car to turn in place? **Discuss** ⸺ In your diagram, draw straight
 lines through the front and rear wheel axles. How many intersections do you
-get, and what is the meaning of these point(s)? **Deep dive:** Search online
+get, and what is the meaning of these point(s)? **Research** ⸺ Search
 for _Ackermann steering geometry_. Can you build something like it with LEGO
 bricks?
 {: .notice--primary}

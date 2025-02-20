@@ -211,12 +211,6 @@ because other settings may be added or removed as you go. For example, if you
 select _straight_, an option appears to choose how many millimeters. But if you
 select _turn_, an option appears to choose how many degrees to turn.
 
-# Further exploration
-
-In this chapter, you've learned to build a program to make your robot move.
-You used setup blocks to describe your robot. Then you added program blocks to
-make your robot move, and changed settings to change what each block did.
-The following challenges will help you practice your skills.
 
 **Challenge #3.1.A: Living on the edge** ⸺ Pick a fixed starting point on your
 desk and measure the distance to the edge of your desk. Tell the robot to drive
