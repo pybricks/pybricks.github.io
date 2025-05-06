@@ -166,8 +166,8 @@ a ruler for more precision!
 
 ## Basic lines and turns
 
-You enter your measured values in the drive base setup block. Now add three
-drive blocks to make it move. Create the program as shown below. Run the
+You enter your measured values in the Drive Base Setup block. Now add three
+Drive blocks to make it move. Create the program as shown below. Run the
 program when you're ready.
 
 {% include block-program.html
@@ -180,7 +180,7 @@ Your robot should now drive forward for 250 mm (25 cm, or about 10"), turn
 around, and drive back to where it started.
 
 **Challenge #3.3.A: Square it** ⸺ Can you make your robot drive in a square?
-How many drive blocks do you need to do it? When you're ready, change the
+How many Drive blocks do you need to do it? When you're ready, change the
 program to a rectangle that is 250 mm by 1000 mm. When it drives, place an
 object at each of the corners as it passes by. Verify your results with a
 measuring tape.
@@ -251,7 +251,7 @@ the wheels turn, not how far it really drives.
 
 **Note** ⸺ This feature changed recently. Since v3.6.1 (Pybricks Code v2.6.0),
 it works as documented below. If you made code with earlier versions, _your
-code will continue to work unchanged_. The old curve block works just like
+code will continue to work unchanged_. The old Drive block curve method works just like
 before, but it displays a ⚠-icon to remind you to get a new block from the
 palette. Once you do, it will use the new behavior. What changed? The definition
 of driving backwards is more logical now, and we added the _veer_ option for
@@ -305,10 +305,10 @@ what could you change to make it more like a real spiral?
 
 In your previous programs, the robot was driving at the default speed, which is
 relatively slow. You can change how fast the robot drives and turns with the
-drive base configuration block.
+Drive Base Configuration block.
 
-Throughout these examples, the configuration
-block is used several times with different values. For most robots, a single
+Throughout these examples, the Configuration
+Block is used several times with different values. For most robots, a single
 set of values is sufficient. You could put them all at the start of your
 program for clarity.
 
@@ -334,7 +334,7 @@ width="100%"
 %}
 
 **Challenge #3.3.F: Speed ticket** ⸺ Can you verify the speed value with an
-experiment? Make a program with one speed configuration block and one block to
+experiment? Make a program with one Configuration block and one block to
 drive straight for 10 meters (10000 mm). Verify that it drives the required
 distance, and measure the duration with the stopwatch on your phone. Calculate
 the speed as 10000 / ``T``, where ``T`` is the measured time in seconds. Does
@@ -429,7 +429,7 @@ speed and acceleration settings and ignore your turn settings.
 For each _straight_, _turn_, or _curve_, the robot comes to a controlled stop
 when it reaches its target. Then your program proceeds with the next block. If
 that block does nothing with motors, what should the motors do in the meantime?
-That's what the final setting on the drive block is for.
+That's what the final setting on the Drive block is for.
 
 The robot drives by a given amount and _then_
 coasts, brakes, or holds the motors. We'll tell you what that means, but it is
@@ -486,12 +486,12 @@ wheels must suddenly slow down, causing them to slip.
 
 # Drive forever (until you change course)
 
-So far, each movement block completed when your chosen distance or turn angle
+So far, each Drive block completed when your chosen distance or turn angle
 was reached. In many cases, the exact distance is unknown in advance. For
 example, you might want to keep driving until you detect an obstacle, whenever that
 is.
 
-This is where the _forever_ mode of the drive block comes in, as shown in the
+This is where the _forever_ mode of the Drive block comes in, as shown in the
 following example. Instead of a distance or turn angle, you choose the drive
 speed (mm/s) and turn rate (deg/s) that it should maintain "forever". That is,
 until you tell it to do something else or the program ends.
@@ -503,9 +503,9 @@ width="100%"
 %}
 
 In this example, the robot keeps driving as it continues with the next
-blocks in your program. In this case, those include a wait block to pause the
-program for a second and then a stop block to stop driving. Then it starts
-another move. In the stop block, you can choose one of the three stop modes,
+blocks in your program. In this case, those include a Wait Time block to pause the
+program for a second and then a Stop block to stop driving. Then it starts
+another move. In the Stop block, you can choose one of the three stop modes,
 which work the same as discussed for other movements earlier.
 
 In the next chapters, you'll use this technique to wait for a certain sensor

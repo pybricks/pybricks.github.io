@@ -1,7 +1,7 @@
 ---
 title: "Essential coding tools"
 excerpt: >
-  This section covers the comment block, the wait block, and the print block.
+  This section covers the Comment block, the Wait Time block, and the Print block.
   You'll also learn how to use the device setup effectively and drive a single motor.
 single-motor-setup:
   image: /learn/making-programs/single-motor-setup.png
@@ -173,7 +173,7 @@ yourself with the expected errors.
 
 ## The positive direction
 
-The positive ("forward") direction on the motor setup block specifies which way
+The positive ("forward") direction on the Motor Setup block specifies which way
 the motor should turn if you give a positive speed or angle value, when you
 look directly at the shaft. In the
 previous chapter for example, you've configured the right motor to go clockwise
@@ -208,7 +208,7 @@ Other than a thought experiment, does this approach have
 any merits? What do you observe in terms of grip and accuracy?
 {: .notice--primary}
 
-# The comment block
+# The Comment block
 
 No matter how simple your program is, it is _always_ a good idea to document
 your work. Code comments help you document your work for yourself and others.
@@ -224,19 +224,19 @@ can also describe the required conditions that are needed to run your program.
 Comments are filtered out before your code is sent to the robot, so
 comments have no impact on performance or robot code size.
 
-It is possible to leave a comment block floating on the canvas if you need to,
+It is possible to leave a Comment block floating on the canvas if you need to,
 but it is best practice to attach it like a normal block. This way, it moves
 along with your code automatically when you add other blocks above or below
 it.
 
-# The wait block
+# The Wait Time block
 
-The blocks you place under the yellow _program_ block run one by one, from top
-to bottom. Sometimes it is useful to add a pause between blocks. The wait block
+The blocks you place under the yellow program _Start_ block run one by one, from top
+to bottom. Sometimes it is useful to add a pause between blocks. The Wait Time block
 does just that. It waits for a duration that you choose, then continues with
 the next block.
 
-You'll find the wait block on the tab with the (orange) Flow blocks, which you've used in your
+You'll find the Wait Time block on the tab with the (orange) Flow blocks, which you've used in your
 [very first program](/learn/getting-started/pybricks-environment/#creating-your-first-program).
 
 {% include block-program.html
@@ -259,20 +259,20 @@ durations.
 | 2           | 2000              | Two seconds            |
 | 10          | 10000             | Ten seconds            |
 
-# The print block
+# The Print block
 
-The print block sends text or numbers from your robot to the output pane below
+The Print block sends text or numbers from your robot to the output pane below
 your code, as shown below. Each block adds one line to the output.
 
 {% include diagram.html data=page.img_block_print %}
 
-You can use the print block to stay informed about what the robot is doing. For
+You can use the Print block to stay informed about what the robot is doing. For
 example, you can make your robot print ``Moving Left Wheel`` just before you use
 a motor block. If you see the text but no movement (or movement but no
 text), then you know something is wrong in your code. Since you know where that
-print block is placed, you can find and fix your issue quickly.
+Print block is placed, you can find and fix your issue quickly.
 
-You'll see the print block in many examples throughout this guide. When the
+You'll see the Print block in many examples throughout this guide. When the
 robot is not connected to your computer, this block will do nothing. Then your
 program just continues with the block immediately after it.
 
@@ -283,7 +283,7 @@ the output pane to apps like Excel, Calc, or Numbers to produce graphs.
 Right click on the output pane to see additional options for copying or erasing
 the output.
 
-**Challenge #3.2.C: Countdown clock** ⸺ Can you combine Wait blocks,
+**Challenge #3.2.C: Countdown clock** ⸺ Can you combine Wait Time blocks,
 Print blocks, and Comment blocks to create a countdown clock? First, display
 a message to say `"Time remaining..."`, and then display `10`, `9`, `8` and so
 on until time is up. How do you ensure that each new message is exactly one

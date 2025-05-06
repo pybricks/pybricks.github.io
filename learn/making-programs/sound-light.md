@@ -92,7 +92,7 @@ width="60%"
 %}
 
 **Challenge #3.4.A: Guess the flag** ⸺ Create a program that shows different
-colors on the status light. Use wait blocks to show each color briefly. Take
+colors on the status light. Use Wait Time blocks to show each color briefly. Take
 turns to make a light pattern that represents a country flag, and have your
 friend guess the country. **Discuss** ⸺ Many countries have flags with similar
 colors. How could you distinguish them? Perhaps you can show colors in a
@@ -121,7 +121,7 @@ width="65%"
 
 **Challenge #3.4.C: Für Elise** ⸺ If you are musically inclined, you must
 have thought that the example tune wasn't very good. Can you use a sequence of
-beeps to play a well-known tune? Use wait blocks for breaks between
+beeps to play a well-known tune? Use Wait Time blocks for breaks between
 notes as needed. **Research** ⸺ Find which frequencies correspond to the
 notes you need.
 {: .notice--primary}
@@ -130,8 +130,8 @@ notes you need.
 long beeps to encode a message. Ask your friend to record it on paper and
 decode your message. **Research** ⸺ Instead of using long and short beeps, can
 you think of other ways to convey your message? Search for _on-off keying_ or
-_frequency modulation_. Both of these can be done with just the sound block
-and the wait block, without any math. Can you describe one of these
+_frequency modulation_. Both of these can be done with just the Sound block
+and the Wait Time block, without any math. Can you describe one of these
 techniques in words, and apply it to this problem?
 {: .notice--primary}
 

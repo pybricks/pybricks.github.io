@@ -78,3 +78,30 @@ learn:
         url: /learn/making-programs/basic-robot-navigation/
       - title: "3.4: Adding sound and light"
         url: /learn/making-programs/sound-light/
+
+  - title: "4: Basic flow control "
+    children:
+      - title: "4.1: Waiting and repeating"
+        url: /learn/flow-basics/waiting-repeating/
+      - title: "4.2: Making your own task blocks"
+        url: /learn/flow-basics/tasks-functions/
+      - title: "4.3: Multitasking essentials"
+        url: /learn/flow-basics/multitasking/
+
+  - title: "??: Advanced flow control "
+    children:
+      - title: "??.1: Breaking and returning"
+        url: /learn/flow-advanced/break-return/
+      - title: "??.2: Iterating with loops"
+        url: /learn/flow-advanced/loop-iterations/
+      - title: "??.2: Advanced multitasking"
+        url: /learn/flow-advanced/multitasking-advanced/
+
+  - title: "??: Combining multiple programs"
+    children:
+      - title: "??.1: Sharing blocks between programs"
+        url: /learn/flow-import/importing-functions/
+      - title: "??.2: Mixing blocks with Python"
+        url: /learn/flow-import/mix-python/
+      - title: "??.2: Making your own menu"
+        url: /learn/flow-import/your-own-menu/

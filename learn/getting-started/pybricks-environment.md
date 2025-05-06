@@ -75,11 +75,11 @@ code_create_new:
       location: below
 code_add_wait:
   image: /learn/getting-started/code-add-wait.png
-  alt: Adding the wait block
+  alt: Adding the Wait Time block
   width: 100%
   caption: >
-      Pick the Wait block from the Flow category and drag it towards the
-      blue print block that is already there, such that the snap together.
+      Pick the Wait Time block from the Flow category and drag it towards the
+      blue Print block that is already there, such that the snap together.
       Then change the duration of the wait by clicking on it and typing a new
       number.
   labels:
@@ -93,7 +93,7 @@ code_add_wait:
       x: 4%
       y: 8%
       location: right
-    - text: 1. Select the Wait block
+    - text: 1. Select the Wait Time block
       x: 37%
       y: 30%
       location: right
@@ -333,8 +333,8 @@ used. In that case, click _Fix it for me_ to adjust it automatically.
 
 {% include diagram.html data=page.code_create_new %}
 
-Your new program contains a few blocks already. There's a yellow _setup_ and
-_start_ block, as well as a blue print block. We'll get to the details of these
+Your new program contains a few blocks already. There's a yellow _Setup_ and
+_Start_ block, as well as a blue Print block. We'll get to the details of these
 in the next chapters. For now, just move some of the blocks around to
 get a feel for how this works.
 
@@ -345,7 +345,7 @@ blocks. Skip to the next
 learn how to run it. You'll see `Hello, Pybricks!` in the output pane.
 {: .notice}
 
-Next, open the _Flow_ blocks tab and select the _Wait_ block. Place it on the
+Next, open the _Flow_ blocks tab and select the _Wait Time_ block. Place it on the
 canvas and adjust the wait time as shown below. Also be sure to close the
 file menu to free up space on the screen.
 
@@ -531,20 +531,20 @@ diving into the details of all the blocks you can use. These challenges will
 help you get started.
 
 **Challenge #1.3.A: Countdown clock** ⸺ Can you modify the example program to count
-down from 10 to 0? _Hint:_ You'll need 11 wait blocks and 11 print blocks.
+down from 10 to 0? _Hint:_ You'll need 11 Wait Time blocks and 11 print blocks.
 You could type the numbers directly, or write your own notes such as "Time is up!"
 {: .notice--primary}
 
 **Challenge #1.3.B: Twinkle Twinkle Star** ⸺ Can you expand the program you've just
 created to display the lyrics of _Twinkle Twinkle Star_? Look up the lyrics and
 use a Print block for each line. Ensure the timing between each line is just
-right by setting the time in the Wait blocks as required.
+right by setting the time in the Wait Time blocks as required.
 {: .notice--primary}
 
-**Challenge #1.3.C: Timing the Wait block** ⸺ The Wait block lets you specify
-a time to wait in milliseconds. But is it accurate? It never hurts to verify
-if a robot is really doing what you tell it to. Use print statements and a
-stopwatch on your phone to determine how well it works.
+**Challenge #1.3.C: Timing the Wait Time block** ⸺ The Wait Time block lets you
+specify a time to wait in milliseconds. But is it accurate? It never hurts to
+verify if a robot is really doing what you tell it to. Use print statements and
+a stopwatch on your phone to determine how well it works.
 {: .notice--primary}
 
 **Challenge #1.3.D: File management** ⸺ You can back up one program, or all

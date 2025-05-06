@@ -19,7 +19,7 @@ img_setup_1:
       x: 10%
       y: 26%
       location: below
-    - text: Motor setup
+    - text: Motor Setup block
       x: 50%
       y: 82%
       location: right
@@ -63,11 +63,11 @@ img_setup_3:
   alt: Setup step 3
   width: 100%
   caption: >
-    3. Place the drive base setup on the canvas. Configure it to use the left and
+    3. Place the Drive Base Setup block on the canvas. Configure it to use the left and
     right wheels. Measure the diameter of your wheels and the distance between
     the wheels and enter them as shown. Delete the existing <i>Print block</i>.
   labels:
-    - text: Drive base setup block
+    - text: Drive Base Setup block
       x: 68%
       y: 35%
       location: above
@@ -89,7 +89,7 @@ img_setup_4:
   width: 100%
   caption: >
     4. From the output tab, pick two <i>Drive blocks</i> and attach them to the main 
-    program block. Leave the first one unchanged. In the second block, change
+    program Start block. Leave the first one unchanged. In the second block, change
     the distance to <i>-250</i> millimeters.
   labels:
     - text: Drive block
