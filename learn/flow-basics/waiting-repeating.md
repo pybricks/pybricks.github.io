@@ -53,18 +53,16 @@ img_flow_palette:
       location: left
 ---
 
-
-So far, you've built programs as a stack of blocks for the robot to run. 
+So far, you've built programs as a stack of blocks for the robot to run.
 In these programs, blocks run one by one, as the execution flows from top to bottom.
 
 In practice, robots rarely execute a long, fixed list of actions from start to
 finish. Robots often need to repeat some actions or decide to skip actions
-depending on what its sensors see. You control how the code execution flows
+depending on what their sensors see. You control how the code execution flows
 from top to bottom with _Flow blocks_. A few Flow blocks are shown
 below.
 
 {% include diagram.html data=page.img_flow_palette %}
-
 
 You've already learned to use the Wait Time block. It pauses the stack of blocks for
 the specified duration. This chapter introduces the Wait Forever block as well.
@@ -82,14 +80,13 @@ Motors will be stopped, and the hub menu reappears. To keep your program
 running even after it completes, add the Wait Forever block to your program, as
 shown below. This mimics the standard behavior in Scratch.
 
-
 {% include block-program.html
 path="L05_1_wait_forever"
 caption="The Wait Forever block keeps the program going when all other blocks are complete."
 width="60%"
 %}
 
-In this example, the hub light turns red for a second and then it turns green.
+In this example, the hub light turns red for a second and then turns green.
 Because of the Wait Forever block, it stays green forever, until you press
 the stop button. Without this block, the program would end immediately after
 turning the light green, leaving no time for you to see it.
@@ -100,12 +97,10 @@ would never run.
 # Repeating actions several times
 
 Imagine you're walking along a square-shaped path, as shown below. As you walk,
-you follow a certain pattern over and over again: Go straight, then turn right,
+you follow a certain pattern over and over again: go straight, then turn right,
 go straight, turn right, and so on.
 
-
 {% include diagram.html data=page.img_inventor_square %}
-
 
 To create this sort of behavior with your robot, you could use one Drive block
 to go straight and another to turn right. To make one complete square and return
@@ -128,7 +123,7 @@ the turn? Will the robot follow a different path if you swap them?
 Draw your prediction on a piece of paper and swap the blocks to test your hypothesis.
 {: .notice--primary}
 
-**Challenge #4.1.??: Cutting corners** ⸺ Change the square program to drive
+**Challenge #4.1.B: Cutting corners** ⸺ Change the square program to drive
 with rounded corners instead of in-place turns, as shown below. Use the
 _continue_ option in the Drive block to blend the paths together. **Discuss** ⸺
 Why do you have to reduce the lengths of the straights to maintain the same
@@ -147,10 +142,9 @@ pattern.
 
 {% include block-program.html
 path="L05_1_repeat"
-caption="Drive in an oval shape with two straights and two half-circles."
+caption="Create a blink pattern or repeat other actions."
 width="60%"
 %}
-
 
 # Repeating forever
 
@@ -158,8 +152,8 @@ So far, you've repeated actions a fixed number of times. Sometimes, you'll want 
 actions over and over without stopping. For example, you might want to keep blinking
 a light or keep driving a certain pattern.
 
-You can repeat actions forever with the Conditional Repeat block as shown below.
-You'll learn the meaning of ``while True`` condition in the next chapters. For
+You can repeat actions forever with the Conditional Repeat block, as shown below.
+You'll learn the meaning of the ``while True`` condition in the next chapters. For
 now, just remember that this block repeats any blocks placed within it forever by default.
 The actions repeat until you press the hub center button or the stop button in the app.
 
@@ -171,20 +165,20 @@ caption="Blinking the hub light forever with the Conditional Repeat block.
 width="60%"
 %}
 
-**Challenge #4.1.??: It's all a blur** ⸺ Reduce the wait duration as shown
+**Challenge #4.1.C: It's all a blur** ⸺ Reduce the wait duration as shown
 below. Now the light changes color hundreds of times per second. What is the
 result? This example creates a 50-50 mix of red and green. Why? Can you make it
 75% green and 25% red? At what point does the light start to blink instead
 of blending smoothly?
  **Research** ⸺ Mixing light colors is very different
-from mixing paint colors. Write a one page essay describing the differences.
-What are primary colors, and what happens if you mix them in case of paint or
+from mixing paint colors. Write a one-page essay describing the differences.
+What are primary colors, and what happens if you mix them in the case of paint or
 light? How can you create a white light? Create a program to try it out.
 {: .notice--primary}
 
 {% include block-program.html
 path="L05_1_repeat_forever_fast"
-caption="Program for challenge #4.1.??. By reducing the duration in the Wait
+caption="Program for challenge #4.1.C. By reducing the duration in the Wait
 blocks, the light color changes so quickly that the red and green light appear
 to blend together. This technique is also used behind the scenes whenever you
 choose a color that isn't a primary color, such as cyan or orange. In that case,
@@ -206,20 +200,19 @@ another repeat block. Try this out by creating the following program.
 
 {% include block-program.html
 path="L05_1_square_repeat"
-caption="Drive in an oval shape with two straights and two half-circles."
+caption="Drive in a square forever, with beeps before and after each square."
 width="100%"
 %}
 
-This program makes the robot play a low pitch sound, drive in a square shape, and then
-play a higher pitch sound. This whole sequence repeats forever.
+This program makes the robot play a low-pitch sound, drive in a square shape, and then
+play a higher-pitch sound. This whole sequence repeats forever.
 
-
-**Challenge #4.1.??: Chicken or the egg, revisited** ⸺ With the program above,
+**Challenge #4.1.D: Chicken or the egg, revisited** ⸺ With the program above,
 you'll hear two beeps between successive squares. Perhaps surprisingly, you
-hear the higher pitch beep first. Why is that?
+hear the higher-pitch beep first. Why is that?
 {: .notice--primary}
 
-**Challenge #4.1.??: Try again** ⸺ Replicate the program shown above but 
+**Challenge #4.1.E: Try again** ⸺ Replicate the program shown above but 
 swap the two repeat blocks. The outer one should repeat 4 times and the inner
 one should repeat forever. Now you don't hear a sound after each square, even
 though the Beep blocks are still there. Why is that? **Hint** ⸺ Add Print
