@@ -54,7 +54,7 @@ This technique helps you organize your programs as they get bigger.
 
 # Creating tasks
 
-You create a new task by placing an empty Task block on the canvas, a shown
+You create a new task by placing an empty Task block on the canvas, as shown
 below. You can drag one or more blocks into it that together make up your
 desired task. For example, you can make a task that prints "Hello World" with
 two pauses.
@@ -83,16 +83,16 @@ your program.
 
 {% include block-program.html
 path="L04_2_task_square"
-caption="??."
+caption="This task makes the robot drive in a square."
 width="100%"
 %}
 
 Your robot should now drive in a square, pause for two seconds, and drive in
 another square.
 
-**Challenge #4.2.??: Tracing your steps** ⸺  To get a better understanding of
+**Challenge #4.2.A: Tracing your steps** ⸺  To get a better understanding of
 how this program runs all of its blocks, insert Print blocks as shown below.
-Before you try to it, write down the expected output and verify your
+Before you try it, write down the expected output and verify your
 prediction. **Discuss** ⸺ Did you get it exactly right? If not, which steps did
 you miss?
 {: .notice--primary}
@@ -100,7 +100,7 @@ you miss?
 
 {% include block-program.html
 path="L04_2_task_square_verbose"
-caption="Program for challenge #4.2.??. Placing Print blocks throughout your
+caption="Program for challenge #4.2.A. Placing Print blocks throughout your
 program can help you verify that it works as intended. If not, it helps you
 find out where it goes wrong. The result should be as follows."
 width="100%"
@@ -148,10 +148,10 @@ Square task at the end. How many times do you hear the melody when you run this
 program? How many squares does the robot drive? Run the program to verify your
 prediction.
 
-**Challenge #4.2.??: Fast mode and slow mode** ⸺ Create two new tasks called
+**Challenge #4.2.B: Fast mode and slow mode** ⸺ Create two new tasks called
 _Slow_ and _Fast_, each with a collection of Drive Base Configuration blocks.
-The _Slow_ block should set low acceleration and speed values for straights and
-turns. The _Fast_ block should set high values. Now you can conveniently change
+The _Slow_ task should set low acceleration and speed values for straights and
+turns. The _Fast_ task should set high values. Now you can conveniently change
 speed profile midway throughout your program. Test it by driving one square
 very slowly and one square very quickly. Where do you place the Task Caller
 blocks?
@@ -165,7 +165,7 @@ then start doing your chores one by one. So far, so good.
 
 But now imagine that one of your post-its said _put up another post-it with
 this text and act on it right away_. With no chance to take it down, you'll
-end up putting up more and more post-its until you run out of paper or space on
+keep putting up more and more post-its until you run out of paper or space on
 the wall!
 
 How is this different from repeating actions forever? In a Repeat Forever block,
@@ -174,7 +174,7 @@ post-it off the wall since the task is complete. You'll still be putting it
 back on the wall until the end of time, but at least you won't run out of
 paper!
 
-**Challenge #4.2.??: An excursion into recursion** ⸺ Modify the _Square_ task
+**Challenge #4.2.C: An excursion into recursion** ⸺ Modify the _Square_ task
 to make it call _itself_ as shown below. What do you think will happen? After
 many laps, you should see an error in the output pane. **Research** ⸺ Read the error message and determine which word to search for online. What is
 this technique called? Is it ever useful? Does this phenomenon occur anywhere in daily life?
