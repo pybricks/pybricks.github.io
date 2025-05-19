@@ -21,27 +21,27 @@ img_flow_palette:
   alt: Flow blocks
   width: 100%
   caption: >
-    Flow blocks include wait blocks and repeat blocks. They control how your
+    Flow blocks include wait blocks and repeat blocks. Flow blocks adjust how your
     program flows from top to bottom. You'll learn to use some of these blocks
     later, when we introduce sensors.
   labels:
-    - text: Wait for a fixed duration
+    - text: "Wait Time (you choose how long)"
       x: 37%
       y: 28%
       location: right
-    - text: Wait for a condition (see next chapter)
+    - text: Conditional Wait (you choose what to wait for)
       x: 37%
       y: 38%
       location: right
-    - text: Wait forever
+    - text: Wait Forever (until you exit the program)
       x: 33%
       y: 48%
       location: right
-    - text: Repeat several times
+    - text: "Repeat Times (you choose how many)"
       x: 33%
       y: 60%
       location: right
-    - text: Repeat with a condition, or forever
+    - text: "Conditional Repeat (you choose until when)"
       x: 39%
       y: 78%
       location: right
@@ -81,7 +81,7 @@ running even after it completes, add the Wait Forever block to your program, as
 shown below. This mimics the standard behavior in Scratch.
 
 {% include block-program.html
-path="L05_1_wait_forever"
+path="L04_1_wait_forever"
 caption="The Wait Forever block keeps the program going when all other blocks are complete."
 width="60%"
 %}
@@ -113,7 +113,7 @@ program creates the square pattern by repeating a straight and a turn four
 times.
 
 {% include block-program.html
-path="L05_1_square"
+path="L04_1_square"
 caption="Drive in a square shape by repeating the straight and the turn four times. This example uses the Repeat Times block."
 width="100%"
 %}
@@ -141,7 +141,7 @@ adding Wait Time blocks after changing the light color, you create your own blin
 pattern.
 
 {% include block-program.html
-path="L05_1_repeat"
+path="L04_1_repeat"
 caption="Create a blink pattern or repeat other actions."
 width="60%"
 %}
@@ -158,7 +158,7 @@ now, just remember that this block repeats any blocks placed within it forever b
 The actions repeat until you press the hub center button or the stop button in the app.
 
 {% include block-program.html
-path="L05_1_repeat_forever"
+path="L04_1_repeat_forever"
 caption="Blinking the hub light forever with the Conditional Repeat block.
          If you leave the 'while True' condition unchanged, it just
          repeats the blocks placed within it forever."
@@ -177,7 +177,7 @@ light? How can you create a white light? Create a program to try it out.
 {: .notice--primary}
 
 {% include block-program.html
-path="L05_1_repeat_forever_fast"
+path="L04_1_repeat_forever_fast"
 caption="Program for challenge #4.1.C. By reducing the duration in the Wait
 blocks, the light color changes so quickly that the red and green light appear
 to blend together. This technique is also used behind the scenes whenever you
@@ -199,7 +199,7 @@ it just move along. Likewise, you can place one Repeat Times block inside
 another repeat block. Try this out by creating the following program.
 
 {% include block-program.html
-path="L05_1_square_repeat"
+path="L04_1_square_repeat"
 caption="Drive in a square forever, with beeps before and after each square."
 width="100%"
 %}

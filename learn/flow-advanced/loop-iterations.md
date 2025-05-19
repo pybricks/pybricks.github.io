@@ -5,9 +5,6 @@ excerpt: >
 ---
 
 
-> look break
+> loop break
 
 > loop iterations
-
-
-> return values, early return

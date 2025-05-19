@@ -90,16 +90,16 @@ learn:
 
   - title: "??: Advanced flow control "
     children:
-      - title: "??.1: Breaking and returning"
-        url: /learn/flow-advanced/break-return/
-      - title: "??.2: Iterating with loops"
+      - title: "??.1: Iterating with loops"
         url: /learn/flow-advanced/loop-iterations/
+      - title: "??.2: Tasks with parameters"
+        url: /learn/flow-advanced/task-parameters/
       - title: "??.2: Advanced multitasking"
         url: /learn/flow-advanced/multitasking-advanced/
 
   - title: "??: Combining multiple programs"
     children:
-      - title: "??.1: Sharing blocks between programs"
+      - title: "??.1: Sharing task blocks between programs"
         url: /learn/flow-import/importing-functions/
       - title: "??.2: Mixing blocks with Python"
         url: /learn/flow-import/mix-python/
