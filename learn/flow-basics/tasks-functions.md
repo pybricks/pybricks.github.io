@@ -77,7 +77,7 @@ than just combining multiple actions.
 
 To get some practice in making your own tasks, you'll now combine everything
 you've learned so far. The next example sets up your drive base, makes the
-robot drive straight and turn, and repeats it all to Square. You'll
+robot drive straight and turn, and repeats it all to drive in a square. You'll
 create a task to drive in such a square so you can call it multiple times in
 your program.
 
@@ -143,8 +143,8 @@ caption="You can make more than one task to organize your code."
 width="100%"
 %}
 
-A task may also call _other tasks_. In this example, the Twinkle task calls the
-Square task at the end. How many times do you hear the melody when you run this
+A task may also call _other tasks_. In this example, the _twinkle_ task calls the
+_square_ task at the end. How many times do you hear the melody when you run this
 program? How many squares does the robot drive? Run the program to verify your
 prediction.
 
@@ -160,13 +160,13 @@ blocks?
 # A task must not call itself
 
 A task _should not call itself_. To see why, let's do a thought experiment.
-Imagine putting up post-its for all of today's tasks and
-then start doing your chores one by one. So far, so good.
+Imagine you're putting up post-its for all of today's tasks. You start doing
+your chores one by one. So far, so good.
 
-But now imagine that one of your post-its said _put up another post-it with
-this text and act on it right away_. With no chance to take it down, you'll
-keep putting up more and more post-its until you run out of paper or space on
-the wall!
+But now imagine that one of your post-its said "_put up another post-it with
+this text and act on it right away_". With no chance to take it down, you'll
+keep putting up more and more post-its with the same text until you run out of
+paper or space on the wall!
 
 How is this different from repeating actions forever? In a Repeat Forever block,
 actions complete before they repeat. In this case, you'll be able to take your
