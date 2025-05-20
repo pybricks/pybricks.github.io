@@ -87,6 +87,8 @@ learn:
         url: /learn/flow-basics/tasks-functions/
       - title: "4.3: Multitasking essentials"
         url: /learn/flow-basics/multitasking/
+      - title: "4.4: Advanced multitasking"
+        url: /learn/flow-basics/advanced-multitasking/
 
   - title: "??: Advanced flow control "
     children:
