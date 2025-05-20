@@ -19,7 +19,7 @@ for something else to complete, as shown in the following program.
 
 {% include block-program.html
 path="L04_4_multitask_one"
-caption="TODO"
+caption="Multitasking until one task is done. The light blinks until the motor is done moving."
 width="80%"
 %}
 
@@ -48,8 +48,10 @@ example does two things simultaneously:
 
 {% include block-program.html
 path="L04_4_multitask_timeout"
-caption="TODO"
-width="90%"
+caption="When you multitask until one task is done, the other incomplete
+         task is cancelled. This technique is used here to move normally in
+         most cases but stop the motor if it took too long to complete one rotation."
+width="80%"
 %}
 
 Normally, the motor should complete the rotation in about a second. You'll see
@@ -77,8 +79,8 @@ also be placed within another Multitask block, as shown below.
 
 {% include block-program.html
 path="L04_4_multitask_mixed"
-caption="TODO"
-width="100%"
+caption="You can use a Multitask block within another Multitask block."
+width="90%"
 %}
 
 **Challenge #4.4.??: Everything at once** ⸺ Analyze the example above before

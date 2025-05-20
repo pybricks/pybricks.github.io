@@ -7,8 +7,8 @@ img_multitask_blocks:
   alt: Multitask blocks
   width: 100%
   caption: >
-    You can make the robot do multiple things at the same time. Either using
-    additional Start blocks, or using the Multitask block.
+    You can make the robot do multiple things at the same time. You can use
+    additional Start blocks, or use the Multitask block.
   labels:
     - text: Start block
       x: 30%
@@ -32,7 +32,7 @@ img_multitask_blocks:
 ---
 
 Previously, you've learned to use Repeat blocks, Wait blocks and Task blocks
-to change in which _order_ all of your blocks run. In all
+to change in which _order_ your blocks run. In all
 of these cases, there was just one action going on at a time.
 
 Sometimes it is useful to do two or more things _at the same time_, known as
@@ -49,9 +49,9 @@ section.
 # Using multiple Start blocks
 
 The simplest way to do two things at once is by placing another Start block on
-the canvas. Both stacks of blocks begin running at the same time, no matter
-where they are placed. The program ends when both have finished running all of
-their blocks.
+the canvas. All Start blocks begin running at the same time, no matter where
+they are placed. The program ends when both have finished running all blocks
+that are attached to them.
 
 Consider the following example, which runs one motor back and forth under one
 Start block. At the same time, a Repeat Times block under another Start block
@@ -61,7 +61,7 @@ blinks the hub light red and green ten times.
 path="L04_3_starts"
 caption="You can do multiple things at once by adding more Start blocks to the
 canvas."
-width="70%"
+width="80%"
 %}
 
 In principle, you can add as many Start blocks to the canvas as you like. In
@@ -78,18 +78,20 @@ block blinks the hub light red and green ten times.
 
 {% include block-program.html
 path="L04_3_multitask"
-caption="TODO"
-width="70%"
+caption="You can also do multiple things at once with the Multitask block."
+width="80%"
 %}
 
-Sounds familiar? That's because this example is _identical_ to the program with
-two Start blocks from before. What's the point then, you ask? To see why it is
-useful, add two sound blocks to create the following example:
+If this sounds familiar, that's because this example is _identical_ to the
+program with two Start blocks from before. What's the point then, you ask? To
+see why it is useful, add two sound blocks to create the following example:
 
 {% include block-program.html
 path="L04_3_multitask_sound"
-caption="TODO"
-width="70%"
+caption="With multiple Start blocks, you essentially make two whole programs
+run separately at the same time. With the Multitask block, you choose where
+multitasking begins and ends, which is more practical in most cases."
+width="80%"
 %}
 
 Now the robot plays a sound, runs the motor back and forth while blinking the light
@@ -110,13 +112,14 @@ especially when they grow bigger.
 
 # Multitasking with Task Caller blocks
 
-You can organize your program further by placing the blocks for back and forth
-movement and the blinking light in their own Task blocks. Then you can place
-their Task Caller blocks in the Multitask block, as shown below.
+You can organize your program differently by placing the blocks for back and
+forth movement and the blinking light in their own Task blocks. Then you can
+place their Task Caller blocks in the Multitask block, as shown below.
 
 {% include block-program.html
 path="L04_3_multitask_task"
-caption="TODO"
+caption="You can convert both stacks of blocks into their own respective task,
+         and make them run at the same time."
 width="100%"
 %}
 
@@ -127,16 +130,17 @@ identical to the previous example.
 
 # Conflicting resources
 
-You can add more tasks to run simultaneously by clicking the v-shaped symbol at
-the bottom of the Multitask block. For example, your robot could simultaneously
+You can run more than two tasks at once by expanding the Multitask block with
+the v-shaped symbol at the bottom For example, your robot could simultaneously
 rotate a motor, play a sound, blink a light, and print some text, as shown
 below.
 
 
 {% include block-program.html
 path="L04_3_multitask_multiple"
-caption="TODO"
-width="70%"
+caption="Doing four things at once is no problem, as long as they don't use the
+same physical resource."
+width="80%"
 %}
 
 While your robot can multitask many different things, it cannot
@@ -152,8 +156,8 @@ running at the same time that try to use the same motor or sensor.
 
 {% include block-program.html
 path="L04_3_multitask_resource"
-caption="TODO"
-width="70%"
+caption="❌ Doesn't work. One motor can't be used from two places at the same time."
+width="80%"
 %}
 
 
