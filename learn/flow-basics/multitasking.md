@@ -69,6 +69,12 @@ practice, your program can become unwieldy and hard to follow if you add too
 many. For many applications, the Multitask block is more effective, as you'll
 see next.
 
+**Challenge #4.3.A: In formation** ⸺ Set up the left and right motor. Make
+them both move 1000 degrees at the same time. Compare the resulting movement to
+that of a fully configured Drive Base Drive block. In both cases, what happens
+if you block one wheel but not the other?
+{: .notice--primary}
+
 # Using the Multitask block
 
 When your program arrives at a _Multitask_ block, it will run two or more
@@ -99,7 +105,7 @@ as before, and then plays another sound. As trivial as this may look, you might
 be surprised to learn that this is much harder to build using two Start blocks.
 
 This is where the Multitask block shines. It can do the same as multiple Start blocks,
-but you can _choose where and when_ to use it like any other block, rather than
+but you can choose _where and when_ to use it like any other block, rather than
 only use it at the very beginning of your program.
 
 If you've programmed with Scratch before, you might have used Broadcast blocks
@@ -108,7 +114,13 @@ the Multitask block. This keeps programs much simpler and easier to follow,
 especially when they grow bigger.
 {: .notice}
 
-
+**Challenge #4.3.B: On the dance floor** ⸺ Open one of your previous programs
+that made the robot [drive in a
+square](/learn/flow-basics/waiting-repeating/#repeating-actions-several-times).
+Use Multitask blocks to make it blink a blue light on the straights and blink a
+red light while making turns. Can you make it play a well known melody along
+the way?
+{: .notice--primary}
 
 # Multitasking with Task Caller blocks
 
@@ -128,7 +140,16 @@ for large programs. Now you can see why this block is called the Multitask
 block: it runs multiple tasks at once. Under the hood, this program is
 identical to the previous example.
 
-# Conflicting resources
+**Challenge #4.3.C: On the dance floor, with tasks** ⸺ Open the solution that
+you made for Challenge #4.3.B. Create a Task block for driving straight for 250
+mm while blinking a blue light. In contrast to the example above, now the
+Multitask block is placed inside the Task block. Create another Task block for
+turning 90 degrees while blinking a red light. Once created, where do you put
+the Task Caller blocks to make it drive in a square while blinking the lights
+as instructed?
+{: .notice--primary}
+
+# Running more than two tasks
 
 You can run more than two tasks at once by expanding the Multitask block with
 the v-shaped symbol at the bottom For example, your robot could simultaneously
@@ -143,23 +164,42 @@ same physical resource."
 width="80%"
 %}
 
+**Challenge #4.3.D: Multitasking efficiently** ⸺ The previous example runs four
+tasks (stacks of blocks) at the same time. There is a way to do exactly the
+same with just three tasks. Click the ʌ icon on the Multitask block to it to
+three tasks. There are now two Print blocks and a wait block floating on the
+canvas. Where do you place them to achieve the same result as before? You are
+free to delete blocks if you need to.
+{: .notice--primary}
+
+# Conflicting resources
+
 While your robot can multitask many different things, it cannot
 do two _conflicting things_ at once. It can't run the very same motor forwards
 and backwards at the same time, just like you can't walk forward and backward
-at the same time.
+at the same time. More precisely, your robot can't use the same _resource_ from
+two places at once. Besides motors, this includes sensors and the hub speaker.
 
-The following program won't work. Nothing bad will happen, but it won't do
-anything good, either. The mistake here is quite obvious, but it can be easier
-to miss in a big program. In general, you should avoid having two stacks of blocks
-running at the same time that try to use the same motor or sensor.
-
+The following program won't work right. The mistake here is quite obvious, but
+it can be easier to miss in a big program. In general, you should avoid having
+two stacks of blocks running at the same time that try to use the same
+resource.
 
 {% include block-program.html
 path="L04_3_multitask_resource"
-caption="❌ Doesn't work. One motor can't be used from two places at the same time."
+caption="❌ One motor shouldn't be used from two places at the same time.
+Normally if a motor is already running, the old movement stops and the new
+movement begins immediately. In this case, two movements
+are started at the same time, so there isn't a clearly defined outcome."
 width="80%"
 %}
 
+Note that this is not a coding limitation since it is impossible even in
+theory. Instead, it means that you should rethink your program design. It
+usually helps to describe in words what your program should do. Write it down
+or describe it to a friend, and see if it still makes sense!
 
-
-
+In contrast, controlling two different motors from different tasks at the same
+time is fine. It is also fine to change the hub light color or print text from
+multiple places. These are very quick operations, so the hub can ensure that
+they don't clash.

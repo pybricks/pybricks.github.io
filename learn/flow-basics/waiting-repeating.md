@@ -118,9 +118,10 @@ caption="Drive in a square shape by repeating the straight and the turn four tim
 width="100%"
 %}
 
-**Challenge #4.1.A: Chicken or the egg** ⸺ Should the straight come first or
-the turn? Will the robot follow a different path if you swap them?
-Draw your prediction on a piece of paper and swap the blocks to test your hypothesis.
+**Challenge #4.1.A: Chicken or the egg** ⸺ When driving in a square, does it
+matter if the straight or the turn comes first? Will the robot follow a
+different path if you swap them? Draw your prediction for both cases on a piece of paper and
+swap the blocks to test your hypothesis.
 {: .notice--primary}
 
 **Challenge #4.1.B: Cutting corners** ⸺ Change the square program to drive
@@ -168,12 +169,11 @@ width="60%"
 **Challenge #4.1.C: It's all a blur** ⸺ Reduce the wait duration as shown
 below. Now the light changes color hundreds of times per second. What is the
 result? This example creates a 50-50 mix of red and green. Why? Can you make it
-75% green and 25% red? At what point does the light start to blink instead
-of blending smoothly?
- **Research** ⸺ Mixing light colors is very different
-from mixing paint colors. Write a one-page essay describing the differences.
-What are primary colors, and what happens if you mix them in the case of paint or
-light? How can you create a white light? Create a program to try it out.
+75% green and 25% red? If you increase the wait duration, at what point does
+the light start to blink instead of blending smoothly? **Research** ⸺ Mixing
+ light colors is very different from mixing paint colors. Write a one-page
+essay describing the differences. What are primary colors, and what happens if
+you mix them in the case of paint or light? How can you create a white light?
 {: .notice--primary}
 
 {% include block-program.html

@@ -72,6 +72,15 @@ If you're not entirely sure what gets cancelled or not, you can still control
 what happens afterward. In the example above, you explicitly turned off the
 light.
 
+**Challenge #4.4.A: Backing up!** ⸺ Create a program similar to the example
+above, but make a drive base drive backwards for 250 mm instead of turning
+a single motor. The robot should back up by 250 mm but stop trying if it
+doesn't get there in two seconds.
+**Discuss** ⸺ When is this technique useful in robotics competitions? How is
+this different from just driving in reverse for two seconds? What are
+the pros and cons of either approach?
+{: .notice--primary}
+
 # Nested Multitask blocks
 
 The Multitask block can be used like any other block, which means that it can
@@ -80,10 +89,10 @@ also be placed within another Multitask block, as shown below.
 {% include block-program.html
 path="L04_4_multitask_mixed"
 caption="You can use a Multitask block within another Multitask block."
-width="90%"
+width="80%"
 %}
 
-**Challenge #4.4.??: Everything at once** ⸺ Analyze the example above before
+**Challenge #4.4.B: Everything at once** ⸺ Analyze the example above before
 you run it. What will it do? Can you definitively say which order the printed
 messages will be in? If not, what does it depend on? Is it possible to use
 multiple Start blocks instead of Multitask blocks? If not, how close can you
