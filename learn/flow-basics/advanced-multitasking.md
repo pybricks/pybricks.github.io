@@ -5,17 +5,17 @@ excerpt: >
 ---
 This section covers several more advanced uses of the Multitask block.
 You don't need these techniques for most programs, but they can be powerful and
-help simplify code in certain applications.
+help simplify your code in certain situations.
 
 # Multitasking until one task is done
 
 In the [previous section](/learn/flow-basics/multitasking/), all Multitask
 blocks were configured to keep running until _all_ tasks (stacks of blocks)
-placed in it had completed. Instead, you can make the Multitask block do things
-simultaneously until _one_ task is done, whichever completes first.
+placed in them had completed. Instead, you can make the Multitask block do things
+simultaneously until _one_ task is done—whichever completes first.
 
 This technique is useful for doing something in the background while you wait
-for something else to complete, as shown in the following program.
+for something else to finish, as shown in the following program.
 
 {% include block-program.html
 path="L04_4_multitask_one"
@@ -23,16 +23,16 @@ caption="Multitasking until one task is done. The light blinks until the motor i
 width="80%"
 %}
 
-As before, the Multitask block will run the motor back and forth and at the
-same time blink the light. The light is made to blink forever. But the
+As before, the Multitask block will run the motor back and forth while at the
+same time blinking the light. The light is set to blink forever, but the
 Multitask block stops as soon as one task completes. So it stops when the motor
-finishes moving back and forth. Then the multitask blocks takes care of
-stopping the other stack too, so it stops blinking. Your program proceeds to
-run the blocks after the Multitask block so you hear the sound. The light has
-stopped blinking, but it is still red or green at this point. This example adds
-a block to turn the light off.
+finishes moving back and forth. Then the Multitask block takes care of stopping
+the other stack too, so the light stops blinking. Your program then continues
+to run the blocks after the Multitask block, so you hear the sound. The light
+has stopped blinking, but it is still red or green at this point. This example
+adds a block to turn the light off.
 
-This example is perhaps not quite convincing, but this technique will be very
+This example may not seem very convincing, but this technique becomes very
 useful when used with sensors. You can wait on two or more sensors at the same
 time, but stop waiting as soon as one of them triggers. You'll learn to do this
 in the next chapter.

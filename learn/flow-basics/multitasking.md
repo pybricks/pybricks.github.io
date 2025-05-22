@@ -141,18 +141,18 @@ block: it runs multiple tasks at once. Under the hood, this program is
 identical to the previous example.
 
 **Challenge #4.3.C: On the dance floor, with tasks** ⸺ Open the solution that
-you made for Challenge #4.3.B. Create a Task block for driving straight for 250
-mm while blinking a blue light. In contrast to the example above, now the
-Multitask block is placed inside the Task block. Create another Task block for
-turning 90 degrees while blinking a red light. Once created, where do you put
-the Task Caller blocks to make it drive in a square while blinking the lights
-as instructed?
+you made for Challenge #4.3.B. Create a Task block that drives straight for 250
+mm while blinking a blue light. Unlike the previous example, this time place
+the Multitask block inside the Task block. Next, create another Task block for
+turning 90 degrees while blinking a red light. Once you have created these,
+where should you place the Task Caller blocks to make the robot drive in a
+square while blinking the lights as instructed?
 {: .notice--primary}
 
 # Running more than two tasks
 
-You can run more than two tasks at once by expanding the Multitask block with
-the v-shaped symbol at the bottom For example, your robot could simultaneously
+You can run more than two tasks at once by expanding the Multitask block using
+the v-shaped symbol at the bottom. For example, your robot could simultaneously
 rotate a motor, play a sound, blink a light, and print some text, as shown
 below.
 
@@ -165,20 +165,21 @@ width="80%"
 %}
 
 **Challenge #4.3.D: Multitasking efficiently** ⸺ The previous example runs four
-tasks (stacks of blocks) at the same time. There is a way to do exactly the
-same with just three tasks. Click the ʌ icon on the Multitask block to it to
-three tasks. There are now two Print blocks and a wait block floating on the
-canvas. Where do you place them to achieve the same result as before? You are
-free to delete blocks if you need to.
+tasks (stacks of blocks) at the same time. However, you can achieve the same
+result with just three tasks. Click the ʌ icon on the Multitask block to reduce
+it to three tasks. You will see two Print blocks and a Wait block floating on
+the canvas. Where should you place them to achieve the same result as before?
+You may delete blocks if needed.
 {: .notice--primary}
 
 # Conflicting resources
 
-While your robot can multitask many different things, it cannot
-do two _conflicting things_ at once. It can't run the very same motor forwards
-and backwards at the same time, just like you can't walk forward and backward
-at the same time. More precisely, your robot can't use the same _resource_ from
-two places at once. Besides motors, this includes sensors and the hub speaker.
+While your robot can multitask many different actions, it cannot do two
+_conflicting things_ at once. For example, it can't run the same motor forwards
+and backwards at the same time, just as you can't walk forward and backward at
+the same time. More precisely, your robot can't use the same _resource_ from
+two places at once. Besides motors, this also includes sensors and the hub
+speaker.
 
 The following program won't work right. The mistake here is quite obvious, but
 it can be easier to miss in a big program. In general, you should avoid having
