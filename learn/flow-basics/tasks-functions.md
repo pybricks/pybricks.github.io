@@ -183,7 +183,7 @@ this technique called? Is it ever useful? Does this phenomenon occur anywhere in
 
 {% include block-program.html
 path="L04_2_task_square_recurse"
-caption="Program for challenge #4.2.??. This task calls itself, which is
+caption="Program for challenge #4.2.C. This task calls itself, which is
 (almost) never a good idea."
 width="80%"
 %}

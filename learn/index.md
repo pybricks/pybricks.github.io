@@ -140,10 +140,6 @@ and gradually build on the skills you learn throughout.
 
 **1. Getting started**
 
-- 1.1: [What do you need?](/learn/getting-started/what-do-you-need/)
-- 1.2: [Installing Pybricks](/learn/getting-started/install-pybricks/)
-- 1.3: [Running Pybricks programs](/learn/getting-started/pybricks-environment/)
-
 This chapter is all about preparing the tools you need to get started. What is
 a hub, motor, or sensor? You'll also prepare your computer or tablet and
 install Pybricks on your LEGO hub.
@@ -153,9 +149,11 @@ the details of each block just yet, you'll learn how to use the coding
 interface effectively, which is a big help once you create bigger programs
 later on.
 
-**2. Building a robot**
+- 1.1: [What do you need?](/learn/getting-started/what-do-you-need/)
+- 1.2: [Installing Pybricks](/learn/getting-started/install-pybricks/)
+- 1.3: [Running Pybricks programs](/learn/getting-started/pybricks-environment/)
 
-- 2.1: [Building StarterBot](/learn/getting-started/what-do-you-need/)
+**2. Building a robot**
 
 A great way to learn robotics and coding principles is to build a basic vehicle
 robot. It's a fun way to dive into the action right away, while getting to know
@@ -168,18 +166,28 @@ SPIKE Essential, Mindstorms Robot Inventor, Technic, City, or BOOST. Once
 you've attached some wheels to the motors, it turns out they're all pretty
 much the same.
 
+- 2.1: [Building StarterBot](/learn/getting-started/what-do-you-need/)
+- 2.2: [SPIKE Prime](/learn/building-a-robot/spike-prime/)
+- 2.3: [SPIKE Essential](/learn/building-a-robot/spike-essential/)
+- 2.4: [MINDSTORMS](/learn/building-a-robot/mindstorms-inventor/)
+- 2.5: [Technic Hub](/learn/building-a-robot/technic/)
+- 2.6: [BOOST Move Hub](/learn/building-a-robot/boost/)
+- 2.7: [City Hub](/learn/building-a-robot/city/)
+
 You can also use your own robot if you prefer, by adapting the provided coding
 examples to your own design. For example, you might have to adjust the wheel
 diameter parameter if you use differently sized wheels.
 
 **3. Basic robot navigation and output blocks**
 
-The remaining chapters are a work in progress. Please check back in a few weeks. Thank you!
-{: .notice--primary}
-
 Now it's time to make the robot come alive! You'll learn to use the output
 blocks to make your robot move, play sounds, and blink lights. Naturally,
 you'll make a "Hello, World!" program too!
+
+- 3.1: [Your first robot program](/learn/making-programs/your-first-program/)
+- 3.2: [Essential coding tools](/learn/making-programs/basic-blocks/)
+- 3.3: [Basic robot navigation](/learn/making-programs/basic-robot-navigation/)
+- 3.4: [Adding sound and light](/learn/making-programs/sound-light/)
 
 **4. Waiting, repeating, and tasks**
 
@@ -188,7 +196,15 @@ chapter shows you how to wait between actions, or repeat several actions
 multiple times. You'll also see how you can run multiple actions in parallel,
 or how to group frequently used actions together in a dedicated _task_.
 
+- 4.1: [Waiting and repeating](/learn/flow-basics/waiting-repeating/)
+- 4.2: [Making your own task blocks](/learn/flow-basics/tasks-functions/)
+- 4.3: [Multitasking essentials](/learn/flow-basics/multitasking/)
+- 4.4: [Advanced multitasking](/learn/flow-basics/advanced-multitasking/)
+
 **5. Making decisions with sensors**
+
+The remaining chapters are a work in progress. Please check back in a few months. Thank you!
+{: .notice--primary}
 
 Robots don't operate in the world all by themselves, so they need to observe
 their surroundings to decide what to do. This chapter shows you how to use
