@@ -29,7 +29,7 @@ img_flow_palette:
       x: 37%
       y: 28%
       location: right
-    - text: Conditional Wait (you choose what to wait for)
+    - text: Wait Until (you choose what to wait for)
       x: 37%
       y: 38%
       location: right

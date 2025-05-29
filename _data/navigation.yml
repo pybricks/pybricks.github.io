@@ -79,7 +79,7 @@ learn:
       - title: "3.4: Adding sound and light"
         url: /learn/making-programs/sound-light/
 
-  - title: "4: Basic flow control "
+  - title: "4: Basic flow control"
     children:
       - title: "4.1: Waiting and repeating"
         url: /learn/flow-basics/waiting-repeating/
@@ -89,4 +89,13 @@ learn:
         url: /learn/flow-basics/multitasking/
       - title: "4.4: Advanced multitasking"
         url: /learn/flow-basics/advanced-multitasking/
+
+  - title: "5: Using sensors"
+    children:
+      - title: "5.1: Measuring sensor values"
+        url: /learn/sensors/measuring-values/
+      - title: "5.2: Making decisions"
+        url: /learn/sensors/making-decisions/
+      - title: "5.3: Using multiple sensors"
+        url: /learn/sensors/multiple-sensors/
 

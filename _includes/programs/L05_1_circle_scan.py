@@ -1,0 +1,34 @@
+# pybricks blocks file:{"blocks":{"languageVersion":0,"blocks":[{"type":"blockGlobalSetup","id":"bjK,wS1MYO7aiYkFSwd{","x":20,"y":18,"deletable":false,"next":{"block":{"type":"variables_set_motor","id":"`ckvX72RRO2%rJ%B|(M6","fields":{"VAR":{"id":"2ayhO0H`E}8U5|~=jn^7"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"voXqQmvRsz}to7s^|3B#","fields":{"NAME":"A"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"T#QvY]QaZJS(-z[LvR54","fields":{"SELECTION":"Direction.COUNTERCLOCKWISE"}}}},"next":{"block":{"type":"variables_set_motor","id":"p3aVuKxCqO{AWWf)qy9}","fields":{"VAR":{"id":"v@wn1nh$1@t-0`cn#}l;"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"8P:X%+o@Fhoyr13,cY#x","fields":{"NAME":"B"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"APQW8~Z9Ow68Y$oBKHn-","fields":{"SELECTION":"Direction.CLOCKWISE"}}}},"next":{"block":{"type":"variables_set_drive_base","id":")7*br?PVxjM-e620.S`_","fields":{"VAR":{"id":"gvR:UtvqI:R]+bffJMhb"}},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"(mx$![/|%~SNmQfJxt(_","fields":{"VAR":{"id":"2ayhO0H`E}8U5|~=jn^7","name":"left","type":"Motor"}}}},"VAR2":{"shadow":{"type":"variables_get_motor_device","id":"`zb:UrDtrwr#hhJ!y:TM","fields":{"VAR":{"id":"v@wn1nh$1@t-0`cn#}l;","name":"right","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_distance","id":"QNa,,]3Gx,ncIY9)^]`0","fields":{"VALUE0":56}}},"VALUE1":{"shadow":{"type":"unit_distance","id":")FU%$Ue*_bTxp2bwgNH:","fields":{"VALUE0":128}}}},"next":{"block":{"type":"variables_set_ultrasonic_sensor","id":"yuVDary!2wWx|avI2_{E","fields":{"VAR":{"id":"isX1UK-d^GiK{*H4q^-7"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"M[C)/OQaKkS3uRPH;E$n","fields":{"NAME":"D"}}}}}}}}}}}}},{"type":"blockGlobalStart","id":"3tJe|AWl0baN(wH9a$@.","x":17,"y":333,"deletable":false,"next":{"block":{"type":"blockMultiTask","id":"Oos//Rb3sH]//7$@Sh/8","extraState":{"optionLevel":0},"fields":{"METHOD":"MULTITASK_RACE"},"inputs":{"TASK0":{"block":{"type":"blockFlowRepeat","id":"s)C$8bQHsax{b(jU@9DH","inputs":{"TIMES":{"shadow":{"type":"blockMathNumber","id":"3zDu#fX#pXmk[RncTtzs","fields":{"NUM":2}}},"DO":{"block":{"type":"blockDriveBaseDrive2","id":"X[S8Xt22#@J8KG7ubN(1","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":";xvcy(kNR%s~^Pd_d%Df","fields":{"VAR":{"id":"gvR:UtvqI:R]+bffJMhb","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"Q;x}kd/`O?d*oL:#R;h[","fields":{"VALUE0":360}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"2;ss@|G^dtiOFOd6ST)f","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"^4`E(~zr6/:7ojmfWq0n","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"/@4g7L4A71~a+NA?UiVm","fields":{"VAR":{"id":"gvR:UtvqI:R]+bffJMhb","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"wyj3-Fn9IF?-PRgy5L7e","fields":{"VALUE0":-360}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"]@}yK^5vgMe;Ct94KowD","fields":{"VALUE":"Stop.HOLD"}}}}}}}}}}},"TASK1":{"block":{"type":"blockPrint","id":"u/?*5|9C!,G;.P?Oq[CA","extraState":{"optionLevel":1},"fields":{"SEP":"SEP_COMMA_ONLY"},"inputs":{"TEXT0":{"shadow":{"type":"text","id":"gM6k~p7}Yr4DU$|y!.QN","fields":{"TEXT":"Angle"}}},"TEXT1":{"shadow":{"type":"text","id":":N)!bK[HvzRSM8uyDotg","fields":{"TEXT":"Distance"}}}},"next":{"block":{"type":"blockFlowWhile","id":"d(gL[se9Y^B%yxBXf]g,","fields":{"MODE":"WHILE"},"inputs":{"BOOL":{"shadow":{"type":"blockLogicTrue","id":"wTTrOZ6(kcS?e~zzl6Um"}},"DO":{"block":{"type":"blockPrint","id":"j,,T}?rBkaW$1v?olp4p","extraState":{"optionLevel":1},"fields":{"SEP":"SEP_COMMA_ONLY"},"inputs":{"TEXT0":{"shadow":{"type":"text","id":"!x5.0YiWya^`(y)yO5B8","fields":{"TEXT":"Distance:"}},"block":{"type":"blockDriveBaseMeasure","id":"qn,c.?!xHxG+|Bur=kW4","extraState":{"optionLevel":0},"fields":{"METHOD":"DRIVEBASE_GET_ANGLE"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"bdt0n)eq|6_tzD}BpZuX","fields":{"VAR":{"id":"gvR:UtvqI:R]+bffJMhb","name":"robot","type":"DriveBase"}}}}}}},"TEXT1":{"shadow":{"type":"text","id":"j3(n]O1L]~D[h6j{AACy","fields":{"TEXT":"abc"}},"block":{"type":"blockDistance","id":"eLQwJ35!CGwvhQm5^`mT","inputs":{"VAR":{"shadow":{"type":"variables_get_distance_device","id":"hJ7N7+-G;n#T}hg4[_lz","fields":{"VAR":{"id":"isX1UK-d^GiK{*H4q^-7","name":"distance sensor","type":"UltrasonicSensor"}}}}}}}},"next":{"block":{"type":"blockWaitTime","id":"BO;**8Wh]oy$l1K!(98/","inputs":{"VALUE0":{"shadow":{"type":"unit_time","id":"@f|$O=ho8;e(epuag}/N","fields":{"VALUE0":50}}}}}}}}}}}}}}}}}]},"variables":[{"name":"red","id":"_f*1dAFi;USV0Q@}qS2%","type":"ColorDef"},{"name":"orange","id":"ZuVMZe7f{vJ).].8jAoq","type":"ColorDef"},{"name":"yellow","id":"C((nk*Sg,nCM~Nr#HUTU","type":"ColorDef"},{"name":"green","id":",82n|AV_oN^zjCKT{2ve","type":"ColorDef"},{"name":"cyan","id":"t9sT{/ez~X7Zd^9GKkB/","type":"ColorDef"},{"name":"blue","id":"f=1~g-$eP);frKrgyRZe","type":"ColorDef"},{"name":"violet","id":"J^/y7N#+PF?HF~JMYbu+","type":"ColorDef"},{"name":"magenta","id":"8*cL$z-6DI)2hY4nKrws","type":"ColorDef"},{"name":"white","id":"DgN)MSTUtnmJdUCw5Mz[","type":"ColorDef"},{"name":"none","id":"5_J7}]jZRj?~htfct6tX","type":"ColorDef"},{"name":"watch","id":"f!)#u^psK(+1@vc4V)+g","type":"StopWatch"},{"name":"left","id":"2ayhO0H`E}8U5|~=jn^7","type":"Motor"},{"name":"right","id":"v@wn1nh$1@t-0`cn#}l;","type":"Motor"},{"name":"robot","id":"gvR:UtvqI:R]+bffJMhb","type":"DriveBase"},{"name":"distance sensor","id":"isX1UK-d^GiK{*H4q^-7","type":"UltrasonicSensor"},{"name":"sensor","id":"XP7^U}n-gU~X|OckIGQX","type":"ColorDistanceSensor"}],"info":{"type":"pybricks","version":"1.3.2"}}
+from pybricks.parameters import Direction, Port
+from pybricks.pupdevices import Motor, UltrasonicSensor
+from pybricks.robotics import DriveBase
+from pybricks.tools import multitask, run_task, wait
+
+# Set up all devices.
+distance_sensor = UltrasonicSensor(Port.D)
+left = Motor(Port.A, Direction.COUNTERCLOCKWISE)
+right = Motor(Port.B, Direction.CLOCKWISE)
+robot = DriveBase(left, right, 56, 128)
+
+async def subtask():
+    for count in range(2):
+        await wait(0)
+        await robot.turn(360)
+        await robot.turn(-360)
+
+async def subtask2():
+    print('Angle', 'Distance', sep=",")
+    while True:
+        await wait(0)
+        print(robot.angle(), await distance_sensor.distance(), sep=",")
+        await wait(50)
+
+async def main():
+    await multitask(
+        subtask(),
+        subtask2(),
+        race=True,
+    )
+
+
+run_task(main())
