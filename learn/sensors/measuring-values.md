@@ -215,8 +215,7 @@ img_data_log_5:
   alt: Datalog step 5
   width: 100%
   caption: >
-    5. The end result. You can additional labels for the X and Y axes for
-    clarity. You can download our spreadsheet to compare it with yours.
+    5. The end result. You can add additional labels for the X and Y axes for clarity.
   labels:
     - text: X-axis with time in ms.
       x: 57%
@@ -428,9 +427,9 @@ pause without the stopwatch block? Why is it still better to keep it?
 
 # Recording movement
 
-Most LEGO motors have a builtin sensor that measures the traveled angle.
+Most LEGO motors have a built-in sensor that measures the traveled angle.
 The drive base uses this information to figure out how far it has traveled. You
-can read these measurements with the Drive Base Measure block from the input tab.
+can read these measurements with the Drive Base Measure block from the Input tab.
 This can be used to record information about how your robot moves, as shown in
 the following example.
 
@@ -500,7 +499,7 @@ choose time for the X-axis.  **Discuss** ⸺ Before you run your experiment,
 sketch what you think the charts will look like. Assume that you start in
 corner A and that Q is 250 mm and R is 500 mm. Run the experiment and verify
 your prediction. Next, run the experiment from starting position B, C, or D.
-Based on the data alone, ask your team mates where they think the robot
+Based on the data alone, ask your teammates where they think the robot
 started.
 {: .notice--primary}
 
