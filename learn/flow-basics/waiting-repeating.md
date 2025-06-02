@@ -1,5 +1,7 @@
 ---
 title: "Waiting and repeating"
+redirect_from:
+  - /learn/flow-basics/
 excerpt: >
   Learn to use the Wait Time block and the Repeat Times block to control the
   flow of your program.
@@ -110,7 +112,7 @@ a total of eight blocks.
 Rather than using eight blocks, it's much easier to use the Repeat Times block, which
 lets you repeat sequences of blocks that are placed within it. The following
 program creates the square pattern by repeating a straight and a turn four
-times.
+times. Repeating like this is sometimes called a _loop_.
 
 {% include block-program.html
 path="L04_1_square"

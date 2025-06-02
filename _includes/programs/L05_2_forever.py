@@ -1,0 +1,8 @@
+# pybricks blocks file:{"blocks":{"languageVersion":0,"blocks":[{"type":"blockGlobalSetup","id":"bjK,wS1MYO7aiYkFSwd{","x":150,"y":100,"deletable":false},{"type":"blockGlobalStart","id":"3tJe|AWl0baN(wH9a$@.","x":150,"y":201,"deletable":false,"next":{"block":{"type":"blockFlowWhile","id":"DvYUe8[(?,-,93cdHmA-","fields":{"MODE":"WHILE"},"inputs":{"BOOL":{"shadow":{"type":"blockLogicTrue","id":"7Jqj(2Zz,)H@bY`9+BJG"}},"DO":{"block":{"type":"blockPrint","id":"j,,T}?rBkaW$1v?olp4p","extraState":{"optionLevel":0},"inputs":{"TEXT0":{"shadow":{"type":"text","id":"!x5.0YiWya^`(y)yO5B8","fields":{"TEXT":"Hello, World!"}}}},"next":{"block":{"type":"blockWaitTime","id":"T6+u/PaTTU[oHh[:[a!`","inputs":{"VALUE0":{"shadow":{"type":"unit_time","id":"M7*ZwcCa/he-TfWY$s+-","fields":{"VALUE0":1000}}}}}}}}}}}}]},"variables":[{"name":"red","id":"L3)rf:%b@:Zjd2mF2d)c","type":"ColorDef"},{"name":"orange","id":"`JU68o]E7^[;cj94QCgi","type":"ColorDef"},{"name":"yellow","id":"HahKX)[u@7t]P?xM1|CV","type":"ColorDef"},{"name":"green","id":"|=~K:hg.d@-,msT~$KNu","type":"ColorDef"},{"name":"cyan","id":"L[t@X*?Yh#@vVcSF]`eJ","type":"ColorDef"},{"name":"blue","id":"+zk.k1%uNvYG_=e@pRoF","type":"ColorDef"},{"name":"violet","id":"H~IK0+Zjc_GiT(56rHJc","type":"ColorDef"},{"name":"magenta","id":"Mg#,vd^McJ4a73z{,|%j","type":"ColorDef"},{"name":"white","id":"QhJxllai=w$nS$EYUU4l","type":"ColorDef"},{"name":"none","id":"wzm[1`?Nz`7^nL}~!kL3","type":"ColorDef"}],"info":{"type":"pybricks","version":"1.3.2"}}
+from pybricks.tools import wait
+
+
+# The main program starts here.
+while True:
+    print('Hello, World!')
+    wait(1000)

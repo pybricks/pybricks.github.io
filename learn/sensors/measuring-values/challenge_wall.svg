@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.43645243"
-     inkscape:cx="611.75052"
-     inkscape:cy="710.27214"
+     inkscape:zoom="0.75149115"
+     inkscape:cx="592.15601"
+     inkscape:cy="499.00788"
      inkscape:window-width="1920"
      inkscape:window-height="1163"
      inkscape:window-x="1920"
@@ -118,7 +118,7 @@
          id="tspan1435"
          style="stroke-width:0.264583"
          x="93.548973"
-         y="58.990116">A</tspan></text>
+         y="58.990116">B</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -129,7 +129,7 @@
          id="tspan3189"
          style="stroke-width:0.264583"
          x="248.76401"
-         y="58.990116">B</tspan></text>
+         y="58.990116">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -140,7 +140,7 @@
          id="tspan3193"
          style="stroke-width:0.264583"
          x="248.76401"
-         y="199.00731">C</tspan></text>
+         y="199.00731">D</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -151,7 +151,7 @@
          id="tspan3797"
          style="stroke-width:0.264583"
          x="104.15884"
-         y="199.00731">D</tspan></text>
+         y="199.00731">A</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
        d="M 177.18408,16.173088 V 54.872012"

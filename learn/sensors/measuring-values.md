@@ -1,5 +1,7 @@
 ---
 title: "Measuring sensor values"
+redirect_from:
+  - /learn/sensors/
 excerpt: >
   Learn to use sensors with the Wait Until block and the Conditional Repeat block.
 header:
@@ -238,7 +240,7 @@ movement:
   alt: Recording movement
   width: 100%
   caption: >
-    5. Distance and speed recording when driving the robot back and forth using
+    Distance and speed recording when driving the robot back and forth using
     the program shown above. Even if you hadn't seen it move, you can determine
     much of what it did by carefully looking at the graph.
   labels:
@@ -267,7 +269,7 @@ L05_1_circle_scan:
   alt: Recording movement
   width: 100%
   caption: >
-    Chart for Challenge #5.1.G: A recording of the ultrasonic sensor measurement
+    Graph for Challenge #5.1.G: A recording of the ultrasonic sensor measurement
     as the robot makes several full rotations. Based on this data, can you
     figure out where the robot is placed relative to the walls?
   labels:
@@ -282,9 +284,12 @@ challenge_wall:
   caption: >
     Overview for Challenge #5.1.H: Record data while driving in a square to
     determine where the robot started relative to the walls.
+L05_1_datalog:
+  image: measuring-values/L05_1_datalog.svg
+  alt: Ultrasonic sensor distance measurement
+  width: 100%
+  caption: Recording of the distance measurement displayed in a graph.
 ---
-
-
 
 Robots can't actually see or feel the way humans do, but by adding _sensors_ to
 them, they can collect and report information about the environment around
@@ -302,13 +307,16 @@ what each sensor measures is essential for building robots that can reliably
 react to their environment.
 
 We'll use [Inventor Bot with the SPIKE Ultrasonic
-Sensor](/learn/building-a-robot/spike-prime/) in the following examples. It measures distance to 
-other objects by emitting an inaudible sound and measuring how long it takes for the echo to come back.
-You can also follow along with [other
-sensors](/learn/getting-started/what-do-you-need/#choosing-sensors). If you
-don't have any sensors, you can still measure the motor angle, as you'll see
-later in this chapter.
+Sensor](/learn/building-a-robot/spike-prime/) to measure distance in the
+following examples. This is a good way to practice with sensors because you can
+easily see what is going on. Once you've mastered the essentials with this
+sensor, you'll be better prepared to apply the same techniques to the color
+sensor in the next chapter.
 
+You can also follow along
+with [other sensors](/learn/getting-started/what-do-you-need/#choosing-sensors)
+that measure distance. If you don't have any sensors, you can still measure the
+motor angle, as you'll see later in this chapter.
 
 **Challenge #5.1.A: Robot sensations** ⸺ Create a table of human senses. For
 each sense, describe what you can sense and how you sense it. Which of these
@@ -325,11 +333,8 @@ them.
 
 # Measuring sensor values
 
-Let's start with a program to monitor distance values. By analyzing what
-sensors measure, you'll be better prepared to create programs that _respond_ to
-particular values in the next section.
-
-To begin, create a new program and add the Ultrasonic Sensor Setup block. Then
+Let's start with a program to measure distance values. 
+Create a new program and add the Ultrasonic Sensor Setup block. Then
 create a loop that prints sensor values repeatedly by following these steps:
 
 {% include diagram.html data=page.img_sensor_setup_1 %}
@@ -348,15 +353,17 @@ it passes its value to the block that you place it in. In this example, the
 distance value was passed to the Print block. The underlying value (_abc_) is
 ignored and the passed value (a number for distance) is used instead.
 
-**Challenge #5.1.B: Blind spots** ⸺ What is the closest and farthest distance
-that your Ultrasonic Sensor can measure? For best results, begin by pointing
-the sensor at a solid surface like a wall or door. What does it report when it
-doesn't detect anything at all? **Discuss** ⸺ What is the impact of different
-materials or the size and shape of objects? Prepare a list of every day objects
-such as walls, curtains, glass windows, pencils, coffee mugs or clothing. For
-each object, predict how well the sensor will detect it. Discuss how well it
-will work up close or far out, pointing straight at it or at an angle. Verify
-your hypotheses by observing the measured values.
+**Challenge #5.1.B: Blind spots** ⸺ The Ultrasonic Sensor measures the distance
+to other objects by emitting an inaudible sound and measuring how long it takes
+for the echo to come back. What is the nearest and farthest distance that you
+can measure? Begin by pointing the sensor at a solid surface
+like a wall or door. What does it report when it doesn't detect anything at
+all? **Discuss** ⸺ What is the impact of different materials or the size and
+shape of objects? Prepare a list of every day objects such as walls, curtains,
+glass windows, pencils, coffee mugs or clothing. For each object, predict how
+well the sensor will detect it. Discuss how well it will work up close or far
+out, pointing straight at it or at an angle. Verify your hypotheses by
+observing the measured values.
 {: .notice--primary}
 
 
@@ -373,7 +380,7 @@ as in the dark or outside. Is there anything that surprised you?
 
 # Recording sensor values
 
-Displaying sensor values as they come in is a good way to gauge how well the
+Displaying sensor values as you just did is a good way to gauge how well the
 sensor works as you place it in different positions. To get a
 better picture of what the robot sees during a mission, you can _record_
 measurements for some time and analyze the recording afterward.
@@ -395,10 +402,29 @@ with 50 pairs of time (in milliseconds) and distance (mm) values. The Wait Time
 block waits 100 ms between measurements, so the entire program runs in about 50
 × 100 ms = 5000 ms, or five seconds.
 
-You'll now create a graph of the recorded data as shown in the following steps.
-We'll use [LibreOffice](https://www.libreoffice.org/) in this example, which is
-free and can be installed on most computers. You can use other spreadsheet apps
-if you already know how to make charts.
+You can display the measured data in a
+graph to better see how the robot was moved. From the following graph, you can
+see that the robot started about 320 mm from the wall. Then it was moved
+farther back for two seconds and then towards the wall again towards the end
+of the experiment.
+
+{% include diagram.html data=page.L05_1_datalog %}
+
+# Making your own graphs (optional)
+
+By recording data, you can verify that your program or mission works as you
+intended. For example, you could record color
+sensor values and verify that a motor stops moving when it sees a black line. 
+
+Making your own graphs is optional. You can skip this section if you are short
+on time for your competition. Otherwise, it can be a great addition to your
+presentation or innovation project. It's also a really useful skill to learn
+beyond robotics.
+
+The following steps show how to create a graph of the data you just recorded. 
+You can use your favorite spreadsheet app if you already have one.
+We'll use [LibreOffice](https://www.libreoffice.org/) here. It is
+free and can be installed on most computers. 
 
 {% include diagram.html data=page.img_data_log_1 %}
 
@@ -413,7 +439,7 @@ if you already know how to make charts.
 **Challenge #5.1.D: Where did the time go?** ⸺ In the experiment above, the
 measurements are spaced almost exactly 100 ms apart. This might give you the
 impression that measuring and printing values takes no time at all. Actually,
-it only appears that way because 100ms is plenty of time to send a few numbers
+it only appears that way because 100 ms is plenty of time to send a few numbers
 to your computer in the background without holding up your program. If you
 print more text more quickly, you will see it start to impact
 the time. To see this, try reducing the wait time to 1 ms. Click the > icon
@@ -424,8 +450,7 @@ lot? **Discuss** ⸺ Could you have done the original experiment with the 100 ms
 pause without the stopwatch block? Why is it still better to keep it?
 {: .notice--primary}
 
-
-# Recording movement
+# Recording movement  (optional)
 
 Most LEGO motors have a built-in sensor that measures the traveled angle.
 The drive base uses this information to figure out how far it has traveled. You
@@ -442,32 +467,25 @@ width="100%"
 %}
 
 As before, this program produces comma-separated data points that you can
-copy to your spreadsheet editor. This time, select all three
-columns (time, distance, speed) and create
-a new chart. Your graph should look similar to the following chart.
+copy to a spreadsheet editor if you want to make your own graph. The result
+is similar to the following graph.
 
 {% include diagram.html data=page.movement %}
 
 
 **Challenge #5.1.E: Ramp it up** ⸺ Add two Drive Base Configuration blocks
-to your program to choose a new drive speed and acceleration. Re-create the
-chart above and verify that it reaches your configured top speed at the given
-acceleration. To verify the acceleration, take the change in speed observed from
-the chart and divide it by the time it took to get to top speed.
+to your program to choose a new drive speed and acceleration. Verify that it
+reaches your configured top speed at the given acceleration. To verify the
+acceleration, take the change in speed and divide it by the time it took to get
+to top speed. You can determine this from the printed values, or using a graph
+similar to the one above.
 {: .notice--primary}
-
-# Interpreting sensor values
-
-Recording data can be useful to verify that your program works as you intended.
-For example, you might record color sensor values and verify that a motor stops
-moving on seeing a black line. You can also record data to see why things go
-wrong during a mission. Practice these skills using the challenges given below.
 
 **Challenge #5.1.G: Where am I?** ⸺ Create a program that records the
 Ultrasonic Sensor distance measurement as the robot turns around, as shown
-below. Place the robot in a corner and run the experiment. Create a chart with
+below. Place the robot in a corner and run the experiment. Create a graph with
 the robot angle on the x-axis and the sensor distance on the y-axis. An example
-result is given below. Based on the chart alone, can you determine the
+result is given below. Based on the graph alone, can you determine the
 distances to the walls? What about the starting angle with respect to the
 walls? **Discuss** ⸺ Some data points appear to be missing (they are not behind
 the picture). Where are they? If you squint, you can almost see two line
@@ -489,18 +507,16 @@ width="100%"
 %}
 
 
-
 **Challenge #5.1.H: Hitting a wall** ⸺ Now it is your turn to design and
 implement an experiment to determine the robot's position. This time, have the
 robot drive in a square parallel to the walls of a corner, as shown below. You
-decide which values to record and plot in a chart. For example, you might
+decide which values to record and plot in a graph. For example, you might
 record the Ultrasonic Sensor distance or drive base angle. For this experiment,
 choose time for the X-axis.  **Discuss** ⸺ Before you run your experiment,
-sketch what you think the charts will look like. Assume that you start in
+sketch what you think the graphs will look like. Assume that you start in
 corner A and that Q is 250 mm and R is 500 mm. Run the experiment and verify
 your prediction. Next, run the experiment from starting position B, C, or D.
-Based on the data alone, ask your teammates where they think the robot
-started.
+Based on the data, ask your teammates where they think the robot started.
 {: .notice--primary}
 
 {% include diagram.html data=page.challenge_wall %}
