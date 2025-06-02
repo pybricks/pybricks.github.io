@@ -15,7 +15,7 @@ requirements:
       y: 25%
       location: above
     - text: |
-        Hub with builtin
+        Hub with built-in
         motion sensors
       x: 25%
       y: 48%
@@ -333,7 +333,7 @@ them.
 
 # Measuring sensor values
 
-Let's start with a program to measure distance values. 
+Let's start with a program to measure distance values.
 Create a new program and add the Ultrasonic Sensor Setup block. Then
 create a loop that prints sensor values repeatedly by following these steps:
 
@@ -355,14 +355,14 @@ ignored and the passed value (a number for distance) is used instead.
 
 **Challenge #5.1.B: Blind spots** ⸺ The Ultrasonic Sensor measures the distance
 to other objects by emitting an inaudible sound and measuring how long it takes
-for the echo to come back. What is the nearest and farthest distance that you
+for the echo to return. What is the nearest and farthest distance that you
 can measure? Begin by pointing the sensor at a solid surface
 like a wall or door. What does it report when it doesn't detect anything at
 all? **Discuss** ⸺ What is the impact of different materials or the size and
-shape of objects? Prepare a list of every day objects such as walls, curtains,
-glass windows, pencils, coffee mugs or clothing. For each object, predict how
+shape of objects? Prepare a list of everyday objects such as walls, curtains,
+glass windows, pencils, coffee mugs, or clothing. For each object, predict how
 well the sensor will detect it. Discuss how well it will work up close or far
-out, pointing straight at it or at an angle. Verify your hypotheses by
+away, pointing straight at it or at an angle. Verify your hypotheses by
 observing the measured values.
 {: .notice--primary}
 
@@ -405,7 +405,7 @@ block waits 100 ms between measurements, so the entire program runs in about 50
 You can display the measured data in a
 graph to better see how the robot was moved. From the following graph, you can
 see that the robot started about 320 mm from the wall. Then it was moved
-farther back for two seconds and then towards the wall again towards the end
+farther back for two seconds and then towards the wall again at the end
 of the experiment.
 
 {% include diagram.html data=page.L05_1_datalog %}
@@ -414,7 +414,7 @@ of the experiment.
 
 By recording data, you can verify that your program or mission works as you
 intended. For example, you could record color
-sensor values and verify that a motor stops moving when it sees a black line. 
+sensor values and verify that a motor stops moving when it sees a black line.
 
 Making your own graphs is optional. You can skip this section if you are short
 on time for your competition. Otherwise, it can be a great addition to your
@@ -477,7 +477,7 @@ is similar to the following graph.
 to your program to choose a new drive speed and acceleration. Verify that it
 reaches your configured top speed at the given acceleration. To verify the
 acceleration, take the change in speed and divide it by the time it took to get
-to top speed. You can determine this from the printed values, or using a graph
+to top speed. You can determine this from the printed values or using a graph
 similar to the one above.
 {: .notice--primary}
 
@@ -493,7 +493,7 @@ segments that dip down in the middle. Compare the angles of both dips. How far
 are they apart, and why? Why does a line graph not work in this case? Some
 angles appear to have multiple clearly distinct distance values. What does this
 overlap mean? Why does this occur just in between the two dips mentioned above?
-Why is it useful to show the robot angle on the x-axis, instead of the time
+Why is it useful to show the robot angle on the x-axis instead of the time
 like we did so far?
 {: .notice--primary}
 

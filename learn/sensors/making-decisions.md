@@ -48,7 +48,7 @@ threshold is crossed.
 # Comparing values to a threshold
 
 The Ultrasonic Sensor measures distances between 40 mm and 2000 mm. It would be
-quite impractical to say what the robot should do for each value (40 mm, 41 mm,
+impractical to say what the robot should do for each value (40 mm, 41 mm,
 42 mm, and so on). It is more practical to say that the robot should do one
 thing for "big" distances (like driving) and do something else for "small"
 distances (like stopping).
@@ -71,9 +71,9 @@ Conditional Repeat block, and the If-else block. We'll cover these next.
 **Challenge #5.2.A: Comparing the other way** ⸺ You can change how the Compare
 block compares the two numbers using the dropdown menu on the block. For
 example, if you choose _equals_ (==), then it will say _True_ if the distance
-is exactly 500 mm but _False_ for any other distance. How can you obtain the
+is exactly 500 mm but _False_ for any other distance. How can you get the
 same results as in the example above but now without using the _less than_ (<)
-option? **Hint** ⸺ You don't need to add any more blocks but you may need to
+option? **Hint** ⸺ You don't need to add any more blocks, but you may need to
 move one or more blocks. There are two solutions.
 {: .notice--primary}
 
@@ -105,7 +105,7 @@ after the Wait Until block.
 **Challenge #5.2.C: On the threshold** ⸺ Change the example to wait until
 the sensor measures exactly 500 mm and try it out. **Discuss** ⸺ What will
 the program do now? Does it always do that in practice, or does it run into
-the wall more often. Why is that?
+the wall more often? Why is that?
 {: .notice--primary}
 
 You can expand this program to do something more useful, as shown below.
@@ -141,7 +141,7 @@ width="70%"
 %}
 
 Whether you choose _until_ or _while_ is a matter of preference. You can
-achieve the same results with either one by picking the right the condition.
+achieve the same results with either one by picking the right condition.
 For example, repeating `while distance < 500` is the same as repeating `until distance ≥ 500`.
 
 ## What does while True mean?
@@ -149,7 +149,7 @@ For example, repeating `while distance < 500` is the same as repeating `until di
 If you don't pass your own condition value to the Conditional Repeat block, you
 can see that it has a default value of True. If you choose to repeat _while_ the
 condition is True, it will repeat over and over. Now you can see why you've
-already used this block in many the examples in this guide!
+already used this block in many examples in this guide!
 
 {% include block-program.html
 path="L05_2_forever"
@@ -174,7 +174,7 @@ The Conditional Repeat block checks the condition value each time _before_ it
 runs the blocks inside it. In the sound example
 [above](#using-the-conditional-repeat-block), it checks if the distance is less
 than 500 mm and plays a beep sound if so. Then it checks the distance again,
-and so on. Otherwise it won't repeat again, and instead your program proceeds
+and so on. Otherwise, it won't repeat again, and instead your program proceeds
 with the blocks after it. If the distance was 500 mm or bigger to begin with,
 the sound doesn't play at all.
 
@@ -252,7 +252,7 @@ forth around the 300 mm distance point. That's because we never told it to
 stop. The motors are always on, one way or another.
 
 It would work better if we made it go forward if the wall is far (> 320 mm),
-backward if it was close (> 280 mm) and otherwise just stop. The following program
+backward if it was close (< 280 mm), and otherwise just stop. The following program
 implements this strategy. Click the v-symbol on the If-else block to add this
 extra case.
 
@@ -264,8 +264,8 @@ width="100%"
 
 **Challenge #5.2.G: Air guitar** ⸺ Create a program that plays different notes
 for different measured distances. Use the table below to determine the frequencies for each note.
-For a distance bigger than 300 mm, play C4, else if the distance is bigger than
-270 mm play D4, and so on. Can you play music on your new instrument?
+For a distance bigger than 300 mm, play C4; else if the distance is bigger than
+270 mm, play D4, and so on. Can you play music on your new instrument?
 **Discuss** ⸺ Why is the order of the distance comparisons important? Try
 mixing them up and determine if you can still hit all notes. Why not?
 {: .notice--primary}
@@ -279,14 +279,14 @@ mixing them up and determine if you can still hit all notes. Why not?
 
 The Wait Until block, Conditional Repeat block and If-else blocks all have
 different use cases. You can use and combine them as needed to achieve your
-goals. You'll get practice doing this as you continue to follow this guide.
+goals. You'll get more familiar with this as you continue to follow this guide.
 
 To get some practice, create the following program. First it starts driving
 and waits until it sees something at 500 mm or nearer. Once it sees anything
 at all, it decides how close the object is. If it is close, it will back up
 and turn left. Otherwise, it will back up and turn right. This means you can
 control its movement by waving your hand in front of the sensor up close or
-further afar.
+further away.
 
 {% include block-program.html
 path="L05_2_avoid_choice"
