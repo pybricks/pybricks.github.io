@@ -2,6 +2,7 @@
 title: "Measuring sensor values"
 redirect_from:
   - /learn/sensors/
+  - /learn/sensors/measuring-values/
 excerpt: >
   Learn to use sensors with the Wait Until block and the Conditional Repeat block.
 header:
@@ -236,7 +237,7 @@ img_data_log_5:
       y: 40%
       location: right
 movement:
-  image: measuring-values/graph.svg
+  image: measuring-sensor-values/graph.svg
   alt: Recording movement
   width: 100%
   caption: >
@@ -265,7 +266,7 @@ movement:
       y: 76%
       location: below
 L05_1_circle_scan:
-  image: measuring-values/L05_1_circle_scan.svg
+  image: measuring-sensor-values/L05_1_circle_scan.svg
   alt: Recording movement
   width: 100%
   caption: >
@@ -278,14 +279,14 @@ L05_1_circle_scan:
       y: 55%
       location: right
 challenge_wall:
-  image: measuring-values/challenge_wall.svg
+  image: measuring-sensor-values/challenge_wall.svg
   alt: Recording movement
   width: 65%
   caption: >
     Overview for Challenge #5.1.H: Record data while driving in a square to
     determine where the robot started relative to the walls.
 L05_1_datalog:
-  image: measuring-values/L05_1_datalog.svg
+  image: measuring-sensor-values/L05_1_datalog.svg
   alt: Ultrasonic sensor distance measurement
   width: 100%
   caption: Recording of the distance measurement displayed in a graph.

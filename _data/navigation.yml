@@ -93,6 +93,9 @@ learn:
   - title: "5: Using sensors"
     children:
       - title: "5.1: Measuring sensor values"
-        url: /learn/sensors/measuring-values/
-      - title: "5.2: Making decisions"
-        url: /learn/sensors/making-decisions/
+        url: /learn/sensors/measuring-sensor-values/
+      - title: "5.2: Responding to sensor values"
+        url: /learn/sensors/responding-sensor-values/
+      - title: "5.3: Combining values with logic"
+        url: /learn/sensors/combining-values-with-logic/
+

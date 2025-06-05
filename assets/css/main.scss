@@ -185,3 +185,13 @@ h2 {
   width: 100%;
   height: auto;
 }
+
+// Same as figure class but don't set width to 100%
+.flowchart {
+  @extend figure;
+  flex-direction: column;
+  img {
+    width: auto;
+    padding-left: 15px;
+  }
+}

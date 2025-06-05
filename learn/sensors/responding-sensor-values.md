@@ -1,5 +1,7 @@
 ---
-title: "Making decisions with sensors"
+title: "Responding to sensor values"
+redirect_from:
+  - /learn/sensors/making-decisions/
 excerpt: >
   Make your robot respond to sensor values using the Wait block, Conditional Repeat block and If-else block.
 img_sensor_compare:
@@ -125,6 +127,20 @@ taking left and right turns? **Discuss** ⸺ Is this better or worse in terms of
 getting stuck in corners?
 {: .notice--primary}
 
+To better understand what programs with sensors do, it is often helpful to
+write down the key actions and decisions that your robot makes. You can connect
+them with arrows to indicate in which order they happen. This is called a _flow
+chart_.
+
+You can make your flow charts as brief or detailed as you like, as long as it is
+helpful to yourself and your team members. The following chart sums up how the
+previous example works.
+
+{% include flow-chart.html path="/learn/sensors/L05_2_avoid.svg" caption="
+Flow chart for the wall avoidance program. Drawing flow charts can help you
+better understand your own program and explain it to others.
+" %}
+
 # Using the Conditional Repeat block
 
 The Conditional Repeat block repeats the blocks you place within it _while_ its
@@ -139,6 +155,11 @@ the sensor value remains below 500 mm. As you move it farther back,
 it will repeatedly beep at a lower pitch until the sensor value is bigger than 1000 mm."
 width="70%"
 %}
+
+{% include flow-chart.html path="/learn/sensors/L05_2_conditional_repeat.svg" caption="
+With the <i>while</i> option, it keeps going around while the condition is True.
+With the <i>until</i> option, it keeps going around until the condition is True (in other words, while it is False).
+" %}
 
 Whether you choose _until_ or _while_ is a matter of preference. You can
 achieve the same results with either one by picking the right condition.
@@ -233,9 +254,15 @@ and forth.
 
 {% include block-program.html
 path="L05_2_distance_keep"
-caption="If the distance is greater than 300 mm then go forward, else backwards. By doing this repeatedly, the robot stays within a fixed distance of the object in front of it."
 width="100%"
 %}
+
+
+{% include flow-chart.html path="/learn/sensors/L05_2_distance_keep.svg"
+caption="If the distance is greater than 300 mm then go forward, else backwards. By doing this repeatedly, the robot stays within a fixed distance of the object in front of it. The drive blocks in
+forever mode just start driving without waiting for any particular distance, so
+the program immediately goes on to check the distance again, and so on." %}
+
 
 **Challenge #5.2.F: If, else, or both?** ⸺ The If-else block and the Multitask
 block look a bit alike. They both contain two or more stacks of blocks but
@@ -258,9 +285,15 @@ extra case.
 
 {% include block-program.html
 path="L05_2_distance_keep_elseif"
-caption="If the distance is greater than 320 mm then go forward, else if the distance is less than 280 mm then go backwards, else stop. This allows the robot to stop while it is on target, rather than restlessly going back and forth."
 width="100%"
 %}
+
+{% include flow-chart.html path="/learn/sensors/L05_2_distance_keep_elseif.svg"
+caption="If the distance is greater than 320 mm then go forward, else if the
+distance is less than 280 mm then go backwards, else stop. This allows the
+robot to stop while it is on target, rather than restlessly going back and
+forth." %}
+
 
 **Challenge #5.2.G: Air guitar** ⸺ Create a program that plays different notes
 for different measured distances. Use the table below to determine the frequencies for each note.
@@ -294,9 +327,22 @@ caption="Combining the Wait Until block with the If-else block to make a decisio
 width="100%"
 %}
 
-**Challenge #5.2.H: Uphill both ways** ⸺ In the example above, it reverses in
+**Challenge #5.2.H: In the flow** ⸺ Draw the flow chart for the program above.
+Use the flow charts for the wall-avoidance and the wall-following on this page
+for inspiration.
+{: .notice--primary}
+
+
+**Challenge #5.2.I: Uphill both ways** ⸺ In the example above, it reverses in
 both cases before turning left or right. Could you use just a single block to
 reverse by placing it before the If-else block? Try this out. **Discuss** ⸺ You
 should find that it is not quite the same. It will mostly turn right if you
-wave your hand in front of the sensor, no matter how close. Why is that?
+wave your hand in front of the sensor, no matter how close. Why is that? Explain
+the difference with your flow chart from challenge Challenge #5.2.H.
 {: .notice--primary}
+
+
+
+
+
+
