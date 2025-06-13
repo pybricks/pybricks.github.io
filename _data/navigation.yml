@@ -96,6 +96,6 @@ learn:
         url: /learn/sensors/measuring-sensor-values/
       - title: "5.2: Responding to sensor values"
         url: /learn/sensors/responding-sensor-values/
-      - title: "5.3: Combining values with logic"
+      - title: "5.3: Combining sensor values"
         url: /learn/sensors/combining-values-with-logic/
 

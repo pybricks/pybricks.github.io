@@ -6,10 +6,10 @@ excerpt: >
   Make your robot respond to sensor values using the Wait block, Conditional Repeat block and If-else block.
 img_sensor_compare:
   image: /learn/sensors/compare-block.png
-  alt: Using the compare block.
+  alt: Using the Value Compare block.
   width: 100%
   caption: >
-    Using the Compare block to check if the sensor measurement is less than 500 mm.
+    Using the Value Compare block to check if the sensor measurement is less than 500 mm.
   labels:
     - text: Data blocks
       x: 10%
@@ -19,12 +19,12 @@ img_sensor_compare:
       x: 23%
       y: 16%
       location: above
-    - text: Compare block
+    - text: Value Compare block
       x: 30%
       y: 20%
       location: right
     - text: |
-        1. Add a Compare block.
+        1. Add a Value Compare block.
         2. Add a Measure Distance block.
         3. Choose less than (<) 500.
       x: 77%
@@ -56,13 +56,13 @@ thing for "big" distances (like driving) and do something else for "small"
 distances (like stopping).
 
 You determine what is big and small by comparing the measurement to a
-threshold value that you choose. You do this with the Compare block from
+threshold value that you choose. You do this with the Value Compare block from
 the Data category, as shown below.
 
 {% include block-program-download.html path="L05_2_compare" %}
 {% include diagram.html data=page.img_sensor_compare %}
 
-In this example, the Compare block turns any distance value (from 40 mm to 2000 mm) into
+In this example, the Value Compare block turns any distance value (from 40 mm to 2000 mm) into
 one of the following two values:
 - True (if it sees something nearby, closer than 500 mm).
 - False (if it sees something farther away or nothing at all).
@@ -95,12 +95,12 @@ width="100%"
 
 The robot starts driving in _forever_ mode. This is useful because we don't
 know the distance in advance (see [Chapter&nbsp;3.3](/learn/making-programs/basic-robot-navigation/#drive-forever-until-you-change-course)).
-Then it waits until the Compare block gives True. In other words, it waits until the
+Then it waits until the Value Compare block gives True. In other words, it waits until the
 measured distance is 500 mm or less. Then the robot stops because of the Drive Base Stop block.
 
 **Challenge #5.2.B: Don't move** ⸺ Under some conditions, the program above won't
 do anything at all. Why and when is that the case? Support your theory by
-adding a Print block to reveal the value of the Compare block just before and
+adding a Print block to reveal the value of the Value Compare block just before and
 after the Wait Until block.
 {: .notice--primary}
 
@@ -341,6 +341,15 @@ wave your hand in front of the sensor, no matter how close. Why is that? Explain
 the difference with your flow chart from challenge Challenge #5.2.H.
 {: .notice--primary}
 
+**Challenge #5.2.J: Wait until you see it** ⸺ The Wait Until block provides a
+simple and effective way to wait on a condition. Under the hood, it is actually
+just a Conditional Repeat block without any blocks stacked into it: It
+repeatedly does nothing until the condition holds. Replicate the examples from
+the [Wait Until section](#using-the-wait-until-block) on this page but replace
+the Wait Until block with a Conditional Repeat block. How do you configure the
+_until_ option and the condition? Test your programs to verify that they work
+just like the originals.
+{: .notice--primary}
 
 
 

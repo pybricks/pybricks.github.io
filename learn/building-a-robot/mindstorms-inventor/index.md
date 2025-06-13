@@ -101,7 +101,7 @@ It also has two bumpers that press the left and right buttons on the hub when
 the robot runs into an obstacle.
 
 You can build it now, but it's better to leave it unattached
-until you get to chapter 6 and onwards.
+until you get to chapter 5.3 and onwards.
 
 <figure class="half">
 {% for i in (19..27) %}
