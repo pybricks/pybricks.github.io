@@ -51,7 +51,7 @@ small obstacle, you can use the hub buttons, pressed by the bumpers, as a backup
 %}
 
 In this section, you'll learn how to monitor multiple sensors at once and
-choose the right response with the following blocks. You'll also learn to
+choose the right response with the following blocks. You'll also learn how to
 choose values conditionally without If-else blocks.
 
 {% include diagram.html data=page.img_logic_palette %}
@@ -70,7 +70,7 @@ single condition value.
 Let's explore this with the following example, which combines values from two
 Button Pressed blocks. Each of these blocks gives True if the selected button
 is pressed, or False if not. The Value Compare block combines them to give True
-if one or both buttons are pressed. It is False if neither are pressed. You can
+if one or both buttons are pressed. It is False if neither is pressed. You can
 use the resulting value to make the robot drive forward until it bumps into an
 obstacle, as shown below.
 
@@ -98,7 +98,7 @@ To see the difference, change the _or_ option to _and_ in the previous example.
 Now the robot will stop only once both bumpers are pressed at the same time
 (not very useful in this case).
 
-When the Wait Until block completes, we know that at least one button is pressed.
+When the Wait Until block completes, you know that at least one button is pressed.
 You can use the If-else block introduced previously to find out which one is
 pressed and decide what to do. This is shown in the following example, which
 makes the robot drive away from objects that it runs into.
@@ -110,7 +110,7 @@ width="100%"
 
 {% include flow-chart.html path="/learn/sensors/L05_3_wait_choose.svg"
 caption="The robot starts driving forward and immediately begins monitoring the
-buttons. It wait until one or both buttons are pressed. Once that happens, it
+buttons. It waits until one or both buttons are pressed. Once that happens, it
 checks if the right button is pressed. If so, it will reverse and turn right.
 We know that at least one button is pressed. So if it isn't the right button,
 it must be the left button. So we can just reverse and turn left otherwise.
@@ -129,7 +129,7 @@ sounds while the Ultrasonic Sensor distance is between 300 mm and 600 mm.
 **Hint** ⸺ Use two Value Compare blocks. One should check the upper bound and
 one should check the lower bound. Use the Binary Logic block to combine both
 conditions. It is also possible to do this with just a single Double Value
-Compare block. How do you choose its settings to achieve the same result?
+Compare block. How should you choose its settings to achieve the same result?
 {: .notice--primary}
 
 # Combining more than two sensors
@@ -149,7 +149,7 @@ width="100%"
 caption="This program waits on any of three sensors to be triggered. Then it
 decides what to do by going over the sensor conditions separately. If neither
 button is pressed, it must have been the distance measurement that made the
-Wait Until stop. We should still be at a fair distance to a wall so we'll just
+Wait Until block stop. We should still be at a fair distance to a wall so we'll just
 turn around without reversing first. " %}
 
 # Waiting in parallel
@@ -196,15 +196,15 @@ button click in the example above.
 # Deciding on a value
 
 Sometimes you end up using an If-else block with two nearly
-identical stacks of blocks in them, save for one _value_ that is different.
-In the [previous section](/learn/sensors/responding-sensor-values/#using-the-if-else-block) for example,
-you've used an If-else block to make the robot drive at 100 mm/s
+identical stacks of blocks in them, except for one _value_ that is different.
+In the [previous section](/learn/sensors/responding-sensor-values/#using-the-if-else-block),
+for example, you've used an If-else block to make the robot drive at 100 mm/s
 if the distance is greater than 300 mm and otherwise drive at -100 mm/s.
 
 There is nothing wrong with using an If-else block like that, but it can make
-some programs harder to follow as they get bigger. In this case you can use the
+some programs harder to follow as they get bigger. In this case, you can use the
 Conditional Value block. It gives one value if the condition is True and
-another value if it is false, as shown in the updated example below.
+another value if it is False, as shown in the updated example below.
 
 {% include block-program.html path="L05_3_ternary" width="100%" caption="The
 Conditional Value block selects one of two values based on a condition. You can understand
@@ -213,7 +213,7 @@ of 100 if the distance if bigger than 300 and at -100 otherwise." %}
 
 In programs related to remote control, you'll find the Double Conditional Value block
 useful as well. It has two conditions and three values. It gets value A if one condition is true,
-otherwise it gets value B if a second condition true and otherwise it gets value C. 
+otherwise it gets value B if a second condition is true, and otherwise it gets value C. 
 
 Let's illustrate why this is useful with the following example. The motor runs
 backward (A = -50% power) if the left button is pressed, otherwise forward (B = 50%
