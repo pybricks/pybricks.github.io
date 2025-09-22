@@ -28,8 +28,7 @@ header:
   teaser: /pybricks-og.png
 ---
 
-![pybricks options](/learn/intro/pybricks-lifetime.jpg)
-
+![Pybricks](/learn/intro/pybricks-blocks-2.png)
 
 Pybricks is an <a href ="https://github.com/pybricks" target="_blank">open
 source</a> project with several features available exclusively to supporters.
