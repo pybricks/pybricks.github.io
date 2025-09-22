@@ -14,6 +14,8 @@ gallery:
     alt: "David"
     title: "David is a Linux maintainer and Powered Up expert who will make
             things work in absolutely no time."
+redirect_from:
+- "/about/"
 ---
 
 There are numerous tools and apps for learning to program, but what makes a
