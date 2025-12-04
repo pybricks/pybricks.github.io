@@ -377,7 +377,7 @@ drive faster with big wheels than with small wheels. After all, you can turn
 faster with a smaller wheelbase than with a wide wheelbase.
 
 SPIKE motors can turn up to about 1000 degrees per second when there isn't much
-load. With 56 mm wheels, the maximum speed is therefore about 1000 / 360 × 2 ×
+load. With 56 mm diameter wheels, the maximum speed is therefore about 1000 / 360 × 56 ×
 π ≈ 488 mm/s.
 
 If you try to set a much higher value, you'll see an error that you've provided
