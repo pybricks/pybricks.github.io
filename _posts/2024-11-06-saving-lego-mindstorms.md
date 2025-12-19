@@ -39,6 +39,9 @@ We can fix this together—and you can [help](#become-a-mindstorms-legend)!
 <img src="/assets/images/news/ev3bricks.jpg" alt="A pile of unused EV3 bricks">
 </figure>
 
+**Update:** We've made a lot of progress already! Check out the project [status](#project-status) here.
+{: .notice--primary}
+
 # Broken apps and a big pile of e-waste
 
 It's hard to find definitive numbers, but there are at least hundreds of
@@ -267,3 +270,68 @@ once it is nearly ready, we'd love to [hear from you](/learn/intro/story-mission
 Do you have unused EV3 sets? Would you consider donating them to another school
 that wouldn't normally be able to afford robotics in the classroom? Please get
 in touch as well!
+
+# Project status
+
+Since we announced it late last year, we've been working on this project
+non-stop. We've hit many of the major milestones, even including some of the
+fan-requested features.
+
+We would like to thank all [MINDSTORMS Legends](https://www.patreon.com/pybricks/membership) and code contributors who
+help make this possible!
+
+As of _December 2025_, we've enabled the following functionality:
+
+**EV3 Firmware**
+- Instant power on.
+- Instant power off.
+- No microSD card needed.
+- Lightweight MicroPython firmware instead of Linux.
+- Replacement firmware for the built-in PRU co-processor.
+- Program storage.
+- Download and run programs with Pybricksdev.
+
+**EV3 Brick**
+- Buttons
+- Light with adjustable intensity
+- Display (text, shapes, grayscale)
+- Speaker (beep, tones)
+
+**EV3 Motors and Sensors**
+- EV3 Large Motor
+- EV3 Medium Motor
+- EV3 Color Sensor
+- EV3 Infrared Sensor
+- EV3 Touch Sensor
+- EV3 Ultrasonic Sensor
+- EV3 Gyro Sensor including calibration
+- Motor and Drive Base classes
+
+**NXT Motors and Sensors (for EV3)**
+- NXT Large Motor
+- RXC-style DC motor
+- NXT Ultrasonic Sensor
+- NXT Touch Sensor
+- NXT Color Sensor
+- NXT Light Sensor
+- NXT Sound Sensor
+- NXT Temperature Sensor
+- NXT Energy Meter
+- NXT Vernier Adapter
+
+**Custom devices**
+- Direct UART access
+- Direct I2C access
+- Direct analog access
+
+**Next steps**
+
+All of our progress is available on [GitHub](https://github.com/pybricks/pybricks-micropython),
+but it isn't quite ready for beginning users just yet. If you've reached out to
+us about trying it out, you'll be the first to hear from us when it's ready!
+
+We're currently working on USB communication between the Pybricks Code web app and
+the EV3 brick. This is needed to install the firmware or run programs.
+
+It has proven quite tricky to get older hardware like EV3 to work
+with modern WebUSB standards, especially on Windows. We'll get there though--stay tuned!
