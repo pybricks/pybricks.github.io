@@ -32,9 +32,8 @@ gallery-starterbots:
 ---
 **... and the planet, one programmable brick at a time.**
 
-
 LEGO® MINDSTORMS® was discontinued. End of story, right? Well, not so fast.
-We can fix this together. And you can [help](#become-a-mindstorms-legend)!
+We can fix this together—and you can [help](#become-a-mindstorms-legend)!
 
 <figure class="align-center">
 <img src="/assets/images/news/ev3bricks.jpg" alt="A pile of unused EV3 bricks">
@@ -43,24 +42,22 @@ We can fix this together. And you can [help](#become-a-mindstorms-legend)!
 # Broken apps and a big pile of e-waste
 
 It's hard to find definitive numbers, but there are at least hundreds of
-thousands, if not millions of MINDSTORMS sets out there. For context, that's
+thousands, if not millions, of MINDSTORMS sets out there. For context, that's
 more than 10 times the height of Mount Everest if you stack them all up. It's
 a _lot_.
 
-Sadly, an ever increasing number of them are no longer being used. Regular LEGO
+Sadly, an ever-increasing number of them are no longer being used. Regular LEGO
 bricks last a long time, even across generations. But when it comes to electronic
 LEGO products, we seem resigned to the fact that they work for just a
-few years, just like most other consumer electronics.
-
-
-
+few years, like most other consumer electronics.
 
 <figure style="width: 75%" class="align-center">
   <img src="/assets/images/news/ev3-pile.jpg" alt="A pile of unused EV3 bricks">
   <figcaption>
   A big pile of EV3 bricks from just one school, ready to be replaced.
-  These bricks are getting a second chance! Unfortunately, many do not. Photo credit: Facebook marketplace.</figcaption>
-</figure> 
+  These bricks are getting a second chance! Unfortunately, many do not. Photo credit: Facebook Marketplace.
+  </figcaption>
+</figure>
 
 Any gadget that requires a computer or smartphone becomes obsolete quickly as
 the original apps are abandoned or stop working on modern devices. The same
@@ -75,11 +72,9 @@ Besides technical obsolescence, MINDSTORMS EV3 is being left behind because it
 no longer feels relevant for today's curriculum. But why is that? We want to
 challenge both of these narratives.
 
-
 We admire the LEGO brand and The LEGO Group's efforts to become more
 sustainable, but we believe they can do better when it comes to bricks with
 electronic components. We're here to demonstrate that this can totally be done.
-
 
 # Refreshing a legendary robotics kit
 
@@ -87,16 +82,16 @@ Before you read on, consider this for a minute:
 
 > Which past or current LEGO set has a _smart hub_, _motors_, a _color sensor_, and a _distance sensor_?
 
-Yep --- _all of the LEGO robot sets from the past 20 years!_
+Yep — _all_ of the LEGO robot sets from the past 20 years!
 
 {% include gallery id="gallery-starterbots" layout="half" caption="These
 typical introductory rovers are built with SPIKE Prime, MINDSTORMS Robot
-Inventor, MINDSTORMS EV3 and MINDSTORMS NXT. Spanning
+Inventor, MINDSTORMS EV3, and MINDSTORMS NXT. Spanning
 almost 20 years, is there anything fundamentally different? With
-a fresh take on software, these all work great with modern curriculum. " %}
+a fresh take on software, these all work great with modern curriculum." %}
 
 This includes MINDSTORMS NXT, MINDSTORMS EV3, MINDSTORMS Robot Inventor, SPIKE
-Prime and SPIKE Essential. With some creativity, this definition even includes
+Prime, and SPIKE Essential. With some creativity, this definition even includes
 LEGO BOOST, LEGO Powered Up and Technic, and WeDo 1.0 and 2.0.
 
 What sets them apart is not the technology, but the out-of-the-box play
@@ -105,8 +100,8 @@ experience designed for the relevant audience at that time.
 
 While each of these were brilliant in their own right, some of them now feel
 outdated or don't work anymore. But since the technology hasn't fundamentally
-changed for 20 years, this presents us with a unique opportunity: Invent a
-modern and future proof play experience for _all_ LEGO robotics sets.
+changed for 20 years, this presents us with a unique opportunity: invent a
+modern and future-proof play experience for _all_ LEGO robotics sets.
 
 This is what we have been doing successfully with Pybricks for the past 5
 years, and now it is time to bring EV3 into the fold!
@@ -117,7 +112,7 @@ Pybricks for LEGO MINDSTORMS EV3 will be a complete refresh of the EV3 play
 experience, all without purchasing new stuff.
 
 It will work with modern computers and curriculum, right alongside
-SPIKE and other newer platforms. The EV3 starts and stops instantly and you
+SPIKE and other newer platforms. The EV3 starts and stops instantly, and you
 can code it with MicroPython or blocks.
 
 {% include scaled.html path="/learn/intro/codepreview.png" caption="Everything you love about Pybricks, soon also for EV3." %}
@@ -133,7 +128,7 @@ FIRST LEGO League (FLL) and the World Robotics Olympiad (WRO).
 ## What can it do?
 
 Everything you love about Pybricks for MINDSTORMS Inventor and SPIKE Prime will
-also come to LEGO MINDSTORMS EV3 as far as the hardware allows it. This means
+also come to LEGO MINDSTORMS EV3, as far as the hardware allows. This means
 an easy setup, effective sensor and motor control, and accurate driving.
 
 You will write programs for the EV3 brick using the [same Pybricks MicroPython
@@ -145,7 +140,7 @@ the official EV3 motors and sensors. Note that it will not do _everything_ that
 the EV3 could possibly do from day one. But since the new firmware is open
 source too, we expect to add exciting new features over time.
 
-Oh --- remember that the EV3 felt sluggish and slow to boot? Especially
+Oh — remember that the EV3 felt sluggish and slow to boot? Especially
 compared to the new hubs? We've solved that:
 
 <video width="100%" controls>
@@ -155,12 +150,11 @@ compared to the new hubs? We've solved that:
 Boot time for the original EV3 (left) and after installing Pybricks (right). It's... different.
 </figcaption>
 
-
 ## Did Pybricks not already support EV3?
 
 Kind of. The earliest iterations of Pybricks (1.0 and 2.0) ran on ev3dev Linux.
 It is still (and will remain) available on the [LEGO Education website](https://education.lego.com/en-us/product-resources/mindstorms-ev3/teacher-resources/python-for-ev3/). You
-needed a particular type of microSD card, a now outdated flashing tool, and
+needed a particular type of microSD card, a now-outdated flashing tool, and
 Visual Studio Code. It also took a long time to boot. This was great for hackers
 and early adopters, but it just isn't suitable for beginner-level classrooms.
 
@@ -176,12 +170,15 @@ Just plug and play!
 
 ## Is EV3 still relevant? Where's the AI?
 
-Sure, AI is amazing --- and yes, you _could_ combine this with Pybricks.
-Either way, a motor is still going to have to rotate, lights still need to
-blink, and a robot still needs to drive straight. By getting the fundamentals
-absolutely right across a wide range of robotics systems, we ensure that
-Pybricks is future proof even as the latest trends in STEM education constantly
-evolve.
+Sure, AI might be amazing---and yes, you _could_ combine it with Pybricks if
+you really wanted to---but it is not our focus.
+
+No matter how you'll code, a motor is still going to have to rotate,
+lights still need to blink, and a robot still needs to drive straight. 
+
+Our focus is on getting these fundamentals absolutely right across a wide range
+of robotics systems. This ensure that Pybricks is future-proof even as the
+latest trends in STEM education constantly evolve.
 
 In fact, since more advanced processing like artificial intelligence tends to
 happen on devices like your phone or the cloud anyway, these fancy additions
@@ -194,7 +191,7 @@ Just like Pybricks for the other LEGO hubs, the firmware and Python coding
 environment are free and open source. We are working on this around the
 clock.
 
-We'll also have _optional_ add-on features like block-based coding which help
+We'll also have _optional_ add-on features like block-based coding, which help
 us fund our mission. Naturally, prior supporters will automatically get
 access when we enable this for EV3! Thanks again for
 your [support](#become-a-mindstorms-legend).
@@ -203,7 +200,7 @@ your [support](#become-a-mindstorms-legend).
 
 Developments will be gradually published on
 [GitHub](https://github.com/pybricks/pybricks-micropython) in the months to
-come. We currently work on implementations for:
+come. We are currently working on implementations for:
 
 - Booting the EV3 instantly.
 - Installing the firmware. No SD card needed.
@@ -223,7 +220,7 @@ By popular request, we'll also list the features that could work _technically_.
 These _could_ be added in future releases if enough users are interested:
 - Legacy motor and sensor support.
 - File management and sound support.
-- Third party sensor support.
+- Third-party sensor support.
 - USB host connectivity to connect multiple bricks.
 
 ## What about MINDSTORMS NXT?
@@ -252,7 +249,7 @@ you!
   <figcaption>
   You can get listed as a supporter in the credits during shutdown.
   </figcaption>
-</figure> 
+</figure>
 
 We also welcome anyone who has previously supported Pybricks. We respect your
 privacy, so we'll only add prior supporters if you ask. Send us a note if
