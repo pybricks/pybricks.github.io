@@ -224,7 +224,7 @@ available for free at any point after the purchase.
 
 We reserve the right to discontinue the app at any time. If this happens,
 license holders may request a copy of the app's release binary. This copy may
-be sef-hosted for offline use as-is, without any support or updates.
+be self-hosted for offline use as-is, without any support or updates.
 
 If this happens within the first year after their purchase and such a copy is
 not provided, license holders may request a partial refund covering the

@@ -30,7 +30,7 @@ header:
 
 ![Pybricks](/learn/intro/pybricks-blocks-2.png)
 
-Pybricks is an <a href ="https://github.com/pybricks" target="_blank">open
+Pybricks is an <a href="https://github.com/pybricks" target="_blank">open
 source</a> project with several features available exclusively to supporters.
 Your support helps us continuously improve Pybricks with exciting new features,
 user guides, and inspiring example projects. Read more about
@@ -38,40 +38,31 @@ user guides, and inspiring example projects. Read more about
 
 Coding with Python is free. Coding with blocks is available exclusively to our
 supporters. You can get access with a monthly subscription or a one-time
-purchase. Thanks for your support!
+purchase. Thank you for your support!
 
 If you're undecided, check out our [introduction](/learn/) to see how
 Pybricks helps students, teachers, [robotics teams](/learn/#pybricks-for-robotics-teams),
 and [hobbyists](/learn/#pybricks-for-lego-enthusiasts) learn to code and get
 the most out of their LEGO® kits.
 
-# Option 1: Use Patreon
+# Unlock block coding with a license
 
-A monthly subscription via the creator platform _Patreon_ is a good option if
-you'd like to try out Pybricks block coding for free and cancel anytime.
-
-<a href="https://www.patreon.com/pybricks/membership" target="_blank" class="btn btn--primary"><i class="fas fa-user"></i>&nbsp;&nbsp;Join on Patreon</a>
-
-Once you're signed up, you can unlock the app using your
-Patreon account when you open a block coding project.
-
-If you decide to switch to a license code later, don't forget to <a href="http://patreon.com/settings/memberships/pybricks" target="_blank">cancel</a> your monthly subscription. You can stay on or rejoin
-as a free member if you still want to receive news updates.
-
-<small>By signing up, you agree to the [terms and conditions](/legal).</small>
-
-# Option 2: Purchase a licence
-
-You can purchase a licence in our store. You'll receive an email
+You can purchase a license in our store. You'll receive an email
 with one or more codes that you can activate [as shown below][using-license].
 
 <a href="https://pybricks.onfastspring.com/" target="_blank" class="btn btn--primary"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Visit the Pybricks store</a>
 
-A licence works well if you prefer a one-time purchase without making any
-accounts. Localized payment options are available. The license works even when
-you're offline.
+This is a one-time purchase that you can keep using without creating any
+accounts. Localized payment options are available. These licenses work even
+when you're offline.
 
-We have licenses for individuals, teams, schools, and companies. Either annual or perpetual. Read what this means [here][perpetual].
+We have licenses for individuals, teams, and schools—either annual
+or [perpetual][perpetual]. Schools are welcome to request a free trial for the
+school license. Just email us at [sales@pybricks.com](mailto:sales@pybricks.com).
+
+If your organization prefers to receive a quote or use purchase orders, you may email
+us as well. Please send us your billing address, and Tax Exempt
+ID or VAT ID if applicable.
 
 Before you purchase, please make sure your system
 is [compatible]. To be sure, you can
@@ -80,8 +71,7 @@ without special access. Then you'll know that it works, and the
 hardest part is already out of the way!
 {: .notice--primary}
 
-<small>By purchasing a license, you agree to the [terms and conditions](/legal/).</small>
-
+By purchasing a license, you agree to the [terms and conditions](/legal/).
 Please contact us at [sales@pybricks.com](mailto:sales@pybricks.com) for more
 options, volume discounts, or participation in our affiliate program.
 
@@ -91,7 +81,7 @@ You'll be prompted to sign in automatically when you open a block project in
 the <a href="https://code.pybricks.com/" target="_blank">Pybricks app</a>. Or
 just click the user icon in the top right corner.
 
-Enter your licence code and click _Activate_, as shown below.
+Enter your license code and click _Activate_, as shown below.
 
 You can see the status of your license by clicking on the user icon again. This
 also lets you deactivate your license so you can use it on another device.
@@ -109,17 +99,36 @@ add-ons for free.
 
 You can even deactivate the license and use it on another device.
 
-However, we cannot guarantee indefinite support or commitment that the web app
+However, we cannot guarantee indefinite support or that the web app
 will function flawlessly forever. As technology evolves and circumstances
 change, maintaining compatibility and providing support for older devices,
 operating systems, and browsers may become impractical or untenable.
 
 This is why we kindly ask you to run a test program first. You can check
-[compatibility][compatible], try the [installation][installation guide] and
+[compatibility][compatible], try the [installation][installation guide], and
 run [your first program] before making a purchase. That way you know that
 everything works, and the hardest part is already out of the way!
 
 Please see the [terms and conditions](/legal/) for more details.
+
+# For fans and casual users
+
+Instead of using a license, you can unlock access to block
+coding by supporting us monthly on the creator platform Patreon. You can try out Pybricks block
+coding for free and cancel anytime.
+
+All tiers unlock block coding. Choose a different tier to
+support our initiatives like LEGO MINDSTORMS support. Thank you!
+
+<a href="https://www.patreon.com/pybricks/membership" target="_blank" class="btn btn--primary"><i class="fas fa-user"></i>&nbsp;&nbsp;Join on Patreon</a>
+
+Once you're signed up, you can unlock the app using your
+Patreon account when you open a block coding project.
+
+If you decide to switch to a license code later, don't forget to <a href="http://patreon.com/settings/memberships/pybricks" target="_blank">cancel</a> your monthly subscription. You can stay on or rejoin
+as a free member if you still want to receive fan updates.
+
+<small>By signing up, you agree to the [terms and conditions](/legal).</small>
 
 [using-license]: #how-to-unlock-the-app-with-a-license
 [app]: https://code.pybricks.com
